@@ -3,6 +3,7 @@ title: Aspose.PSD for Java
 type: docs
 weight: 20
 url: /java/
+is_root: true
 ---
 
 {{% alert color="primary" %}} 
