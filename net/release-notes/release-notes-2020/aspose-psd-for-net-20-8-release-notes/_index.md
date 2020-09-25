@@ -22,7 +22,7 @@ This page contains release notes for [Aspose.PSD for .NET 20.8](https://www.nug
 
 # **Public API Changes**
 # **Added APIs:**
-    M:Aspose.PSD.FileFormats.Psd.Layers.FillLayers.FillLayer.ReplaceNonTransparentColors(System.Int32)
+- M:Aspose.PSD.FileFormats.Psd.Layers.FillLayers.FillLayer.ReplaceNonTransparentColors(System.Int32)
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.ClassID.#ctor(System.Byte[],System.Boolean)
 - T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.TypeToolInfoStructures.ObjectArrayStructure
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.TypeToolInfoStructures.ObjectArrayStructure.#ctor(System.String,System.String,Aspose.PSD.FileFormats.Psd.Layers.LayerResources.OSTypeStructure[])
@@ -151,8 +151,6 @@ This page contains release notes for [Aspose.PSD for .NET 20.8](https://www.nug
 ## **Removed APIs:**
 - None
 # **Usage examples:**
-**PSDNET-606. Support of LnkE Resource**
-
 **PSDNET-390. Support of PlLdResource (placed layer resource for Smart Object Layer)**
 {{< highlight csharp >}}
         void AssertAreEqual(object actual, object expected)
