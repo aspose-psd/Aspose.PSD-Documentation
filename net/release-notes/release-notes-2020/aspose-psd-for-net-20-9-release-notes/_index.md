@@ -7,7 +7,7 @@ url: /net/aspose-psd-for-net-20-9-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.PSD for .NET 20.9](https://www.nuget.org/packages/Aspose.PSD/)
+This page contains release notes forÂ [Aspose.PSD for .NET 20.9](https://www.nuget.org/packages/Aspose.PSD/)
 
 {{% /alert %}} 
 
@@ -18,7 +18,7 @@ This page contains release notes for [Aspose.PSD for .NET 20.9](https://www.nuge
 |PSDNET-615|Support of Embedded Smart objects|Feature|
 |PSDNET-690|Updating text in given PSD file and saving it changes some layer and many text parameters|Bug|
 |PSDNET-696|FillLayer are not updated after the creation and can not be rendered correctly|Bug|
-|PSDNET-712|Regression: Aspose.PSD 20.8.0 can’t open file|Bug|
+|PSDNET-712|Regression: Aspose.PSD 20.8.0 canâ€™t open file|Bug|
 |PSDNET-714|In a specific PSD file, resizing TextLayer breaks the location value|Bug|
 
 # **Public API Changes**
@@ -321,7 +321,7 @@ This page contains release notes for [Aspose.PSD for .NET 20.9](https://www.nuge
                     resource.VerticalMeshPoints = (double[])newValues[34];
                 }
 
-                // Be careful with some parameters: the saved image may become unreadable by Adobe® Photoshop®
+                // Be careful with some parameters: the saved image may become unreadable by AdobeÂ® PhotoshopÂ®
                 ////resource.UOrder = 6;
                 ////resource.VOrder = 9;
 
@@ -704,7 +704,7 @@ This page contains release notes for [Aspose.PSD for .NET 20.9](https://www.nuge
             }
         }
 
-        // This example demonstrates how to change the Adobe® Photoshop® external smart object layer and export / update its contents
+        // This example demonstrates how to change the AdobeÂ® PhotoshopÂ® external smart object layer and export / update its contents
         // using the ExportContents and ReplaceContents methods.
         ExampleOfExternalSmartObjectLayerSupport("rgb8_2x2_linked.psd", 0x53, 0, 0, 2, 2, FileFormat.Png);
         ExampleOfExternalSmartObjectLayerSupport("rgb8_2x2_linked2.psd", 0x4aea, 0, 0, 10, 10, FileFormat.Psd);
@@ -929,7 +929,7 @@ This page contains release notes for [Aspose.PSD for .NET 20.9](https://www.nuge
                 image.Save(outputFile, new PngOptions());
             }
 {{< /highlight >}}
-**PSDNET-712. Regression: Aspose.PSD 20.8.0 can’t open file**
+**PSDNET-712. Regression: Aspose.PSD 20.8.0 canâ€™t open file**
 {{< highlight csharp >}}
             string dataDir = "PSDNET712_1\\";
             string filePath = dataDir + "sample2.psd";
