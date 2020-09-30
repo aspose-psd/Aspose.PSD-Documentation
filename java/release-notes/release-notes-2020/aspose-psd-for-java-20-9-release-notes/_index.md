@@ -9,7 +9,13 @@ url: /java/aspose-psd-for-java-20-9-release-notes/
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|PSDJAVA-1111|TITLE|TYPE|
+|PSDJAVA-272|In a specific PSD file, resizing TextLayer breaks the location value|Bug|
+|PSDJAVA-273|Updating text in given PSD file and saving it changes some layer and many text parameters|Bug|
+|PSDJAVA-276|Support of Linked Smart objects|Feature|
+|PSDJAVA-278|Regression: Aspose.PSD 20.8.0 can’t open file|Bug|
+|PSDJAVA-279|FillLayer are not updated after the creation and can not be rendered correctly|Bug|
+|PSDJAVA-280|Support of Embedded Smart objects|Feature|
+|PSDJAVA-282|Support of SoLEResource (Smart Object Layer External resource)|Feature|
 
 # **Public API Changes**
 # **Added APIs:**
