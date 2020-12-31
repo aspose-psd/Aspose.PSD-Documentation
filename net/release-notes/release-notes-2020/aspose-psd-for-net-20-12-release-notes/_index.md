@@ -18,7 +18,10 @@ This page contains release notes for [Aspose.PSD for .NET 20.12](https://www.nu
 |PSDNET-773|Incorrect rendering of CMYK 8-bit and CMYK 16-bit Images, if the layer is bigger than Canvas|Bug|
 |PSDNET-782|Saved PSB file can be opened with our API, but cannot with Photoshop|Bug|
 |PSDNET-783|If we trying to change Smart Layer in a specific PSD with a shared data source we get an exception|Bug|
+|PSDNET-172|Renaming of FileFormatVersion to PsdVersion to avoid confusion|Enhancement|
+|PSDNET-620|Remove Compact framework configuration from Aspose.PSD .NET|Enhancement|
 |PSDNET-765|PsdImageException: Unknown resource header on trying to open PSB file with SmartObjectLayers|Enhancement|
+|PSDNET-798|Move Hierarchy of Vector Mask Classes to Core Namespace to ensure uniformity of Aspose.PSD and Aspose.Imaging Products|Enhancement|
 
 # **Public API Changes**
 # **Added APIs:**
@@ -361,8 +364,8 @@ This page contains release notes for [Aspose.PSD for .NET 20.12](https://www.nu
             string psdOutputPath = outputFolder + fileName + "_saved_as_psd.psd";
             using (PsdImage image = (PsdImage)Image.Load(filePath))
             {
-                image.Save(psbOutputPath, new PsdOptions(image) { FileFormatVersion = FileFormatVersion.Psb, Resources = null, XmpData = null });
-                image.Save(psdOutputPath, new PsdOptions(image) { FileFormatVersion = FileFormatVersion.Psd, Resources = null, XmpData = null });
+                image.Save(psbOutputPath, new PsdOptions(image) { PsdVersion = PsdVersion.Psb, Resources = null, XmpData = null });
+                image.Save(psdOutputPath, new PsdOptions(image) { PsdVersion = PsdVersion.Psd, Resources = null, XmpData = null });
             }
 
             using (PsdImage image1 = (PsdImage)Image.Load(psdOutputPath))
@@ -415,9 +418,9 @@ This page contains release notes for [Aspose.PSD for .NET 20.12](https://www.nu
             string psdOutputPath = outputFolder + fileName + "_saved_as_psd.psd";
             using (PsdImage image = (PsdImage)Image.Load(filePath))
             {
-                image.Save(psbOutputPath, new PsdOptions(image) { FileFormatVersion = FileFormatVersion.Psb, XmpData = null, Resources = null });
+                image.Save(psbOutputPath, new PsdOptions(image) { PsdVersion = PsdVersion.Psb, XmpData = null, Resources = null });
                 Console.WriteLine("PSB saved");
-                image.Save(psdOutputPath, new PsdOptions(image) { FileFormatVersion = FileFormatVersion.Psd, XmpData = null, Resources = null });
+                image.Save(psdOutputPath, new PsdOptions(image) { PsdVersion = PsdVersion.Psd, XmpData = null, Resources = null });
                 Console.WriteLine("PSD saved");
             }
 
