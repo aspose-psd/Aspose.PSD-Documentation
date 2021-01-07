@@ -5,5 +5,4 @@ weight: 60
 url: /net/manipulate-different-image-file-formats/
 ---
 
-### **Articles in this section**
 
