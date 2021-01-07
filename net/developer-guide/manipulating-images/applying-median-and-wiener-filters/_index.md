@@ -10,10 +10,6 @@ The median filter is a nonlinear digital filtering technique, often used to remo
 ### **Applying Median Filter**
 Aspose.PSD provides [MedianFilterOptions](https://apireference.aspose.com/net/psd/aspose.psd.imagefilters.filteroptions/medianfilteroptions) class to apply a filter on a [RasterImage](https://apireference.aspose.com/net/psd/aspose.psd/rasterimage). The code snippet provided below demonstrates how to apply the median filter to a raster image.
 
-Aspose.PSD provides [MedianFilterOptions](https://apireference.aspose.com/net/psd/aspose.psd.imagefilters.filteroptions/medianfilteroptions) class to apply a filter on a [RasterImage](https://apireference.aspose.com/net/psd/aspose.psd/rasterimage). The code snippet provided below demonstrates how to apply the median filter to a raster image.
-
-
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-Conversion-ApplyMedianAndWienerFilters-ApplyMedianAndWienerFilters.cs" >}}
 
 

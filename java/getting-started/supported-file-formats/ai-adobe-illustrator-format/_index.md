@@ -23,7 +23,7 @@ Below provided sample code demonstrates how to export the AI file to PSD with Fi
 {{< gist "aspose-com-gists" "31800d807a72f1f50fe4b29374119227" "Examples-src-main-java-com-aspose-psd-examples-ModifyingAndConvertingImages-AI-AIToPSD-AIToPSD.java" >}}
 
 
-### **Examples of current export abilities for AI Files**
+## **Examples of current export abilities for AI Files**
 -----
 
 |**Example**|**Description**|
@@ -31,7 +31,7 @@ Below provided sample code demonstrates how to export the AI file to PSD with Fi
 |![todo:image_alt_text](/download/attachments/105284081/1134427704)|<p>Export of AI file includes the ability</p><p>to render Postscript primitives</p><p>with different fill and stroke with</p><p>any custom weight.</p>|
 |![todo:image_alt_text](/download/attachments/105284081/53059531)|<p>Rendering of complex paths from AI file</p><p>using C# API without Adobe Illustrator</p>|
 
-### **Additional AI manipulating features through file format API**
+## **Additional AI manipulating features through file format API**
 -----
 Aspose.PSD provides the ability to manipulate the Layers and Raster Images from AI files. All these features works only with the supported Adobe Illustrator File versions.
 
