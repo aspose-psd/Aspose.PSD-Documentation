@@ -5,5 +5,5 @@ weight: 40
 url: /net/manipulating-images/
 ---
 
-### **Articles in this section**
+**Articles in this section**
 

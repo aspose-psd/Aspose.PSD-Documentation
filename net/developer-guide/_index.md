@@ -5,7 +5,7 @@ weight: 20
 url: /net/developer-guide/
 ---
 
-### **Articles in this section**
+## **Articles in this section**
 This page contains the most common guide on how to work with PSD and Ai Files via C# locally, using your own web-service and other cases. You can look at our and our customers' [PSD format show-cases.](/psd/net/showcases/)
 ### **File Formats and Features Description**
 Aspose.PSD specialized in PSD Format and Ai Format manipilation. All possible business tasks with these formats can be solved with our PSD SDK.

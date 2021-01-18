@@ -1,5 +1,5 @@
 ---
-title: Psd to Png
+title: PSD to PNG
 type: docs
 weight: 30
 url: /net/psd-to-png/
