@@ -75,13 +75,13 @@ Aspose.PSD API allows you to expand or crop an image during image conversion pro
 ## **Read and Write XMP Data To Images**
 XMP (Extensible Metadata Platform) is an ISO standard. XMP standardizes a data model, a serialization format and core properties for the definition and processing of extensible metadata. It also provides guidelines for embedding XMP information into a popular image such as JPEG, without breaking their readability by applications that do not support XMP. Using Aspose.PSD for .NET API developers can read or write XMP metadata to images. This article demonstrates how XMP metadata can be read from an image and write XMP metadata to images.
 ### **Create XMP Metadata, Write It And Read From File**
-With the help of Xmp namespace developer can create XMP metadata object and write it to an image. The following code snippet shows you how to use the XmpHeaderPi, XmpTrailerPi, XmpMeta, XmpPacketWrapper, PhotoshopPackage and DublinCorePackage packages contained in Xmp namespace.
+With the help of Xmp namespace developer can create XMP metadata object and write it to an image. The following code snippet shows you how to use the XmpHeaderPi, XmpTrailerPi, XmpMeta, XmpPacketWrapper, PhotoshopPackage and DublinCorePackage packages contained in [Xmp](https://apireference.aspose.com/psd/net/aspose.psd.xmp) namespace.
 
 
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingAndFormattingImages-CreateXMPMetadata-CreateXMPMetadata.cs" >}}
 ## **Export Images in Multi Threaded Environment**
-Aspose.PSD for .NET now supports converting images in multi-threaded environment. Aspose.PSD for .NET ensures the optimized performance of operations during execution of code in a multi-threaded environment. All image option classes (e.g. BmpOptions, TiffOptions, JpegOptions, etc.) in the Aspose.PSD for .NET implement IDisposable interface. Therefore it is a must that developer properly dispose off the image options class object in case Source property is set. Following code snippet demonstrates the said functionality.
+Aspose.PSD for .NET now supports converting images in multi-threaded environment. Aspose.PSD for .NET ensures the optimized performance of operations during execution of code in a multi-threaded environment. All [image option](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions) classes (e.g. BmpOptions, TiffOptions, JpegOptions, etc.) in the Aspose.PSD for .NET implement IDisposable interface. Therefore it is a must that developer properly dispose off the image options class object in case Source property is set. Following code snippet demonstrates the said functionality.
 
 
 
