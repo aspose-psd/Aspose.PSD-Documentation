@@ -6,14 +6,14 @@ url: /net/drawing-images-using-graphicspath/
 ---
 
 ## **Drawing Images using GraphicsPath**
-The GraphicsPath class is responsible for creating and maintaining a graphics path. The GraphicsPath has no reference to an image and does not change the image itself, instead, it can be considered as an object that contains metadata that describes the paths that Graphics class can draw. The GraphicsPath class uses figures; each figure is either composed of a sequence of connected lines and curves or a geometric shape primitive. Each shape may be split into shape segments. You can add, remove and change different figures or shapes in a GraphicsPath object. When the GraphicsPath has been fully described, use the corresponding Graphics class methods (DrawPath and Fill Paths) to draw over or fill the paths. The Graphics class takes each shape segment and draws it to produce the final image.
+The [GraphicsPath](https://apireference.aspose.com/psd/net/aspose.psd/graphicspath) class is responsible for creating and maintaining a graphics path. The GraphicsPath has no reference to an image and does not change the image itself, instead, it can be considered as an object that contains metadata that describes the paths that Graphics class can draw. The GraphicsPath class uses figures; each figure is either composed of a sequence of connected lines and curves or a geometric shape primitive. Each shape may be split into shape segments. You can add, remove and change different figures or shapes in a GraphicsPath object. When the GraphicsPath has been fully described, use the corresponding Graphics class methods (DrawPath and Fill Paths) to draw over or fill the paths. The Graphics class takes each shape segment and draws it to produce the final image.
 ### **Drawing using GraphicsPath Class**
-Below is an example demonstrating the use of the GraphicsPath class. The example source code has been split in several parts to keep it simple and easy to follow. Step by step, the examples show you how to:
+Below is an example demonstrating the use of the [GraphicsPath](https://apireference.aspose.com/psd/net/aspose.psd/graphicspath) class. The example source code has been split in several parts to keep it simple and easy to follow. Step by step, the examples show you how to:
 
 - Create an image.
 - Initialize a Graphics object.
 - Clear the surface.
-- Create an instance of GraphicsPath.
+- Create an instance of [GraphicsPath](https://apireference.aspose.com/psd/net/aspose.psd/graphicspath).
 - Create a figure.
 - Add shapes to the figure.
 - Create a Figures array.

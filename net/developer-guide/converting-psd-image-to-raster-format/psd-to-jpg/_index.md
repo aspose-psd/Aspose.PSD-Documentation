@@ -1,11 +1,11 @@
 ---
-title: Psd to Jpg
+title: PSD to JPG
 type: docs
 weight: 10
 url: /net/psd-to-jpg/
 ---
 
-Aspose.PSD is a PSD Format SDK, that allows you easily convert Adobe Photoshop File Psd to Jpg file. For this PSD export procedure you need to use following code snippet:
+Aspose.PSD is a PSD Format SDK, that allows you easily convert Adobe Photoshop File PSD to JPG file. You need to use following code snippet to do the job:
 
 
 
@@ -17,7 +17,7 @@ Below provided sample code demonstrates how to convert PSD to Jpg:
 
 
 
-You can specify Jpeg File Format quality, Jpeg Allowed Lossy Error, and other parameters of PSD export to Jpg.
+You can specify JPEG File Format quality, JPEG Allowed Lossy Error, and other parameters of PSD export to JPG.
 
 You can export PSD file after the editing or pixel-perfect in [Read-Only Mode](https://apireference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode), where will be used PSD File Preview.
 

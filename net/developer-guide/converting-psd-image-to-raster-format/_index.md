@@ -11,13 +11,13 @@ Using Aspose.PSD for .NET, developers can export PSD file format to any of the s
 
 {{% /alert %}} 
 ## **Overview**
-Aspose.PSD allows converting PSD and PSB formats to Jpeg, Jpeg2000, Png, Tiff, Pdf, Gif and Bmp formats
+Aspose.PSD allows converting PSD and PSB formats to JPEG, JPEG2000, PNG, TIFF, PDF, GIF and BMP formats
 
 You can convert PSD files on your server with Aspose.PSD without Photoshop. It's a good replacement for Adobe Photoshop scripting because the EULA of Adobe forbids using App on a server and change its UI. But with PSD Format SDK you can make a batch convert of PSD Files. Your PSD format export can be pixel-perfect with the [Read-Only mode](https://apireference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode), or you can [change layers](/psd/net/manipulating-adobe-photoshop-formats/), texts, effects, and then make export.
 ## **Specific examples of Export of PSD to Raster Formats**
-- [Psd to Jpg](/psd/net/psd-to-jpg-html/)
-- [Psd to Png](/psd/net/psd-to-png/)
-- [Psd to Pdf](/psd/net/psd-to-pdf/)
+- [PSD to JPG](/psd/net/psd-to-jpg-html/)
+- [PSD to PNG](/psd/net/psd-to-png/)
+- [PSD to PDF](/psd/net/psd-to-pdf/)
 ## **Exporting PSD image to various raster file formats**
 Below provided sample code demonstrates how to convert PSD to several raster file formats.
 

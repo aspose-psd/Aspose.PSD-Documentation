@@ -11,7 +11,7 @@ This article describes often used cases when you need to update some layers In [
 After reading this article you will know how you can make this:
 
 ![todo:image_alt_text](using-psd-files-as-templates-for-automation-business-cards-case_1.png)
-### **Simple case**
+## **Simple case**
 For example, you have some PSD Template with the known Layer Names. So you need to change, update or replace PSD Layer via C#. Firstly you need to open the template file with Aspose.PSD.
 
 How to open PSD File via C#?
@@ -59,7 +59,7 @@ The resulting image:
 ![todo:image_alt_text](using-psd-files-as-templates-for-automation-business-cards-case_3.png)
 
 
-### **A complex case with additional features**
+## **A complex case with additional features**
 Above we showed the most simple way to replace image in a layer of PSD File.
 
 But Aspose.PSD can offer more complex additional features like adding a new layer, removing old layers, and update of text layer using different styles in multi-line text.

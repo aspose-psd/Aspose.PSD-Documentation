@@ -12,7 +12,7 @@ This article demonstrates the usage of Aspose.PSD for .NET to perform Resize ope
 The steps to perform Resize are as simple as below:
 
 1. Load in image using the factory method Load exposed by Image class.
-1. Call the Image.Resize method while specifying new Height and Width.
+1. Call the [Image.Resize](https://apireference.aspose.com/psd/net/aspose.psd/image/methods/resize) method while specifying new Height and Width.
 1. Save the results.
 
 The following code example demonstrates how to Resize an PSD file.
