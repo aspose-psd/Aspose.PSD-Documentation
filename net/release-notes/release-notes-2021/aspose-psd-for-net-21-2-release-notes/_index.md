@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.PSD for .NET 21.2](https://www.nug
 |PSDNET-790|Importing image in SmartObject layer results in PSD corruption|Bug|
 |PSDNET-810|Exception on loading the files|Bug|
 |PSDNET-824|Incorrect vogk resource after loading and saving the PSD image with shape layers and vector paths|Bug|
-|PSDNET-827|Exception on loading PSD|Bug|
+|PSDNET-827|Exception on loading ReferenceStructure and EnumeratedReferenceStructure structures|Bug|
 
 # **Public API Changes**
 # **Added APIs:**
@@ -336,7 +336,7 @@ This page contains release notes for [Aspose.PSD for .NET 21.2](https://www.nug
             // Check that the Live Shape Properties are present in the output PSD file in Adobe® Photoshop®.
 {{< /highlight >}}
 
-**PSDNET-827. Exception on loading PSD**
+**PSDNET-827. Exception on loading ReferenceStructure and EnumeratedReferenceStructure structures**
 
 {{< highlight csharp >}}
             string srcFile = "sourceFile.psd";
