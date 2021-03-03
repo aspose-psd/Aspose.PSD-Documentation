@@ -5,9 +5,9 @@ weight: 60
 url: /net/psd-format-overview/
 ---
 
-### **Description**
+## **Description**
 PSD, Photoshop Document, represents Adobe Photoshop's native file format used for graphics designing and development.
-### **File Format Specifications**
+## **File Format Specifications**
 Data in a PSD file is stored in big-endian byte order. This implies swapping the short and long integers when reading or writing on the Windows platform. The Photoshop file format is divided into five major parts. It has many length markers that can be used to move from one section to the next. The length markers are usually padded with bytes to round to the nearest 2 or 4-byte interval. The five major parts are:
 
 - File Header
@@ -22,9 +22,9 @@ For conformance, data should be written to all these fields in the section, as P
 - All values defined as Unicode string consist of:
 - A 4-byte length field, representing the number of characters in the string (not bytes).
 - The string of Unicode values, two bytes per character.
-### **Features of format**
+## **Features of format**
 PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords, and other Photoshop-specific elements. Photoshop files have default extension as.PSD and have a maximum height and width of 30,000 pixels, and a length limit of two gigabytes
-### **How it can be used**
+## **How it can be used**
 1. An instrument for PSD Slicing.
 1. [Converting PSD](/psd/net/converting-psd-image-to-raster-format/) to HTML
 1. Using [PSD as a Template](/psd/net/using-psd-files-as-templates-for-automation-business-cards-case/) for Email

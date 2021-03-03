@@ -14,7 +14,7 @@ Below provided sample code demonstrates how to export the AI file to Png format 
 With Aspose.PSD you can specify the Png compression level. You can use Png Progressive compression and change the Color Type of the Png File.[Png Options](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/pngoptions) have different properties for any cases of AI Export.
 
 Ai format supports changing opacity for vector data, and Png supports semitransparency, so a combination of these two formats can help you to make File Format Automation.
-#### **Examples of current export abilities for AI Files to Png**
+## **Examples of current export abilities for AI Files to Png**
 -----
 
 |**Example**|**Description**|

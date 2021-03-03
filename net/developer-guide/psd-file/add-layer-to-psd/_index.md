@@ -5,7 +5,7 @@ weight: 10
 url: /net/add-layer-to-psd/
 ---
 
-### **Overview**
+## **Overview**
 It's a commonly used case. All you need is to open the file you need as a stream and then use Aspose.PSD to add this file as a new layer. You also can change the order of PSD Layers.
 
 

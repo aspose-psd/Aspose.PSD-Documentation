@@ -6,11 +6,11 @@ url: /java/manipulating-images/
 ---
 
 
-### **Overview**
+## **Overview**
 Aspose.PSD Supports a lot of features to work with PSD Images. Mostly used cases are listed below
 
 
-### **Articles in this section**
+## **Articles in this section**
 * [Working with Median and Wiener Filters](/psd/java/applying-median-and-wiener-filters/)
 * [Convert images of all supported formats](/psd/java/converting-images/)
 * [Creating, Opening and Saving Images](/psd/java/creating-opening-and-saving-images/)
