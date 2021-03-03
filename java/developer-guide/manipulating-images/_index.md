@@ -5,6 +5,7 @@ weight: 20
 url: /java/manipulating-images/
 ---
 
+
 ### **Overview**
 Aspose.PSD Supports a lot of features to work with PSD Images. Mostly used cases are listed below
 
@@ -16,3 +17,4 @@ Aspose.PSD Supports a lot of features to work with PSD Images. Mostly used cases
 * [Crop, Rotatem Resize and other PSD transformation](/psd/java/crop-rotate-and-resize-images/)
 * [Modifying PSD Images and Layers](/psd/java/modifying-images/)
 * [Setting properties of Images](/psd/java/setting-properties-on-images/)
+
