@@ -15,7 +15,7 @@ Aspose.PSD allows converting PSD and PSB formats to JPEG, JPEG2000, PNG, TIFF, P
 
 You can convert PSD files on your server with Aspose.PSD without Photoshop. It's a good replacement for Adobe Photoshop scripting because the EULA of Adobe forbids using App on a server and change its UI. But with PSD Format SDK you can make a batch convert of PSD Files. Your PSD format export can be pixel-perfect with the [Read-Only mode](https://apireference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode), or you can [change layers](/psd/net/manipulating-adobe-photoshop-formats/), texts, effects, and then make export.
 ## **Specific examples of Export of PSD to Raster Formats**
-- [PSD to JPG](/psd/net/psd-to-jpg-html/)
+- [PSD to JPG](/psd/net/psd-to-jpg/)
 - [PSD to PNG](/psd/net/psd-to-png/)
 - [PSD to PDF](/psd/net/psd-to-pdf/)
 ## **Exporting PSD image to various raster file formats**
