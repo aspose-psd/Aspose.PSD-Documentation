@@ -7,7 +7,7 @@ url: /jasperreports/product-overview/
 
 {{% alert color="primary" %}}
 
-[comment]: <> (![todo:image_alt_text]&#40;logo128.png&#41;)
+**![Aspose.PSD for JasperReports Product Logo](aspose-psd-jasperreports-logo.png)**
 
 ### **Welcome to the Aspose.PSD for JasperReports Documentation!**
 
