@@ -16,7 +16,6 @@ In order to understand the concept of Binarization, it is important to define a 
 The following code snippet shows you how to use fixed threshold binarization can be applied to an image.
 
 
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-Conversion-BinarizationWithFixedThreshold-BinarizationWithFixedThreshold.cs" >}}
 
 
@@ -24,13 +23,11 @@ The following code snippet shows you how to use fixed threshold binarization can
 The following code snippet shows you how Otsu threshold binarization can be applied to an image.
 
 
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-Conversion-BinarizationWithOtsuThreshold-BinarizationWithOtsuThreshold.cs" >}}
 
 
 ### **Grayscaling**
 Gray-scaling is the process of converting a continuous-tone image to an image with discontinues gray shades. The following code snippet shows you how to use Grayscaling.
-
 
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-Conversion-Garysacling-Garysacling.cs" >}}
@@ -44,17 +41,16 @@ Sometimes it is needed to extract and convert layers of a PSD Image into another
 Using Aspose.PSD for .NET, developers can convert CMYK PSD file to CMYK tiff format. This article shows how to export/convert CMYK PSD file to CMYK tiff format with Aspose.PSD. Using Aspose.PSD for .NET you can load PSD images and then you can set various properties using [TiffOptions](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/tiffoptions) class and save or export the image. The following code snippet shows you how to achieve this feature.
 
 
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-Conversion-CMYKPSDtoCMYKTiff-CMYKPSDtoCMYKTiff.cs" >}}
 ## **Exporting Images**
 Along with a rich set of image processing routines, Aspose.PSD provides specialized classes to convert PSD file formats to other formats. Using this library, PSD images conversion is very simple and intuitive. Below are some specialized classes for this purpose in [ImageOptions](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions) namespace.
 
-- BmpOptions
-- GifOptions
-- JpegOptions
-- Jpeg2000Options
-- TiffOptions
-- PngOptions
+- [BmpOptions](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/bmpoptions)
+- [GifOptions](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/gifoptions)
+- [JpegOptions](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/jpegoptions)
+- [Jpeg2000Options](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/jpeg2000options)
+- [TiffOptions](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/tiffoptions)
+- [PngOptions](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/pngoptions)
 
 It is easy to export PSD images with Aspose.PSD for .NET API. All you need is an object of the appropriate class from [ImageOptions](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions) namespace. By using these classes, you can easily export any image created, edited or simply loaded with Aspose.PSD for .NET to any supported format.
 ## **Combining Images**
@@ -78,19 +74,15 @@ XMP (Extensible Metadata Platform) is an ISO standard. XMP standardizes a data m
 With the help of Xmp namespace developer can create XMP metadata object and write it to an image. The following code snippet shows you how to use the XmpHeaderPi, XmpTrailerPi, XmpMeta, XmpPacketWrapper, PhotoshopPackage and DublinCorePackage packages contained in [Xmp](https://apireference.aspose.com/psd/net/aspose.psd.xmp) namespace.
 
 
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingAndFormattingImages-CreateXMPMetadata-CreateXMPMetadata.cs" >}}
 ## **Export Images in Multi Threaded Environment**
 Aspose.PSD for .NET now supports converting images in multi-threaded environment. Aspose.PSD for .NET ensures the optimized performance of operations during execution of code in a multi-threaded environment. All [image option](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions) classes (e.g. BmpOptions, TiffOptions, JpegOptions, etc.) in the Aspose.PSD for .NET implement IDisposable interface. Therefore it is a must that developer properly dispose off the image options class object in case Source property is set. Following code snippet demonstrates the said functionality.
 
 
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-Conversion-ExportImagesinMultiThreadEnv-ExportImagesinMultiThreadEnv.cs" >}}
 
 
-
 Aspose.PSD now supports SyncRoot property while working in a multi-threaded environment. Developer can use this property to synchronize access to the source stream. Following code snippet demonstrates how the SyncRoot property can be used.
-
 
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-Conversion-SyncRoot-SyncRoot.cs" >}}

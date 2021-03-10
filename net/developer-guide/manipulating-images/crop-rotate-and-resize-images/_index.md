@@ -78,7 +78,7 @@ You can resize images by passing new height & width values as parameters to the 
 ### **ResizeType Enumeration**
 ResizeType determines the type of re-sizing to be performed on the image based on the selected filter.
 
-Members of ResizeType Enumeration
+Members of [ResizeType](https://apireference.aspose.com/psd/net/aspose.psd/resizetype) Enumeration
 
 |**Member Name**|**Value**|**Description**|
 | :- | :- | :- |
@@ -89,4 +89,3 @@ Members of ResizeType Enumeration
 |CenterToCenter|4|Center of the new image will coincide with the center of the original image. Crop will occur if required.|
 |LanczosResample|5|Resample using Lanczos algorithm using 7x7 mask.|
 |NearestNeighbourResample|6|Resample using nearest neighbour algorithm.|
-

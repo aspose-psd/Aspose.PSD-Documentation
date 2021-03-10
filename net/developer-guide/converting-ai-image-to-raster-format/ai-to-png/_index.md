@@ -5,16 +5,16 @@ weight: 30
 url: /net/ai-to-png/
 ---
 
-Using Aspose.PSD you can convert supported versions of AI files to Png format. Png is a raster graphics file format that supports lossless data compression. Also, Png supports transparency. The r[asterization of the Ai files](/psd/net/converting-ai-image-to-raster-format/) on the server can be automated. For Ai export you need to use the following code snippet:
+Using Aspose.PSD you can convert supported versions of AI files to Png format. Png is a raster graphics file format that supports lossless data compression. Also, Png supports transparency. The [rasterization of the Ai files](/psd/net/converting-ai-image-to-raster-format/) on the server can be automated. For Ai export you need to use the following code snippet:
 
 Below provided sample code demonstrates how to export the AI file to Png format programmatically.
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-AI-AIToPNG-AIToPNG.cs" >}}
 
-With Aspose.PSD you can specify the Png compression level. You can use Png Progressive compression and change the Color Type of the Png File.[Png Options](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/pngoptions) have different properties for any cases of AI Export.
+With Aspose.PSD you can specify the Png compression level. You can use Png Progressive compression and change the [Color Type](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/pngoptions/properties/colortype) of the Png File.[Png Options](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/pngoptions) have different properties for any cases of AI Export.
 
 Ai format supports changing opacity for vector data, and Png supports semitransparency, so a combination of these two formats can help you to make File Format Automation.
-#### **Examples of current export abilities for AI Files to Png**
+## **Examples of current export abilities for AI Files to Png**
 -----
 
 |**Example**|**Description**|

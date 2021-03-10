@@ -43,8 +43,8 @@ This article demonstrates the usage of Aspose.PSD for .NET to perform correction
 1. Load an image using the factory method Load exposed by Image class.
 1. Convert the image into RasterImage.
 1. Create an instance of BilateralSmoothingFilterOptions and SharpenFilterOptions classes.
-1. Call the RasterImage.Filter method while specifying rectangle as image bounds and BilateralSmoothingFilterOptions class instance.
-1. Call the RasterImage.Filter method while specifying rectangle as image bounds and SharpenFilterOptions class instance.
+1. Call the [RasterImage.Filter](https://apireference.aspose.com/psd/net/aspose.psd/rasterimage/methods/filter) method while specifying rectangle as image bounds and BilateralSmoothingFilterOptions class instance.
+1. Call the [RasterImage.Filter](https://apireference.aspose.com/psd/net/aspose.psd/rasterimage/methods/filter) method while specifying rectangle as image bounds and SharpenFilterOptions class instance.
 1. Adjust the contrast
 1. Set brightness
 1. Save the results.
@@ -58,5 +58,3 @@ Image thresholding is used in graphics applications. The goal of thresholding an
 
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-Conversion-Bradleythreshold-Bradleythreshold.cs" >}}
-
-

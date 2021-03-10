@@ -5,7 +5,7 @@ weight: 30
 url: /net/list-of-the-supported-psd-global-image-resources/
 ---
 
-###### **Aspose.PSD supports the Low-Level editing of Image Resources.**
+## **Aspose.PSD supports the Low-Level editing of Image Resources.**
 List of fully supported Image Resources, you can find in Aspose.PSD .Net [API Reference](https://apireference.aspose.com/psd/net)
 
 According to Adobe® Photoshop® format specification: Image resources use several standard ID numbers, as shown in the Image resource IDs. Not all file formats use all ID's. Some information may be stored in other sections of the file.

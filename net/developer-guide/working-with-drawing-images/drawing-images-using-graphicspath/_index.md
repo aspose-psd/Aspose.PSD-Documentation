@@ -50,6 +50,3 @@ The Fill Paths method accepts two parameters. The first parameter is an object o
 
 
 All classes that implements IDisposable are instantiated in a Using statement to ensure that they are disposed of correctly.
-
-
-

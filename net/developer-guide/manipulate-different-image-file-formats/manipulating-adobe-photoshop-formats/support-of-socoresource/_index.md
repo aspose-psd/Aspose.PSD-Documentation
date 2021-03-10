@@ -18,6 +18,3 @@ url: /net/support-of-socoresource/
 ** 
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-PSD-SupportOfSoCoResource-SupportOfSoCoResource.cs" >}}
-
-
-

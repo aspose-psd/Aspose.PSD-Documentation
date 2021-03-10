@@ -21,6 +21,3 @@ You can specify additional PDF meta information in [PdfOptions](https://apirefer
 
 Batch processing of PSD files to PDF can help you to make a previewer for your website. PDF format can not be edited as a PSD file, so you can use it as an unchangeable format to work with your customers or partners and at the same moment you will have a PSD template that you can change at any time.
 
-
-
-

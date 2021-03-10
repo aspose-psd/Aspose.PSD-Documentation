@@ -8,8 +8,7 @@ url: /net/editing-raster-layer-masks-in-psd-file-via-api/
 ## **Overview**
 **To automate PSD format editing and change PSD file without Adobe® Photoshop® you can use the Aspose.PSD API provided below. There are C# and .NET code snippets that can help you to modify PSD files.**
 
-Using PSD Layer and Vector Masks we are able to hide and show layer pixels without permanently deleting them. Raster masks are also called a layer mask or user mask. Access to both raster and vector masks in Aspose.PSD is provided through the LayerMaskData layer property which can be an instance of 'LayerMaskDataShort' and 'LayerMaskDataFull' classes that are child classes of abstract 'LayerMaskData' class. If a layer has both raster and vector masks then [LayerMaskDataFull ](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatafull)instance is provided. If a layer has only a raster or a vector mask then [LayerMaskDataShort ](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatashort)instance is provided. If the LayerMaskData property is null then the layer has no masks or only a disabled vector mask.
-
+Using PSD Layer and Vector Masks we are able to hide and show layer pixels without permanently deleting them. Raster masks are also called a layer mask or user mask. Access to both raster and vector masks in Aspose.PSD is provided through the [LayerMaskData](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer/properties/layermaskdata) layer property which can be an instance of '[LayerMaskDataShort](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatashort)' and '[LayerMaskDataFull](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatafull)' classes that are child classes of abstract 'LayerMaskData' class. If a layer has both raster and vector masks then [LayerMaskDataFull ](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatafull)instance is provided. If a layer has only a raster or a vector mask then [LayerMaskDataShort ](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatashort)instance is provided. If the LayerMaskData property is null then the layer has no masks or only a disabled vector mask.
 
 
 |![todo:image_alt_text](editing-raster-layer-masks-in-psd-file-via-api_1.png)|<p>A raster mask and a disabled vector mask LayerMaskDataShort</p><p>A disabled raster mask  LayerMaskDataShort</p><p>A raster mask and a vector mask  LayerMaskDataFull</p><p>A raster mask  LayerMaskDataShort</p><p>A vector mask  LayerMaskDataShort</p><p>A disabled vector mask null (But vector resource is present)</p>|
@@ -21,7 +20,7 @@ Below provided sample code demonstrates how to get a layer raster mask
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Documentation-CSharp-Aspose-WorkingWithRasterMasks-Snippet-1.cs" >}}
 
-Otherwise, type of the LayerMaskData layer property is LayerMaskDataShort. In this case, let’s check if the layer has only a raster mask by checking the Flags property. It should not contain LayerMaskFlags.**UserMaskFromRenderingOtherData** flag, otherwise the mask is a vector mask cache**.**
+Otherwise, type of the LayerMaskData layer property is LayerMaskDataShort. In this case, let’s check if the layer has only a raster mask by checking the Flags property. It should not contain [LayerMaskFlags](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskflags).**UserMaskFromRenderingOtherData** flag, otherwise the mask is a vector mask cache**.**
 
 Getting mask code snippet:
 
