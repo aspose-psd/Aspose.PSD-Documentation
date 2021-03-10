@@ -17,4 +17,3 @@ Aspose.PSD Supports a lot of features to work with PSD Images. Mostly used cases
 - [Crop, Rotate and Resize Images](/psd/net/crop-rotate-and-resize-images/)
 - [Modifying Images](/psd/net/modifying-images/)
 - [Setting Properties on Images](/psd/net/setting-properties-on-images/)
-

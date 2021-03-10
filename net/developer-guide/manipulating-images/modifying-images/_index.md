@@ -51,7 +51,6 @@ This article demonstrates the usage of Aspose.PSD for .NET to perform Blur effec
 The following code example demonstrates how to create a blur effect on an image.
 
 
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingAndFormattingImages-BluranImage-BluranImage.cs" >}}
 ## **Verify Image Transparency**
 This article demonstrates the usage of Aspose.PSD for .NET to check image transparency. The steps to check image transparency are as simple as below:
@@ -65,13 +64,11 @@ This article demonstrates the usage of Aspose.PSD for .NET to check image transp
 Using Aspose.PSD for .NET, developers can set a pixel difference. GIF's compression is based on a "dictionary" of strings of pixels seen. Normal encoder searches the dictionary for the longest string of pixels that exactly match pixels in the image. Lossy encoder picks the longest string of pixels that's "similar enough" to pixels in the image. Below is the code demonstration of the said functionality.
 
 
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingAndFormattingImages-ImplementLossyGIFCompressor-ImplementLossyGIFCompressor.cs" >}}
 ## **Implement Bicubic Resampling**
 Resampling means you are changing the pixel dimensions of an image. When you downsample, you are eliminating pixels and therefore deleting information and detail from your image. When you upsample, you are adding pixels. Photoshop adds these pixels by using interpolation. This article demonstrates how you can perform the Bicubic Resampling by using Aspose.PSD for .NET.
 
 Below is the code demonstration of the said functionality.
-
 
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingAndFormattingImages-ImplementBicubicResampler-ImplementBicubicResampler.cs" >}}
@@ -81,7 +78,6 @@ This article demonstrates the usage of Aspose.PSD for .NET to perform the **Colo
 Below is the code demonstration of the said functionality.
 
 
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingAndFormattingImages-ColorBalanceAdjustment-ColorBalanceAdjustment.cs" >}}
 ## **Invert Adjustment Layer**
 This article demonstrates how you can perform the **Invert adjustment layer** by using Aspose.PSD for .NET.  An adjustment layer is a special kind of layer used mostly for color correction. Rather than having a content of their own, they adjust the information on the layers below them. The Invert adjustment layer makes a photo negative effect by inverting the colors of an image.
@@ -89,9 +85,4 @@ This article demonstrates how you can perform the **Invert adjustment layer** by
 Below is the code demonstration of the said functionality.
 
 
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingAndFormattingImages-InvertAdjustmentLayer-InvertAdjustmentLayer.cs" >}}
-
-
-
-

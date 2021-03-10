@@ -6,7 +6,7 @@ url: /net/developer-guide/
 ---
 
 ## **Articles in this section**
-This page contains the most common guide on how to work with PSD and Ai Files via C# locally, using your own web-service and other cases. You can look at our and our customers' [PSD format show-cases.](/psd/net/showcases/)
+This page contains the most common guide on how to work with PSD and Ai Files via C# locally, using your own web-service and other cases. You can look at our and our customers [PSD format show-cases.](/psd/net/showcases/)
 ### **File Formats and Features Description**
 Aspose.PSD specialized in PSD Format and Ai Format manipilation. All possible business tasks with these formats can be solved with our PSD SDK.
 
@@ -44,5 +44,3 @@ In some cases, you need to convert PNG, GIF, TIFF, JPEG, BMP file to PSD or add 
 
 - [API Limitations](/psd/net/api-limitations/) 
 - [Technical Articles](/psd/net/technical-articles/) 
-
-

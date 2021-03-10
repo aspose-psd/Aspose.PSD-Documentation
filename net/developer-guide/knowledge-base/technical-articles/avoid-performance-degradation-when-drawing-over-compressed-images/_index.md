@@ -13,11 +13,9 @@ To avoid performance degradation, we recommend that you convert the image to an 
 In the example that follows, a PSD image is converted to raw format (no compression) and saved to disk. The uncompressed image is then loaded back before graphic operations are performed on it. The same technique applies for BMP and GIF files.
 
 
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-PSD-UncompressedImageUsingFile-UncompressedImageUsingFile.cs" >}}
 ### **Using a Stream Object**
 The following code snippet shows you how to PSD image is converted to raw format (no compression) and saved to disk using MemoryStream.
-
 
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-PSD-UncompressedImageStreamObject-UncompressedImageStreamObject.cs" >}}

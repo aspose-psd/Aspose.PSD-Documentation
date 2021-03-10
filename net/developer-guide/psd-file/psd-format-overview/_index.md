@@ -36,7 +36,6 @@ PSD files may include image layers, adjustment layers, layer masks, annotations,
 And much more. If you made something great with Aspose.PSD, please share with us your case study using [Aspose Forums](https://forum.aspose.com/).
 
 
-
 Additional examples you can learn from:
 
 - [Case Studies](https://downloads.aspose.com/corporate/case-studies/aspose.psd/)

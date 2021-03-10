@@ -24,10 +24,9 @@ The following code snippet shows you how to create a layer group.
 
 
 ## **Rename a Layer**
-You can use any name that you would like, but the typical practice is to use a general description of the object or element that is on that layer. This article demonstrates how you can change the name of a layer using Aspose.PSD for .NET. For this purpose, a new property **DisplayName** has been added in Layer class to display a layer name properly. It has been observed that when Photoshop saves a layer name using the **Name** property, then Korean characters are stored as byte 63'?' in ASCII. So, if you want to display a layer name properly then use the **DisplayName** property because the **Name** property does not support Korean characters.
+You can use any name that you would like, but the typical practice is to use a general description of the object or element that is on that layer. This article demonstrates how you can change the name of a layer using Aspose.PSD for .NET. For this purpose, a new property [**DisplayName**](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer/properties/displayname) has been added in Layer class to display a layer name properly. It has been observed that when Photoshop saves a layer name using the [**Name**](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer/properties/name) property, then Korean characters are stored as byte 63'?' in ASCII. So, if you want to display a layer name properly then use the **DisplayName** property because the **Name** property does not support Korean characters.
 
 The following code sample shows how you can rename a layer.
-
 
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-PSD-RenameLayer-RenameLayer.cs" >}}
@@ -35,8 +34,4 @@ The following code sample shows how you can rename a layer.
 Linking layers is like grouping the layers. If you are linking two or more layers then It will allow you to make certain changes to both of the linked layers. For example, if you apply transformations to one layer then it will be applied to all other linked layers. This article demonstrates how you can get and unlink linked layers using [Aspose.PSD](https://products.aspose.com/psd).
 
 
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-PSD-SupportOfLinkedLayer-SupportOfLinkedLayer.cs" >}}
-
-
-

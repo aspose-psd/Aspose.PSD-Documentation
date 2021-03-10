@@ -263,7 +263,7 @@ String inPsdFilePath = "AllLclrResourceColors.psd";
 
 String outPsdFilePath = "AllLclrResourceColorsReversed.psd";
 
-// In the file colors of layers' highlighting are in this order
+// In the file colors of layers highlighting are in this order
 
 Short[] sheetColors = new Short[] {
 

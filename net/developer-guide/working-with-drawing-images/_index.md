@@ -14,4 +14,3 @@ The Graphics class gives you the ability to draw simple shapes in an instance of
 - [Drawing Images](/psd/net/drawing-images/)
 - [Drawing Images using Graphics](/psd/net/drawing-images-using-graphics/)
 - [Drawing Images using GraphicsPath](/psd/net/drawing-images-using-graphicspath/)
-

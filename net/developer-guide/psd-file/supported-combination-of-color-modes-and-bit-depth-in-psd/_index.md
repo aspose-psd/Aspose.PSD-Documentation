@@ -27,8 +27,4 @@ Aspose.PSD Supports opening of PSD Files with any combination of Color Mode and 
 \* Minor issues in some cases
 
 
-
 If you need the support of specific Color Mode / Bit Depth Combination, you can post on [Aspose Forums](https://forum.aspose.com/c/psd)
-
-
-

@@ -11,7 +11,6 @@ Aspose.PSD Supports Low-Level API Manipulation with Layer Resources. Each Layer 
 You can get from these resource information that commonly hidden by Photoshop UI.
 
 
-
 If we haven't implemented the resources you need, you can write on [PSD Forum ](https://forum.aspose.com/c/psd)or use [Unknown Resource](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.layerresources/unknownresource) and change its data byte by byte.
 ## **List of the Layer Resources**
 
@@ -77,4 +76,3 @@ If we haven't implemented the resources you need, you can write on [PSD Forum ](
 |LMsk|User Mask|
 |expA|Exposure|
 |Fxid/FEid|Filter Effects|
-

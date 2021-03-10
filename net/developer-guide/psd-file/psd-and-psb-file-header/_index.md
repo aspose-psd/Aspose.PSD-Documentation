@@ -11,7 +11,6 @@ Adobe Photoshop File header contains information about the version of File (1 fo
 You can learn supported by Aspose.PSD Combinations of Color Mode and Bit Depth from the related article.
 
 
-
 The file header contains the basic properties of the image.
 
 |**Length**|**Description**|
@@ -25,4 +24,3 @@ The file header contains the basic properties of the image.
 |2|Depth: the number of bits per channel. Supported values are 1, 8, 16 and 32. But not every Color Mode works with every depth.|
 |2|The [PSD color mode](https://apireference.aspose.com/psd/java/com.aspose.psd.fileformats.psd/ColorModes) of the file. Supported values are: Bitmap = 0; Grayscale = 1; Indexed = 2; RGB = 3; CMYK = 4; Multichannel = 7; Duotone = 8; Lab = 9.|
 You can check our [PSD API Reference](https://apireference.aspose.com/psd) for it.
-
