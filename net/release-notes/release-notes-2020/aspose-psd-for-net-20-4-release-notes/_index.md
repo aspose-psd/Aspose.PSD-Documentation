@@ -233,7 +233,7 @@ This page contains release notes for [Aspose.PSD for .NET 20.4](https://www.nug
 
             string outputFilePath = "AllLclrResourceColorsReversed.psd";
 
-            // In the file colors of layers' highlighting are in this order
+            // In the file colors of layers highlighting are in this order
 
             SheetColorHighlightEnum[] sheetColors = new SheetColorHighlightEnum[] {
 

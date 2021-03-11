@@ -13,11 +13,9 @@ Aspose.PSD for .NET allows developers to create their own images. Use the static
 Create PsdOptions from [ImageOptions](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions) namespace and set the various properties. The most important property to set is the Source property. This property specifies where the image data resides (in a file or a stream). In the example below, the source is a file. After setting the properties, pass the object to one of the static [Create](https://apireference.aspose.com/psd/net/aspose.psd/image/methods/create) methods along with width and height parameter. The width and height are defined in pixels.
 
 
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingAndFormattingImages-CreatingbySettingPath-CreatingbySettingPath.cs" >}}
 ### **Creating Using Stream**
-The process for creating an image using a stream is the same as for using a path. The only difference is that you need to create an instance of [StreamSource]() by passing a Stream object to its constructor and assigning it to the Source property.
-
+The process for creating an image using a stream is the same as for using a path. The only difference is that you need to create an instance of [StreamSource](https://apireference.aspose.com/psd/net/aspose.psd.sources/streamsource) by passing a Stream object to its constructor and assigning it to the Source property.
 
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingAndFormattingImages-CreatingUsingStream-CreatingUsingStream.cs" >}}
@@ -27,11 +25,9 @@ Developers can use Aspose.PSD for .NET API to open existing PSD image files for 
 Open an image file by passing the path and file name as a parameter to the static method Load exposed by the Image class.
 
 
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-Conversion-SavingtoDisk-SavingtoDisk.cs" >}}
 ### **Opening using a Stream**
 Sometimes the image that we need to open is stored as a stream. In such cases, use the overloaded version of the Load method. This accepts a Stream object as an argument to open the image.
-
 
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-Conversion-LoadingFromStream-LoadingFromStream.cs" >}}
@@ -47,11 +43,9 @@ The steps to load an image into PSD as a layer are as simple as below:
 - Save the results.
 
 
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-PSD-LoadImageToPSD-LoadImageToPSD.cs" >}}
 ### **Load Image as Layer from a Stream**
 This article demonstrates the usage of Aspose.PSD to load an image as a layer from a stream. To load an image from a stream, simply pass a stream object that contains an image to the Layer class constructor. Add the created layer using the AddLayer method exposed by the PsdImage class and save the results.
-
 
 
 Here is the sample code.
@@ -63,7 +57,6 @@ Aspose.PSD lets you create image files from scratch. It also provides the means 
 The Image class represents an image object, so this class provides all the tools needed to create, load and save an image file. Use the Image class Save method to save images. One overloaded version of the Save method accepts the file location as a string.
 
 
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-Conversion-SavingtoDisk-SavingtoDisk.cs" >}}
 ### **Saving to a Stream**
 Another overloaded version of the Save method accepts the Stream object as an argument and saves the image file to the stream.
@@ -71,15 +64,9 @@ Another overloaded version of the Save method accepts the Stream object as an ar
 If the image is created by specifying any of the CreateOptions in the Image constructor, the image is automatically saved to the path or stream supplied during the initialization of the Image class by calling the Save method that doesn't accept any parameter.
 
 
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-Conversion-SavingtoStream-SavingtoStream.cs" >}}
 ### **Setting for Replacing Missing Fonts**
 Developers can use Aspose.PSD for .NET API to load existing PSD image files for different purposes, for example, to set default font name when saving PSD documents as a raster image (into PNG, JPG and BMP formats). This default font should be used as a replacement for all missing fonts (fonts that are not found in the current Operating System). Once the image is modified, the file will be saved to disk.
 
 
-
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-Conversion-SettingforReplacingMissingFonts-SettingforReplacingMissingFonts.cs" >}}
-
-
-
-

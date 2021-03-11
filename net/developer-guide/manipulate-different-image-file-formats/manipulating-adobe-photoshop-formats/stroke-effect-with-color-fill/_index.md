@@ -10,11 +10,9 @@ This article demonstrates how to render stroke effect with color fill. The Strok
 
 The steps to render Stroke effect with Color fill are as simple as below:
 
-- Set **LoadEffectsResource** property.
-- Load a PSD file as an image using the factory method Load exposed by Image class and define **PsdLoadOptions**.
-- Set settings properties of **ColorFillSetting.**
+- Set [**LoadEffectsResource**](https://apireference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/loadeffectsresource) property.
+- Load a PSD file as an image using the factory method Load exposed by Image class and define [**PsdLoadOptions**](https://apireference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions).
+- Set settings properties of [**ColorFillSetting.**](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.fillsettings/colorfillsettings)
 - Save the results.
 
 The following code snippet shows you how to render Stroke effect with Color fill.
-
-
