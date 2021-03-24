@@ -98,9 +98,6 @@ This page contains release notes for [Aspose.PSD for .NET 21.3](https://www.nug
             string sourceFile = "1_200x200.psd";
             string contentFile = "Numbers1Best.png";
 
-            string etalonFilePng = "etalon.png";
-            string etalonFilePsd = "etalon.psd";
-
             string outputFilePng = "output.png";
             string outputFilePsd = "output.psd";
 
