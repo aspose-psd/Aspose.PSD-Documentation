@@ -16,6 +16,7 @@ This page contains release notes for [Aspose.PSD for .NET 21.4](https://www.nug
 |PSDNET-259|Rendering of Pattern Overlay Layer Effect|Feature|
 |PSDNET-861|Add unknown Vogk resource properties to support resizing shape layers with vector paths in PSD image|Feature|
 |PSDNET-90|PSD not Properly converted to PDF|Bug|
+|PSDNET-830|Exception on saving the specific PSD file with text layers|Bug| (Fixed earlier)
 
 # **Public API Changes**
 # **Added APIs:**
