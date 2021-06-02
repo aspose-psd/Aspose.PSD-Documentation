@@ -17,6 +17,7 @@ This page contains release notes for [Aspose.PSD for .NET 21.6](https://www.nug
 |PSDNET-547|Regular or vector mask for a layer group is ignored on rendering|Bug|
 |PSDNET-647|PSD image with disabled vector layer masks on saving enables vector masks|Bug|
 |PSDNET-786|Exception when creating a TextLayer with text longer than 255 characters|Bug|
+|PSDNET-900|Text of the Text layer can not be rendered on Linux|Enhancement|
 
 # **Public API Changes**
 # **Added APIs:**
