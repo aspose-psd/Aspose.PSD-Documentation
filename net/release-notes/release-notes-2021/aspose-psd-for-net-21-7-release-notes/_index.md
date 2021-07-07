@@ -33,6 +33,14 @@ This page contains release notes for [Aspose.PSD for .NET 21.7](https://www.nug
             string outputFilePng = "result_fontEditTest.png";
             string outputFilePsd = "fontEditTest.psd";
 
+            void AssertAreEqual(object expected, object actual)
+            {
+                if (!object.Equals(expected, actual))
+                {
+                    throw new Exception("Objects are not equal.");
+                }
+            }
+
             using (var image = new PsdImage(500, 500))
             {
                 FillLayer backgroundFillLayer = FillLayer.CreateInstance(FillType.Color);
