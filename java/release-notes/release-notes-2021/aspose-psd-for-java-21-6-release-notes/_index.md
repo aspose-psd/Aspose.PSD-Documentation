@@ -9,10 +9,10 @@ url: /java/aspose-psd-for-java-21-6-release-notes/
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|PSDNET-351|Сlipping mask for a group does not render correctly|Bug|
-|PSDNET-352|Regular or vector mask for a layer group is ignored on rendering|Bug|
-|PSDNET-353|PSD image with disabled vector layer masks on saving enables vector masks|Bug|
-|PSDNET-354|Exception when creating a TextLayer with text longer than 255 characters|Bug|
+|PSDJAVA-351|Сlipping mask for a group does not render correctly|Bug|
+|PSDJAVA-352|Regular or vector mask for a layer group is ignored on rendering|Bug|
+|PSDJAVA-353|PSD image with disabled vector layer masks on saving enables vector masks|Bug|
+|PSDJAVA-354|Exception when creating a TextLayer with text longer than 255 characters|Bug|
 
 # **Public API Changes**
 # **Added APIs:**
