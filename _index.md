@@ -85,7 +85,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.PSD for JasperReports Online Documentation](/psd/jasperreports/)
 - [Aspose.PSD for JasperReports Features](/psd/jasperreports/features-overview/)
 - [Aspose.PSD for JasperReports Release Notes](/psd/jasperreports/release-notes/)
-- [Aspose.PSD for JasperReports Product Page](https://products.aspose.com/psd/jasperreports)
+- Aspose.PSD for JasperReports Product Page
 - [Download Examples at GitHub Repository](https://github.com/aspose-psd/Aspose.PSD-for-JasperReports)
 - [Download Aspose.PSD for JasperReports](https://downloads.aspose.com/psd/jasperreports)
 - [Aspose.PSD for JasperReports Free Support Forum](https://forum.aspose.com/c/psd)
