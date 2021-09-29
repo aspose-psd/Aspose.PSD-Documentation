@@ -8,7 +8,7 @@ is_root: true
 
 {{% alert color="primary" %}} 
 
-**![Aspose.PSD for Java Product Logo](aspose-psd-for-java-home_1)**
+**![Aspose.PSD for Java Product Logo](aspose-psd-for-java-home_1.png)**
 
 **Welcome to Aspose.PSD for Java**
 
