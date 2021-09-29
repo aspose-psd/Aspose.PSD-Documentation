@@ -1,7 +1,7 @@
 ---
 title: Aspose.PSD for .NET 20.10 - Release Notes
 type: docs
-weight: 50
+weight: 30
 url: /net/aspose-psd-for-net-20-10-release-notes/
 ---
 

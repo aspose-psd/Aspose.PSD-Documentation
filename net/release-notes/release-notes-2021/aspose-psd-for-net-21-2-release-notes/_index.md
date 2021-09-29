@@ -1,7 +1,7 @@
 ---
 title: Aspose.PSD for .NET 21.2 - Release Notes
 type: docs
-weight: 50
+weight: 110
 url: /net/aspose-psd-for-net-21-2-release-notes/
 ---
 
