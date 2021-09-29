@@ -21,7 +21,8 @@ This page contains release notes for [Aspose.PSD for .NET 19.6](https://www.nug
 |PSDNET-159|Remove property IsLicensed|Enhancement|
 |PSDNET-102|Conversion PSB to JPG hangs|Bug|
 |PSDNET-150|Newly added text layer position is shifted on editing in Photoshop|Bug|
-# **Public API Changes**
+
+## **Public API Changes**
 # **Added APIs:**
 - T:Aspose.PSD.FileFormats.Psd.FileFormatVersion
 - F:Aspose.PSD.FileFormats.Psd.FileFormatVersion.Psd
@@ -42,7 +43,7 @@ This page contains release notes for [Aspose.PSD for .NET 19.6](https://www.nug
 - F:Aspose.PSD.ResolutionUnit.None
 - F:Aspose.PSD.ResolutionUnit.Inch
 - F:Aspose.PSD.ResolutionUnit.Cm
-## **Removed APIs:**
+# **Removed APIs:**
 - M:Aspose.PSD.Blend.op_Equality(Aspose.PSD.Blend,Aspose.PSD.Blend)
 - M:Aspose.PSD.Blend.op_Inequality(Aspose.PSD.Blend,Aspose.PSD.Blend)
 - M:Aspose.PSD.ColorBlend.op_Equality(Aspose.PSD.ColorBlend,Aspose.PSD.ColorBlend)
@@ -498,7 +499,8 @@ This page contains release notes for [Aspose.PSD for .NET 19.6](https://www.nug
 - P:Aspose.PSD.License.IsLicensed
 - M:Aspose.PSD.Matrix.op_Equality(Aspose.PSD.Matrix,Aspose.PSD.Matrix)
 - M:Aspose.PSD.Matrix.op_Inequality(Aspose.PSD.Matrix,Aspose.PSD.Matrix)
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-127. Ability to convert PSD file to PSB and vice versa**
 
 {{< highlight java >}}

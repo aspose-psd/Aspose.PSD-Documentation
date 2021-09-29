@@ -20,7 +20,8 @@ This page contains release notes for [Aspose.PSD for .NET 19.11](https://www.nu
 |PSDNET-187|[Support of Raster Images in AI Format Files](/psd/net/manipulating-adobe-illustrator-formats/#manipulatingadobeillustratorformats-rasterimagesinillustrator)|Feature|
 |PSDNET-225|[Get properties of inline formatting of TextLayer](/psd/net/working-with-text-layers/#workingwithtextlayers-gettextpropertiesfromatextlayer)|Feature|
 |PSDNET-214|Incorrect export of PSD to other formats if it contains Layer Effects and Adjustment Layers|Bug|
-# **Public API Changes**
+
+## **Public API Changes**
 # **Added APIs:**
 - T:Aspose.PSD.FileFormats.Ai.AiSection
 - M:Aspose.PSD.FileFormats.Ai.AiSection.GetData
@@ -68,10 +69,11 @@ This page contains release notes for [Aspose.PSD for .NET 19.11](https://www.nu
 - P:Aspose.PSD.FileFormats.Psd.Layers.Text.TextFontInfo.PostScriptName
 - P:Aspose.PSD.FileFormats.Psd.Layers.Text.TextFontInfo.FamilyName
 - P:Aspose.PSD.FileFormats.Psd.Layers.Text.TextFontInfo.Style
-## **Removed APIs:**
+# **Removed APIs:**
 - M:Aspose.PSD.FileFormats.Ai.AiFinalizeSection.GetData
 - M:Aspose.PSD.FileFormats.Ai.AiSetupSection.GetData
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-151. Support of Inner Shadow Layer Effect**
 
 {{< highlight java >}}

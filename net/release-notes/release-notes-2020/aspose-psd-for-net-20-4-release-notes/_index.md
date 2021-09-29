@@ -27,7 +27,8 @@ This page contains release notes for [Aspose.PSD for .NET 20.4](https://www.nug
 |PSDNET-585|` `The GradientOverlayEffect.BlendMode property changes are not displayed in Photoshop|Bug|
 |PSDNET-561|Fix saving PSD image with Grayscale ColorMode and 16 bit per channel to grayscale PSD format|Bug|
 |PSDNET-560|Fix saving PSD image with Grayscale ColorMode and 16 bit per channel to PNG format|Bug|
-# **Public API Changes**
+
+## **Public API Changes**
 # **Added APIs:**
 - P:Aspose.PSD.FileFormats.Ai.AiLayerSection.Name
 - P:Aspose.PSD.FileFormats.Ai.AiLayerSection.IsTemplate
@@ -82,9 +83,10 @@ This page contains release notes for [Aspose.PSD for .NET 20.4](https://www.nug
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VsmsResource.#ctor
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.#ctor
 - M:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientColorPoint.#ctor(Aspose.PSD.Color,System.Int32,System.Int32)
-## **Removed APIs:**
+# **Removed APIs:**
 - None
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-567. Support of the 'Vector Origination Data' resource**
 
 {{< highlight java >}}

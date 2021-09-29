@@ -21,7 +21,7 @@ This page contains release notes for [Aspose.PSD for .NET 20.9](https://www.nug
 |PSDNET-712|Regression: Aspose.PSD 20.8.0 can’t open file|Bug|
 |PSDNET-714|In a specific PSD file, resizing TextLayer breaks the location value|Bug|
 
-# **Public API Changes**
+## **Public API Changes**
 # **Added APIs:**
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.Txt2Resource.AddTextRecord(System.String,Aspose.PSD.RectangleF)
 - P:Aspose.PSD.FileFormats.Psd.Layers.Text.ITextStyle.AutoKerning
@@ -127,7 +127,8 @@ This page contains release notes for [Aspose.PSD for .NET 20.9](https://www.nug
 - F:Aspose.PSD.FileFormats.Psd.Layers.SmartObjects.SmartObjectType.UnavailableLinked
 - F:Aspose.PSD.FileFormats.Psd.Layers.SmartObjects.SmartObjectType.LibraryLink
 - P:Aspose.PSD.FileFormats.Psd.PsdImage.SmartObjectProvider
-## **Removed APIs:**
+
+# **Removed APIs:**
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.Txt2Resource.AddTextRecord(System.String)
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.#ctor(System.Guid,System.Boolean)
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.Version
@@ -192,7 +193,8 @@ This page contains release notes for [Aspose.PSD for .NET 20.9](https://www.nug
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.DurationNumerator
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.DurationDenominator
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Save(Aspose.PSD.StreamContainer,System.Int32)
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-408. Support of SoLEResource (Smart Object Layer External resource)**
 {{< highlight csharp >}}
             void AssertIsTrue(bool condition)

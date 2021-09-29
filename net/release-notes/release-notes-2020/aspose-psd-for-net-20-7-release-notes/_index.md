@@ -27,7 +27,8 @@ This page contains release notes for [Aspose.PSD for .NET 20.7](https://www.nug
 |PSDNET-676|Layers failed to render in generated PNG|Bug|
 |PSDNET-677|Exception on accessing TextData|Bug|
 |PSDNET-679|ImageSaveException on saving the PSD|Bug|
-# **Public API Changes**
+
+## **Public API Changes**
 # **Added APIs:**
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.BlendingOptions.AddStroke(Aspose.PSD.FileFormats.Psd.Layers.FillSettings.FillType)
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.StrokeEffect.Overprint
@@ -59,9 +60,11 @@ This page contains release notes for [Aspose.PSD for .NET 20.7](https://www.nug
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.IVectorPathData.IsDisabled
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.IVectorPathData.IsNotLinked
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.IVectorPathData.IsInverted
-## **Removed APIs:**
+
+# **Removed APIs:**
 - M:Aspose.PSD.FileFormats.Psd.PsdImage.AddExposureLayer(System.Single,System.Single,System.Single)
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-606. Support of LnkE Resource**
 
 {{< highlight csharp >}}

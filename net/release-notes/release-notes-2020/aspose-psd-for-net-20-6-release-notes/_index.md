@@ -27,7 +27,8 @@ This page contains release notes for [Aspose.PSD for .NET 20.6](https://www.nug
 |PSDNET-640|PSD Layer Mask changes are discarded on save|Bug|
 |PSDNET-593|Saving of AI File to Jpeg2000 Format doesn't work|Bug|
 |PSDNET-638|Incorrect Layer Order after you add Layer Group to empty Layer Group|Bug|
-# **Public API Changes**
+
+## **Public API Changes**
 # **Added APIs:**
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerMaskData.MaskRectangle
 - P:Aspose.PSD.ImageOptionsBase.DefaultReplacementFont
@@ -83,9 +84,10 @@ This page contains release notes for [Aspose.PSD for .NET 20.6](https://www.nug
 - F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.LnkeResource.TypeToolKey
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.LnkeResource.Item(System.Int32)
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.TypeToolInfoStructures.StringStructure.#ctor(Aspose.PSD.FileFormats.Psd.Layers.LayerResources.ClassID,System.String)
-## **Removed APIs:**
+# **Removed APIs:**
 - P:Aspose.PSD.ImageLoadOptions.PsdLoadOptions.DefaultReplacementFont
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-606. Support of LnkE Resource**
 
 {{< highlight java >}}

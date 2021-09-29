@@ -26,7 +26,8 @@ This page contains release notes for [Aspose.PSD for .NET 20.2](https://www.nug
 |PSDNET-194|` `After performing the FlipRotate operation on Layer, PSD Image becomes unreadable|Bug|
 |PSDNET-177. |System.ArgumentException during the loading of PSD file|Bug|
 |PSDNET-249|After using a transformation method for a layer only, the saved layer has incorrect bounds or a mask|Bug|
-# **Public API Changes**
+
+## **Public API Changes**
 # **Added APIs:**
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerMaskDataFull.UserMaskRectangle
 - M:Aspose.PSD.FileFormats.Ai.AiDataSection.ReleaseManagedResources
@@ -108,12 +109,13 @@ This page contains release notes for [Aspose.PSD for .NET 20.2](https://www.nug
 - M:Aspose.PSD.RasterImage.GetSkewAngle
 - M:Aspose.PSD.RasterImage.NormalizeAngle
 - M:Aspose.PSD.RasterImage.NormalizeAngle(System.Boolean,Aspose.PSD.Color)
-## **Removed APIs:**
+# **Removed APIs:**
 - M:Aspose.PSD.FileFormats.Ai.AiDataSection.Dispose
 - P:Aspose.PSD.FileFormats.Ai.AiRasterImageSection.ImageRectangle
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.Lr16Resource.#ctor(System.Int32)
 - F:Aspose.PSD.Xmp.Types.Derived.RenditionClass.DefinedValues
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-206. Improvement of ability to render different colors text in Text Layer**
 
 {{< highlight java >}}

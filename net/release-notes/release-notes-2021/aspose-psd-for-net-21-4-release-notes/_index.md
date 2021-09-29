@@ -18,7 +18,7 @@ This page contains release notes for [Aspose.PSD for .NET 21.4](https://www.nug
 |PSDNET-90|PSD not Properly converted to PDF|Bug|
 |PSDNET-830|Exception on saving the specific PSD file with text layers|Bug| (Fixed earlier)
 
-# **Public API Changes**
+## **Public API Changes**
 # **Added APIs:**
 - P:Aspose.PSD.FileFormats.Core.VectorPaths.VectorShapeOriginSettings.OriginBoxCorners
 - P:Aspose.PSD.FileFormats.Core.VectorPaths.VectorShapeOriginSettings.Transform
@@ -33,10 +33,10 @@ This page contains release notes for [Aspose.PSD for .NET 21.4](https://www.nug
 - P:Aspose.PSD.FileFormats.Core.VectorPaths.VectorShapeTransform.Tx
 - P:Aspose.PSD.FileFormats.Core.VectorPaths.VectorShapeTransform.Ty
 
-## **Removed APIs:**
+# **Removed APIs:**
 - None
 
-# **Usage examples:**
+## **Usage examples:**
 
 **PSDNET-90. PSD not Properly converted to PDF**
 

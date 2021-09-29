@@ -22,7 +22,8 @@ This page contains release notes for Aspose.PSD for .NET 19.2
 |PSDNET-109|Porting of Actual Aspose.Imaging sources to Aspose.PSD|Enhancement|
 |PSDNET-92|Add support of partial loading for some methods|Enhancement|
 |PSDNET-110|PSD performance fell down several times|Bug|
-# **Public API Changes**
+
+## **Public API Changes**
 # **Added APIs:**
 - T:Aspose.PSD.FileFormats.Psd.Layers.FillLayers.FillLayer
 - P:Aspose.PSD.FileFormats.Psd.Layers.FillLayers.FillLayer.FillSettings
@@ -214,7 +215,7 @@ This page contains release notes for Aspose.PSD for .NET 19.2
 - P:Aspose.PSD.VectorImage.HeightF
 - P:Aspose.PSD.VectorImage.Width
 - P:Aspose.PSD.VectorImage.Height
-## **Removed APIs:**
+# **Removed APIs:**
 - T:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.BaseFillSettings
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.BaseFillSettings.#ctor
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.BaseFillSettings.FillType
@@ -270,7 +271,8 @@ This page contains release notes for Aspose.PSD for .NET 19.2
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientFillSettings.GenerateLfx2ResourceNodes
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.PatternFillSettings.Color
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.PatternFillSettings.GenerateLfx2ResourceNodes(System.String,Aspose.PSD.Color,System.String,System.String,System.Double,System.Boolean,Aspose.PSD.PointF)
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-97. Add support of Fill layers: Color fill**
 
 {{< highlight java >}}

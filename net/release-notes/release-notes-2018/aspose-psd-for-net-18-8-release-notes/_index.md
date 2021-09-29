@@ -40,7 +40,8 @@ url: /net/aspose-psd-for-net-18-8-release-notes/
 |PSDNET-58|Expose Codec property of JPEG2000 image to public|Enhancement|
 |PSDNET-57|Fix 24bpp options setting for export to BMP|Enhancement|
 |PSDNET-46|Adjustment layer ignored for CMYK PSD conversion to TIFF or JPG|Enhancement|
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-68 Support of the LayerCreationDateTime property**
 
 {{< highlight java >}}

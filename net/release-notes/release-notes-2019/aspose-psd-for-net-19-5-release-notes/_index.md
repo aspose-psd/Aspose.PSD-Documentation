@@ -21,7 +21,8 @@ This page contains release notes for Aspose.PSD for .NET 19.5
 |PSDNET-140|Support of VsmsResource|Feature|
 |PSDNET-121|Visible Layers in Visible SubFolder in Invisible Folder are rendered, but should not|Bug|
 |PSDNET-119|PSD (RGB mode 16 bit per channel) not properly converted to JPG|Bug|
-# **Public API Changes**
+
+## **Public API Changes**
 # **Added APIs:**
 - T:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IPatternFillSettings
 - P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IPatternFillSettings.Linked
@@ -70,7 +71,7 @@ This page contains release notes for Aspose.PSD for .NET 19.5
 - M:Aspose.PSD.Image.DoAfterCreate(System.Int64@,System.Int64)
 - P:Aspose.PSD.ImageOptionsBase.BufferSizeHint
 - M:Aspose.PSD.Metered.GetConsumptionCredit
-## **Removed APIs:**
+# **Removed APIs:**
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.Paths
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.Version
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.IsDisabled
@@ -80,7 +81,8 @@ This page contains release notes for Aspose.PSD for .NET 19.5
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.Length
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.PsdVersion
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.Save(Aspose.PSD.StreamContainer,System.Int32)
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-133. Add support of Fill layers: Pattern**
 
 {{< highlight java >}}

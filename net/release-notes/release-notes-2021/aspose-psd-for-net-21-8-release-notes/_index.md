@@ -1,7 +1,7 @@
 ---
 title: Aspose.PSD for .NET 21.8 - Release Notes
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose-psd-for-net-21-8-release-notes/
 ---
 
@@ -18,14 +18,14 @@ This page contains release notes for [Aspose.PSD for .NET 21.8](https://www.nug
 |PSDNET-685|Exception on saving PSD|Bug|
 |PSDNET-927|Incorrect distance between lines and symbols in Aspose.PSD when we using it without a license|Bug|
 
-# **Public API Changes**
+## **Public API Changes**
 # **Added APIs:**
 - None
 
-## **Removed APIs:**
+# **Removed APIs:**
 - None
 
-# **Usage examples:**
+## **Usage examples:**
 
 **PSDNET-663. The text spacing is incorrect in generated PSD**
 

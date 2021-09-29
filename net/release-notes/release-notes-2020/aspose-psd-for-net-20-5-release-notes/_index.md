@@ -24,12 +24,14 @@ This page contains release notes for [Aspose.PSD for .NET 20.5](https://www.nug
 |PSDNET-604|Exception when trying to open particular Psd file with Lab Color and 8 bit/channel|Bug|
 |PSDNET-598|Fix saving PSD image with Grayscale ColorMode 16 bit per channel to 8 bit per channel Grayscale PSD format|Bug|
 |PSDNET-599|Fix saving PSD image with Grayscale ColorMode 16 bit per channel to 16bit per channel RGB PSD format|Bug|
-# **Public API Changes**
+
+## **Public API Changes**
 # **Added APIs:**
 - None
-## **Removed APIs:**
+# **Removed APIs:**
 - None
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-595. Support of Layer Masks for Layer Groups**
 
 {{< highlight java >}}

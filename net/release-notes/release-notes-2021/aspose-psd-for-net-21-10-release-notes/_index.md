@@ -19,7 +19,7 @@ This page contains release notes for [Aspose.PSD for .NET 21.10](https://www.nu
 |PSDNET-948|Change Font and Color for TextLayer PSD|Bug|
 |PSDNET-971|Add ability to custom creating a layer with a vector mask|Enhancement|
 
-# **Public API Changes**
+## **Public API Changes**
 # **Added APIs:**
 - P:Aspose.PSD.FileFormats.Psd.Layers.SmartObjects.SmartObjectLayer.SmartFilters
 - T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SmartObjectResources.SmartFilters.Filters.AddNoiseSmartFilter
@@ -85,10 +85,10 @@ This page contains release notes for [Aspose.PSD for .NET 21.10](https://www.nu
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.FilterEffectMaskData.SheetMask
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.FilterEffectMaskData.SaveData(Aspose.PSD.StreamContainer)
 
-## **Removed APIs:**
+# **Removed APIs:**
 - None
 
-# **Usage examples:**
+## **Usage examples:**
 
 **PSDNET-128. Support of the Smart Filters mechanism**
 

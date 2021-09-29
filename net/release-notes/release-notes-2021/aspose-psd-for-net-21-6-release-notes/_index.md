@@ -19,14 +19,14 @@ This page contains release notes for [Aspose.PSD for .NET 21.6](https://www.nug
 |PSDNET-786|Exception when creating a TextLayer with text longer than 255 characters|Bug|
 |PSDNET-900|Text of the Text layer can not be rendered on Linux|Enhancement|
 
-# **Public API Changes**
+## **Public API Changes**
 # **Added APIs:**
 - None
 
-## **Removed APIs:**
+# **Removed APIs:**
 - None
 
-# **Usage examples:**
+## **Usage examples:**
 
 **PSDNET-546. Сlipping mask for a group does not render correctly**
 

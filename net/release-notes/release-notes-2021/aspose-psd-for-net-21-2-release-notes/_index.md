@@ -22,7 +22,7 @@ This page contains release notes for [Aspose.PSD for .NET 21.2](https://www.nug
 |PSDNET-824|Incorrect vogk resource after loading and saving the PSD image with shape layers and vector paths|Bug|
 |PSDNET-827|Exception on loading ReferenceStructure and EnumeratedReferenceStructure structures|Bug|
 
-# **Public API Changes**
+## **Public API Changes**
 # **Added APIs:**
 - M:Aspose.PSD.FileFormats.Core.VectorPaths.VectorShapeOriginSettings.#ctor
 - P:Aspose.PSD.FileFormats.Core.VectorPaths.VectorShapeOriginSettings.OriginType
@@ -54,10 +54,10 @@ This page contains release notes for [Aspose.PSD for .NET 21.2](https://www.nug
 - M:Aspose.PSD.FileFormats.Psd.Layers.SmartObjects.SmartObjectLayer.ReplaceContents(Aspose.PSD.Image,Aspose.PSD.ResolutionSetting)
 - M:Aspose.PSD.FileFormats.Psd.Layers.SmartObjects.SmartObjectLayer.ReplaceContents(System.String,Aspose.PSD.ResolutionSetting)
 
-## **Removed APIs:**
+# **Removed APIs:**
 - None
 
-# **Usage examples:**
+## **Usage examples:**
 
 **PSDNET-404. Support of vogkResource**
 

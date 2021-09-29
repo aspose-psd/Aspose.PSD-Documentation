@@ -24,7 +24,8 @@ This page contains release notes for Aspose.PSD for .NET 19.10
 |PSDNET-203|When text is updated with / (forward slash) characters, file cannot be opened in Photoshop|Bug|
 |PSDNET-199|PSD file cannot be saved when text layer contains linebreak only|Bug|
 |PSDNET-185|Extracted wrong Font size|Bug|
-# **Public API Changes**
+
+## **Public API Changes**
 # **Added APIs:**
 - T:Aspose.PSD.FileFormats.Psd.Layers.AdjustmentLayers.ColorBalanceAdjustmentLayer
 - P:Aspose.PSD.FileFormats.Psd.Layers.AdjustmentLayers.ColorBalanceAdjustmentLayer.PreserveLuminosity
@@ -73,9 +74,10 @@ This page contains release notes for Aspose.PSD for .NET 19.10
 - F:Aspose.PSD.ResizeType.Mitchell
 - F:Aspose.PSD.ResizeType.SinC
 - F:Aspose.PSD.ResizeType.Bell
-## **Removed APIs:**
+# **Removed APIs:**
 - None
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-207. Support of Color Balance Adjustment Layer**
 
 {{< highlight java >}}

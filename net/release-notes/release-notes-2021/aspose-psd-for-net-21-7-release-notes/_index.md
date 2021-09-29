@@ -17,15 +17,15 @@ This page contains release notes for [Aspose.PSD for .NET 21.7](https://www.nug
 |PSDNET-917|Aspose.PSD 21.6: ImageSaveException on an attempt to convert PSD to PNG|Bug|
 |PSDNET-858|Add to Aspose.PSD .Net 5.0 Configuration|Enhancement|
 
-# **Public API Changes**
+## **Public API Changes**
 # **Added APIs:**
 - M:Aspose.PSD.FontSettings.GetAdobeFontName(System.String)
 - P:Aspose.PSD.FileFormats.Psd.Layers.Text.ITextStyle.FontName
 
-## **Removed APIs:**
+# **Removed APIs:**
 - None
 
-# **Usage examples:**
+## **Usage examples:**
 
 **PSDNET-806. Support of the font editing using TextPortions**
 
