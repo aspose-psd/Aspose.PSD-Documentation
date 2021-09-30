@@ -22,11 +22,12 @@ This page contains release notes for Aspose.PSD for .NET 19.4
 |PSDNET-116|\r\n symbols are interpreted as double line break that is wrong|Bug|
 |PSDNET-117|If TextLayer is updated with string which contains LineBreaks then PSD File become unreadable|Bug|
 |PSDNET-118|If TextLayer is updated with string which contains Tabs symbols, processing fails with exception|Bug|
-# **Public API Changes**
+
+## **Public API Changes**
 # **Added APIs:**
 - M:Aspose.PSD.FileFormats.Psd.PsdImage.AddLayer(Aspose.PSD.FileFormats.Psd.Layers.Layer)
 - M:Aspose.PSD.FileFormats.Psd.Layers.Layer.#ctor(Aspose.PSD.RasterImage)
-## **Removed APIs:**
+# **Removed APIs:**
 - T:Aspose.PSD.FileFormats.Gif.GifImage
 - M:Aspose.PSD.FileFormats.Gif.GifImage.#ctor(Aspose.PSD.FileFormats.Gif.Blocks.GifFrameBlock,Aspose.PSD.IColorPalette)
 - M:Aspose.PSD.FileFormats.Gif.GifImage.#ctor(Aspose.PSD.FileFormats.Gif.Blocks.GifFrameBlock)
@@ -127,7 +128,8 @@ This page contains release notes for Aspose.PSD for .NET 19.4
 - M:Aspose.PSD.FileFormats.Tiff.TiffImage.ReplaceColor(System.Int32,System.Byte,System.Int32)
 - M:Aspose.PSD.FileFormats.Tiff.TiffImage.ReplaceNonTransparentColors(System.Int32)
 - M:Aspose.PSD.FileFormats.Tiff.TiffImage.ReplaceFrame(System.Int32,Aspose.PSD.FileFormats.Tiff.TiffFrame)
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-87. Make feature to load JPEG/PNG/etc image files to PsdImage without direct loading(Which is not supported in Aspose.PSD)**
 
 {{< highlight java >}}

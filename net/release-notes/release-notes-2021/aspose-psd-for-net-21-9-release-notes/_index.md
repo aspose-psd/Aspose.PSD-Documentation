@@ -1,7 +1,7 @@
 ---
 title: Aspose.PSD for .NET 21.9 - Release Notes
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose-psd-for-net-21-9-release-notes/
 ---
 
@@ -18,14 +18,14 @@ This page contains release notes for [Aspose.PSD for .NET 21.9](https://www.nug
 |PSDNET-951|After the creating of the new layer its Resources property is null that prevents manipulations (Resize for example)|Bug|
 |PSDNET-955|Unsupported of Compression methods ZipWithPrediction for 8bit|Bug|
 
-# **Public API Changes**
+## **Public API Changes**
 # **Added APIs:**
 - None
 
-## **Removed APIs:**
+# **Removed APIs:**
 - None
 
-# **Usage examples:**
+## **Usage examples:**
 
 **PSDNET-574. Make RLE Compression Default for PSD Saving to avoid huge output PSD**
 

@@ -19,16 +19,16 @@ This page contains release notes for [Aspose.PSD for .NET 21.3](https://www.nug
 |PSDNET-805|Incorrect Blending order and logic when there are more than one Layer Effect|Bug|
 |PSDNET-842|Stroke effect properties not saving to PSD file|Bug|
 
-# **Public API Changes**
+## **Public API Changes**
 # **Added APIs:**
 - T:Aspose.PSD.FileFormats.Psd.Layers.SectionDividerLayer
 - M:Aspose.PSD.FileFormats.Psd.Layers.SectionDividerLayer.GetRelatedLayerGroup
 - P:Aspose.PSD.FileFormats.Psd.Layers.SectionDividerLayer.IsVisibleInGroup
 
-## **Removed APIs:**
+# **Removed APIs:**
 - None
 
-# **Usage examples:**
+## **Usage examples:**
 
 **PSDNET-694. When reading PattResource, width and height was swapped**
 

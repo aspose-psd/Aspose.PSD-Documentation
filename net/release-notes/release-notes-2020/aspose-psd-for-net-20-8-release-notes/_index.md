@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.PSD for .NET 20.8](https://www.nug
 |PSDNET-664|Underline and strikethrough lost after focusing on the text in file saved with Aspose.PSD|Bug|
 |PSDNET-710|Regression: Aspose.PSD 20.7.0 breaks font sizes for older files|Bug|
 
-# **Public API Changes**
+## **Public API Changes**
 # **Added APIs:**
 - M:Aspose.PSD.FileFormats.Psd.Layers.FillLayers.FillLayer.ReplaceNonTransparentColors(System.Int32)
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.ClassID.#ctor(System.Byte[],System.Boolean)
@@ -148,9 +148,11 @@ This page contains release notes for [Aspose.PSD for .NET 20.8](https://www.nug
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.DurationDenominator
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Save(Aspose.PSD.StreamContainer,System.Int32)
 - F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.TypeToolKey
-## **Removed APIs:**
+
+# **Removed APIs:**
 - None
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-390. Support of PlLdResource (placed layer resource for Smart Object Layer)**
 {{< highlight csharp >}}
         void AssertAreEqual(object actual, object expected)

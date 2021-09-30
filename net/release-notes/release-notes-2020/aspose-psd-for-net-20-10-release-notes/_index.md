@@ -20,12 +20,13 @@ This page contains release notes for [Aspose.PSD for .NET 20.10](https://www.nu
 |PSDNET-711|Text Layer Is Shifted After saving without any changes|Bug|
 |PSDNET-720|Aspose.PSD 20.8: Psd to Tiff conversion exception|Bug|
 
-# **Public API Changes**
+## **Public API Changes**
 # **Added APIs:**
 - None
-## **Removed APIs:**
+# **Removed APIs:**
 - None
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-565. Exception on saving the specific PSD file with text layers**
 {{< highlight csharp >}}
             string sourceFilePath = "OneReview-InDesign-RefreshPreviewIxD(2).psd";

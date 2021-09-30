@@ -16,7 +16,8 @@ url: /net/aspose-psd-for-net-18-12-release-notes/
 |PSDNET-52|Possible: Rotation in PSD doesn't work|Bug|
 |PSDNET-88|Possible: Crop methods in the Aspose.Psd not working|Bug|
 |PSDNET-91|Apply changes of Aspose.Imaging to Aspose.PSD|Enhancement|
-# **Public API Changes**
+
+## **Public API Changes**
 Method    Aspose.PSD.FileFormats.Psd.PsdImage.AddRegularLayer
 
 Class    Aspose.PSD.CoreExceptions.ImageFormats.PsdImageArgumentException
@@ -204,7 +205,8 @@ Property    Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.PatternOverlayEffe
 Property    Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.PatternOverlayEffect.IsVisible
 
 Property    Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.PatternOverlayEffect.Opacity
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-76. Support of the Stroke Layer**
 
 **1) Fill type - Pattern**

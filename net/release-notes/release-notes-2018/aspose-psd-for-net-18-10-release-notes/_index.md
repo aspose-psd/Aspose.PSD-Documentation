@@ -15,7 +15,8 @@ url: /net/aspose-psd-for-net-18-10-release-notes/
 |PSDNET-74|Support of the adding of Layer Effects at run-time|Feature|
 |PSDNET-73|Optimizing of loading performance of resources which contain osTypeStructures|Bug|
 |PSDNET-79|Refactoring and memory leaks fixes in LayerAndMaskInfo|Enhancement|
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-14 Add support of blend modes besides Normal**
 
 {{< highlight java >}}

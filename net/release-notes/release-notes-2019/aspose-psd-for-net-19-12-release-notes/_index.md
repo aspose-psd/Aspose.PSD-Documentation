@@ -23,7 +23,8 @@ This page contains release notes for [Aspose.PSD for .NET 19.12](https://www.nu
 |PSDNET-161|Exception on updating text layers|Bug|
 |PSDNET-222|Resize some PSD files with layer masks works incorrect|Bug|
 |PSDNET-244|Saving PSD with some Globalization.CultureInfo.CurrentCulture leads to exceptions on loading|Bug|
-# **Public API Changes**
+
+## **Public API Changes**
 # **Added APIs:**
 - P:Aspose.PSD.FileFormats.Psd.PsdImage.LinkedLayersManager
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerMaskDataFull.UserMaskData
@@ -32,9 +33,11 @@ This page contains release notes for [Aspose.PSD for .NET 19.12](https://www.nu
 - M:Aspose.PSD.FileFormats.Psd.Layers.LinkedLayersManager.UnlinkLayer(Aspose.PSD.FileFormats.Psd.Layers.Layer)
 - M:Aspose.PSD.FileFormats.Psd.Layers.LinkedLayersManager.GetLayersByLinkGroupId(System.Int16)
 - M:Aspose.PSD.FileFormats.Psd.Layers.LinkedLayersManager.GetLinkGroupId(Aspose.PSD.FileFormats.Psd.Layers.Layer)
-## **Removed APIs:**
+
+# **Removed APIs:**
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerMaskData.ImageDataVector
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-11. Support of Linked Layer**
 
 {{< highlight java >}}

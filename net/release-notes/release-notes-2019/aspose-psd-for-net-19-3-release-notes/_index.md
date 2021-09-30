@@ -19,12 +19,14 @@ This page contains release notes for Aspose.PSD for .NET 19.3
 |PSDNET-96|Implement rendering of Stroke effect with Color Fill for export|Feature|
 |PSDNET-112|InnerData Transformers corrupts some layers with vector masks|Bug|
 |PSDNET-113|Updating text layer for PSD image throws error when opened in Photoshop|Bug|
-# **Public API Changes**
+
+## **Public API Changes**
 # **Added APIs:**
 - None
-## **Removed APIs:**
+# **Removed APIs:**
 - None
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-104. Rendering of rotated by TransformMatrix Text Layers**
 
 {{< highlight java >}}

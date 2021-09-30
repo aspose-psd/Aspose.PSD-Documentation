@@ -17,14 +17,14 @@ This page contains release notes for [Aspose.PSD for .NET 21.5](https://www.nug
 |PSDNET-862|Support resizing shape layers with vector paths when only a layer is resized|Feature|
 |PSDNET-578|Truncated text string|Bug|
 
-# **Public API Changes**
+## **Public API Changes**
 # **Added APIs:**
 - None
 
-## **Removed APIs:**
+# **Removed APIs:**
 - None
 
-# **Usage examples:**
+## **Usage examples:**
 
 **PSDNET-578. Truncated text string**
 

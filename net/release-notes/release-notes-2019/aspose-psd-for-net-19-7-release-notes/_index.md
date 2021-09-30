@@ -19,7 +19,8 @@ This page contains release notes for [Aspose.PSD for .NET 19.7](https://www.nug
 |PSDNET-130|Implement correct Resize method for PSD files|Feature|
 |PSDNET-165|Add support of export PSD to PDF|Feature|
 |PSDNET-186|Add support of export AI format (Version 2 and 3) to other formats|Feature|
-# **Public API Changes**
+
+## **Public API Changes**
 # **Added APIs:**
 - F:Aspose.PSD.FileFormat.Ai
 - T:Aspose.PSD.FileFormats.Ai.AiDataSection
@@ -65,9 +66,10 @@ This page contains release notes for [Aspose.PSD for .NET 19.7](https://www.nug
 - T:Aspose.PSD.FileFormats.Ai.AiSetupSection
 - M:Aspose.PSD.FileFormats.Ai.AiSetupSection.GetData
 - P:Aspose.PSD.ImageOptions.PdfOptions.PageSize
-## **Removed APIs:**
+# **Removed APIs:**
 - None
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-126. Support of Layer Vector Masks processing**
 
 {{< highlight java >}}

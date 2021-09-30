@@ -25,7 +25,8 @@ This page contains release notes for [Aspose.PSD for .NET 20.3](https://www.nug
 |PSDNET-541|Incorrect output after changing visibility of a LayerGroup|Bug|
 |PSDNET-516|Exception on loading PSD image: Color section (DropShadow Resource) must contain 3 color components for RGB or 4 color components for CMYK|Bug|
 |PSDNET-536|Exception if try to draw on newly created layer if simple version of Constructor is used|Bug|
-# **Public API Changes**
+
+## **Public API Changes**
 # **Added APIs:**
 - T:Aspose.PSD.FileFormats.Psd.FontBaseline
 - F:Aspose.PSD.FileFormats.Psd.FontBaseline.None
@@ -46,9 +47,10 @@ This page contains release notes for [Aspose.PSD for .NET 20.3](https://www.nug
 - P:Aspose.PSD.FileFormats.Psd.Layers.Text.ITextStyle.BaselineShift
 - P:Aspose.PSD.FileFormats.Psd.Layers.Text.ITextStyle.FontCaps
 - M:Aspose.PSD.FileFormats.Psd.Layers.Text.IText.ProducePortions(System.String[],Aspose.PSD.FileFormats.Psd.Layers.Text.ITextStyle,Aspose.PSD.FileFormats.Psd.Layers.Text.ITextParagraph)
-## **Removed APIs:**
+# **Removed APIs:**
 - None
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-523. Convert Adobe Illustrator files into PDFs**
 
 {{< highlight java >}}

@@ -22,13 +22,15 @@ This page contains release notes for Aspose.PSD for .NET 19.8
 |PSDNET-189|High memory usage on loading of PSD with ReadOnly Mode|Enhancement|
 |PSDNET-171|After the creation of new TextLayer, PSD file became unreadable for PS|Bug|
 |PSDNET-156|Exception on loading PSD|Bug|
-# **Public API Changes**
+
+## **Public API Changes**
 # **Added APIs:**
 - M:Aspose.PSD.FileFormats.Psd.Layers.Layer.#ctor(System.IO.Stream)
 - M:Aspose.PSD.FileFormats.Psd.Layers.Layer.#ctor(Aspose.PSD.RasterImage,System.Boolean)
-## **Removed APIs:**
+# **Removed APIs:**
 - M:Aspose.PSD.FileFormats.Psd.Layers.Layer.#ctor(Aspose.PSD.RasterImage)
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-184. Load JPEG,PNG and other image files to PsdImage from stream**
 
 {{< highlight java >}}

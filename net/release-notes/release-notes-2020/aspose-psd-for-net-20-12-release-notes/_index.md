@@ -23,7 +23,7 @@ This page contains release notes for [Aspose.PSD for .NET 20.12](https://www.nu
 |PSDNET-765|PsdImageException: Unknown resource header on trying to open PSB file with SmartObjectLayers|Enhancement|
 |PSDNET-798|Move Hierarchy of Vector Mask Classes to Core Namespace to ensure uniformity of Aspose.PSD and Aspose.Imaging Products|Enhancement|
 
-# **Public API Changes**
+## **Public API Changes**
 # **Added APIs:**
 - T:Aspose.PSD.FileFormats.Psd.PsdVersion
 - F:Aspose.PSD.FileFormats.Psd.PsdVersion.Psd
@@ -198,7 +198,8 @@ This page contains release notes for [Aspose.PSD for .NET 20.12](https://www.nu
 - M:Aspose.PSD.RasterImage.Save(System.IO.Stream,Aspose.PSD.ImageOptionsBase,Aspose.PSD.Rectangle)
 - M:Aspose.PSD.RectangleF.op_Multiply(Aspose.PSD.RectangleF,System.Single)
 - M:Aspose.PSD.RectangleF.op_Division(Aspose.PSD.RectangleF,System.Single)
-## **Removed APIs:**
+
+# **Removed APIs:**
 - T:Aspose.PSD.FileFormats.Psd.FileFormatVersion
 - F:Aspose.PSD.FileFormats.Psd.FileFormatVersion.Psd
 - F:Aspose.PSD.FileFormats.Psd.FileFormatVersion.Psb
@@ -293,7 +294,8 @@ This page contains release notes for [Aspose.PSD for .NET 20.12](https://www.nu
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.IVectorPathData.IsNotLinked
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.IVectorPathData.IsInverted
 - M:Aspose.PSD.Image.GetImage2Export(Aspose.PSD.ImageOptionsBase)
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-757. Support converting layers to Smart Object Layer**
 {{< highlight csharp >}}
             string dataDir = "PSDNET757_1\\";

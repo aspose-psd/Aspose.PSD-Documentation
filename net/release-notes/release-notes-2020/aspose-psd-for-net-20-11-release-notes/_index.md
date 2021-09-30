@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.PSD for .NET 20.11](https://www.nu
 |PSDNET-741|ImageLoadException is thrown when attempting to open the file|Bug|
 |PSDNET-744|Aspose.PSD 20.10: Cannot load Psd|Bug|
 
-# **Public API Changes**
+## **Public API Changes**
 # **Added APIs:**
 - M:Aspose.PSD.FileFormats.Psd.PsdImage.Convert(Aspose.PSD.ImageOptions.PsdOptions)
 - F:Aspose.PSD.FileFormats.Psd.ResourceBlock.ResouceBlockMeSaSignature
@@ -29,9 +29,10 @@ This page contains release notes for [Aspose.PSD for .NET 20.11](https://www.nu
 - M:Aspose.PSD.FileFormats.Psd.SmartObjectProvider.NewSmartObjectViaCopy(Aspose.PSD.FileFormats.Psd.Layers.SmartObjects.SmartObjectLayer)
 - M:Aspose.PSD.FileFormats.Psd.SmartObjectProvider.ConvertToSmartObject(System.Int32[])
 - M:Aspose.PSD.FileFormats.Psd.SmartObjectProvider.ConvertToSmartObject(Aspose.PSD.FileFormats.Psd.Layers.Layer[])
-## **Removed APIs:**
+# **Removed APIs:**
 - None
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-267. Exception on loading and saving the PSD file with Layer Effects**
 {{< highlight csharp >}}
             string dataDir = "PSDNET267_1\\";

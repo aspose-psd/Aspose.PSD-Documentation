@@ -23,7 +23,8 @@ This page contains release notes for [Aspose.PSD for .NET 19.9](https://www.nug
 |PSDNET-174|IndexOutOfRangeException on saving PSD image as JPEG|Bug|
 |PSDNET-180|Updating text layer text throws an exception|Bug|
 |PSDNET-182|Saving PSD image after RotateFlip operation produces a corrupted file which could not be open|Bug|
-# **Public API Changes**
+
+## **Public API Changes**
 # **Added APIs:**
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerGroup.AddLayerGroup(System.String,System.Int32)
 - T:Aspose.PSD.FileFormats.Psd.Layers.Text.IText
@@ -77,9 +78,10 @@ This page contains release notes for [Aspose.PSD for .NET 19.9](https://www.nug
 - P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientFillSettings.Scale
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.Scale
 - P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.Scale
-## **Removed APIs:**
+# **Removed APIs:**
 - None
-# **Usage examples:**
+
+## **Usage examples:**
 **PSDNET-160. Wrong layer name extracted**
 
 To display the layer name properly use the **DisplayName** property. A setter is now added for this property and the property can be modified. When Photoshop is saving layer name using the Name property the Korean characters are stored as byte 63'?' in ASCII.  Use the **DisplayName** property because the Name property does not support Korean characters.

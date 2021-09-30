@@ -16,14 +16,14 @@ This page contains release notes for [Aspose.PSD for .NET 21.1](https://www.nug
 |PSDNET-766|Aspose.PSD 20.10: Exception when trying to convert particular Psd file to png|Bug|
 |PSDNET-792|Exception on saving PSD with smart object to PNG|Bug|
 
-# **Public API Changes**
+## **Public API Changes**
 # **Added APIs:**
 - None
 
-## **Removed APIs:**
+# **Removed APIs:**
 - None
 
-# **Usage examples:**
+## **Usage examples:**
 **PSDNET-766. Aspose.PSD 20.10: Exception when trying to convert particular Psd file to png**
 {{< highlight csharp >}}
             const string baseFolder = "PSDNET766_1\\";
