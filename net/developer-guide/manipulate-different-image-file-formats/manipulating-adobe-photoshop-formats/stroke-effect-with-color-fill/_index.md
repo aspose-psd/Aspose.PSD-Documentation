@@ -16,3 +16,5 @@ The steps to render Stroke effect with Color fill are as simple as below:
 - Save the results.
 
 The following code snippet shows you how to render Stroke effect with Color fill.
+
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-PSD-StrokeEffectWithColorFill-StrokeEffectWithColorFill.cs" >}}
