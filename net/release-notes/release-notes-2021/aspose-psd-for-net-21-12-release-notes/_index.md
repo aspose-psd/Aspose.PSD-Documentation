@@ -13,6 +13,7 @@ This page contains release notes for [Aspose.PSD for .NET 21.12](https://www.nu
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
+|PSDNET-997|Add ability to programmatically limit fonts using|Feature|
 |PSDNET-785|Aspose.PSD 20.10: Failed to load PSD|Bug|
 |PSDNET-812|ImageLoad exception on loading PSD|Bug|
 |PSDNET-870|ImageLoad exception on loading PSD layer with unsupported CompressionMethod|Bug|
@@ -101,6 +102,39 @@ This page contains release notes for [Aspose.PSD for .NET 21.12](https://www.nu
                 psdImage.Save(
                     outputFilePng,
                     new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha, Progressive = true, CompressionLevel = 9 });
+            }
+{{< /highlight >}}
+
+**PSDNET-997. Add ability to programmatically limit fonts using**
+
+{{< highlight csharp >}}
+            string srcFile = "fonts_com_updated.psd";
+            string output = "etalon_fonts_com_updated.psd.png";
+
+            try
+            {
+                var fontList = new string[] { "Courier New", "Webdings", "Bookman Old Style" };
+                FontSettings.SetAllowedFonts(fontList);
+
+                var myriadReplacement = new string[] { "Courier New", "Webdings", "Bookman Old Style" };
+                var calibriReplacement = new string[] { "Webdings", "Courier New", "Bookman Old Style" };
+                var arialReplacement = new string[] { "Bookman Old Style", "Courier New", "Webdings" };
+                var timesReplacement = new string[] { "Arial", "NotExistedFont", "Courier New" };
+
+                FontSettings.SetFontReplacements("MyriadPro-Regular", myriadReplacement);
+                FontSettings.SetFontReplacements("Calibri", calibriReplacement);
+                FontSettings.SetFontReplacements("Arial", arialReplacement);
+                FontSettings.SetFontReplacements("Times New Roman", timesReplacement);
+
+                using (PsdImage image = (PsdImage)Image.Load(srcFile))
+                {
+                    image.Save(output, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+                }
+            } 
+            finally
+            {
+                FontSettings.SetAllowedFonts(null);
+                FontSettings.ClearFontReplacements();
             }
 {{< /highlight >}}
 
