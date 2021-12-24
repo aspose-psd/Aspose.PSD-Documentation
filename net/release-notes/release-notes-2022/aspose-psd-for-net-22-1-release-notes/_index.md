@@ -195,5 +195,32 @@ This page contains release notes for [Aspose.PSD for .NET 22.1](https://www.nug
 
 **PSDNET-1044. Support of many patterns data at PattResource**
 {{< highlight csharp >}}
+            string src = "psdnet1044.psd";
+            string output = "out_psdnet1044.psd";
 
+            using (var image = (PsdImage)Image.Load(src, new PsdLoadOptions() { LoadEffectsResource = true }))
+            {
+                PattResource pattResource = (PattResource)image.GlobalLayerResources[0];
+
+                if (pattResource.Patterns.Length == 2)
+                {
+                    Console.WriteLine("Correct reading of PattResourceData items.");
+                }
+
+                var fillLayer = FillLayer.CreateInstance(FillType.Color);
+                image.AddLayer(fillLayer);
+
+                IPatternFillSettings pattSetting = fillLayer.BlendingOptions.AddPatternOverlay().Settings;
+
+                pattSetting.PatternWidth = 3;
+                pattSetting.PatternHeight = 3;
+                pattSetting.PatternData = new int[]
+                {
+                    Color.White.ToArgb(), Color.White.ToArgb(), Color.Red.ToArgb(),
+                    Color.White.ToArgb(), Color.Green.ToArgb(), Color.White.ToArgb(),
+                    Color.Blue.ToArgb(), Color.White.ToArgb(), Color.White.ToArgb(),
+                };
+
+                image.Save(output);
+            }
 {{< /highlight >}}
