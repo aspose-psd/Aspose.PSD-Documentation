@@ -13,6 +13,7 @@ This page contains release notes for [Aspose.PSD for .NET 22.2](https://www.nug
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
+|PSDNET-1032|Adding support of .Net 6|Enhancement|
 |PSDNET-142|Support of Vibrance Adjustment Layers|Feature|
 |PSDNET-396|Support of vibAResource|Feature|
 |PSDNET-1057|Create an example of adding custom smart filters that are not supported in Aspose.PSD|Feature|
