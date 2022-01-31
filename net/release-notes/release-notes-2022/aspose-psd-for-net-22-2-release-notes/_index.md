@@ -135,16 +135,16 @@ string sourceFileName = "WithoutVibrance.psd";
 string outputFileNamePsd = "out_VibranceLayer.psd";
 string outputFileNamePng = "out_VibranceLayer.png";
 
-            using (PsdImage image = (PsdImage) Image.Load(sourceFileName))
-            {
-                // Creating a new VibranceLayer
-                VibranceLayer vibranceLayer = image.AddVibranceAdjustmentLayer();
-                vibranceLayer.Vibrance = 50;
-                vibranceLayer.Saturation = 100;
+using (PsdImage image = (PsdImage) Image.Load(sourceFileName))
+{
+    // Creating a new VibranceLayer
+    VibranceLayer vibranceLayer = image.AddVibranceAdjustmentLayer();
+    vibranceLayer.Vibrance = 50;
+    vibranceLayer.Saturation = 100;
 
-                image.Save(outputFileNamePsd);
-                image.Save(outputFileNamePng, new PngOptions());
-            }
+    image.Save(outputFileNamePsd);
+    image.Save(outputFileNamePng, new PngOptions());
+}
 {{< /highlight >}}
 
 **PSDNET-396. Support of vibAResource**
@@ -154,29 +154,29 @@ string outputFileNamePng = "out_VibranceLayer.png";
 string sourceFileName = "VibranceResource.psd";
 string outputFileName = "out_VibranceResource.psd";
 
-    using (PsdImage image = (PsdImage)Image.Load(sourceFileName))
+using (PsdImage image = (PsdImage)Image.Load(sourceFileName))
+{
+    foreach (var layer in image.Layers)
     {
-        foreach (var layer in image.Layers)
+        foreach (var resource in layer.Resources)
         {
-            foreach (var resource in layer.Resources)
+            if (resource is VibAResource)
             {
-                if (resource is VibAResource)
-                {
-                    var vibranceResource = (VibAResource)resource;
+                var vibranceResource = (VibAResource)resource;
 
-                    int vibranceValue =  vibranceResource.Vibrance;
-                    int saturationValue = vibranceResource.Saturation;
+                int vibranceValue =  vibranceResource.Vibrance;
+                int saturationValue = vibranceResource.Saturation;
 
-                    vibranceResource.Vibrance = vibranceValue * 2;
-                    vibranceResource.Saturation = saturationValue * 2;
+                vibranceResource.Vibrance = vibranceValue * 2;
+                vibranceResource.Saturation = saturationValue * 2;
 
-                    break;
-                }
+                break;
             }
         }
-
-        image.Save(outputFileName);
     }
+
+    image.Save(outputFileName);
+}
 {{< /highlight >}}
 
 **PSDNET-642. Disabled raster layer masks don't render correctly**
@@ -205,13 +205,13 @@ string sourceFile = "GrayscaleWithMask50x30.psd";
 string outputPsd = "output_psdnet644.psd";
 string outputPng = "output_psdnet644.png";
 
-            using (PsdImage image = (PsdImage)Image.Load(sourceFile))
-            {
-                image.Resize(25, 15);
+using (PsdImage image = (PsdImage)Image.Load(sourceFile))
+{
+    image.Resize(25, 15);
 
-                image.Save(outputPsd);
-                image.Save(outputPng, new PngOptions() {ColorType = PngColorType.TruecolorWithAlpha});
-            }
+    image.Save(outputPsd);
+    image.Save(outputPng, new PngOptions() {ColorType = PngColorType.TruecolorWithAlpha});
+}
 {{< /highlight >}}
 
 **PSDNET-1057. Create an example of adding custom smart filters that are not supported in Aspose.PSD**
@@ -219,79 +219,79 @@ string outputPng = "output_psdnet644.png";
 {{< highlight csharp >}}
 public void CustomSmartFilterExample(string sourceFile = "psdnet1057.psd", string outputPsd = "out_psdnet1057.psd", string outputPng = "out_psdnet1057.png")
 {
-// Inits the unsupported 'Crystallize' smart filter at input array
-SmartFilter[] InitUnknownSmartFilters(SmartFilter[] smartFilters)
-{
-// the 'Crystallize' smart filter ID.
-int id =  1131574132;
-
-                for (int i = 0; i < smartFilters.Length; i++)
-                {
-                    var smartFilter = smartFilters[i];
-                    if (smartFilter is UnknownSmartFilter && smartFilter.FilterId == id)
-                    {
-                        var customSmartFilterInstance = new CustomSmartFilterWithRenderer();
-                        customSmartFilterInstance.SourceDescriptor.Structures = smartFilter.SourceDescriptor.Structures;
-                        smartFilters[i] = customSmartFilterInstance;
-                    }
-                }
-
-                return smartFilters;
-            }
-
-            using (var image = (PsdImage)Image.Load(sourceFile))
-            {
-                SmartObjectLayer smartLayer = (SmartObjectLayer)image.Layers[1];
-                Layer maskLayer = image.Layers[2];
-                Layer regularLayer = image.Layers[3];
-
-                smartLayer.SmartFilters.Filters = InitUnknownSmartFilters(smartLayer.SmartFilters.Filters);
-                var smartFilter = smartLayer.SmartFilters.Filters[0];
-
-                // Apply filter to SmartObject
-                smartLayer.UpdateModifiedContent();
-                smartLayer.SmartFilters.UpdateResourceValues();
-
-                // Apply filter to layer mask
-                smartFilter.ApplyToMask(maskLayer);
-
-                //Apply filter to layer
-                smartFilter.Apply(regularLayer);
-
-                image.Save(outputPsd);
-                image.Save(outputPng, new PngOptions());
-            }
-        }
-
-        public sealed class CustomSmartFilterWithRenderer : SmartFilter, ISmartFilterRenderer
+    // Inits the unsupported 'Crystallize' smart filter at input array
+    SmartFilter[] InitUnknownSmartFilters(SmartFilter[] smartFilters)
+    {
+        // the 'Crystallize' smart filter ID.
+        int id =  1131574132;
+    
+        for (int i = 0; i < smartFilters.Length; i++)
         {
-            public override string Name
+            var smartFilter = smartFilters[i];
+            if (smartFilter is UnknownSmartFilter && smartFilter.FilterId == id)
             {
-                get { return "Custom 'Crystallize' smart filter\0"; }
-            }
-
-            public override int FilterId
-            {
-                // the 'Crystallize' smart filter ID.
-                get { return 1131574132; }
-            }
-
-            public PixelsData Render(PixelsData pixelsData)
-            {
-                // get filter structure
-                var filterDescriptor = (DescriptorStructure)this.SourceDescriptor.Structures[6];
-                // get value of Crystallize Size
-                var valueStructure = (IntegerStructure)filterDescriptor.Structures[0];
-
-                for (int i = 0; i < pixelsData.Pixels.Length; i++)
-                {
-                    if (i % valueStructure.Value == 0)
-                    {
-                        pixelsData.Pixels[i] = 0;
-                    }
-                }
-
-                return pixelsData;
+                var customSmartFilterInstance = new CustomSmartFilterWithRenderer();
+                customSmartFilterInstance.SourceDescriptor.Structures = smartFilter.SourceDescriptor.Structures;
+                smartFilters[i] = customSmartFilterInstance;
             }
         }
+    
+        return smartFilters;
+    }
+
+    using (var image = (PsdImage)Image.Load(sourceFile))
+    {
+        SmartObjectLayer smartLayer = (SmartObjectLayer)image.Layers[1];
+        Layer maskLayer = image.Layers[2];
+        Layer regularLayer = image.Layers[3];
+
+        smartLayer.SmartFilters.Filters = InitUnknownSmartFilters(smartLayer.SmartFilters.Filters);
+        var smartFilter = smartLayer.SmartFilters.Filters[0];
+
+        // Apply filter to SmartObject
+        smartLayer.UpdateModifiedContent();
+        smartLayer.SmartFilters.UpdateResourceValues();
+
+        // Apply filter to layer mask
+        smartFilter.ApplyToMask(maskLayer);
+
+        //Apply filter to layer
+        smartFilter.Apply(regularLayer);
+
+        image.Save(outputPsd);
+        image.Save(outputPng, new PngOptions());
+    }
+}
+
+public sealed class CustomSmartFilterWithRenderer : SmartFilter, ISmartFilterRenderer
+{
+    public override string Name
+    {
+        get { return "Custom 'Crystallize' smart filter\0"; }
+    }
+
+    public override int FilterId
+    {
+        // the 'Crystallize' smart filter ID.
+        get { return 1131574132; }
+    }
+
+    public PixelsData Render(PixelsData pixelsData)
+    {
+        // get filter structure
+        var filterDescriptor = (DescriptorStructure)this.SourceDescriptor.Structures[6];
+        // get value of Crystallize Size
+        var valueStructure = (IntegerStructure)filterDescriptor.Structures[0];
+
+        for (int i = 0; i < pixelsData.Pixels.Length; i++)
+        {
+            if (i % valueStructure.Value == 0)
+            {
+                pixelsData.Pixels[i] = 0;
+            }
+        }
+
+        return pixelsData;
+    }
+}
 {{< /highlight >}}
