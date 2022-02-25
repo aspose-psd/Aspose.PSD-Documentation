@@ -35,20 +35,19 @@ This page contains release notes for [Aspose.PSD for .NET 22.3](https://www.nug
 **PSDNET-210. Add property IsOpen for Layer Group**
 
 {{< highlight csharp >}}
-
 // Example of reading and writing IsOpen property at runtime.
 string sourceFileName = "LayerGroupOpenClose.psd";
 string outputFileName = "Output" + sourceFileName;
 
 using (var image = (PsdImage)Image.Load(sourceFileName))
 {
-foreach (var layer in image.Layers)
-{
-if (layer is LayerGroup && layer.Name == "Group 1")
-{
-bool isOpenedGroup1 = ((LayerGroup)layer).IsOpen;
-((LayerGroup)layer).IsOpen = !isOpenedGroup1;
-}
+    foreach (var layer in image.Layers)
+    {
+        if (layer is LayerGroup && layer.Name == "Group 1")
+        {
+            bool isOpenedGroup1 = ((LayerGroup)layer).IsOpen;
+            ((LayerGroup)layer).IsOpen = !isOpenedGroup1;
+        }
 
         if (layer is LayerGroup && layer.Name == "Group 2")
         {
@@ -59,14 +58,13 @@ bool isOpenedGroup1 = ((LayerGroup)layer).IsOpen;
 
     image.Save(outputFileName);
 }
-
 {{< /highlight >}}
 
 **PSDNET-643. PSD image with raster layer masks discards masks on saving to 16 bit PSD image**
 
 {{< highlight csharp >}}
-string sourceFilePath = "OneRegularAndOneRegularWithMask.psd";
-string outputFilePath = "out_OneRegularAndOneRegularWithMask.psd";
+            string sourceFilePath = "OneRegularAndOneRegularWithMask.psd";
+            string outputFilePath = "out_OneRegularAndOneRegularWithMask.psd";
 
             using (PsdImage image = (PsdImage)Image.Load(sourceFilePath))
             {
@@ -80,8 +78,8 @@ string outputFilePath = "out_OneRegularAndOneRegularWithMask.psd";
 **PSDNET-899. Blend mode Dissolve does not apply to the folder with mask**
 
 {{< highlight csharp >}}
-string sourceFile = "psdnet899.psd";
-string outputPng = "out_psdnet899.png";
+            string sourceFile = "psdnet899.psd";
+            string outputPng = "out_psdnet899.png";
 
             using (PsdImage image = (PsdImage) Image.Load(sourceFile))
             {
@@ -92,8 +90,8 @@ string outputPng = "out_psdnet899.png";
 **PSDNET-1047. Specific file can not be opened by Photoshop after the saving in Aspose.PSD 21.11**
 
 {{< highlight csharp >}}
-string sourceFile = "psdnet1047.psd";
-string outputPsd = "out_psdnet1047.psd";
+            string sourceFile = "psdnet1047.psd";
+            string outputPsd = "out_psdnet1047.psd";
 
             using (PsdImage image = (PsdImage) Image.Load(sourceFile))
             {
@@ -111,8 +109,8 @@ string outputPsd = "out_psdnet1047.psd";
 **PSDNET-1068. Incorrect rendering of the layer with Linear Dodge (Add) blend mode**
 
 {{< highlight csharp >}}
-string sourceFile = "broken.psd";
-string outputPng = "out_broken.psd.png";
+            string sourceFile = "broken.psd";
+            string outputPng = "out_broken.psd.png";
 
             using (var psdImage = (PsdImage) Image.Load(sourceFile))
             {
@@ -123,7 +121,7 @@ string outputPng = "out_broken.psd.png";
 **PSDNET-1069. Pattern Fill Layer throws exception on update after loading**
 
 {{< highlight csharp >}}
-string sourceFile = "AllTypesLayerPsd.psd";
+            string sourceFile = "AllTypesLayerPsd.psd";
 
             using (var image = (PsdImage) Image.Load(sourceFile))
             {
