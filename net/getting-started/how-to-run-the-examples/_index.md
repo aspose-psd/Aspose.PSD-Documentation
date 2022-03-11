@@ -3,6 +3,7 @@ title: How to Run the Examples
 type: docs
 weight: 90
 url: /net/how-to-run-the-examples/
+description: Learn how to run the examples relating to PSD file format library that are hosted on GitHub.
 ---
 
 ## **Software Requirements**
