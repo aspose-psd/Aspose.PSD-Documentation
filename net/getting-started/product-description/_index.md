@@ -3,6 +3,7 @@ title: Product Description
 type: docs
 weight: 10
 url: /net/product-description/
+description: PSD file format library allows to edit the PSD files, update layer properties, add watermarks, perform graphics operations or convert one file format into another. It is designed to be used with any of the .NET supported languages like C#, VB.NET and J# etc.
 ---
 
 **Welcome to Aspose.PSD for .NET**
