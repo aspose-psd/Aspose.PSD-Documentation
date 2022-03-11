@@ -3,6 +3,7 @@ title: Supported File Formats
 type: docs
 weight: 20
 url: /net/supported-file-formats/
+description: PSD manipulation library that can load and save the file formats like PSD, PSB, TIFF, JPEG, PNG, GIF, BMP and PDF.
 ---
 
 ## **Supported File Formats**
