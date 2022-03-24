@@ -4,6 +4,8 @@ type: docs
 weight: 20
 url: /java/
 is_root: true
+keywords: Photoshop Java API, PSD JAVA
+description: Photoshop Java API or Library allows an extensive manipulation of PSD file formats. It does not require Adobe Photoshop to be installed and supports PSD and PSB file formats for loading, manipulation and converting them to various raster file formats such as TIFF, JPEG, JPEG2000, PNG, GIF and BMP.
 ---
 
 {{% alert color="primary" %}} 
