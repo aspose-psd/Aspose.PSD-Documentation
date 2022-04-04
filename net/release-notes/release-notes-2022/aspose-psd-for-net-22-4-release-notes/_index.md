@@ -13,6 +13,7 @@ This page contains release notes for [Aspose.PSD for .NET 22.4](https://www.nug
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
+|PSDNET-261|Rendering of Outer Glow Layer Effect|Feature|
 |PSDNET-1123|Add support of Sha256 License|Enhancement|
 |PSDNET-1107|Positioning multi-line text does not match the result in Photoshop|Bug|
 |PSDNET-1113|The issue with loading PSD file on text resource data parsing|Bug|
@@ -25,6 +26,20 @@ This page contains release notes for [Aspose.PSD for .NET 22.4](https://www.nug
 - F:Aspose.PSD.FileFormats.Psd.JustificationMode.Left
 - F:Aspose.PSD.FileFormats.Psd.JustificationMode.Right
 - F:Aspose.PSD.FileFormats.Psd.JustificationMode.Center
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.BlendingOptions.AddOuterGlow
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.OuterGlowEffect
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.OuterGlowEffect.FillColor
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.OuterGlowEffect.BlendMode
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.OuterGlowEffect.IsVisible
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.OuterGlowEffect.Opacity
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.OuterGlowEffect.Intensity
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.OuterGlowEffect.IsAntiAliasing
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.OuterGlowEffect.Spread
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.OuterGlowEffect.Size
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.OuterGlowEffect.Noise
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.OuterGlowEffect.IsSoftBlend
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.OuterGlowEffect.Range
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.OuterGlowEffect.Jitter
 
 
 # **Removed APIs:**
@@ -32,6 +47,25 @@ This page contains release notes for [Aspose.PSD for .NET 22.4](https://www.nug
 
 
 ## **Usage examples:**
+
+**PSDNET-261. Rendering of Outer Glow Layer Effect**
+{{< highlight csharp >}}
+string src = "GreenLayer.psd";
+string output = "output261.png";
+
+using (var image = (PsdImage)Image.Load(src))
+{
+    OuterGlowEffect effect = image.Layers[1].BlendingOptions.AddOuterGlow();
+    effect.Range = 10;
+    effect.Spread = 10;
+    ((IColorFillSettings)effect.FillColor).Color = Color.Red;
+    effect.Opacity = 128;
+    effect.BlendMode = BlendMode.Normal;
+
+    image.Save(output, new PngOptions());
+}
+{{< /highlight >}}
+
 
 **PSDNET-1107. Positioning multi-line text does not match the result in Photoshop**
 
