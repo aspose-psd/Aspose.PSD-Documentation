@@ -3,6 +3,7 @@ title: Licensing
 type: docs
 weight: 70
 url: /net/licensing/
+description: Evaluate PSD Photoshop C# Library from NuGet and apply the license using file or stream to remove any restrictions from the installed evaluation.
 ---
 
 ## **Evaluation Version Limitations**
