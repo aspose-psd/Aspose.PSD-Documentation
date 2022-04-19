@@ -1,8 +1,10 @@
 ---
-title: Converting PSD Image To Raster Format
+title: Converting PSD Image To Raster Format using C#
+linktitle: Converting PSD Image To Raster Format
 type: docs
 weight: 10
 url: /net/converting-psd-image-to-raster-format/
+description: Using C# .NET Photoshop Manipulation API, developers can export PSD and PSB formats to JPEG, JPEG2000, PNG, TIFF, PDF, GIF and BMP formats.
 ---
 
 {{% alert color="primary" %}} 
