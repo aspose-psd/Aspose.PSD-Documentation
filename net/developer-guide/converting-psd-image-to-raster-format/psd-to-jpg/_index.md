@@ -1,11 +1,13 @@
 ---
-title: PSD to JPG
+title: Convert PSD to JPG using C#
+linktitle: PSD to JPG
 type: docs
 weight: 10
 url: /net/psd-to-jpg/
+description: C# .NET Photoshop Manipulation API allows you easily convert Adobe Photoshop File PSD to JPG file. Please take a look at sample code provided.
 ---
 
-Aspose.PSD is a PSD Format SDK, that allows you easily convert Adobe Photoshop File PSD to JPG file. You need to use following code snippet to do the job:
+C# .NET Photoshop Manipulation API - Aspose.PSD is a PSD Format SDK, that allows you easily convert Adobe Photoshop File PSD to JPG file. You need to use following code snippet to do the job:
 
 Below provided sample code demonstrates how to convert PSD to Jpg:
 

@@ -3,6 +3,8 @@ title: Aspose.PSD Product Family
 type: docs
 weight: 10
 url: /
+keywords: Photoshop C# Library, Photoshop Java API
+description: Photoshop C# and Java APIs or Libraries allow an extensive manipulation of PSD file formats. The products do not require Adobe Photoshop to be installed and support PSD and PSB file formats for loading, manipulation and converting them to various raster file formats such as TIFF, JPEG, JPEG2000, PNG, GIF and BMP.
 ---
 
 {{% alert color="primary" %}} 

@@ -3,6 +3,7 @@ title: Why not Adobe Photoshop SDK
 type: docs
 weight: 100
 url: /net/why-not-adobe-photoshop-sdk/
+description: Learn why PSD file format library is better option than Adobe Photoshop SDK, compare the security, stability, scalability, features of both.
 ---
 
 {{% alert color="primary" %}}

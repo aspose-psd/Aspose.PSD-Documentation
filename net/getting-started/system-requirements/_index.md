@@ -3,6 +3,7 @@ title: System Requirements
 type: docs
 weight: 60
 url: /net/system-requirements/
+description: System Requirements of PSD Photoshop C# Library on Windows and Linux OS.
 ---
 
 

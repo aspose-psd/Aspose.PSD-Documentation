@@ -1,15 +1,15 @@
 ---
-title: PSD to PDF
+title: Convert PSD to PDF using C#
+linktitle: PSD to PDF
 type: docs
 weight: 20
 url: /net/psd-to-pdf/
+description: Using the provided code, the C#.NET Photoshop Manipulation API can replace Adobe Photoshop on a server and convert PSD files to PDF with selectable text.
 ---
 
-Aspose.PSD is a PSD SDK that can replace Adobe Photoshop on a server. Conversion of PSD file to PDF with selectable text can be easily made.
+C#.NET Photoshop Manipulation API - Aspose.PSD is a PSD SDK that can replace Adobe Photoshop on a server. Conversion of PSD file to PDF with selectable text can be easily made.
 
 To convert PSD to PDF you can use the following code:
-
-
 
 Below provided sample code demonstrates how to convert PSD to PDF:
 

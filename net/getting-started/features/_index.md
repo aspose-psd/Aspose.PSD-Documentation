@@ -3,6 +3,7 @@ title: Features
 type: docs
 weight: 30
 url: /net/features/
+description: Product core features include read or write PSD, PSB, AI file formats, perform graphics drawing, process images and work with Layers and Masks.
 ---
 
 ## **Product Features**

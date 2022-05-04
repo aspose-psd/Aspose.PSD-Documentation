@@ -1,8 +1,10 @@
 ---
-title: Developer Guide
+title: Developer Guide - C# .NET Photoshop Manipulation API
+linktitle: Developer Guide
 type: docs
 weight: 20
 url: /net/developer-guide/
+description: PSD Photoshop C# Library Developer Guide explains how to use C# to work with PSD and Ai files locally, through your own web service or in other cases.
 ---
 
 ## **Articles in this section**

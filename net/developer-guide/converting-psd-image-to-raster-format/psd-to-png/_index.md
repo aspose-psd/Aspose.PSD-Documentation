@@ -1,11 +1,13 @@
 ---
-title: PSD to PNG
+title: Convert PSD to PNG using C#
+linktitle: PSD to PNG
 type: docs
 weight: 30
 url: /net/psd-to-png/
+description: C# .NET Photoshop Manipulation API can convert from PSD format to PNG Format with the code provided in this article.
 ---
 
-Aspose.PSD is a PSD Format SDK, that can make convert from PSD format to Png Format.
+Aspose.PSD is a PSD Format SDK and C# .NET Photoshop Manipulation API, that can convert from PSD format to PNG Format.
 
 For this PSD conversion you should use the following C# code:
 

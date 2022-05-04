@@ -1,8 +1,10 @@
 ---
-title: Cropping PSD file while converting to PNG
+title: Crop PSD file while converting to PNG in C#
+linktitle: Crop PSD file while converting to PNG
 type: docs
 weight: 20
 url: /net/cropping-psd-file-while-converting-to-png/
+description: Using C# .NET Photoshop Manipulation API, developers can crop the PSD image while converting it to raster format. This topic explains how to do it with sample code.
 ---
 
 {{% alert color="primary" %}} 

@@ -3,6 +3,7 @@ title: Render text with different colors in Text Layer
 type: docs
 weight: 30
 url: /net/render-text-with-different-colors-in-text-layer/
+description: C# .NET Photoshop Manipulation API supports converting PSD files to images when the text in the PSD file contains different colors. The following code snippet demonstrates converting a PSD file with different colors in the TextLayer to PNG.
 ---
 
 ## **Render text with different colors in Text Layer**

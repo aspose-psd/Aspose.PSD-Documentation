@@ -3,6 +3,7 @@ title: Installation
 type: docs
 weight: 50
 url: /net/installation/
+description: Install PSD file format library using NuGet or Package Manager Console.
 ---
 
 ## **Installing Aspose.PSD for .NET through NuGet**

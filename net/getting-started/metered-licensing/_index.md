@@ -3,6 +3,7 @@ title: Metered Licensing
 type: docs
 weight: 80
 url: /net/metered-licensing/
+description: PSD Photoshop C# Library allows developers to apply metered key which is a new licensing mechanism and will be used along with existing licensing method.
 ---
 
 {{% alert color="primary" %}} 
