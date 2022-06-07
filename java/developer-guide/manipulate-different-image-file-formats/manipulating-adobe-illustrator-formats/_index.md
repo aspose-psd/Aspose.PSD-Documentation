@@ -60,4 +60,8 @@ Aspose.PSD for Java provides the [**AiImage**](https://apireference.aspose.com/j
 
 
 
+## **Exporting AI File to PDF**
+Aspose.PSD for Java provides the [**AiImage**](https://apireference.aspose.com/java/psd/com.aspose.psd.fileformats.ai/AiImage) class to load Adobe Illustrator files and the same can be used to export the AI file to [PDF](https://docs.fileformat.com/pdf/) format. This example demonstrates the usage of Aspose.PSD for Java API to export Adobe Illustrator file to PDF image.
+
+{{< gist "aspose-com-gists" "31800d807a72f1f50fe4b29374119227" "Examples-src-main-java-com-aspose-psd-examples-ModifyingAndConvertingImages-AI-AIToPDF-AIToPDF.java" >}}
 
