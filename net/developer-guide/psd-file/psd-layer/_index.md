@@ -16,7 +16,7 @@ You can find UI to manipulate the layer on the following screenshot:
 
 But Aspose.PSD specializes on programmatic manipulation of PSD Layer via [C# ](/psd/net/home/)and [Java](https://docs.aspose.com/display/psdjava/Aspose.PSD+for+Java+Home).
 
-Additional documentation can be found in this Article: [Manipulating Images](/psd/net/manipulating-images-html/). All manipulation can be processed to PSD Preview and Layer, you find more info in[Aspose.PSD Raster Image API Reference](https://apireference.aspose.com/psd/net/aspose.psd/rasterimage).
+Additional documentation can be found in this Article: [Manipulating Images](/psd/net/manipulating-images-html/). All manipulation can be processed to PSD Preview and Layer, you find more info in[Aspose.PSD Raster Image API Reference](https://reference.aspose.com/psd/net/aspose.psd/rasterimage).
 ## **Available PSD Layer API**
 - Layer Effects
 - Layers common properties

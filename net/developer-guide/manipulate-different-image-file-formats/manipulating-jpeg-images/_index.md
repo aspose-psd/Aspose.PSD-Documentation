@@ -6,7 +6,7 @@ url: /net/manipulating-jpeg-images/
 ---
 
 ## **Using ExifData Class to Read and Modify Jpeg EXIF Tags**
-Almost all digital cameras (including smartphones), scanners and other systems handling image save images with EXIF (Exchangeable Image File) information. Camera settings and scene information are recorded by the camera into the image file. EXIF data also include shutter speed, date and time a photo was taken, focal length, exposure compensation, metering pattern and if a flash was used. Aspose.Imaging APIs has made possible to extract the EXIF information from a given image in a very easy and simple manner. Developers may also write EXIF data to the images or modify the existing information as per their requirement. Aspose.PSD has provided [ExifData](https://apireference.aspose.com/psd/net/aspose.psd.exif/exifdata) class for reading, writing and modifying the EXIF data, where as [Aspose.PSD.Exif.Enums](https://apireference.aspose.com/psd/net/aspose.psd.exif.enums) namespace contains the relevant enumerations used in the process.
+Almost all digital cameras (including smartphones), scanners and other systems handling image save images with EXIF (Exchangeable Image File) information. Camera settings and scene information are recorded by the camera into the image file. EXIF data also include shutter speed, date and time a photo was taken, focal length, exposure compensation, metering pattern and if a flash was used. Aspose.Imaging APIs has made possible to extract the EXIF information from a given image in a very easy and simple manner. Developers may also write EXIF data to the images or modify the existing information as per their requirement. Aspose.PSD has provided [ExifData](https://reference.aspose.com/psd/net/aspose.psd.exif/exifdata) class for reading, writing and modifying the EXIF data, where as [Aspose.PSD.Exif.Enums](https://reference.aspose.com/psd/net/aspose.psd.exif.enums) namespace contains the relevant enumerations used in the process.
 ### **Reading EXIF Data**
 Aspose.PSD APIs provide means to read EXIF data from a given image. Below provided steps illustrate the usage of ExifData class to read the EXIF information from an image.
 
@@ -30,7 +30,7 @@ Using Aspose.PSD APIs, developers can write new EXIF information and modify exis
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-JPEG-WritingAndModifyingEXIFData-WritingAndModifyingEXIFData.cs" >}}
 ## **Extracting thumbnails from PSD resources**
-Thumbnails are reduced-size versions of pictures, used to display a significant part of the picture instead of the full frame. Some image files (especially the ones shot with a digital camera) have a thumbnail image embedded in the file. Aspose.PSD API allows you to extract PSD resource thumbnails and store it separately on disk. Thumbnail resources contain ExifData.[Thumbnail](https://apireference.aspose.com/psd/net/aspose.psd.exif/jpegexifdata/properties/thumbnail) property that can retrieve the thumbnail data. The code snippet provided below demonstrates how to use it.
+Thumbnails are reduced-size versions of pictures, used to display a significant part of the picture instead of the full frame. Some image files (especially the ones shot with a digital camera) have a thumbnail image embedded in the file. Aspose.PSD API allows you to extract PSD resource thumbnails and store it separately on disk. Thumbnail resources contain ExifData.[Thumbnail](https://reference.aspose.com/psd/net/aspose.psd.exif/jpegexifdata/properties/thumbnail) property that can retrieve the thumbnail data. The code snippet provided below demonstrates how to use it.
 
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-JPEG-ExtractThumbnailFromPSD-ExtractThumbnailFromPSD.cs" >}}
@@ -65,7 +65,7 @@ The code snippet below demonstrate how to use the ExifData.Thumbnail property to
 
 In this case, the Aspose.PSD API cannot estimate the thumbnail image size, but it can check the size of the entire EXIF data segment. This cannot be bigger than 65,535 bytes.
 ## **Using JpegExifData Class to Read and Modify Jpeg EXIF Tags**
-Aspose.PSD APIs provide [JpegExifData](https://apireference.aspose.com/psd/net/aspose.psd.exif/jpegexifdata) class that is exclusive to Jpeg image formats to retrieve & update EXIF information. This article demonstrates the usage of JpegExifData class to achieve the same. Aspose.PSD.Exif.JpegExifData class serves as EXIF data container for Jpeg images, and provide means to retrieve standard Jpeg EXIF tags as demonstrated below:
+Aspose.PSD APIs provide [JpegExifData](https://reference.aspose.com/psd/net/aspose.psd.exif/jpegexifdata) class that is exclusive to Jpeg image formats to retrieve & update EXIF information. This article demonstrates the usage of JpegExifData class to achieve the same. Aspose.PSD.Exif.JpegExifData class serves as EXIF data container for Jpeg images, and provide means to retrieve standard Jpeg EXIF tags as demonstrated below:
 
 
 

@@ -18,7 +18,7 @@ Using Aspose.PSD for .NET, developers can convert PSB to PSD file format. This a
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-PSB-PSBToPSD-PSBToPSD.cs" >}}
 
-Using Aspose.PSD for .NET, developers can convert PSB to PDF file format. This article shows how to export/convert PSB file to PDF format with Aspose.PSD. Aspose.PSD for .NET provides the Load method exposed by [**Image**](https://apireference.aspose.com/psd/net/aspose.psd/image) class to load PSB files and same can be used to save the results. The [**PdfOptions**](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/pdfoptions) class provides options for creating the PDF such as [PageSize](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/pdfoptions/properties/pagesize), JpegQuality and others. These options can be used to get the desired standard of PDF.
+Using Aspose.PSD for .NET, developers can convert PSB to PDF file format. This article shows how to export/convert PSB file to PDF format with Aspose.PSD. Aspose.PSD for .NET provides the Load method exposed by [**Image**](https://reference.aspose.com/psd/net/aspose.psd/image) class to load PSB files and same can be used to save the results. The [**PdfOptions**](https://reference.aspose.com/psd/net/aspose.psd.imageoptions/pdfoptions) class provides options for creating the PDF such as [PageSize](https://reference.aspose.com/psd/net/aspose.psd.imageoptions/pdfoptions/properties/pagesize), JpegQuality and others. These options can be used to get the desired standard of PDF.
 ## **Converting PSB File to PDF**
 
 The following code snippet shows you how to convert PSB to PDF file

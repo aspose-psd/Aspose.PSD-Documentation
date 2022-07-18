@@ -20,14 +20,14 @@ Sometimes you need to export PSD image layers to Multi-page TIFF file format. Th
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-TIFF-ExportToMultiPageTiff-ExportToMultiPageTiff.cs" >}}
 ## **TiffOptions Configuration**
 
-Developers can adjust different properties of [TiffOptions](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/tiffoptions) class to get desired results. In this document, we will focus on 4 main properties that controls the resultant image attributes.
+Developers can adjust different properties of [TiffOptions](https://reference.aspose.com/psd/net/aspose.psd.imageoptions/tiffoptions) class to get desired results. In this document, we will focus on 4 main properties that controls the resultant image attributes.
 
 These properties are listed below.
 
-1. [TiffOptions.Photometric](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/tiffoptions/properties/photometric)
-1. [TiffOptions.Compression](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/tiffoptions/properties/compression)
-1. [TiffOptions.BitsPerSample](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/tiffoptions/properties/bitspersample)
-1. [TiffOptions.Predictor](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/tiffoptions/properties/predictor)
+1. [TiffOptions.Photometric](https://reference.aspose.com/psd/net/aspose.psd.imageoptions/tiffoptions/properties/photometric)
+1. [TiffOptions.Compression](https://reference.aspose.com/psd/net/aspose.psd.imageoptions/tiffoptions/properties/compression)
+1. [TiffOptions.BitsPerSample](https://reference.aspose.com/psd/net/aspose.psd.imageoptions/tiffoptions/properties/bitspersample)
+1. [TiffOptions.Predictor](https://reference.aspose.com/psd/net/aspose.psd.imageoptions/tiffoptions/properties/predictor)
 
 Whenever we initialize an empty TiffOptions structure, each option is set to its default value, for instance compression is set to None, BitsPerSample is set as 1 and Photometric as MinIsWhite. Saving into this format will make the final image black n white and this is expected behavior for such options combination. In order to get the colored results you have to set all the above mentioned properties to values that correspond to desired color space or you can initialize the TiffOptions structure with predefined settings as discussed later in this article. Provided below is a table describing the expected parameter values that you can set in order to achieve desired results. Please note, you should set all 4 columns through TiffOptions in order to save any loaded/created image to TIFF file format.
 
@@ -41,7 +41,7 @@ Whenever we initialize an empty TiffOptions structure, each option is set to its
 |RGB|LZW/Uncompressed|[8,8,8,8] (3 RGB channels and additional alpha channel may be set through TiffOptions.AlphaStorage) Actually any additional channels count is supported but each channel must have 8 bit size like [8,8,8,8,8,8]|None/Horizontal|
 All 4 properties should be set through TiffOptions in order to save any image format to Tiff format. When employing different combinations, some viewers (including the Windows Photo Viewer) may refuse to render the resultant image due to the limited support they offer. In such case, please pick different viewer for your testing.
 ### **Predefined Settings for TiffOptions Class**
-In order to facilitate the users and to avoid the miss-configuration of the TiffOptions instance, the Aspose.PSD for .NET API has exposed another constructor that accepts a parameter of type [TiffExpectedFormat](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.tiff.enums/tiffexpectedformat). Based on the selected value from the TiffExpectedFormat enumeration, the API auto configures all the mandatory properties for the TiffOptions instance in order to produce the desired results. Before we move towards the sample code, here is the list of the TiffExpectedFormat fields and their details for better understanding of the usage.
+In order to facilitate the users and to avoid the miss-configuration of the TiffOptions instance, the Aspose.PSD for .NET API has exposed another constructor that accepts a parameter of type [TiffExpectedFormat](https://reference.aspose.com/psd/net/aspose.psd.fileformats.tiff.enums/tiffexpectedformat). Based on the selected value from the TiffExpectedFormat enumeration, the API auto configures all the mandatory properties for the TiffOptions instance in order to produce the desired results. Before we move towards the sample code, here is the list of the TiffExpectedFormat fields and their details for better understanding of the usage.
 
 
 - TiffExpectedFormat.Default: Setting the field to Default acts similar to the default constructor of TiffOptions class with no compression set and BitsPerPixel set to 1 in order to produce a black n white result. It is advised to use this field when other format specific properties are to be set manually according to the desired results.

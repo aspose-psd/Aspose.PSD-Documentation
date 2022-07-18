@@ -9,7 +9,7 @@ url: /net/convert-psd-to-other-formats/
 ## **Convert PSD to PDF**
 
 
-Aspose.PSD for .NET provides the [Image](https://apireference.aspose.com/psd/net/aspose.psd/image) class to load PSD files and the same can be used to save the image to PDF format. Below the provided sample code demonstrates how to convert PSD to PDF.
+Aspose.PSD for .NET provides the [Image](https://reference.aspose.com/psd/net/aspose.psd/image) class to load PSD files and the same can be used to save the image to PDF format. Below the provided sample code demonstrates how to convert PSD to PDF.
 
 
 

@@ -36,7 +36,7 @@ Notes:
 1. The value of brightness must be in range from -150 to 150.
 2. The value of contrast must be in range from -50 to 100.
 
-Refer to the documentation of [BrightnessContrastLayer](https://apireference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.adjustmentlayers/BrightnessContrastLayer) for more details.
+Refer to the documentation of [BrightnessContrastLayer](https://reference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.adjustmentlayers/BrightnessContrastLayer) for more details.
 
 ## Conclusion
 
