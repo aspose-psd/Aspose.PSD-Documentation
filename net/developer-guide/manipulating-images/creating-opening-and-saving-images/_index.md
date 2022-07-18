@@ -8,14 +8,14 @@ url: /net/creating-opening-and-saving-images/
 ## **Creating Image Files**
 Aspose.PSD for .NET allows developers to create their own images. Use the static Create method exposed by the Image class to create new images. All you need to do is to supply the appropriate object of one of the classes from the ImageOptions namespace for the desired output image format. To create an image file, first create an instance of one of the classes from the ImageOptions namespace. These classes determine the output image format. Below are some classes from the ImageOptions namespace (note that only PSD file formats family are currently supported for creation):
 
-[PsdOptions](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/psdoptions) sets the options for creating a PSD file. Image files can be created by setting an output path or by setting a stream.
+[PsdOptions](https://reference.aspose.com/psd/net/aspose.psd.imageoptions/psdoptions) sets the options for creating a PSD file. Image files can be created by setting an output path or by setting a stream.
 ### **Creating by Setting Path**
-Create PsdOptions from [ImageOptions](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions) namespace and set the various properties. The most important property to set is the Source property. This property specifies where the image data resides (in a file or a stream). In the example below, the source is a file. After setting the properties, pass the object to one of the static [Create](https://apireference.aspose.com/psd/net/aspose.psd/image/methods/create) methods along with width and height parameter. The width and height are defined in pixels.
+Create PsdOptions from [ImageOptions](https://reference.aspose.com/psd/net/aspose.psd.imageoptions) namespace and set the various properties. The most important property to set is the Source property. This property specifies where the image data resides (in a file or a stream). In the example below, the source is a file. After setting the properties, pass the object to one of the static [Create](https://reference.aspose.com/psd/net/aspose.psd/image/methods/create) methods along with width and height parameter. The width and height are defined in pixels.
 
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingAndFormattingImages-CreatingbySettingPath-CreatingbySettingPath.cs" >}}
 ### **Creating Using Stream**
-The process for creating an image using a stream is the same as for using a path. The only difference is that you need to create an instance of [StreamSource](https://apireference.aspose.com/psd/net/aspose.psd.sources/streamsource) by passing a Stream object to its constructor and assigning it to the Source property.
+The process for creating an image using a stream is the same as for using a path. The only difference is that you need to create an instance of [StreamSource](https://reference.aspose.com/psd/net/aspose.psd.sources/streamsource) by passing a Stream object to its constructor and assigning it to the Source property.
 
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingAndFormattingImages-CreatingUsingStream-CreatingUsingStream.cs" >}}

@@ -19,7 +19,7 @@ As mentioned earlier Color Balance adjustment layer in Aspose.PSD for Java is ju
 
 So, let us apply this knowledge in practice. For an example we choose a reddish photo of a woman&#39;s face (b). The face is so reddish and we are going to fix that by **adding Color Balance adjustment layer** to decrease red and increase cyan basically (a) to get the face that looks more naturally (c). Again, there is a lot of work to do with this image but within this article it is all what we will do.
 
-![Color Balance adjustment layer example](color-balance-adjustment-layer-example-figure-1.png) The API of Color Balance adjustment layer has flat design. Therefore, the [ColorBalanceAdjustmentLayer](https://apireference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.adjustmentlayers/colorbalanceadjustmentlayer) class that is all you need. First of all,preserve luminosity because it is disabled by default. After, add a bit of green and a more yellow for shadows using corresponding methods (names of which consists of the particular tonal range area name and color names in the color pair), then add more cyan and a little of blue for midtones, and finally addmore cyan besides a little of magenta and blue:
+![Color Balance adjustment layer example](color-balance-adjustment-layer-example-figure-1.png) The API of Color Balance adjustment layer has flat design. Therefore, the [ColorBalanceAdjustmentLayer](https://reference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.adjustmentlayers/colorbalanceadjustmentlayer) class that is all you need. First of all,preserve luminosity because it is disabled by default. After, add a bit of green and a more yellow for shadows using corresponding methods (names of which consists of the particular tonal range area name and color names in the color pair), then add more cyan and a little of blue for midtones, and finally addmore cyan besides a little of magenta and blue:
 
     ColorBalanceAdjustmentLayer colorBalanceAdjustmentLayer = psdImage.addColorBalanceAdjustmentLayer();
     colorBalanceAdjustmentLayer.setPreserveLuminosity(true);
@@ -35,7 +35,7 @@ Now, we have got the picture we wanted! It is so simple, is not it?
 
 Pay attention that _the value of each color pair must be in range from -100 to 100_ that is negative values for subtractive colors and positive for primary colors respectively, just like in Photoshop editor.
 
-Refer to our API reference to get to know more technical details about [Color Balance adjustment layer](https://apireference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.adjustmentlayers/colorbalanceadjustmentlayer).
+Refer to our API reference to get to know more technical details about [Color Balance adjustment layer](https://reference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.adjustmentlayers/colorbalanceadjustmentlayer).
 
 ## Conclusion
 

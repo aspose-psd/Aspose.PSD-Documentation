@@ -6,7 +6,7 @@ url: /java/support-of-blwhresource/
 ---
 
 ## **Support of BlwhResource**
-The BlwhResource contains Black & White Adjustment Layer Data. Aspose.PSD supports BlwhResource in PSD files.  For this, the API provides the [BlwhResource](https://apireference.aspose.com/java/psd/com.aspose.psd.fileformats.psd.layers.layerresources/BlwhResource) class.
+The BlwhResource contains Black & White Adjustment Layer Data. Aspose.PSD supports BlwhResource in PSD files.  For this, the API provides the [BlwhResource](https://reference.aspose.com/java/psd/com.aspose.psd.fileformats.psd.layers.layerresources/BlwhResource) class.
 
 The following code snippet shows you how Aspose.PSD supports BlwhResource.
 

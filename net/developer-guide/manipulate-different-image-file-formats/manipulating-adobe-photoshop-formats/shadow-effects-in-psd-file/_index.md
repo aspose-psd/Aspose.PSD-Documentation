@@ -7,7 +7,7 @@ url: /net/shadow-effects-in-psd-file/
 
 
 ## **Inner Shadow Effect**
-Using [Aspose.PSD for .NET](https://products.aspose.com/psd/net), developers can set inner shadow effects on different elements. The [***Inner Shadow***](https://apireference.aspose.com/net/psd/aspose.psd.fileformats.psd.layers.layereffects/innershadoweffect) effect is used to add a diffused shadow to the inside of an object and to adjust its color, offset and blur.
+Using [Aspose.PSD for .NET](https://products.aspose.com/psd/net), developers can set inner shadow effects on different elements. The [***Inner Shadow***](https://reference.aspose.com/net/psd/aspose.psd.fileformats.psd.layers.layereffects/innershadoweffect) effect is used to add a diffused shadow to the inside of an object and to adjust its color, offset and blur.
 
 Below is the code demonstration of the said functionality.
 

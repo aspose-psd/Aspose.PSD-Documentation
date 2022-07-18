@@ -30,7 +30,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.PSD for Java Product Page](https://products.aspose.com/psd/java)
 - [Download Aspose.PSD for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-psd)
 - [Install Aspose.PSD for Java from Maven Repository](/psd/java/installation/)
-- [Aspose.PSD for Java API Reference Guide](https://apireference.aspose.com/java/psd)
+- [Aspose.PSD for Java API Reference Guide](https://reference.aspose.com/java/psd)
 - [Download Examples at GitHub Repository](https://github.com/aspose-psd/Aspose.PSD-for-Java)
 - [Aspose.PSD for Java Free Support Forum](https://forum.aspose.com/c/psd)
 - [Aspose.PSD for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)

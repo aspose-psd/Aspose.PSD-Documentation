@@ -6,12 +6,12 @@ url: /net/list-of-psd-layer-resources/
 ---
 
 ## **Overview**
-Aspose.PSD Supports Low-Level API Manipulation with Layer Resources. Each Layer of Adobe® Photoshop® File contains a group of resources, that contains information about the creation date of [Layer](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer), Layer Name, [Layer Left](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer/properties/left), Right, Bottom, [Top of Layer](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer/properties/top), and other additional information.
+Aspose.PSD Supports Low-Level API Manipulation with Layer Resources. Each Layer of Adobe® Photoshop® File contains a group of resources, that contains information about the creation date of [Layer](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer), Layer Name, [Layer Left](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer/properties/left), Right, Bottom, [Top of Layer](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer/properties/top), and other additional information.
 
 You can get from these resource information that commonly hidden by Photoshop UI.
 
 
-If we haven't implemented the resources you need, you can write on [PSD Forum ](https://forum.aspose.com/c/psd)or use [Unknown Resource](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.layerresources/unknownresource) and change its data byte by byte.
+If we haven't implemented the resources you need, you can write on [PSD Forum ](https://forum.aspose.com/c/psd)or use [Unknown Resource](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.layerresources/unknownresource) and change its data byte by byte.
 ## **List of the Layer Resources**
 
 |` `**Layer Resource Prefix**|**Description**|

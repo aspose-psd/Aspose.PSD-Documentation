@@ -8,13 +8,13 @@ url: /net/crop-rotate-and-resize-images/
 ## **Cropping Images**
 Image cropping usually refers to the removal of the outer parts of an image to help improve the framing. Cropping may also be used for to cut out some portion of an image to increase the focus on a particular area. Aspose.PSD API supports two different approaches to image cropping: by shifts and rectangle.
 ### **Cropping by Shifts**
-The [RasterImage](https://apireference.aspose.com/psd/net/aspose.psd/rasterimage) class provides an overloaded version of the Crop method that accepts 4 integer values denoting Left, Right, Top & Bottom. Based on these four values, the Crop method moves the image boundaries towards the center of the image while discarding the outer portion. The code snippet below demonstrates how to crop an image by shifts.
+The [RasterImage](https://reference.aspose.com/psd/net/aspose.psd/rasterimage) class provides an overloaded version of the Crop method that accepts 4 integer values denoting Left, Right, Top & Bottom. Based on these four values, the Crop method moves the image boundaries towards the center of the image while discarding the outer portion. The code snippet below demonstrates how to crop an image by shifts.
 
 
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingAndFormattingImages-CroppingbyShifts-CroppingbyShifts.cs" >}}
 ### **Cropping by Rectangle**
-The [RasterImage](https://apireference.aspose.com/psd/net/aspose.psd/rasterimage) class provides another overloaded version of the Crop method that accepts an instance of the Rectangle class. You can cut out any portion of an image by providing the desired boundaries to the Rectangle object. The code snippet below demonstrates how to Crop any image by Rectangle.
+The [RasterImage](https://reference.aspose.com/psd/net/aspose.psd/rasterimage) class provides another overloaded version of the Crop method that accepts an instance of the Rectangle class. You can cut out any portion of an image by providing the desired boundaries to the Rectangle object. The code snippet below demonstrates how to Crop any image by Rectangle.
 
 
 
@@ -34,13 +34,13 @@ The following code example demonstrates how to set the RotateFlip property of an
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingAndFormattingImages-RotatinganImage-RotatinganImage.cs" >}}
 ## **Rotating an Image on a Specific Angle**
-Aspose.PSD for .NET API exposing the [RasterImage](https://apireference.aspose.com/psd/net/aspose.psd/rasterimage).Rotate method to facilitate its users who wish to rotate an image on a specific angle. Unlike the [RasterImage](https://apireference.aspose.com/psd/net/aspose.psd/rasterimage).RotateFlip method, the [RasterImage](https://apireference.aspose.com/psd/net/aspose.psd/rasterimage).Rotate method accepts three parameters:
+Aspose.PSD for .NET API exposing the [RasterImage](https://reference.aspose.com/psd/net/aspose.psd/rasterimage).Rotate method to facilitate its users who wish to rotate an image on a specific angle. Unlike the [RasterImage](https://reference.aspose.com/psd/net/aspose.psd/rasterimage).RotateFlip method, the [RasterImage](https://reference.aspose.com/psd/net/aspose.psd/rasterimage).Rotate method accepts three parameters:
 
 1. Rotation angle: A float type parameter that specifies the rotation angle to which the image has to be rotated. A positive value rotates the image clockwise; a negative value performs an anticlockwise rotation.
 1. Resize proportionally: A Boolean type parameter specifies if the image size has to changed according to the rotated rectangle (corner points) projections. If set to false, the image dimensions would be untouched and only internal image contents are rotated.
 1. Background color: A Color type parameter specifies the color to be filled in the background of the rotated image.
 
-The code snippet below demonstrates the usage of [RasterImage](https://apireference.aspose.com/psd/net/aspose.psd/rasterimage).Rotate method.
+The code snippet below demonstrates the usage of [RasterImage](https://reference.aspose.com/psd/net/aspose.psd/rasterimage).Rotate method.
 
 
 
@@ -78,7 +78,7 @@ You can resize images by passing new height & width values as parameters to the 
 ### **ResizeType Enumeration**
 ResizeType determines the type of re-sizing to be performed on the image based on the selected filter.
 
-Members of [ResizeType](https://apireference.aspose.com/psd/net/aspose.psd/resizetype) Enumeration
+Members of [ResizeType](https://reference.aspose.com/psd/net/aspose.psd/resizetype) Enumeration
 
 |**Member Name**|**Value**|**Description**|
 | :- | :- | :- |

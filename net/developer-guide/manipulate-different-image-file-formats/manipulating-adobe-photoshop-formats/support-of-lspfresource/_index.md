@@ -6,7 +6,7 @@ url: /net/support-of-lspfresource/
 ---
 
 ## **Support of LspfResource**
-The LspfResource contains settings about Layer Protected setting. Aspose.PSD supports LspfResource in PSD files.  For this, the API provides the [LspfResource](https://apireference.aspose.com/net/psd/aspose.psd.fileformats.psd.layers.layerresources/lspfresource) class.
+The LspfResource contains settings about Layer Protected setting. Aspose.PSD supports LspfResource in PSD files.  For this, the API provides the [LspfResource](https://reference.aspose.com/net/psd/aspose.psd.fileformats.psd.layers.layerresources/lspfresource) class.
 
 The following code snippet shows you how Aspose.PSD supports LspfResource.
 

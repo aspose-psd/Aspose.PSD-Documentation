@@ -6,14 +6,14 @@ url: /net/working-with-layers/
 ---
 
 ## **Create a Layer Group**
-A layer group consists of one or more layers and it helps to organize similar or related layers. Using Aspose.PSD for .NET you can create a layer group. For this purpose, a new method [**AddLayerGroup**](https://apireference.aspose.com/net/psd/aspose.psd.fileformats.psd/psdimage/methods/addlayergroup)** **has been added in a **[PsdImage ](https://apireference.aspose.com/net/psd/aspose.psd.fileformats.psd/psdimage)**class to adds the layer group**.** 
+A layer group consists of one or more layers and it helps to organize similar or related layers. Using Aspose.PSD for .NET you can create a layer group. For this purpose, a new method [**AddLayerGroup**](https://reference.aspose.com/net/psd/aspose.psd.fileformats.psd/psdimage/methods/addlayergroup)** **has been added in a **[PsdImage ](https://reference.aspose.com/net/psd/aspose.psd.fileformats.psd/psdimage)**class to adds the layer group**.** 
 
 ** 
 
 The steps to create layer groups are as simple as below:
 
 - Create an instance of an image using the PsdImage class with specified width, height and image options.
-- Create a [**LayerGroup** ](https://apireference.aspose.com/net/psd/aspose.psd.fileformats.psd.layers/layergroup)with the specified group name and index.
+- Create a [**LayerGroup** ](https://reference.aspose.com/net/psd/aspose.psd.fileformats.psd.layers/layergroup)with the specified group name and index.
 - Create an instance of the Layer class and assign the PSD image to it.
 - Add the created layer to the layer group using the AddLayer method exposed by LayerGroup class
 - Save the results.
@@ -24,7 +24,7 @@ The following code snippet shows you how to create a layer group.
 
 
 ## **Rename a Layer**
-You can use any name that you would like, but the typical practice is to use a general description of the object or element that is on that layer. This article demonstrates how you can change the name of a layer using Aspose.PSD for .NET. For this purpose, a new property [**DisplayName**](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer/properties/displayname) has been added in Layer class to display a layer name properly. It has been observed that when Photoshop saves a layer name using the [**Name**](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer/properties/name) property, then Korean characters are stored as byte 63'?' in ASCII. So, if you want to display a layer name properly then use the **DisplayName** property because the **Name** property does not support Korean characters.
+You can use any name that you would like, but the typical practice is to use a general description of the object or element that is on that layer. This article demonstrates how you can change the name of a layer using Aspose.PSD for .NET. For this purpose, a new property [**DisplayName**](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer/properties/displayname) has been added in Layer class to display a layer name properly. It has been observed that when Photoshop saves a layer name using the [**Name**](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer/properties/name) property, then Korean characters are stored as byte 63'?' in ASCII. So, if you want to display a layer name properly then use the **DisplayName** property because the **Name** property does not support Korean characters.
 
 The following code sample shows how you can rename a layer.
 

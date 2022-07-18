@@ -11,7 +11,7 @@ In this article we are going to add Exposure adjustment layer into Adobe® Photo
 
 ## API overview
 
-The Exposure adjustment layer configures through the [ExposureLayer](https://apireference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.adjustmentlayers/exposurelayer) class that contains the following properties to work with exposure adjustment:
+The Exposure adjustment layer configures through the [ExposureLayer](https://reference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.adjustmentlayers/exposurelayer) class that contains the following properties to work with exposure adjustment:
 
 - It defines how much light the photo has by squeezing or stretching the whole histogram relative to the blacks. So, it affects mainly highlights.
 - Unlike exposure offset affects mainly shadows.
@@ -32,7 +32,7 @@ The whole adjustment is made mainly using gamma correction. However, exposure an
 
 Pay attention that exposure must be in range from -20.0 to 20.0, offset value must be in range from -0.5 to 0.5 and the range of value of gamma correction must be between 9.99 and 0.01.
 
-Refer to [API reference of Exposure adjustment layer](https://apireference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.adjustmentlayers/ExposureLayer) for more details.
+Refer to [API reference of Exposure adjustment layer](https://reference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.adjustmentlayers/ExposureLayer) for more details.
 
 ## Conclusion
 

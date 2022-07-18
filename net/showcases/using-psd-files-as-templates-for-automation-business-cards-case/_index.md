@@ -30,7 +30,7 @@ How to find the layer in PSD file by its name
 
 
 
-When the layer is found, we can update it in a common way, using [Graphics](https://apireference.aspose.com/psd/net/aspose.psd/graphics):
+When the layer is found, we can update it in a common way, using [Graphics](https://reference.aspose.com/psd/net/aspose.psd/graphics):
 
 How to Draw on the PSD layer Graphics
 
@@ -38,7 +38,7 @@ How to Draw on the PSD layer Graphics
 
 In this case, we draw a newly loaded [PNG image](https://wiki.fileformat.com/image/png/) on the existing PSD layer, so the old data will be lost in the new file.
 
-But what if we also need to update text? The process will be similar. Find [Text Layer](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/textlayer) by its name then we programmatically [update the Text Layer of Photoshop File](/psd/net/render-text-with-different-colors-in-text-layer/).
+But what if we also need to update text? The process will be similar. Find [Text Layer](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/textlayer) by its name then we programmatically [update the Text Layer of Photoshop File](/psd/net/render-text-with-different-colors-in-text-layer/).
 
 How to update Text Layer in Photoshop using C#
 
@@ -64,7 +64,7 @@ Above we showed the most simple way to replace image in a layer of PSD File.
 
 But Aspose.PSD can offer more complex additional features like adding a new layer, removing old layers, and update of text layer using different styles in multi-line text.
 
-We can find [Layer ](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer)that we want to replace, then we find its index in Layers List, remove him and insert a new Layer after the creation of it from [Jpeg File](https://wiki.fileformat.com/image/jpeg/) to the same place.
+We can find [Layer ](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer)that we want to replace, then we find its index in Layers List, remove him and insert a new Layer after the creation of it from [Jpeg File](https://wiki.fileformat.com/image/jpeg/) to the same place.
 
 Create a new layer from file and insert it to PSD Image using [Aspose.PSD](https://products.aspose.com/psd/net)
 
@@ -74,15 +74,15 @@ Create a new layer from file and insert it to PSD Image using [Aspose.PSD](https
 
 At the end of this file code snippet, we correct the layer position and save new Layers’ array to Psd Image.
 
-How to copy [PsdImage ](https://apireference.aspose.com/imaging/net/aspose.imaging.fileformats.psd/psdimage)Layer properties
+How to copy [PsdImage ](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.psd/psdimage)Layer properties
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Documentation-CSharp-Aspose-PsdFileAsATemplate-Snippet-7.cs" >}}
 
 
 
-And after all, we need to update text layers in the existing PSD image by C#. Aspose.PSD supports[updating of TextLayer by Portions](/psd/net/working-with-text-layers/). Each [text portion](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.text/itextportion) has a unique combination of Style and Paragraph properties.
+And after all, we need to update text layers in the existing PSD image by C#. Aspose.PSD supports[updating of TextLayer by Portions](/psd/net/working-with-text-layers/). Each [text portion](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.text/itextportion) has a unique combination of Style and Paragraph properties.
 
-How to copy [PsdImage ](https://apireference.aspose.com/imaging/net/aspose.imaging.fileformats.psd/psdimage)Layer properties
+How to copy [PsdImage ](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.psd/psdimage)Layer properties
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Documentation-CSharp-Aspose-PsdFileAsATemplate-Snippet-8.cs" >}}
 

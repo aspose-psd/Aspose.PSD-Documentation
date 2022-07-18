@@ -6,13 +6,13 @@ url: /net/converting-ai-image-to-raster-format/
 ---
 
 ## **Overview**
-Aspose.PSD allows converting [Ai](/psd/net/ai-adobe-illustrator-format/) to Jpeg, Jpeg2000, Png, Tiff, Pdf, Gif, [Psd ](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd/psdimage)and Bmp formats.
+Aspose.PSD allows converting [Ai](/psd/net/ai-adobe-illustrator-format/) to Jpeg, Jpeg2000, Png, Tiff, Pdf, Gif, [Psd ](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd/psdimage)and Bmp formats.
 
 
 
 Raster images generally are rectangular grids of pixels. You can’t enlarge them without losing quality.
 
-A vector image like[Ai Image](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.ai/aiimage) is made from lines and shapes. Aspose.PSD supports the ability to render Illustrator primitives with different fill and stroke and with the custom weight.
+A vector image like[Ai Image](https://reference.aspose.com/psd/net/aspose.psd.fileformats.ai/aiimage) is made from lines and shapes. Aspose.PSD supports the ability to render Illustrator primitives with different fill and stroke and with the custom weight.
 
 At this moment supported version of AI file up to 8 and working on support of all versions.
 

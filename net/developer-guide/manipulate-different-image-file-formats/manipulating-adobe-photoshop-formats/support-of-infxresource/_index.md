@@ -6,7 +6,7 @@ url: /net/support-of-infxresource/
 ---
 
 ## **Support of InfxResource**
-The InfxResource contains data about the blending of interior elements. Aspose.PSD supports InfxResource in PSD files.  For this, the API provides the [InfxResource](https://apireference.aspose.com/net/psd/aspose.psd.fileformats.psd.layers.layerresources/infxresource) class.
+The InfxResource contains data about the blending of interior elements. Aspose.PSD supports InfxResource in PSD files.  For this, the API provides the [InfxResource](https://reference.aspose.com/net/psd/aspose.psd.fileformats.psd.layers.layerresources/infxresource) class.
 
 The following code snippet shows you how Aspose.PSD supports InfxResource.
 

@@ -6,7 +6,7 @@ url: /net/support-of-socoresource/
 ---
 
 ## **Support of SoCoResource**
-` `[**SoCoResource**](https://apireference.aspose.com/net/psd/aspose.psd.fileformats.psd.layers.layerresources/socoresource) contains information about Color Fill Layers. This article demonstrates how [Aspose.PSD](https://products.aspose.com/psd) for .NET supports [SoCoResource ](https://apireference.aspose.com/net/psd/aspose.psd.fileformats.psd.layers.layerresources/socoresource)in a PSD file. 
+` `[**SoCoResource**](https://reference.aspose.com/net/psd/aspose.psd.fileformats.psd.layers.layerresources/socoresource) contains information about Color Fill Layers. This article demonstrates how [Aspose.PSD](https://products.aspose.com/psd) for .NET supports [SoCoResource ](https://reference.aspose.com/net/psd/aspose.psd.fileformats.psd.layers.layerresources/socoresource)in a PSD file. 
 
 - Load a PSD file as an image using the factory method Load exposed by Image class.
 - Get SoCoResource from the image layer
