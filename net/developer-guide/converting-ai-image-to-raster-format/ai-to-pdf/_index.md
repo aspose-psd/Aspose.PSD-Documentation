@@ -13,7 +13,7 @@ Below provided sample code demonstrates how to export the AI file to PDF with th
 
 
 
-You can specify additional PDF parameters in [PdfOptions](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/pdfoptions), like Author, Keywords, Subject, Title.
+You can specify additional PDF parameters in [PdfOptions](https://reference.aspose.com/psd/net/aspose.psd.imageoptions/pdfoptions), like Author, Keywords, Subject, Title.
 
 Mass server processing of AI files to PDF can be useful for business automation. PDF format can not be edited as a PSD file. PDF Format can not be changed, so you can use it as an unchangeable format to work with your customers or partners.
 

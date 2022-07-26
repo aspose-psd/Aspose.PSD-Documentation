@@ -14,4 +14,4 @@ To add graphic file as Layer to PSD use the following code:
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-Opening-LoadingImageFromStream-LoadingImageFromStream.cs" >}}
 
 
-To change Layers order, please look at the following [PSD Layers API Reference](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd/psdimage/properties/layers) in [Psd Image](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd/psdimage) class
+To change Layers order, please look at the following [PSD Layers API Reference](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd/psdimage/properties/layers) in [Psd Image](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd/psdimage) class

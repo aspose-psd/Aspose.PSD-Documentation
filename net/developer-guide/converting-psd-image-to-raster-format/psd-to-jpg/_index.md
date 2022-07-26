@@ -15,7 +15,7 @@ Below provided sample code demonstrates how to convert PSD to Jpg:
 
 You can specify JPEG File Format quality, JPEG Allowed Lossy Error, and other parameters of PSD export to JPG.
 
-You can export PSD file after the editing or pixel-perfect in [Read-Only Mode](https://apireference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode), where will be used PSD File Preview.
+You can export PSD file after the editing or pixel-perfect in [Read-Only Mode](https://reference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode), where will be used PSD File Preview.
 
 Here the example of export [Photoshop Gradient](/psd/net/support-of-fill-layers/) and [PSD Text Layer](/psd/net/working-with-text-layers/):
 

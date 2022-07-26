@@ -6,7 +6,7 @@ url: /net/drawing-images-using-graphics/
 ---
 
 ## **Drawing Images using Graphics**
-With the Aspose.PSD library you can draw simple shapes like lines, rectangles and circles, as well as complex shapes like polygons, curves, arcs and Bezier shapes. Aspose.PSD library creates such shapes using [Graphics](https://apireference.aspose.com/psd/net/aspose.psd/graphics) class that resides in the Aspose.PSD namespace. Graphics objects are responsible for performing different drawing operations on an image, thus changing the image's surface. The [Graphics](https://apireference.aspose.com/psd/net/aspose.psd/graphics) class uses a variety of helper objects to enhance the shapes:
+With the Aspose.PSD library you can draw simple shapes like lines, rectangles and circles, as well as complex shapes like polygons, curves, arcs and Bezier shapes. Aspose.PSD library creates such shapes using [Graphics](https://reference.aspose.com/psd/net/aspose.psd/graphics) class that resides in the Aspose.PSD namespace. Graphics objects are responsible for performing different drawing operations on an image, thus changing the image's surface. The [Graphics](https://reference.aspose.com/psd/net/aspose.psd/graphics) class uses a variety of helper objects to enhance the shapes:
 
 ·         Pens, to draw lines, outline shapes, or render other geometric representations.
 
@@ -14,7 +14,7 @@ With the Aspose.PSD library you can draw simple shapes like lines, rectangles an
 
 ·         Fonts, to define the shape of characters of text.
 ### **Drawing with the Graphics Class**
-Below is a code example demonstrating the use of the [Graphics](https://apireference.aspose.com/psd/net/aspose.psd/graphics) class. The example source code has been split into several parts to keep it simple and easy to follow. Step by step, the examples show how to:
+Below is a code example demonstrating the use of the [Graphics](https://reference.aspose.com/psd/net/aspose.psd/graphics) class. The example source code has been split into several parts to keep it simple and easy to follow. Step by step, the examples show how to:
 
 1. Create an image.
 1. Create and initialize a Graphics object.
@@ -31,11 +31,11 @@ Then create and initialize a Graphics object by passing the Image object to its 
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingImages-DrawingArc-DrawingArc.cs" >}}
 #### **Clear the Surface**
-Clear the Graphics surface by calling the [Graphics](https://apireference.aspose.com/psd/net/aspose.psd/graphics) class Clear method and pass color as a parameter. This method fills the Graphics surface with the color passed in as an argument.
+Clear the Graphics surface by calling the [Graphics](https://reference.aspose.com/psd/net/aspose.psd/graphics) class Clear method and pass color as a parameter. This method fills the Graphics surface with the color passed in as an argument.
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingImages-DrawingUsingGraphics-DrawingUsingGraphics.cs" >}}
 #### **Draw an Ellipse**
-You may notice that the [Graphics](https://apireference.aspose.com/psd/net/aspose.psd/graphics) class has exposed plenty of methods to draw and fill shapes. You'll find get the complete list of methods in the Aspose.PSD for .NET API Reference. There are several overloaded versions of the DrawEllipse method exposed by the Graphics class. All these methods accept a Pen object as its first argument. The later parameters are passed to define the bounding rectangle around the ellipse. For the sake of this example, use the version accepting a Rectangle object as the second parameter to draw an ellipse using the Pen object in your desired color.
+You may notice that the [Graphics](https://reference.aspose.com/psd/net/aspose.psd/graphics) class has exposed plenty of methods to draw and fill shapes. You'll find get the complete list of methods in the Aspose.PSD for .NET API Reference. There are several overloaded versions of the DrawEllipse method exposed by the Graphics class. All these methods accept a Pen object as its first argument. The later parameters are passed to define the bounding rectangle around the ellipse. For the sake of this example, use the version accepting a Rectangle object as the second parameter to draw an ellipse using the Pen object in your desired color.
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingImages-CoreDrawingFeatures-CoreDrawingFeatures.cs" >}}
 #### **Draw a Filled Polygon**

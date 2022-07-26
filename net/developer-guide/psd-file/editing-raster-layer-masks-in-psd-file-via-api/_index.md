@@ -8,7 +8,7 @@ url: /net/editing-raster-layer-masks-in-psd-file-via-api/
 ## **Overview**
 **To automate PSD format editing and change PSD file without Adobe® Photoshop® you can use the Aspose.PSD API provided below. There are C# and .NET code snippets that can help you to modify PSD files.**
 
-Using PSD Layer and Vector Masks we are able to hide and show layer pixels without permanently deleting them. Raster masks are also called a layer mask or user mask. Access to both raster and vector masks in Aspose.PSD is provided through the [LayerMaskData](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer/properties/layermaskdata) layer property which can be an instance of '[LayerMaskDataShort](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatashort)' and '[LayerMaskDataFull](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatafull)' classes that are child classes of abstract 'LayerMaskData' class. If a layer has both raster and vector masks then [LayerMaskDataFull ](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatafull)instance is provided. If a layer has only a raster or a vector mask then [LayerMaskDataShort ](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatashort)instance is provided. If the LayerMaskData property is null then the layer has no masks or only a disabled vector mask.
+Using PSD Layer and Vector Masks we are able to hide and show layer pixels without permanently deleting them. Raster masks are also called a layer mask or user mask. Access to both raster and vector masks in Aspose.PSD is provided through the [LayerMaskData](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer/properties/layermaskdata) layer property which can be an instance of '[LayerMaskDataShort](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatashort)' and '[LayerMaskDataFull](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatafull)' classes that are child classes of abstract 'LayerMaskData' class. If a layer has both raster and vector masks then [LayerMaskDataFull ](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatafull)instance is provided. If a layer has only a raster or a vector mask then [LayerMaskDataShort ](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatashort)instance is provided. If the LayerMaskData property is null then the layer has no masks or only a disabled vector mask.
 
 
 |![todo:image_alt_text](editing-raster-layer-masks-in-psd-file-via-api_1.png)|<p>A raster mask and a disabled vector mask LayerMaskDataShort</p><p>A disabled raster mask  LayerMaskDataShort</p><p>A raster mask and a vector mask  LayerMaskDataFull</p><p>A raster mask  LayerMaskDataShort</p><p>A vector mask  LayerMaskDataShort</p><p>A disabled vector mask null (But vector resource is present)</p>|
@@ -20,7 +20,7 @@ Below provided sample code demonstrates how to get a layer raster mask
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Documentation-CSharp-Aspose-WorkingWithRasterMasks-Snippet-1.cs" >}}
 
-Otherwise, type of the LayerMaskData layer property is LayerMaskDataShort. In this case, let’s check if the layer has only a raster mask by checking the Flags property. It should not contain [LayerMaskFlags](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskflags).**UserMaskFromRenderingOtherData** flag, otherwise the mask is a vector mask cache**.**
+Otherwise, type of the LayerMaskData layer property is LayerMaskDataShort. In this case, let’s check if the layer has only a raster mask by checking the Flags property. It should not contain [LayerMaskFlags](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskflags).**UserMaskFromRenderingOtherData** flag, otherwise the mask is a vector mask cache**.**
 
 Getting mask code snippet:
 
@@ -58,7 +58,7 @@ Code snippet how to remove Layer Mask from PSD File.
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Documentation-CSharp-Aspose-WorkingWithRasterMasks-Snippet-7.cs" >}}
 ## **Updating a layer raster mask in the PSD image**
-This is straightforward:  if the mask is in the short format we have to change ImageData and MaskRectangle if need, otherwise [UserMaskData ](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatafull/properties/usermaskdata)and [UserMaskRectangle ](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatafull/properties/usermaskrectangle)should be changed. The following C# .NET code snippet can be used for updating a layer mask:
+This is straightforward:  if the mask is in the short format we have to change ImageData and MaskRectangle if need, otherwise [UserMaskData ](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatafull/properties/usermaskdata)and [UserMaskRectangle ](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layermaskdatafull/properties/usermaskrectangle)should be changed. The following C# .NET code snippet can be used for updating a layer mask:
 
 Update PSD Layer Mask with C#
 
@@ -70,7 +70,7 @@ Update PSD Layer Mask with C#
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Documentation-CSharp-Aspose-WorkingWithRasterMasks-Snippet-12.cs" >}}
 ## **Updating a vector mask in the PSD file when a layer raster mask is present**
-It is supposed that a user has already changed a vector path resource. Then it can update the vector mask simply by calling the [AddLayerMask ](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer/methods/addlayermask)layer method:
+It is supposed that a user has already changed a vector path resource. Then it can update the vector mask simply by calling the [AddLayerMask ](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer/methods/addlayermask)layer method:
 
 Update [PSD Layer Vector Mask ](/psd/net/layer-vector-mask/)with C#
 
@@ -78,7 +78,7 @@ Update [PSD Layer Vector Mask ](/psd/net/layer-vector-mask/)with C#
 ## **Adding a layer raster mask in the PSD file**
 If a layer has no mask we can add the given raster mask simply by calling the AddLayerMask layer method.
 
-If the mask has no [UserMaskFromRenderingOtherData** ](https://apireference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers/LayerMaskFlags)flag then it already has a raster mask and we have to update it as described above. Otherwise, if this mask is in a short format we convert it to the full format. If not we use it as is. Then update UserMaskData, UserMaskRectangle, and other properties with the given mask properties. The following C# .NET code snippet can be used for adding (updating) a layer mask:
+If the mask has no [UserMaskFromRenderingOtherData** ](https://reference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers/LayerMaskFlags)flag then it already has a raster mask and we have to update it as described above. Otherwise, if this mask is in a short format we convert it to the full format. If not we use it as is. Then update UserMaskData, UserMaskRectangle, and other properties with the given mask properties. The following C# .NET code snippet can be used for adding (updating) a layer mask:
 
 Add new Layer Mask to PSD
 

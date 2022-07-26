@@ -15,7 +15,7 @@ Aspose.PSD has improved performance and support for large images. Images that ar
 
 If you experience slow processing, it is advised to increase the total amount of RAM to fit all your pixels into memory. If you don't, processing is still possible but is slower. The approach is as follows:
 
-- Call the [LoadPartialPixels](https://apireference.aspose.com/psd/net/aspose.psd/rasterimage/methods/loadpartialpixels) method with the desired rectangle and delegate to receive the loaded pixels specified.
+- Call the [LoadPartialPixels](https://reference.aspose.com/psd/net/aspose.psd/rasterimage/methods/loadpartialpixels) method with the desired rectangle and delegate to receive the loaded pixels specified.
 
 Aspose.PSD tries to load the whole rectangle.
 
@@ -26,11 +26,11 @@ Aspose.PSD tries to extract as many lines as possible. If there's not enough mem
 ### **Supported Image Formats**
 The following formats are supported for large images processing:
 
-- [BMP](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/bmpoptions)
-- [GIF](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/gifoptions)
-- [TIFF](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/tiffoptions)
-- [PSD](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/psdoptions)
-- [JPG](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/jpegoptions)
-- [PNG](https://apireference.aspose.com/psd/net/aspose.psd.imageoptions/pngoptions)
+- [BMP](https://reference.aspose.com/psd/net/aspose.psd.imageoptions/bmpoptions)
+- [GIF](https://reference.aspose.com/psd/net/aspose.psd.imageoptions/gifoptions)
+- [TIFF](https://reference.aspose.com/psd/net/aspose.psd.imageoptions/tiffoptions)
+- [PSD](https://reference.aspose.com/psd/net/aspose.psd.imageoptions/psdoptions)
+- [JPG](https://reference.aspose.com/psd/net/aspose.psd.imageoptions/jpegoptions)
+- [PNG](https://reference.aspose.com/psd/net/aspose.psd.imageoptions/pngoptions)
 
 The above formats may be safely processed through creation, modifying, applying drawing operations, saving to disk or exporting into regardless of image size.

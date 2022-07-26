@@ -6,7 +6,7 @@ url: /java/support-of-lspfresource/
 ---
 
 ## **Support of LspfResource**
-The LspfResource contains settings about Layer Protected setting. Aspose.PSD supports LspfResource in PSD files.  For this, the API provides the [LspfResource](https://apireference.aspose.com/java/psd/com.aspose.psd.fileformats.psd.layers.layerresources/LspfResource) class.
+The LspfResource contains settings about Layer Protected setting. Aspose.PSD supports LspfResource in PSD files.  For this, the API provides the [LspfResource](https://reference.aspose.com/java/psd/com.aspose.psd.fileformats.psd.layers.layerresources/LspfResource) class.
 
 The following code snippet shows you how Aspose.PSD supports LspfResource.
 

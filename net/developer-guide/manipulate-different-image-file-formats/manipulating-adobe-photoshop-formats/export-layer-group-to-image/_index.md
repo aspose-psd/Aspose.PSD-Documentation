@@ -6,7 +6,7 @@ url: /net/export-layer-group-to-image/
 ---
 
 ## **Export Layer Group to image**
-Aspose.PSD supports exporting layer groups to images.  For this, the API provides the [LayerGroup](https://apireference.aspose.com/net/psd/aspose.psd.fileformats.psd.layers/layergroup) class.
+Aspose.PSD supports exporting layer groups to images.  For this, the API provides the [LayerGroup](https://reference.aspose.com/net/psd/aspose.psd.fileformats.psd.layers/layergroup) class.
 
 The following code snippet demonstrates exporting layer groups to images.
 

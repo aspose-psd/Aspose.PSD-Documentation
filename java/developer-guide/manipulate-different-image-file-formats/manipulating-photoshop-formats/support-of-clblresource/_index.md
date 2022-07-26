@@ -6,7 +6,7 @@ url: /java/support-of-clblresource/
 ---
 
 ## **Support of ClblResource**
-The ClblResource contains information about the blending of clipped elements. Aspose.PSD supports ClblResource in PSD files.  For this, the API provides the [ClblResource](https://apireference.aspose.com/java/psd/com.aspose.psd.fileformats.psd.layers.layerresources/ClblResource) class.
+The ClblResource contains information about the blending of clipped elements. Aspose.PSD supports ClblResource in PSD files.  For this, the API provides the [ClblResource](https://reference.aspose.com/java/psd/com.aspose.psd.fileformats.psd.layers.layerresources/ClblResource) class.
 
 The following code snippet shows you how Aspose.PSD supports ClblResource.
 

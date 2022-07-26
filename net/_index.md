@@ -29,7 +29,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.PSD for .NET Release Notes](/psd/net/release-notes/)
 - [Aspose.PSD for .NET Product Page](https://products.aspose.com/psd/net)
 - [Install Aspose.PSD for .NET NuGet Package](https://www.nuget.org/packages/Aspose.PSD/)
-- [Aspose.PSD for .NET API Reference Guide](https://apireference.aspose.com/net/psd)
+- [Aspose.PSD for .NET API Reference Guide](https://reference.aspose.com/net/psd)
 - [Download Examples at GitHub Repository](https://github.com/aspose-psd/Aspose.PSD-for-.NET)
 - [Aspose.PSD for .NET Free Support Forum](https://forum.aspose.com/c/psd)
 - [Aspose.PSD for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)

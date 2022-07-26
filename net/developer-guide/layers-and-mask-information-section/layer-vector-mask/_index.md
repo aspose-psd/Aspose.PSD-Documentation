@@ -10,13 +10,13 @@ A vector mask is a resolution-independent path that clips out the contents of th
 
 Aspose.PSD supports rendering and applying of vector masks. You can edit vector masks through editing of Vector Paths.
 ## **Vector path in Aspose.PSD**
-Access to vector paths in Aspose.PSD is provided through [VsmsResouce](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.layerresources/vsmsresource) and [VmskResouce](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.layerresources/vmskresource) resources that are child classes of [VectorPathDataResource](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.layerresources/vectorpathdataresource).
+Access to vector paths in Aspose.PSD is provided through [VsmsResouce](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.layerresources/vsmsresource) and [VmskResouce](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.layerresources/vmskresource) resources that are child classes of [VectorPathDataResource](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.layerresources/vectorpathdataresource).
 
 ![todo:image_alt_text](layer-vector-mask_0.png)
 
 ## **How to edit a vector path?**
 ### **Vector path struct**
-Base struct to manipulate paths is [VectorPathRecord.](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.core.vectorpaths/vectorpathrecord) But for your convenience, the following solution is suggested.
+Base struct to manipulate paths is [VectorPathRecord.](https://reference.aspose.com/psd/net/aspose.psd.fileformats.core.vectorpaths/vectorpathrecord) But for your convenience, the following solution is suggested.
 
 For easy editing of vector paths, you should use the [VectorPath](https://gist.github.com/aspose-com-gists/8a4c9d34ce856d1642fc7c0ce974175c#file-examples-csharp-aspose-workingwithvectorpaths-classestomanipulatevectorpathobjects-classestomanipulatevectorpathobjects-cs) class, which contains methods for comfy editing of vector data in resources derived from VectorPathDataResource
 
@@ -74,7 +74,7 @@ You can manipulate the points of shape as elements of a regular List using the P
 ## **PathShape properties**
 PathShape editing is not limited to editing nodes, this type also has other properties.
 ### **PathOperations (Boolean operations)**
-The [PathOperations](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.core.vectorpaths/pathoperations) property is a so-called boolean operation, changing the value of which defines how multiple shapes are mixed.
+The [PathOperations](https://reference.aspose.com/psd/net/aspose.psd.fileformats.core.vectorpaths/pathoperations) property is a so-called boolean operation, changing the value of which defines how multiple shapes are mixed.
 
 There are the following possible values:
 

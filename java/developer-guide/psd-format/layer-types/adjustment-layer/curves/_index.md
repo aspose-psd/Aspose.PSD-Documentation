@@ -13,16 +13,16 @@ The goal of this article is to demonstrate capabilities of the library Aspose.PS
 
 The Curves tool can be represented as a diagonal line (curve) on a graph with highlights in the top right-hand corner and shadows in the bottom right-hand corner.
 
-The library provides API to work with the curve, namely, the [CurvesLayer](https://apireference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.adjustmentlayers/CurvesLayer) class. However, this class has **two completely different approaches** to work with the curve. Therefore, it can be edited in one of two modes at a time:
+The library provides API to work with the curve, namely, the [CurvesLayer](https://reference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.adjustmentlayers/CurvesLayer) class. However, this class has **two completely different approaches** to work with the curve. Therefore, it can be edited in one of two modes at a time:
 
 - Continuous (the curve represented as a path with points in places of bending)
 - Discrete (the curve represented as a dotted line)
 
-So, the library has two ways to modify thecurve using [continuous](https://apireference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.layerresources/curvescontinuousmanager) and [discrete manager](https://apireference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.layerresources/CurvesDiscreteManager) respectively. Next, we will explain how to use each of them on a specific example.
+So, the library has two ways to modify thecurve using [continuous](https://reference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.layerresources/curvescontinuousmanager) and [discrete manager](https://reference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.layerresources/CurvesDiscreteManager) respectively. Next, we will explain how to use each of them on a specific example.
 
 ## Adjust color and tone using the Curves Continuous Manager
 
-The [Curves Continuous Manager](https://apireference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.layerresources/CurvesContinuousManager) **configures points of bending of a continuous curve** for the composite channel (RGB) as well as for each particular color channels. For demonstration purposes, some Curves adjustment (a) will be applied to a darkened image of orchestra (b) to get a brightened image with more warm colors (c):
+The [Curves Continuous Manager](https://reference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.layerresources/CurvesContinuousManager) **configures points of bending of a continuous curve** for the composite channel (RGB) as well as for each particular color channels. For demonstration purposes, some Curves adjustment (a) will be applied to a darkened image of orchestra (b) to get a brightened image with more warm colors (c):
 
 ![Curves Adjustment Layer Figure 1](curves-psd-adjustment-layer-figure-1.png)
 
@@ -39,7 +39,7 @@ Since there are two managers, it is necessary to explicitly select one (continuo
 
 The origin of coordinates is in the bottom left-hand corner. The maximum coordinate value of a point is limited to the data type (byte) and is equal to 255 (127 for signed type).
 
-There are also a few [other methods](https://apireference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.layerresources/CurvesContinuousManager) you can use.
+There are also a few [other methods](https://reference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.layerresources/CurvesContinuousManager) you can use.
 
 ## Adjust tone using the Curves Discrete Manager
 
@@ -59,7 +59,7 @@ So, with that in mind, it&#39;s easy to recreate the &quot;Negative (RBG)&quot; 
         curvesDiscreteManager.setValueInPosition(0, (byte)i, (byte)-i);
     }
 
-The manager also provides a few [other methods](https://apireference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.layerresources/curvesdiscretemanager) for managing the curve.
+The manager also provides a few [other methods](https://reference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.layerresources/curvesdiscretemanager) for managing the curve.
 
 ## Conclusion
 

@@ -6,7 +6,7 @@ url: /net/support-of-clblresource/
 ---
 
 ## **Support of ClblResource**
-The ClblResource contains information about the blending of clipped elements. Aspose.PSD supports ClblResource in PSD files.  For this, the API provides the [ClblResource](https://apireference.aspose.com/net/psd/aspose.psd.fileformats.psd.layers.layerresources/clblresource) class.
+The ClblResource contains information about the blending of clipped elements. Aspose.PSD supports ClblResource in PSD files.  For this, the API provides the [ClblResource](https://reference.aspose.com/net/psd/aspose.psd.fileformats.psd.layers.layerresources/clblresource) class.
 
 The following code snippet shows you how Aspose.PSD supports ClblResource.
 

@@ -13,7 +13,7 @@ Today we will see how to apply Photo Filter adjustment layer to an existing Phot
 
 ## API overview
 
-The Photo Filter adjustment layer API is fairly simple to use. There is the main [PhotoFilterLayer](https://apireference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.adjustmentlayers/photofilterlayer) class that serves as entry point to this adjustment layer and contains only three public properties, namely, color, density and preserve luminosity by means of which the adjustment occurs.
+The Photo Filter adjustment layer API is fairly simple to use. There is the main [PhotoFilterLayer](https://reference.aspose.com/psd/java/com.aspose.psd.fileformats.psd.layers.adjustmentlayers/photofilterlayer) class that serves as entry point to this adjustment layer and contains only three public properties, namely, color, density and preserve luminosity by means of which the adjustment occurs.
 
 ## Adjust color balance
 
@@ -21,7 +21,7 @@ Since, there is not much to talk about, let us consider **an example of the colo
 
 ![Photo Filter Adjustment Layer Example](photo-filter-adjustment-layer-figure-1.png)
 
-First of all, notice that [the factory method](https://apireference.aspose.com/psd/java/com.aspose.psd.fileformats.psd/PsdImage#addPhotoFilterLayer-com.aspose.psd.Color-) differs from ones for [other adjustment layers](https://docs.aspose.com/display/psdjava/PSD+Adjustment+Layers) because there is no default method (without arguments). Therefore, to add a Photo Filter adjustment layer into loaded Photoshop document a single argument is required that is [color](https://apireference.aspose.com/psd/java/com.aspose.psd/Color). So, to recreate the warming filter effect just pass on orange as an argument to the factory method, then set density using corresponding setters:
+First of all, notice that [the factory method](https://reference.aspose.com/psd/java/com.aspose.psd.fileformats.psd/PsdImage#addPhotoFilterLayer-com.aspose.psd.Color-) differs from ones for [other adjustment layers](https://docs.aspose.com/display/psdjava/PSD+Adjustment+Layers) because there is no default method (without arguments). Therefore, to add a Photo Filter adjustment layer into loaded Photoshop document a single argument is required that is [color](https://reference.aspose.com/psd/java/com.aspose.psd/Color). So, to recreate the warming filter effect just pass on orange as an argument to the factory method, then set density using corresponding setters:
 
     PhotoFilterLayer photoFilterLayer = psdImage.addPhotoFilterLayer(Color._fromArgb_(236, 138, 0));
     photoFilterLayer.setDensity(25);

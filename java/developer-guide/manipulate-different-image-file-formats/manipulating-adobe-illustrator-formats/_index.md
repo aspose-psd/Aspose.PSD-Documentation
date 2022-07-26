@@ -10,9 +10,9 @@ Using Aspose.PSD for Java, developers can convert Adobe Illustrator file to [PSD
 
 The steps to convert Adobe Illustrator file to PSD are as simple as below:
 
-- Create an instance of the [AiImage](https://apireference.aspose.com/java/psd/com.aspose.psd.fileformats.ai/AiImage) class and load image using Load method of Image class
+- Create an instance of the [AiImage](https://reference.aspose.com/java/psd/com.aspose.psd.fileformats.ai/AiImage) class and load image using Load method of Image class
 - Create an instance of PsdOptions class
-- Call [AiImage.Save](https://apireference.aspose.com/java/psd/com.aspose.psd/Image#save--) method with destination path and an instance of PsdOptions 
+- Call [AiImage.Save](https://reference.aspose.com/java/psd/com.aspose.psd/Image#save--) method with destination path and an instance of PsdOptions 
 
 Below the provided sample code demonstrates how to export Adobe Illustrator to PSD.
 
@@ -27,7 +27,7 @@ The steps to convert Adobe Illustrator file to JPEG are as simple as below:
 - Create an instance of the AiImage and load image using Load method of Image class
 - Create an instance of JpegOptions class
 - Set image quality
-- Call [AiImage.save](https://apireference.aspose.com/java/psd/com.aspose.psd.fileformats.ai/AiImage) method with destination path and an instance of JpegOptions 
+- Call [AiImage.save](https://reference.aspose.com/java/psd/com.aspose.psd.fileformats.ai/AiImage) method with destination path and an instance of JpegOptions 
 
 Below provided sample code demonstrates how to export AI to JPEG.
 
@@ -35,7 +35,7 @@ Below provided sample code demonstrates how to export AI to JPEG.
 
 {{< gist "aspose-com-gists" "31800d807a72f1f50fe4b29374119227" "Examples-src-main-java-com-aspose-psd-examples-ModifyingAndConvertingImages-AI-AIToJPG-AIToJPG.java" >}}
 ## **Exporting AI File to GIF**
-Aspose.PSD for Java provides the [**AiImage**](https://apireference.aspose.com/java/psd/com.aspose.psd.fileformats.ai/AiImage) class to load Adobe Illustrator files and the same can be used to export the Adobe Illustrator file to [GIF](https://wiki.fileformat.com/image/gif/) format. This example demonstrates the usage of Aspose.PSD for Java API to export a AI file to GIF image.
+Aspose.PSD for Java provides the [**AiImage**](https://reference.aspose.com/java/psd/com.aspose.psd.fileformats.ai/AiImage) class to load Adobe Illustrator files and the same can be used to export the Adobe Illustrator file to [GIF](https://wiki.fileformat.com/image/gif/) format. This example demonstrates the usage of Aspose.PSD for Java API to export a AI file to GIF image.
 
 {{< gist "aspose-com-gists" "31800d807a72f1f50fe4b29374119227" "Examples-src-main-java-com-aspose-psd-examples-ModifyingAndConvertingImages-AI-AIToGIF-AIToGIF.java" >}}
 ## **Exporting AI File to PNG**
@@ -43,7 +43,7 @@ Using Aspose.PSD for Java, developers can convert Adobe Illustrator file to [PNG
 
 The steps to convert AI file to PNG are as simple as below:
 
-- Create an instance of the [AiImage](https://apireference.aspose.com/java/psd/com.aspose.psd.fileformats.ai/AiImage) and load the image using the Load method of Image class
+- Create an instance of the [AiImage](https://reference.aspose.com/java/psd/com.aspose.psd.fileformats.ai/AiImage) and load the image using the Load method of Image class
 - Create an instance of PngOptions class
 - Set the type of color
 - Call AiImage.save method with destination path and an instance of PngOptions 
@@ -54,14 +54,14 @@ Below provided sample code demonstrates how to convert Adobe Illustrator to PNG
 
 {{< gist "aspose-com-gists" "31800d807a72f1f50fe4b29374119227" "Examples-src-main-java-com-aspose-psd-examples-ModifyingAndConvertingImages-AI-AIToPNG-AIToPNG.java" >}}
 ## **Exporting AI File to TIFF**
-Aspose.PSD for Java provides the [**AiImage**](https://apireference.aspose.com/java/psd/com.aspose.psd.fileformats.ai/AiImage) class to load Adobe Illustrator files and the same can be used to export the AI file to [TIFF](https://wiki.fileformat.com/image/tiff) format. This example demonstrates the usage of Aspose.PSD for Java API to export Adobe Illustrator file to TIFF image.
+Aspose.PSD for Java provides the [**AiImage**](https://reference.aspose.com/java/psd/com.aspose.psd.fileformats.ai/AiImage) class to load Adobe Illustrator files and the same can be used to export the AI file to [TIFF](https://wiki.fileformat.com/image/tiff) format. This example demonstrates the usage of Aspose.PSD for Java API to export Adobe Illustrator file to TIFF image.
 
 {{< gist "aspose-com-gists" "31800d807a72f1f50fe4b29374119227" "Examples-src-main-java-com-aspose-psd-examples-ModifyingAndConvertingImages-AI-AIToTIFF-AIToTIFF.java" >}}
 
 
 
 ## **Exporting AI File to PDF**
-Aspose.PSD for Java provides the [**AiImage**](https://apireference.aspose.com/java/psd/com.aspose.psd.fileformats.ai/AiImage) class to load Adobe Illustrator files and the same can be used to export the AI file to [PDF](https://docs.fileformat.com/pdf/) format. This example demonstrates the usage of Aspose.PSD for Java API to export Adobe Illustrator file to PDF image.
+Aspose.PSD for Java provides the [**AiImage**](https://reference.aspose.com/java/psd/com.aspose.psd.fileformats.ai/AiImage) class to load Adobe Illustrator files and the same can be used to export the AI file to [PDF](https://docs.fileformat.com/pdf/) format. This example demonstrates the usage of Aspose.PSD for Java API to export Adobe Illustrator file to PDF image.
 
 {{< gist "aspose-com-gists" "31800d807a72f1f50fe4b29374119227" "Examples-src-main-java-com-aspose-psd-examples-ModifyingAndConvertingImages-AI-AIToPDF-AIToPDF.java" >}}
 

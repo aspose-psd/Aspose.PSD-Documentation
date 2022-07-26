@@ -21,7 +21,7 @@ This article shows Support of VmskResource in a PSD file with Aspose.PSD. The fo
 ## **Support of SoCoResource**
 
 
-` `[**SoCoResource**](https://apireference.aspose.com/java/psd/com.aspose.psd.fileformats.psd.layers.layerresources/SoCoResource) contains information about Color Fill Layers. This article demonstrates how [Aspose.PSD](https://products.aspose.com/psd) for Java supports [SoCoResource ](https://apireference.aspose.com/java/psd/com.aspose.psd.fileformats.psd.layers.layerresources/SoCoResource)in a PSD file. 
+` `[**SoCoResource**](https://reference.aspose.com/java/psd/com.aspose.psd.fileformats.psd.layers.layerresources/SoCoResource) contains information about Color Fill Layers. This article demonstrates how [Aspose.PSD](https://products.aspose.com/psd) for Java supports [SoCoResource ](https://reference.aspose.com/java/psd/com.aspose.psd.fileformats.psd.layers.layerresources/SoCoResource)in a PSD file. 
 
 
 

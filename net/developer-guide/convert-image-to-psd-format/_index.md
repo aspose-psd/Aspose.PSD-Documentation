@@ -8,7 +8,7 @@ url: /net/convert-image-to-psd-format/
 ## **Overview**
 It's a frequently asked question: How to convert Png, Jpeg, Ai, Tiff Image to PSD?
 
-The main issue is that [PSD Format ](/psd/net/psd-file/)contains a lot of Metadata and [Layers](/psd/net/psd-layer/) and direct conversion not always have a sense. Sometimes it's better to Add [Image](https://apireference.aspose.com/psd/net/aspose.psd/image) as a [Layer](https://apireference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer). But other case is to make PSD Background Layer. All of these cases are supported by Aspose.PSD.
+The main issue is that [PSD Format ](/psd/net/psd-file/)contains a lot of Metadata and [Layers](/psd/net/psd-layer/) and direct conversion not always have a sense. Sometimes it's better to Add [Image](https://reference.aspose.com/psd/net/aspose.psd/image) as a [Layer](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer). But other case is to make PSD Background Layer. All of these cases are supported by Aspose.PSD.
 ## **Specific convert cases**
 If you are looking for specific and powerful convert features, you can look at the following articles:
 
