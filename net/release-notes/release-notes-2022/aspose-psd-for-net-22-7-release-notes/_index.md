@@ -42,8 +42,6 @@ This page contains release notes for [Aspose.PSD for .NET 22.7](https://www.nug
 
 ## **Usage examples:**
 
-**PSDNET-1111. TITLE**
-
 **PSDNET-482. Support of Image Section Resource #4000-4999 Plug-In resource(s)**
 
 {{< highlight csharp >}}
