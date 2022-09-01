@@ -11,6 +11,14 @@ This page contains release notes for [Aspose.PSD for .NET 22.9](https://www.nug
 
 {{% /alert %}}
 
+{{% alert color="warning" %}}
+
+This release has a regression in the case of 16-bit exports, so we recommend caution when using this feature in this release.
+Please do not update Aspose.PSD to 22.9 if 16-bit image processing is your primary functionality.
+We are working on a solution to this problem.
+
+{{% /alert %}}
+
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |PSDNET-1237|Create the internal LayerStyleFX model that will contain effects and related data for using the single model in effects resources Lfx2, lmfx, and mlst|Enhancement|
