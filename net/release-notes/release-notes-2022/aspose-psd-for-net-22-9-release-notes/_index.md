@@ -13,9 +13,11 @@ This page contains release notes for [Aspose.PSD for .NET 22.9](https://www.nug
 
 {{% alert color="warning" %}}
 
-This release has a regression in the case of 16-bit exports, so we recommend caution when using this feature in this release.
+- This release has a regression in the case of 16-bit exports, so we recommend caution when using this feature in this release.
 Please do not update Aspose.PSD to 22.9 if 16-bit image processing is your primary functionality.
-We are working on a solution to this problem.
+- For several versions of Photoshop, users may encounter a window with an error reading layer, this will not affect the work with the PSD file.
+
+We are working on solutions to these problems.
 
 {{% /alert %}}
 
