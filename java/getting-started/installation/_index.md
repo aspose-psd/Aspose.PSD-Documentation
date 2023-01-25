@@ -6,7 +6,7 @@ url: /java/installation/
 ---
 
 ## **Installing Aspose.PSD for Java from Maven Repository**
-Aspose hosts all Java APIs on the [Maven repository](https://repository.aspose.com/repo/com/aspose/). You can easily use [Aspose.PSD for Java](https://repository.aspose.com/repo/com/aspose/aspose-psd/) API directly in your Maven Projects with simple configurations.
+Aspose hosts all Java APIs on the [Maven repository](https://releases.aspose.com/java/repo/com/aspose/). You can easily use [Aspose.PSD for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-psd/) API directly in your Maven Projects with simple configurations.
 ### **Specify Maven Repository Configuration**
 First, you need to specify Aspose Maven Repository configuration/location in your Maven pom.xml as follows:
 
@@ -20,7 +20,7 @@ First, you need to specify Aspose Maven Repository configuration/location in you
 
         <name>Aspose Java API</name>
 
-        <url>http://repository.aspose.com/repo/</url>
+        <url>https://releases.aspose.com/java/repo/</url>
 
     </repository>
 
