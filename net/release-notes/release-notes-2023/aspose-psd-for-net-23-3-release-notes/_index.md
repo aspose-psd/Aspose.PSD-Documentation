@@ -31,7 +31,7 @@ This page contains release notes for [Aspose.PSD for .NET 23.3](https://www.nug
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.StrokeResources.VscgResource.Key
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.StrokeResources.VscgResource.Length
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.StrokeResources.VscgResource.PsdVersion
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.StrokeResources.VscgResource.FillSettings
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.StrokeResources.VscgResource.Items
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.StrokeResources.VscgResource.KeyForData
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.StrokeResources.VscgResource.Save(Aspose.PSD.StreamContainer,System.Int32)
 - F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.StrokeResources.VscgResource.TypeToolKey
@@ -82,22 +82,43 @@ using (PsdImage image = (PsdImage)Image.Load(srcFile, psdLoadOptions))
 **PSDNET-1366. Implement support of VscgResource**
 
 {{< highlight csharp >}}
-using (PsdImage image = (PsdImage)Image.Load(
-    "StrokeInternalFill_src.psd",
-    new PsdLoadOptions { LoadEffectsResource = true }))
-{
-    Layer layer = image.Layers[1];
-    foreach (LayerResource resource in layer.Resources)
-    {
-        if (resource is VscgResource)
-        {
-            VscgResource vscgResource = (VscgResource)resource;
-            ColorFillSettings colorFillSettings = (ColorFillSettings)vscgResource.FillSettings;
-            colorFillSettings.Color = Color.Red;
-        }
-    }
+string sourceFile = "StrokeInternalFill_src.psd";
+string outputFile = "StrokeInternalFill_res.psd";
 
-    image.Save("StrokeInternalFill_res.psd");
+void AreEqual(double expected, double current, double tolerance = 0.1)
+{
+    if (Math.Abs(expected - current) > tolerance)
+    {
+        throw new Exception(
+        $"Values is not equal.\nExpected:{expected}\nResult:{current}\nDifference:{expected - current}");
+    }
+}
+
+using (PsdImage image = (PsdImage)Image.Load(sourceFile))
+{
+    VscgResource vscgResource = (VscgResource)image.Layers[1].Resources[0];
+    DescriptorStructure rgbColorStructure = (DescriptorStructure)vscgResource.Items[0];
+
+    AreEqual(89.8, ((DoubleStructure)rgbColorStructure.Structures[0]).Value);
+    AreEqual(219.6, ((DoubleStructure)rgbColorStructure.Structures[1]).Value);
+    AreEqual(34.2, ((DoubleStructure)rgbColorStructure.Structures[2]).Value);
+
+    ((DoubleStructure)rgbColorStructure.Structures[0]).Value = 255d; // Red
+    ((DoubleStructure)rgbColorStructure.Structures[1]).Value = 0d; // Green
+    ((DoubleStructure)rgbColorStructure.Structures[2]).Value = 0d; // Blue
+
+    image.Save(outputFile);
+}
+
+// checking changes
+using (PsdImage image = (PsdImage)Image.Load(outputFile))
+{
+    VscgResource vscgResource = (VscgResource)image.Layers[1].Resources[0];
+    DescriptorStructure rgbColorStructure = (DescriptorStructure)vscgResource.Items[0];
+
+    AreEqual(255, ((DoubleStructure)rgbColorStructure.Structures[0]).Value);
+    AreEqual(0, ((DoubleStructure)rgbColorStructure.Structures[1]).Value);
+    AreEqual(0, ((DoubleStructure)rgbColorStructure.Structures[2]).Value);
 }
 {{< /highlight >}}
 
