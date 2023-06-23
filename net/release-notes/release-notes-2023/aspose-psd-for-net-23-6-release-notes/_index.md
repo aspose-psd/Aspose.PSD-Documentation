@@ -26,6 +26,7 @@ This page contains release notes for [Aspose.PSD for .NET 23.6](https://www.nug
 | PSDNET-1546 | Text Justification is lost if open TextLayer by the edit mode of Photoshop                                                                       | Bug          |
 | PSDNET-1548 | Null reference exception on saving PSD file                                                                                                      | Bug          |
 | PSDNET-1578 | Exception on the loading of the ShapeLayer: Points for vector origin bounds is not supported yet                                                 | Bug          |
+| PSDNET-1579 | Exception on loading of VogkResource: Points are saved as DoubleStructures, we read as UnitStructures                                            | Bug          |
 | PSDNET-1581 | LayerType of ShapeLayer is empty                                                                                                                 | Bug          |
 
 
@@ -494,6 +495,8 @@ using (var psdImage = (PsdImage)Image.Load(sourceFile))
 {{< /highlight >}}
 
 **PSDNET-1578. Exception on the loading of the ShapeLayer: Points for vector origin bounds is not supported yet**
+
+**PSDNET-1579. Exception on loading of VogkResource: Points are saved as DoubleStructures, we read as UnitStructures**
 
 {{< highlight csharp >}}
 string sourceFile = "PointsVectorOrigin.psd";
