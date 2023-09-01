@@ -19,7 +19,6 @@ This page contains release notes for [Aspose.PSD for .NET 23.8](https://www.nug
 | PSDNET-913  | PSD information lost on just opening and saving | Bug     |
 | PSDNET-1352 | Image loading failed | Bug     |
 | PSDNET-1553 | Image loading failed: Unable to cast object of type UnknownStructure to type DescriptorStructure | Bug     |
-| PSDNET-1622 | Examine increased memory consumption by test 189 on Jenkins build | Bug     |
 | PSDNET-1631 | File changed in the 3rd party library corrupts PSD file but it can be opened in the Photoshop | Bug     |
 
 
@@ -83,51 +82,6 @@ using (PsdImage newPsd = (PsdImage)new PsdImage(10, 10))
             // Should load correctly
         }
     }
-}
-{{< /highlight >}}
-
-**PSDNET-1622. Examine increased memory consumption by test 189 on Jenkins build**
-
-{{< highlight csharp >}}
-string sourceFileArcUpper = "arc_upper_warp.psd";
-string outputFileArcUpper = "arc_upper_export.png";
-
-string sourceFileArcLower = "arc_upper_warp.psd";
-string outputFileArcLower = "arc_upper_export.png";
-
-string sourceFileBulge = "arc_upper_warp.psd";
-string outputFileBulge = "arc_upper_export.png";
-
-string sourceFileMug4 = "mug4_warp.psd";
-string outputFileMug4 = "mug4_warp_export.png";
-
-double memoryUsed = (GC.GetTotalMemory(true) / 1024.0) / 1024.0;
-
-using (var psdImageMug4 = (PsdImage)Image.Load(sourceFileMug4, new PsdLoadOptions() { AllowWarpRepaint = true, LoadEffectsResource = true }))
-using (var psdImageArcUpper = (PsdImage)Image.Load(sourceFileArcUpper, new PsdLoadOptions() { AllowWarpRepaint = true, LoadEffectsResource = true }))
-using (var psdImageArcLower = (PsdImage)Image.Load(sourceFileArcLower, new PsdLoadOptions() { AllowWarpRepaint = true, LoadEffectsResource = true }))
-using (var psdImageBulge = (PsdImage)Image.Load(sourceFileBulge, new PsdLoadOptions() { AllowWarpRepaint = true, LoadEffectsResource = true }))
-{
-    psdImageArcUpper.Save(outputFileArcLower, new PngOptions { ColorType = PngColorType.TruecolorWithAlpha });
-    psdImageArcLower.Save(outputFileArcUpper, new PngOptions { ColorType = PngColorType.TruecolorWithAlpha });
-    psdImageBulge.Save(outputFileBulge, new PngOptions { ColorType = PngColorType.TruecolorWithAlpha });
-    psdImageMug4.Save(outputFileMug4, new PngOptions { ColorType = PngColorType.TruecolorWithAlpha });
-}
-
-File.Delete(outputFileArcLower);
-File.Delete(outputFileArcUpper);
-File.Delete(outputFileBulge);
-File.Delete(outputFileMug4);
-
-memoryUsed = ((GC.GetTotalMemory(true) / 1024.0) / 1024.0) - memoryUsed;
-memoryUsed = Math.Round(memoryUsed, 2);
-
-Console.WriteLine(memoryUsed);
-double expected = 10d;
-
-if (memoryUsed > expected)
-{
-    throw new Exception("Usage of memory is too big. " + memoryUsed + " Mb instead of " + expected + " Mb.");
 }
 {{< /highlight >}}
 
