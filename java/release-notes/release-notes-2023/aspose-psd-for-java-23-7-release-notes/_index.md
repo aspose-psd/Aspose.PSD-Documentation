@@ -1,11 +1,11 @@
 ---
-title: Aspose.PSD for Java 23.6 - Release Notes
+title: Aspose.PSD for Java 23.7 - Release Notes
 type: docs
 weight: 40
 url: /java/aspose-psd-for-java-23-7-release-notes/
 ---
 
-{{% alert color="primary" %}} This page contains release notes for [Aspose.PSD for Java 23.6](https://downloads.aspose.com/psd/java/new-releases/aspose.psd-for-java-23.6/) {{% /alert %}}
+{{% alert color="primary" %}} This page contains release notes for [Aspose.PSD for Java 23.7](https://downloads.aspose.com/psd/java/new-releases/aspose.psd-for-java-23.7/) {{% /alert %}}
 
 | **Key**     | **Summary**                                                                                                                                      | **Category** |
 |:------------|:-------------------------------------------------------------------------------------------------------------------------------------------------|:-------------|
