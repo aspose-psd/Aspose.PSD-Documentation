@@ -2,7 +2,7 @@
 title: Aspose.PSD for Python via .NET
 type: docs
 weight: 10
-url: /net/
+url: /python-net/
 is_root: true
 keywords: Photoshop Python Library, PSD Python API
 description: Photoshop Python API or Library allows an extensive manipulation of PSD file formats. It does not require Adobe Photoshop to be installed and supports PSD, PSB and AI file formats for loading, manipulation and converting them to various raster file formats such as TIFF, JPEG, JPEG2000, PNG, GIF and BMP.
