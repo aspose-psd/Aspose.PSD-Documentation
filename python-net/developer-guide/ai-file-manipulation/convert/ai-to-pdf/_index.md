@@ -1,6 +1,7 @@
 ---
-title: Ai File Manipulation
+title: Convert AI to PDF
 weight: 100
+type: docs
 description: Check how Aspose.PSD for Python can manipulate convert AI Images to PDF
 keywords: [ai to png, ai format, illustrator files, convert illustrator, ai to pdf, ai to jpeg, ai to tiff, ai to psd, psd api, python, code sample]
 url: python-net/convert/ai-to-pdf

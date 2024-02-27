@@ -1,6 +1,7 @@
 ---
-title: Ai File Manipulation
+title: Convert AI to PNG using Python
 weight: 100
+type: docs
 description: Check how Aspose.PSD for Python can convert AI File to PNG.
 keywords: [ai to png, ai format, illustrator files, convert illustrator, png, psd api, python, code sample]
 url: python-net/convert/ai-to-png

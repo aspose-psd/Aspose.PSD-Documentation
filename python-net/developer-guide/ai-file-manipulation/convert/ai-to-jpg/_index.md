@@ -1,5 +1,5 @@
 ---
-title: Ai File Manipulation
+title: Ai Convert to Jpeg
 weight: 100
 description: Check how Aspose.PSD for Python can convert AI Images to JPEG
 keywords: [ai to jpg, ai format, illustrator files, convert illustrator, psd api, python, code sample]
