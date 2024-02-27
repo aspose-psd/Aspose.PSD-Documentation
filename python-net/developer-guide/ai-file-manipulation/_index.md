@@ -1,6 +1,7 @@
 ---
 title: Ai File Manipulation
 weight: 100
+type: docs
 description: Check how Aspose.PSD for Python can manipulate AI Images. 
 keywords: [ai to png, ai format, illustrator files, convert illustrator, ai to pdf, ai to jpeg, ai to tiff, ai to psd, psd api, python, code sample]
 url: python-net/ai-file-manipulation/
