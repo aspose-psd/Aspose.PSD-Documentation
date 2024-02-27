@@ -1,6 +1,7 @@
 ---
 title: Aspose.PSD Add Layer From File
-weight: 7700
+weight: 100
+type: docs
 description: Check how any Image Format can be used as a Layer in Aspose.PSD. 
 keywords: [add layer, image format, image as a layer, layer editing, psd api, python, code sample]
 url: python-net/add-layer-from-file-for-editing/
