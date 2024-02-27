@@ -1,6 +1,7 @@
 ---
 title: Aspose.PSD Add Layer From File
-weight: 7700
+weight: 100
+type: docs
 description: Check how any Image Format can be used as a Layer in Aspose.PSD. 
 keywords: [add layer, image format, image as a layer, layer editing, psd api, python, code sample]
 url: python-net/add-layer-from-file-for-editing/
@@ -20,8 +21,7 @@ To add an image file as a layer, you can use the 'add_layer' method provided by 
         <li class="link-item"><a href="https://docs.aspose.com/psd/python-net/installation/">Installation of Aspose.PSD</a></li>
     </ul>
 </div>
+
+## **Example**
+Here's a code sample that demonstrates how to add an image file as a layer using Aspose.PSD for Python:
 {{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-Psd-add-layer-from-file-for-editing.py" >}}
-
-
-{{< blocks/products/products-backtop-button >}}
-{{< psd/tize >}}
