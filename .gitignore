@@ -17,3 +17,6 @@
 /.vs
 /Folder.DotSettings.user
 .DS_Store
+/hugo
+/resources
+/themes
