@@ -8,7 +8,7 @@ url: python-net/bit-depth-color-mode-convert/
 ---
 
 ## **Overview**
-spose.PSD is a powerful library for working with PSD (Photoshop Document) files in Python. It provides various features for converting between different color modes and bit depths.
+Aspose.PSD is a powerful library for working with PSD (Photoshop Document) files in Python. It provides various features for converting between different color modes and bit depths.
 
 To convert between different color modes, you can use the examples from this page. This example shows you how to easily change the color mode of a PSD file. For example, you can convert an RGB image to CMYK or grayscale, or vice versa.
 
