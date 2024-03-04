@@ -9,11 +9,13 @@ description: PSD Photoshop Python Library Developer Guide explains how to use Py
 
 ## **Articles in this section**
 This page contains the most common guide on how to work with PSD and Ai Files via Python locally, using your own web-service and other cases. You can look at our and our customers [PSD format show-cases.](/psd/python-net/showcases/)
+
 ### **File Formats and Features Description**
 Aspose.PSD specialized in PSD Format and Ai Format manipilation. All possible business tasks with these formats can be solved with our PSD SDK.
 
 - [PSD File](/psd/net/psd-file/)
 - [AI File](/psd/net/ai-adobe-illustrator-format/)
+
 ### **Convert PSD Files**
 PSD Files conversion is one of the most popular tasks for business automation. For more detailed information look on [Converting PSD Image To Raster Format](/psd/python-net/converting-psd-image-to-raster-format/)
 
@@ -22,6 +24,7 @@ Here are the most popular cases, but we also support conversions to other format
 - [PSD to JPEG](/psd/python-net/convert/psd-to-jpg/) 
 - [PSD to PDF](/psd/python-net/convert/psd-to-pdf/) 
 - [Psd to PNG](/psd/python-net/convert/psd-to-png/) 
+
 ### **Convert Ai Files**
 At this moment we support entry-level of AI Format operations, like export to raster and working with layers. Look this article to know how to [Convert Ai Image To Raster Format](/psd/python-net/ai-file-manipulation/)
 
@@ -45,4 +48,4 @@ In some cases, you need to convert PNG, GIF, TIFF, JPEG, BMP file to PSD or add 
 
 ### ** Check most common examples **
 
-[https://raw.githubusercontent.com/aspose-psd/Aspose.PSD-for-Python-Net/main/showcase-image.png](https://docs.aspose.com/psd/net/using-psd-files-as-templates-for-automation-business-cards-case/)
+![https://docs.aspose.com/psd/net/using-psd-files-as-templates-for-automation-business-cards-case/](using-psd-files-as-templates-for-automation-business-cards-case_1.png)
