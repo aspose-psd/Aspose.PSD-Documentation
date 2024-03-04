@@ -63,4 +63,4 @@ Please note that you will need to have the Aspose.PSD library installed and prop
 Please check full example.
 
 ## **Example**
-	{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-Psd-create-psd-psb-images-from-scratch.py" >}}
+{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-Psd-create-psd-psb-images-from-scratch.py" >}}

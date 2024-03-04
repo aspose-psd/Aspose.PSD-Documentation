@@ -31,4 +31,4 @@ Steps to achieve converting of AI to PNG
 In summary, by using Aspose.PSD for Python, you can easily convert AI files to the PNG format. This allows you to export AI files and make them compatible with a wide range of applications and devices that support PNG. The process involves loading the AI file, configuring export options using the PsdOptions class, and saving the result as a PNG file using the PsdImage.save method. With Aspose.PSD for Python, you can perform accurate and reliable AI to PNG conversions with ease.
 
 ## **Example**
-	{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-Psd-Convert-Ai-To-Png.py" >}}
+{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-Psd-Convert-Ai-To-Png.py" >}}

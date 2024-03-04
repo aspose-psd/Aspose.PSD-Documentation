@@ -30,4 +30,4 @@ In conclusion, Aspose.PSD for Python provides a powerful and flexible solution f
 Please check full example.
 
 ## **Example**
-	{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-psd-layer-manipulation.py" >}}
+{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-psd-layer-manipulation.py" >}}

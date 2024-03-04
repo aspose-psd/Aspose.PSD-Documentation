@@ -19,30 +19,30 @@ PSD Files conversion is one of the most popular tasks for business automation. F
 
 Here are the most popular cases, but we also support conversions to other formats:
 
-- [PSD to JPEG](/psd/python-net/psd-to-jpg/) 
-- [PSD to PDF](/psd/python-net/psd-to-pdf/) 
-- [Psd to PNG](/psd/python-net/psd-to-png/) 
+- [PSD to JPEG](/psd/python-net/convert/psd-to-jpg/) 
+- [PSD to PDF](/psd/python-net/convert/psd-to-pdf/) 
+- [Psd to PNG](/psd/python-net/convert/psd-to-png/) 
 ### **Convert Ai Files**
-At this moment we support entry-level of AI Format operations, like export to raster and working with layers. Look this article to know how to [Convert Ai Image To Raster Format](/psd/python-net/converting-ai-image-to-raster-format/)
+At this moment we support entry-level of AI Format operations, like export to raster and working with layers. Look this article to know how to [Convert Ai Image To Raster Format](/psd/python-net/ai-file-manipulation/)
 
 Here are the most popular cases, but we also support conversions to other formats:
 
-- [AI to JPG](/psd/python-net/ai-to-jpg/) 
-- [AI to PDF](/psd/python-net/ai-to-pdf/) 
-- [AI to PNG](/psd/python-net/ai-to-png/)
+- [AI to JPG](/psd/python-net/convert/ai-to-jpg/) 
+- [AI to PDF](/psd/python-net/convert/ai-to-pdf/) 
+- [AI to PNG](/psd/python-net/convert/ai-to-png/)
 
 ### **Specific conversion**
 In some cases, you need to convert PNG, GIF, TIFF, JPEG, BMP file to PSD or add them as a layer.
 
-- [Convert any supported format to PSD](/psd/python-net/convert-image-to-psd-format/)
-- [Add PSD Layer](/psd/python-net/add-layer-to-psd/)
-### **Manipulating Images**
-- [Manipulating Images](/psd/python-net/manipulating-images/)
-- [Cropping PSD file while converting to PNG](/psd/python-net/cropping-psd-file-while-converting-to-png/)
-- [Render text with different colors in Text Layer](/psd/python-net/working-with-drawing-images/)
-- [Working With Drawing Images](/psd/python-net/working-with-drawing-images/) 
-### **Knowledge Base**
-[Knowledge Base](/psd/python-net/knowledge-base/) 
+- [Convert PSD between different color modes and bit depths](/psd/python-net/bit-depth-color-mode-convert/)
+- [Add PSD Layer](/psd/python-net/add-layer-from-file-for-editing/)
 
-- [API Limitations](/psd/python-net/api-limitations/) 
-- [Technical Articles](/psd/python-net/technical-articles/) 
+### **Manipulating Images**
+- [Manipulating PSD, PSB, AI Images Overview](/psd/python-net/update-psd-psb-files-with-python/)
+- [Cropping, Resizing, Transform PSD file while converting to PNG](/psd/python-net/psd-layer-manipulation/)
+- [Render text with different colors in Text Layer](/psd/python-net/working-with-drawing-images/)
+- [Drawing Images using Graphics in PSD](/psd/python-net/graphics-api/) 
+
+### ** Check most common examples **
+
+[https://raw.githubusercontent.com/aspose-psd/Aspose.PSD-for-Python-Net/main/showcase-image.png](https://docs.aspose.com/psd/net/using-psd-files-as-templates-for-automation-business-cards-case/)
