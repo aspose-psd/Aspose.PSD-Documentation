@@ -4,7 +4,7 @@ weight: 100
 type: docs
 description: Examples of using adjustment layer via Aspose.PSD for Python
 keywords: [adjustment layer, photo enhance, curves adjustment, levels enhancement, invert, photo filter,  psd api, python, code sample]
-url: python-net/pixel-data-manipulation/
+url: python-net/adjustment-layer-enhancement/
 ---
 
 ## **Overview**
@@ -26,4 +26,4 @@ This code provides a basic overview of how to edit adjustment layers in Aspose.P
 Please check full example.
 
 ## **Example**
-	{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-adjustment-layer-enhancement.py" >}}
+{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-adjustment-layer-enhancement.py" >}}

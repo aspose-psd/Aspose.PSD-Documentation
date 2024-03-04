@@ -49,4 +49,4 @@ Please check the [Vector Masks page](psd/net/layer-vector-mask/) to get informat
 
 
 ## **Example**
-	{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-psd-update-create-layer-mask.py" >}}
+{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-psd-update-create-layer-mask.py" >}}

@@ -59,4 +59,4 @@ That's it! You have successfully used the Graphics API of Aspose.PSD for Python 
 Please check full example.
 
 ## **Example**
-	{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-Psd-graphics-api.py " >}}
+{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-Psd-graphics-api.py " >}}

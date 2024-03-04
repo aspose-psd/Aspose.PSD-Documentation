@@ -34,9 +34,7 @@ This is just a basic example of how you can create effects on layers using Aspos
 
 I hope this article helps you understand how to create effects on layers in Aspose.PSD for Python. Feel free to explore the library's documentation for more details and examples.
 
-
-
 Please check full example.
 
 ## **Example**
-	{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-Psd-layer-effects.py" >}}
+{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-Psd-layer-effects.py" >}}

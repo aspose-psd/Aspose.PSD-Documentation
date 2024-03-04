@@ -1,10 +1,10 @@
 ---
-title: How to make warp transformation in Aspose.PSD for Python
+title: Extended overview of main Aspose.PSD for Python Features
 weight: 100
 type: docs
-description: Examples of working with Warp Transformation
-keywords: [warp, warp transformation, distort image, warp image, psd, psd api, python, code sample]
-url: python-net/warp-transform/
+description: Examples of working PSD, PSD and AI formats using Python
+keywords: [psd, psb, ai, overview, features summary, python, code sample]
+url: python-net/update-psd-psb-files-with-python/
 ---
 
 ## **Overview**
