@@ -29,7 +29,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.PSD for Python via .NET Release Notes](/psd/python-net/release-notes/)
 - [Aspose.PSD for Python via .NET Product Page](https://products.aspose.com/psd/python-net)
 - [Install Aspose.PSD for Python via .NET NuGet Package](https://pypi.org/project/aspose-psd/)
-- [Aspose.PSD for Python via .NET API Reference Guide](https://reference.aspose.com/python-net/psd)
+- [Aspose.PSD for Python via .NET API Reference Guide](https://reference.aspose.com/psd/python-net)
 - [Download Examples at GitHub Repository](https://github.com/aspose-psd/Aspose.PSD-for-Python-Net)
 - [Aspose.PSD for Python via .NET Free Support Forum](https://forum.aspose.com/c/psd)
 - [Aspose.PSD for Python via .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
