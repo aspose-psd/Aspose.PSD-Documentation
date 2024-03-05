@@ -24,7 +24,7 @@ url: /java/aspose-psd-for-java-24-2-release-notes/
 
 - M:com.aspose.psd.fileformats.ai.AiImage.getActivePageIndex
 - M:com.aspose.psd.fileformats.ai.AiImage.setActivePageIndex(int)
--T:com.aspose.psd.fileformats.psd.layers.FillLayer 
+- T:com.aspose.psd.fileformats.psd.layers.FillLayer 
 - M:com.aspose.psd.fileformats.psd.layers.FillLayer.createInstance(int)
 - M:com.aspose.psd.fileformats.psd.layers.FillLayer.getFillSettings 
 - M:com.aspose.psd.fileformats.psd.layers.FillLayer.getFillType 
