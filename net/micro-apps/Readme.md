@@ -23,7 +23,7 @@ dotnet tool update --global Aspose.PSD.Micro-Apps --version 23.11.2
 ```
 
 ### Commands
-- convert
+- ![convert](convert/Readme.md)
 - resize
 - crop
 
