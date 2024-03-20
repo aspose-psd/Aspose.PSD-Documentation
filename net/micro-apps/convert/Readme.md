@@ -21,5 +21,5 @@ if (isLicensed)
     options.LicensePath = "Aspose.Total.Product.Family.lic";
 }
 
-Aspose.PSD.ConsoleApps.Services.ConversionService.Convert(options.InputFiles, options.OutputPath, options.OutputFormat);
+Aspose.PSD.ConsoleApps.Services.ConversionService.Convert(options);
 ```
