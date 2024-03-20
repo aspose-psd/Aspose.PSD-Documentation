@@ -1,3 +1,19 @@
+### Convert
+This command converts image(s) to provided output format. Output is always compressed to .zip file, so you need to specify output folder or path to .zip file.
+
+Supported formats:
+- psd
+- pdf
+- jpg
+- jpeg
+- jp2
+- j2k
+- gif
+- png
+- bmp
+- tiff
+
+
 ### Usage
 **Use from command line:**
 
