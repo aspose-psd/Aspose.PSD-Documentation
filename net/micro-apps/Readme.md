@@ -6,7 +6,7 @@ Work over [Aspose.PSD .NET API](https://products.aspose.com/psd/net/).
 ### System Requirements
 - .NET7 on Windows, Linux, MacOs;
 
-- Choosen by you Aspose.PSD Micro application(s) installed.
+- Aspose.PSD Micro application installed.
 
 ### Installation
 
@@ -21,6 +21,12 @@ If you've already installed the application - update supported via the command :
 ```
 dotnet tool update --global Aspose.PSD.Micro-Apps --version 23.11.2
 ```
+
+### Commands
+- convert
+- resize
+- crop
+
 
 ### Usage
 **Use from command line:**
