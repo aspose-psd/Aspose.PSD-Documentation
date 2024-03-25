@@ -87,5 +87,3 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.PSD for Python Free Support Forum](https://forum.aspose.com/c/psd)
 - [Aspose.PSD for Python Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
-{{% alert color="primary" %}} 
-
