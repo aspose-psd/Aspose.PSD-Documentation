@@ -7,7 +7,7 @@ url: /net/aspose-psd-for-python-via-net-23-12-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.PSD for Python via .NET 23.12](https://www.nuget.org/packages/Aspose.PSD/)
+This page contains release notes for [Aspose.PSD for Python via .NET 23.12](https://pypi.org/project/aspose-psd/)
 
 {{% /alert %}}
 
