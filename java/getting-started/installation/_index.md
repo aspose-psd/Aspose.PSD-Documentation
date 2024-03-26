@@ -13,17 +13,11 @@ First, you need to specify Aspose Maven Repository configuration/location in you
 {{< highlight java >}}
 
  <repositories>
-
     <repository>
-
         <id>AsposeJavaAPI</id>
-
         <name>Aspose Java API</name>
-
         <url>https://releases.aspose.com/java/repo/</url>
-
     </repository>
-
 </repositories>
 
 {{< /highlight >}}
@@ -33,19 +27,12 @@ Then define Aspose.PSD for Java API dependency in your pom.xml as follows:
 {{< highlight java >}}
 
  <dependencies>
-
     <dependency>
-
         <groupId>com.aspose</groupId>
-
         <artifactId>aspose-psd</artifactId>
-
-        <version>20.2</version>
-
+        <version>24.2</version>
         <classifier>jdk16</classifier>
-
-   </dependency>
-
+    </dependency>
 </dependencies>
 
 {{< /highlight >}}
