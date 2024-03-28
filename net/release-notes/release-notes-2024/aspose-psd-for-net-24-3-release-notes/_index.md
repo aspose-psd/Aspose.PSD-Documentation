@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.PSD for .NET 24.3](https://www.nug
 
 | **Key**     | **Summary**                                                          | **Category** |
 |:------------|:---------------------------------------------------------------------|:------------|
-| PSDNET-1924 | [AI Format] Reduce loading time of large multipage AI images         |     Enhancement     |
+| PSDNET-1914 | [AI Format] Reduce loading time of large multipage AI images         |     Enhancement     |
 | PSDNET-1905 | PSD File after the converting from 8 bit to 16 bit became unreadable |     Bug     |
 | PSDNET-1906 | PSD File after the converting from 8 bit to 32 bit became unreadable |     Bug     |
 | PSDNET-1921 | [AI Format] Fix the Short Curve rendering at AI file                 |     Bug     |
