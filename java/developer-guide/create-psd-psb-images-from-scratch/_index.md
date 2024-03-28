@@ -29,4 +29,4 @@ To create a PSD or PSB file from scratch using Aspose.PSD for Java, follow these
 Please check full example.
 
 ## **Example**
-{{< gist "aspose-com-gists" "31800d807a72f1f50fe4b29374119227" "Documentation-Java-Aspose-Psd-create-psd-psb-images-from-scratch.java"Documentation-Java-Aspose-Psd-create-psd-psb-images-from-scratch.java" >}}
+{{< gist "aspose-com-gists" "31800d807a72f1f50fe4b29374119227" "Documentation-Java-Aspose-Psd-create-psd-psb-images-from-scratch.java" >}}
