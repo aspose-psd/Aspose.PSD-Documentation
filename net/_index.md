@@ -20,6 +20,18 @@ Currently Aspose.PSD for .NET supports PSD and PSB file formats for loading and 
 
 {{% /alert %}} 
 
+{{% alert color="primary" %}} 
+
+**![Aspose.PSD for Adapters for .NET Product Logo](aspose_psd-for-net-adapter.png)**
+
+**Please check [Aspose.PSD Adapters](/psd/net/adapters) for .NET if you need to process additional formats in Aspose.PSD**
+
+Aspose.PSD Adapters for .NET are the special Nuget Packages that allows you to write integration code with other Aspose Products less.
+
+For example, usually, to open  not supported by Aspose.PSD for format like SVG of WEBP you need to load these formats using Aspose.Imaging and then write integration code to convert them to Aspose.PSD suppported format. Adapters fix necessity of extra code and help you save time.
+
+{{% /alert %}} 
+
 ## **Aspose.PSD for .NET Resources**
 
 Following are the links to some useful resources you may need to accomplish your tasks.
