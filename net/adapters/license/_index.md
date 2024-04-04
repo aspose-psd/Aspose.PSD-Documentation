@@ -14,7 +14,7 @@ To use Aspose.PSD Adapters you'll need license both for Aspose.PSD and its Adapt
 Please check the following example how to apply Aspose.PSD and Aspose.Imaging License to use full power of Adapters
 
 
-{{< gist "dimsa" "dc26f93541d2b7c3872d4873d7da72af" "Aspose-PSD-Adapters-CSharp-License.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Aspose-PSD-Adapters-CSharp-License.cs" >}}
 
 ## **Where to get licenses for Aspose Products**
 

@@ -22,20 +22,20 @@ With Aspose.PSD Adapters, developers can unlock the full potential of Aspose.PSD
 ### SVG Support example
 Please check the following code for work with SVG:
 
-{{< gist "dimsa" "dc26f93541d2b7c3872d4873d7da72af" "Aspose-PSD-Adapters-CSharp-Full-Manual-Complex-Loading.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Aspose-PSD-Adapters-CSharp-Full-Manual-Complex-Loading.cs" >}}
 
 Don't forget to enable adapters in you init module:
-{{< gist "dimsa" "dc26f93541d2b7c3872d4873d7da72af" "Adapters-CSharp-Add-Imaging-Adapters-Loading-Unsupported-Formats.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Adapters-CSharp-Add-Imaging-Adapters-Loading-Unsupported-Formats.cs" >}}
 
 ### WebP Support example
 
 Plese check the following example to know how to open WebP file using Aspose.PSD.Adapters:
 
 Loading example: 
-{{< gist "dimsa" "dc26f93541d2b7c3872d4873d7da72af" "Adapters-CSharp-Add-Imaging-Adapters-Loading-Unsupported-Formats.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Adapters-CSharp-Add-Imaging-Adapters-Loading-Unsupported-Formats.cs" >}}
 
 Export example:
-{{< gist "dimsa" "dc26f93541d2b7c3872d4873d7da72af" "Adapters-CSharp-Add-Imaging-Adapters-Exporting-to-Unsupported-Formats.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Adapters-CSharp-Add-Imaging-Adapters-Exporting-to-Unsupported-Formats.cs" >}}
 
 
 ## Conclusion

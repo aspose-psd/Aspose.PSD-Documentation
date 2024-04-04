@@ -15,4 +15,4 @@ To convert between different color modes, you can use the examples from this pag
 These examples demonstrate how to use Aspose.PSD for Python to convert between different color modes and bit depths in PSD files. You can customize the code according to your specific requirements and integrate it into your Python projects.
 
 ## **Example**
-{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-Psd-Convert-Between-Different-Color-Modes.py" >}}
+{{< gist "aspose-com-gists" "04e945e867d0b7f39bb3eab63074d04c" "Documentation-Python-Aspose-Psd-Convert-Between-Different-Color-Modes.py" >}}

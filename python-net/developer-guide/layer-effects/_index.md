@@ -37,4 +37,4 @@ I hope this article helps you understand how to create effects on layers in Aspo
 Please check full example.
 
 ## **Example**
-{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-Psd-layer-effects.py" >}}
+{{< gist "aspose-com-gists" "04e945e867d0b7f39bb3eab63074d04c" "Documentation-Python-Aspose-Psd-layer-effects.py" >}}
