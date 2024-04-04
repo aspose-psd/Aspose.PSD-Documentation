@@ -31,4 +31,4 @@ Steps to achieve converting of AI to PDF
 In summary, by using Aspose.PSD for Python, you can easily convert AI files to the PDF format. This allows you to export AI files and make them compatible with a wide range of applications and devices that support PDF. The process involves loading the AI file, configuring export options using the PdfOptions class, and saving the result as a PDF file using the PsdImage.save method. With Aspose.PSD for Python, you can perform accurate and reliable AI to PDF conversions with ease.
 
 ## **Example**
-{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-Psd-Convert-Ai-To-Pdf.py" >}}
+{{< gist "aspose-com-gists" "04e945e867d0b7f39bb3eab63074d04c" "Documentation-Python-Aspose-Psd-Convert-Ai-To-Pdf.py" >}}

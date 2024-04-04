@@ -23,4 +23,4 @@ With Aspose.PSD Adapters, you can save time and effort in your development proce
 
 Please note: To use Aspose.PSD Adapters you'll need license both for Aspose.PSD and its Adaptees.
 
-{{< gist "dimsa" "dc26f93541d2b7c3872d4873d7da72af" "Adapters-CSharp-Add-Imaging-Adapters-Exporting-to-Unsupported-Formats.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Adapters-CSharp-Add-Imaging-Adapters-Exporting-to-Unsupported-Formats.cs" >}}

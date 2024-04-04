@@ -21,7 +21,7 @@ Please note, to use Adapters you both Aspose.PSD and adaptees Licenses.
 {{% /alert %}} 
 
 License can be applied using this sample:
-{{< gist "dimsa" "dc26f93541d2b7c3872d4873d7da72af" "Aspose-PSD-Adapters-CSharp-License.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Aspose-PSD-Adapters-CSharp-License.cs" >}}
 
 It's better to apply license once in the initializing module of your Project
 
@@ -38,12 +38,12 @@ It's possible that you also will be needed to reference other additional package
 
 ### Enabling of adapters
 When you need to use adapters just use the following code:
-{{< gist "dimsa" "dc26f93541d2b7c3872d4873d7da72af" "Adapters-CSharp-Enable-Adapters.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Adapters-CSharp-Enable-Adapters.cs" >}}
  
  
 ### Disabling of adapters
  In the process of developement you can face situation when Adapters should be disabled. This common case if you need in one code part to use Aspose.PSD loaders and use Adaptees' Loaders in other one. In this case just use the following code:
-{{< gist "dimsa" "dc26f93541d2b7c3872d4873d7da72af" "Adapters-CSharp-Disable-Adapters.cs " >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Adapters-CSharp-Disable-Adapters.cs " >}}
 
 ## Loading of Images using Adapters
 
@@ -51,18 +51,18 @@ Using adapters you can [load popular non-supported by Aspose.PSD formats]((/net/
 
 ### Simple using
 Just use the following code for loading:
-{{< gist "dimsa" "dc26f93541d2b7c3872d4873d7da72af" "Adapters-CSharp-Add-Imaging-Adapters-Loading-Unsupported-Formats.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Adapters-CSharp-Add-Imaging-Adapters-Loading-Unsupported-Formats.cs" >}}
 
 ### Intermediate usage for the complex Image Processing
 If you need to specify additional options that are provided by Adaptee, please check the following example:
-{{< gist "dimsa" "dc26f93541d2b7c3872d4873d7da72af" "Aspose-PSD-Adapters-CSharp-Full-Manual-Complex-Loading.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Aspose-PSD-Adapters-CSharp-Full-Manual-Complex-Loading.cs" >}}
 
 You can work with SVG image using all Imaging features, and then export it with one method call.
 
 ## Exporting of Images using Adapters
 
 There are many situations when you need not to [open unsupported format](/net/adapters/load-unsupported-formats), but [export to it](/net/adapters/export-to-unsupported-formats). In this cases you should enable exporters and use the following code:
-{{< gist "dimsa" "dc26f93541d2b7c3872d4873d7da72af" "Adapters-CSharp-Add-Imaging-Adapters-Exporting-to-Unsupported-Formats.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Adapters-CSharp-Add-Imaging-Adapters-Exporting-to-Unsupported-Formats.cs" >}}
 
 ## Conclusion
 

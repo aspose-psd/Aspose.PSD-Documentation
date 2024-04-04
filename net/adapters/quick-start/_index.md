@@ -20,7 +20,7 @@ Aspose.Drawing and Aspose.Imaging from nuget or the local files.
 
 2. Add to the the following code:
 
-{{< gist "dimsa" "dc26f93541d2b7c3872d4873d7da72af" "Aspose-PSD-Adapters-CSharp-QuickStart.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Aspose-PSD-Adapters-CSharp-QuickStart.cs" >}}
 
 3. That's all you need to use adapters
 
@@ -29,6 +29,6 @@ Aspose.Drawing and Aspose.Imaging from nuget or the local files.
 In most cases that's enough to use first example, but in the complex solutions sometimes is needed to make conversions with additional options.
 Please check the following example:
 
-{{< gist "dimsa" "dc26f93541d2b7c3872d4873d7da72af" "Aspose-PSD-Adapters-CSharp-QuickStart-Complex.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Aspose-PSD-Adapters-CSharp-QuickStart-Complex.cs" >}}
 
 At this point you don't need to write any additional code. Adapters provide seamless integration with full rich API of Aspose.PSD and its Adaptees

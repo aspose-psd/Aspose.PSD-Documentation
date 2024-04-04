@@ -19,7 +19,7 @@ For example, usually, to open  not supported by Aspose.PSD for format like SVG o
 
 Here is quick example of how to use adapters:
 
-{{< gist "dimsa" "dc26f93541d2b7c3872d4873d7da72af" "Adapters-CSharp-Add-Imaging-Adapters.cs " >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Adapters-CSharp-Add-Imaging-Adapters.cs" >}}
 
 Please note, for using adapters without limitation you need both Aspose.PSD and Aspose.Imaging licenses. Adapter Nuget Package most valuable for the owner of Aspose.Total License.
 
