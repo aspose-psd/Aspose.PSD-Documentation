@@ -86,8 +86,7 @@ const int ImgToPsdRatio = 256 * 65535;
 
 using (PsdImage newPsd = new PsdImage(600, 400))
 {
-    ShapeLayer layer = new ShapeLayer();
-    newPsd.Layers = new Layer[] { layer };
+    ShapeLayer layer = newPsd.AddShapeLayer();
 
     var newShape = GenerateNewShape(newPsd.Size);
     List<IPathShape> newShapes = new List<IPathShape>();
@@ -101,9 +100,9 @@ using (PsdImage newPsd = new PsdImage(600, 400))
 
 using (PsdImage image = (PsdImage)Image.Load(outputFile))
 {
-    AssertAreEqual(1, image.Layers.Length);
+    AssertAreEqual(2, image.Layers.Length);
 
-    ShapeLayer shapeLayer = image.Layers[0] as ShapeLayer;
+    ShapeLayer shapeLayer = image.Layers[1] as ShapeLayer;
     ColorFillSettings internalFill = shapeLayer.Fill as ColorFillSettings;
     IStrokeSettings strokeSettings = shapeLayer.Stroke;
     ColorFillSettings strokeFill = shapeLayer.Stroke.Fill as ColorFillSettings;
@@ -131,36 +130,36 @@ PathShape GenerateNewShape(Size imageSize)
 
     BezierKnotRecord[] bezierKnots = new BezierKnotRecord[]
     {
-            new BezierKnotRecord()
-            {
-                IsLinked = true,
-                Points = new Point[3]
-                        {
-                            PointFToResourcePoint(point1, imageSize),
-                            PointFToResourcePoint(point1, imageSize),
-                            PointFToResourcePoint(point1, imageSize),
-                        }
-            },
-            new BezierKnotRecord()
-            {
-                IsLinked = true,
-                Points = new Point[3]
-                        {
-                            PointFToResourcePoint(point2, imageSize),
-                            PointFToResourcePoint(point2, imageSize),
-                            PointFToResourcePoint(point2, imageSize),
-                        }
-            },
-            new BezierKnotRecord()
-            {
-                IsLinked = true,
-                Points = new Point[3]
-                        {
-                            PointFToResourcePoint(point3, imageSize),
-                            PointFToResourcePoint(point3, imageSize),
-                            PointFToResourcePoint(point3, imageSize),
-                        }
-            },
+         new BezierKnotRecord()
+         {
+             IsLinked = true,
+             Points = new Point[3]
+                      {
+                          PointFToResourcePoint(point1, imageSize),
+                          PointFToResourcePoint(point1, imageSize),
+                          PointFToResourcePoint(point1, imageSize),
+                      }
+         },
+         new BezierKnotRecord()
+         {
+             IsLinked = true,
+             Points = new Point[3]
+                      {
+                          PointFToResourcePoint(point2, imageSize),
+                          PointFToResourcePoint(point2, imageSize),
+                          PointFToResourcePoint(point2, imageSize),
+                      }
+         },
+         new BezierKnotRecord()
+         {
+             IsLinked = true,
+             Points = new Point[3]
+                      {
+                          PointFToResourcePoint(point3, imageSize),
+                          PointFToResourcePoint(point3, imageSize),
+                          PointFToResourcePoint(point3, imageSize),
+                      }
+         },
     };
 
     newShape.SetItems(bezierKnots);
