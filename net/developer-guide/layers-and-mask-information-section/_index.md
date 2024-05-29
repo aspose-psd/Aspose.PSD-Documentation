@@ -14,6 +14,6 @@ The fourth section of a Photoshop file contains information about layers and mas
 - [Fill Layers](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.filllayers/filllayer)
 
 ## **Supported Mask Types**
-- Layer Raster Mask
+- [Layer Raster Mask](/psd/net/update-create-layer-mask/)
 - [Layer Vector Mask](/psd/net/layer-vector-mask/)
-- Clipping Masks
+- [Clipping Masks](/psd/net/update-create-layer-mask/)
