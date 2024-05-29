@@ -31,4 +31,4 @@ Steps to achieve converting of AI to JPEG
 In summary, by using Aspose.PSD for Python, you can easily convert AI files to the JPEG format. This allows you to export AI files and make them compatible with a wide range of applications and devices that support Jpeg. The process involves loading the AI file, configuring export options using the [JpegOptions](https://reference.aspose.com/psd/python-net/aspose.psd.imageoptions/jpegoptions/) class, and saving the result as a JPEG file using the PsdImage.save method. With Aspose.PSD for Python, you can perform accurate and reliable AI to JPEG conversions with ease.
 
 ## **Example**
-{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-Psd-Convert-Ai-To-Jpeg.py" >}}
+{{< gist "aspose-com-gists" "04e945e867d0b7f39bb3eab63074d04c" "Documentation-Python-Aspose-Psd-Convert-Ai-To-Jpeg.py" >}}

@@ -21,4 +21,4 @@ Finally, the code saves the modified image as an updated PNG file.
 Overall, Aspose.PSD for Python provides a wide range of blending options that you can use to manipulate the appearance of layers in your PSD images. These options include modifying opacity, changing blending modes, and adding various blending effects like drop shadow and color overlay.
 
 ## **Example**
-{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-Psd-blending-options.py" >}}
+{{< gist "aspose-com-gists" "04e945e867d0b7f39bb3eab63074d04c" "Documentation-Python-Aspose-Psd-blending-options.py" >}}

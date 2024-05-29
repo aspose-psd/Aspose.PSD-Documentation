@@ -16,13 +16,13 @@ Aspose.PSD for Python is a powerful library that allows you to work with PSD (Ph
 ** Simple Way to Update Text Layer **
 To update a text layer in a PSD file using Aspose.PSD for Python, you can use the update_text method of the TextLayer class. This method allows you to easily update the text content of a text layer. Here is an example code snippet that demonstrates the simple way of updating a text layer
 
-{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-psd-text-layer-manipulation-simple.py" >}}
+{{< gist "aspose-com-gists" "04e945e867d0b7f39bb3eab63074d04c" "Documentation-Python-Aspose-psd-text-layer-manipulation-simple.py" >}}
 
 ** Editing using Text Portion **
 
 More Powerful Way to Update Text Layer Using Text Portions: The simple way of updating text layers in PSD files is suitable for basic text editing. However, if you need more control over the styling and formatting of the text, you can use the more powerful method of using text portions. Text portions allow you to specify different styles and paragraphs within the text layer. Here is an example code snippet that demonstrates this method:
 
-{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-psd-text-layer-manipulation-text-portion.py" >}}
+{{< gist "aspose-com-gists" "04e945e867d0b7f39bb3eab63074d04c" "Documentation-Python-Aspose-psd-text-layer-manipulation-text-portion.py" >}}
 
 In the above code, we first access the text layer that we want to update (image.layers[1]). We then retrieve the text_data object from the text layer, which allows us to work with the text portions. We create a default_style and default_paragraph object, which will be used as the default style and paragraph for the text portions.
 
@@ -36,4 +36,4 @@ Aspose.PSD for Python provides powerful capabilities for editing text in PSD fil
 Please check full example.
 
 ## **Example**
-{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-psd-text-layer-manipulation-full.py" >}}
+{{< gist "aspose-com-gists" "04e945e867d0b7f39bb3eab63074d04c" "Documentation-Python-Aspose-psd-text-layer-manipulation-full.py" >}}

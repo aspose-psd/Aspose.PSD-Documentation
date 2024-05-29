@@ -30,7 +30,7 @@ Finally, the updated image is saved using the save() method and the output file 
 
 This code demonstrates how to directly apply smart filters in Aspose.PSD for Python. By using the appropriate filter objects and applying them to the desired layers, you can achieve the desired effects on your images.
 
-{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-psd-smart-filter-direct-apply.py" >}}
+{{< gist "aspose-com-gists" "04e945e867d0b7f39bb3eab63074d04c" "Documentation-Python-Aspose-psd-smart-filter-direct-apply.py" >}}
 
 ## **Manipulation Smart Filters in The Smart Objects**
 
@@ -58,7 +58,7 @@ The updated image is then saved using the save() method and the output file name
 
 By following this code sample, you can learn how to work with smart filters in Aspose.PSD for Python. The library provides a wide range of smart filters, each with its own set of properties and methods that can be customized to achieve the desired effects on your images.
 
-{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-psd-smart-filter-features.py" >}}
+{{< gist "aspose-com-gists" "04e945e867d0b7f39bb3eab63074d04c" "Documentation-Python-Aspose-psd-smart-filter-features.py" >}}
 
 ## **Applying Smart Filters to Layer Mask**
 

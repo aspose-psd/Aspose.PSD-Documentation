@@ -23,4 +23,4 @@ Combining Shapes: With Shape Layers, you can combine multiple shapes to create m
 Please check full example.
 
 ## **Example**
-{{< gist "dimsa" "27582839af6d67e3ae92f72877437250" "Documentation-Python-Aspose-psd-shape-layer-manipulation.py" >}}
+{{< gist "aspose-com-gists" "04e945e867d0b7f39bb3eab63074d04c" "Documentation-Python-Aspose-psd-shape-layer-manipulation.py" >}}
