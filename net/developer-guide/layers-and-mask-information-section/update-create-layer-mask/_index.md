@@ -46,47 +46,7 @@ For more information on adding vector masks, please visit the [Vector Masks page
 
 ## Example
 
-```csharp
-using Aspose.PSD;
-using Aspose.PSD.FileFormats.Psd;
-using Aspose.PSD.FileFormats.Psd.Layers;
-
-class Program
-{
-    static void Main()
-    {
-        string source = "example.psd";
-        string outputUpdated = "updated_mask_features.psd";
-
-        using (PsdImage image = (PsdImage)Image.Load(source))
-        {
-            // The most simple is the using of Clipping masks
-            // Some Layer and Adjustment Layer Become Clipping Masks
-            image.Layers[4].Clipping = 1;
-            image.Layers[5].Clipping = 1;
-
-            // Example how to add Mask to Layer
-            LayerMaskDataShort mask = new LayerMaskDataShort
-            {
-                Left = 50,
-                Top = 213,
-                Right = 50 + 150,
-                Bottom = 213 + 150
-            };
-            byte[] maskData = new byte[(mask.Right - mask.Left) * (mask.Bottom - mask.Top)];
-            for (int index = 0; index < maskData.Length; index++)
-            {
-                maskData[index] = (byte)(100 + index % 100);
-            }
-
-            mask.ImageData = maskData;
-            image.Layers[2].AddLayerMask(mask);
-
-            image.Save(outputUpdated);
-        }
-    }
-}
-```
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-PSD-WorkingWithMasks-WorkingWithMasks.cs" >}}
 
 For more detailed information and examples, please visit the [Aspose.PSD for C# documentation](https://docs.aspose.com/psd/net/).
 

@@ -45,49 +45,7 @@ The provided code demonstrates how to create a PSD file, add a new layer, manipu
 
 Here’s a code sample demonstrating how to manipulate pixel data using Aspose.PSD for C#:
 
-```csharp
-using System.IO;
-using Aspose.PSD;
-using Aspose.PSD.FileFormats.Psd;
-using Aspose.PSD.FileFormats.Psd.Layers;
-
-class Program
-{
-    static void Main()
-    {
-         // Define input and output file paths
-         string inputFile = "input.psd";
-         string outputFile = "output.psd";
-   
-         // Open the input file as a stream
-         using (FileStream stream = new FileStream(inputFile, FileMode.Open, FileAccess.Read))
-         {
-             // Load the PSD image
-             using (PsdImage psdImage = (PsdImage)Image.Load(stream))
-             {
-                 // Create a new layer and add it to the PSD image
-                 Layer layer = new Layer(psdImage);
-                 psdImage.AddLayer(layer);
-   
-                 // Manipulate the pixel data
-                 int[] pixels = layer.LoadArgb32Pixels(layer.Bounds);
-                 for (int i = 0; i < pixels.Length; i++)
-                 {
-                     if (i % 5 == 0)
-                     {
-                         pixels[i] = 0xFF0000; // Example manipulation
-                     }
-                 }
-                 layer.SaveArgb32Pixels(layer.Bounds, pixels);
-   
-                 // Save the PSD image
-                 psdImage.Save(outputFile);
-                 
-             }
-         }
-    }
-}
-```
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingAndFormattingImages-PixelDataManipulation-PixelDataManipulation.cs" >}}
 
 ### Summary
 

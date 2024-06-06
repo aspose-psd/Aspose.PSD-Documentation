@@ -19,18 +19,6 @@ Mass server processing of AI files to PDF can be useful for business automation.
 
 Here is another example demonstrating how to export an AI file to PDF with specific PDF compliance settings:
 
-```csharp
-string sourceFile = "patternstokOnePage.ai";
-string outputFile = "output_raw.pdf";
-
-var pdfOptions = new PdfOptions();
-pdfOptions.PdfCoreOptions = new PdfCoreOptions();
-pdfOptions.PdfCoreOptions.PdfCompliance = PdfComplianceVersion.PdfA1a;
-
-using (var aiImage = (AiImage)Image.Load(sourceFile))
-{
-    aiImage.Save(outputFile, pdfOptions);
-}
-```
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-AI-AIToPDFA1a-AIToPDFA1a.cs" >}}
 
 The PdfComplianceVersion.PdfA1a option ensures that the generated PDF meets the PDF/A-1a standard, which is a part of the PDF/A family of ISO-standardized PDF specifications. PDF/A-1a is designed for long-term archiving of electronic documents and ensures that the PDF is self-contained, including all information necessary for displaying the document in the same manner regardless of the tools used.

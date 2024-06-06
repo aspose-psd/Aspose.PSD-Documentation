@@ -25,40 +25,6 @@ Here’s a sample code demonstrating group layer usage in Aspose.PSD for C#:
 
 ## Example
 
-```csharp
-using Aspose.PSD;
-using Aspose.PSD.FileFormats.Psd;
-using Aspose.PSD.FileFormats.Psd.Layers;
-using Aspose.PSD.ImageOptions;
-using Aspose.PSD.Sources;
-
-class Program
-{
-    static void Main()
-    {
-        string outputPsd = "LayerGroup.psd";
-
-        PsdOptions psdOptions = new PsdOptions();
-        psdOptions.Source = new StreamSource(new MemoryStream(), true);
-
-        using (PsdImage psdImage = (PsdImage)Image.Create(psdOptions, 100, 100))
-        {
-            LayerGroup layerGroup = psdImage.AddLayerGroup("Folder", 0, true);
-            Layer layer1 = new Layer();
-            layer1.DisplayName = "Layer 1";
-            Layer layer2 = new Layer();
-            layer2.DisplayName = "Layer 2";
-            layerGroup.AddLayer(layer1);
-            layerGroup.AddLayer(layer2);
-
-            // Validate that the layers were added correctly
-            System.Diagnostics.Debug.Assert(layerGroup.Layers[0].DisplayName == "Layer 1");
-            System.Diagnostics.Debug.Assert(layerGroup.Layers[1].DisplayName == "Layer 2");
-
-            psdImage.Save(outputPsd);
-        }
-    }
-}
-```
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-WorkingWithPSD-ExportLayerGroupToImage-ExportLayerGroupToImage.cs" >}}
 
 For more detailed information and examples, please visit the [Aspose.PSD for C# documentation](https://docs.aspose.com/psd/net/).
