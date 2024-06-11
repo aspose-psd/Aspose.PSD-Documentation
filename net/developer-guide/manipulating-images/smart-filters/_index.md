@@ -31,34 +31,7 @@ Finally, save the updated image using the `Save` method with the specified outpu
 
 This code demonstrates how to directly apply smart filters in Aspose.PSD for C#. By using the appropriate filter objects and applying them to the desired layers, you can achieve the desired effects on your images.
 
-```csharp
-using Aspose.PSD;
-using Aspose.PSD.FileFormats.Core.Blending;
-using Aspose.PSD.FileFormats.Psd;
-using Aspose.PSD.FileFormats.Psd.Layers.SmartFilters;
-using Aspose.PSD.FileFormats.Psd.Layers.SmartObjects;
-
-class Program
-{
-    static void Main()
-    {
-        string source = "VerySmoothPicture.psd";
-        string outputUpdated = "output_updated.psd";
-
-        using (PsdImage im = (PsdImage)Image.Load(source))
-        {
-            SharpenSmartFilter sharpenFilter = new SharpenSmartFilter();
-            Layer regularLayer = im.Layers[1];
-            for (int i = 0; i < 3; i++)
-            {
-                sharpenFilter.Apply(regularLayer);
-            }
-
-            im.Save(outputUpdated);
-        }
-    }
-}
-```
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "DirectlyApplySmartFilter-DirectlyApplySmartFilter.cs" >}}
 
 ### Manipulating Smart Filters in Smart Objects
 
@@ -86,59 +59,7 @@ Apply the filters directly to the layer and to the mask of the layer using the `
 
 Save the updated image using the `Save` method with the specified output file name.
 
-```csharp
-using Aspose.PSD;
-using Aspose.PSD.FileFormats.Core.Blending;
-using Aspose.PSD.FileFormats.Psd;
-using Aspose.PSD.FileFormats.Psd.Layers.SmartFilters;
-using Aspose.PSD.FileFormats.Psd.Layers.SmartObjects;
-
-class Program
-{
-    static void Main()
-    {
-        string source = "r2_SmartFilters.psd";
-        string outputOriginal = "original_smart_features.psd";
-        string outputUpdated = "output_updated_features.psd";
-
-        using (PsdImage im = (PsdImage)Image.Load(source))
-        {
-            im.Save(outputOriginal);
-            SmartObjectLayer smartObj = (SmartObjectLayer)im.Layers[1];
-
-            // Edit smart filters
-            GaussianBlurSmartFilter gaussianBlur = (GaussianBlurSmartFilter)smartObj.SmartFilters.Filters[0];
-
-            // Update filter values including blend mode
-            gaussianBlur.Radius = 1;
-            gaussianBlur.BlendMode = BlendMode.Divide;
-            gaussianBlur.Opacity = 75;
-            gaussianBlur.IsEnabled = false;
-
-            // Working with Add Noise Smart Filter
-            AddNoiseSmartFilter addNoise = (AddNoiseSmartFilter)smartObj.SmartFilters.Filters[1];
-            addNoise.Distribution = NoiseDistribution.Uniform;
-
-            // Add new filter items
-            List<SmartFilter> filters = new List<SmartFilter>(smartObj.SmartFilters.Filters)
-            {
-                new GaussianBlurSmartFilter(),
-                new AddNoiseSmartFilter()
-            };
-            smartObj.SmartFilters.Filters = filters.ToArray();
-
-            // Apply changes
-            smartObj.SmartFilters.UpdateResourceValues();
-
-            // Apply filters directly to layer and mask of layer
-            smartObj.SmartFilters.Filters[0].Apply(im.Layers[2]);
-            smartObj.SmartFilters.Filters[4].ApplyToMask(im.Layers[2]);
-
-            im.Save(outputUpdated);
-        }
-    }
-}
-```
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "ManipulatingSmartFiltersInSmartObjects-ManipulatingSmartFiltersInSmartObjects.cs" >}}
 
 ### Applying Smart Filters to Layer Mask
 
