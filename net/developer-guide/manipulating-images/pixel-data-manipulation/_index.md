@@ -45,7 +45,7 @@ The provided code demonstrates how to create a PSD file, add a new layer, manipu
 
 Here’s a code sample demonstrating how to manipulate pixel data using Aspose.PSD for C#:
 
-{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-DrawingAndFormattingImages-PixelDataManipulation-PixelDataManipulation.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "PixelDataManipulation-PixelDataManipulation.cs" >}}
 
 ### Summary
 

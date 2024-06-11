@@ -25,6 +25,6 @@ Here’s a sample code demonstrating group layer usage in Aspose.PSD for C#:
 
 ## Example
 
-{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-WorkingWithPSD-ExportLayerGroupToImage-ExportLayerGroupToImage.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "ExportLayerGroupToImage-ExportLayerGroupToImage.cs" >}}
 
 For more detailed information and examples, please visit the [Aspose.PSD for C# documentation](https://docs.aspose.com/psd/net/).

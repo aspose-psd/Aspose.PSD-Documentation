@@ -24,6 +24,6 @@ For more detailed examples and information, please refer to the [Aspose.PSD for 
 
 ## Example
 
-{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-WorkingWithVectorPaths-ShapeLayerManipulation-ShapeLayerManipulation.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "ShapeLayerManipulation-ShapeLayerManipulation.cs" >}}
 
 For more detailed information and examples, please visit the [Aspose.PSD for C# documentation](https://docs.aspose.com/psd/net/).

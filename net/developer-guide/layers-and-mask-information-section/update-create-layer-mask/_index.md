@@ -45,8 +45,7 @@ Vector masks are particularly useful for creating clean, scalable masks that can
 For more information on adding vector masks, please visit the [Vector Masks page](psd/net/layer-vector-mask/).
 
 ## Example
-
-{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-PSD-WorkingWithMasks-WorkingWithMasks.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "WorkingWithMasks-WorkingWithMasks.cs" >}}
 
 For more detailed information and examples, please visit the [Aspose.PSD for C# documentation](https://docs.aspose.com/psd/net/).
 

@@ -44,7 +44,7 @@ To learn more about Aspose.PSD for C# and explore its capabilities, please refer
 
 ## Example
 
-{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-SmartObjects-SupportOfExportContentsFromSmartObject-SupportOfExportContentsFromSmartObject.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "SupportOfExportContentsFromSmartObject-SupportOfExportContentsFromSmartObject.cs" >}}
 
 For more detailed information and examples, please visit the [Aspose.PSD for C# documentation](https://docs.aspose.com/psd/net/).
 

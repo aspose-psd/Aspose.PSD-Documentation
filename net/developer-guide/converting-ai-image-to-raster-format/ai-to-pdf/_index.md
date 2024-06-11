@@ -9,7 +9,7 @@ Aspose.PSD provides functionality to convert AI files to PDF files. For Ai expor
 
 Below provided sample code demonstrates how to export the AI file to PDF with the [File Format Manipulation API](/psd/net/manipulate-different-image-file-formats/)
 
-{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-AI-AIToPDF-AIToPDF.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "AIToPDF-AIToPDF.cs" >}}
 
 You can specify additional PDF parameters in [PdfOptions](https://reference.aspose.com/psd/net/aspose.psd.imageoptions/pdfoptions), like Author, Keywords, Subject, Title.
 
@@ -19,6 +19,6 @@ Mass server processing of AI files to PDF can be useful for business automation.
 
 Here is another example demonstrating how to export an AI file to PDF with specific PDF compliance settings:
 
-{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-AI-AIToPDFA1a-AIToPDFA1a.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "AIToPDFA1a-AIToPDFA1a.cs" >}}
 
 The PdfComplianceVersion.PdfA1a option ensures that the generated PDF meets the PDF/A-1a standard, which is a part of the PDF/A family of ISO-standardized PDF specifications. PDF/A-1a is designed for long-term archiving of electronic documents and ensures that the PDF is self-contained, including all information necessary for displaying the document in the same manner regardless of the tools used.

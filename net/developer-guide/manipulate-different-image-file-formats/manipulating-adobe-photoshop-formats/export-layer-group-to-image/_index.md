@@ -12,6 +12,6 @@ Aspose.PSD supports exporting layer groups to images.  For this, the API provi
 
 The following code snippet demonstrates exporting layer groups to images.
 
-{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-WorkingWithPSD-ExportLayerGroupToImage-ExportLayerGroupToImage.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "ExportLayerGroupToImage-ExportLayerGroupToImage.cs" >}}
 
 For more detailed information and examples, please visit the [Aspose.PSD for C# documentation](https://docs.aspose.com/psd/net/).

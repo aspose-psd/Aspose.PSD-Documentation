@@ -27,6 +27,6 @@ This code provides a basic overview of how to edit adjustment layers in Aspose.P
 
 Here’s a code sample demonstrating how to use adjustment layers using Aspose.PSD for C#:
 
-{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-ModifyingAndConvertingImages-PSD-UsingAdjustmentLayers-UsingAdjustmentLayers.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "UsingAdjustmentLayers-UsingAdjustmentLayers.cs" >}}
 
 For more detailed information and examples, please visit the [Aspose.PSD for C# documentation](https://docs.aspose.com/psd/net/).

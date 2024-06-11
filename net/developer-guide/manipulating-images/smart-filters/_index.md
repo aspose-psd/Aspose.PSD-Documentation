@@ -31,7 +31,7 @@ Finally, save the updated image using the `Save` method with the specified outpu
 
 This code demonstrates how to directly apply smart filters in Aspose.PSD for C#. By using the appropriate filter objects and applying them to the desired layers, you can achieve the desired effects on your images.
 
-{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-SmartFilters-DirectlyApplySmartFilter-DirectlyApplySmartFilter.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "DirectlyApplySmartFilter-DirectlyApplySmartFilter.cs" >}}
 
 ### Manipulating Smart Filters in Smart Objects
 
@@ -59,7 +59,7 @@ Apply the filters directly to the layer and to the mask of the layer using the `
 
 Save the updated image using the `Save` method with the specified output file name.
 
-{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Examples-CSharp-Aspose-SmartFilters-ManipulatingSmartFiltersInSmartObjects-ManipulatingSmartFiltersInSmartObjects.cs" >}}
+{{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "ManipulatingSmartFiltersInSmartObjects-ManipulatingSmartFiltersInSmartObjects.cs" >}}
 
 ### Applying Smart Filters to Layer Mask
 
