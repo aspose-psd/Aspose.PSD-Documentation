@@ -25,11 +25,14 @@ This is an experimental application. Please try it and leave feedback. Any feedb
 3. No-code CI/CD automation.
 4. Supports writing requests in natural language for editing PSD files.
 
+## **Usage from command line:**
+
 {{% alert color="primary" %}}
+Firstly install this dotnet tool:
+{{< highlight bash >}}dotnet tool install --global Aspose.PSD.CLI.NLP.Editor --version 24.6.0{{< /highlight >}}
+
 We recommend before first use run the following command:
-{{< highlight bash >}}
-Aspose.PSD.CLI.NLP.Editor --setup nlp.cli
-{{< /highlight >}}
+{{< highlight bash >}}Aspose.PSD.CLI.NLP.Editor --setup nlp.cli{{< /highlight >}}
 After this command you will be able to run this application with short name nlp.cli instead pf Aspose.PSD.CLI.NLP.Editor. You can specify your own short name.
 {{% /alert %}}
 
