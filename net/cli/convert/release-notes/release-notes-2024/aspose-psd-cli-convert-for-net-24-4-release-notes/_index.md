@@ -2,7 +2,7 @@
 title: Aspose.PSD CLI Convert for .NET 24.4 - Release Notes
 type: docs
 weight: 90
-url: /net/cli/convert/release-notes/aspose-psd-cli-convert-for-net-24-4-release-notes/
+url: /net/cli/conversion/aspose-psd-cli-convert-for-net-24-6-release-notes/
 ---
 
 {{% alert color="primary" %}}

@@ -2,9 +2,8 @@
 title: Aspose.PSD CLI NLP Editor for .NET 24.6 - Release Notes
 type: docs
 weight: 90
-url: /net/cli/nlp-editor/release-notes/aspose-psd-cli-nlp-editor-for-net-24-6-release-notes/
+url: /net/cli/nlp-editor/aspose-psd-cli-nlp-editor-for-net-24-6-release-notes/
 ---
-
 {{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.PSD CLI NLP Editor for .NET 24.6](https://www.nuget.org/packages/Aspose.PSD.CLI.NLP.Editor/)

@@ -2,7 +2,7 @@
 title: Aspose.PSD CLI Crop for .NET 24.4 - Release Notes
 type: docs
 weight: 90
-url: /net/cli/crop/release-notes/aspose-psd-cli-crop-for-net-24-4-release-notes/
+url: /net/cli/crop/aspose-psd-cli-crop-for-net-24-4-release-notes/
 ---
 
 {{% alert color="primary" %}}
