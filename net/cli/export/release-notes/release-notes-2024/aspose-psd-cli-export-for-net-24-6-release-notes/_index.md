@@ -1,4 +1,3 @@
-```md
 ---
 title: Aspose.PSD CLI Export for .NET 24.6 - Release Notes
 type: docs
@@ -48,4 +47,3 @@ if (isLicensed)
 Aspose.PSD.CLI.Export.Apply(options);
 
 {{< /highlight >}}
-```
