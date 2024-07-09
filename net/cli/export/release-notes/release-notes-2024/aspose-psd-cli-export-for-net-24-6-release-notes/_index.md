@@ -2,7 +2,7 @@
 title: Aspose.PSD CLI Export for .NET 24.6 - Release Notes
 type: docs
 weight: 90
-url: /net/cli/export/aspose-psd-cli-export-for-net-24-6-release-notes/
+url: /net/cli/export/aspose-psd-export-cli-app-for-net-24-6-release-notes/
 ---
 
 {{% alert color="primary" %}}
