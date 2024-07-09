@@ -2,7 +2,7 @@
 title: Aspose.PSD CLI Resize for .NET 24.6 - Release Notes
 type: docs
 weight: 90
-url: /net/cli/resize/release-notes/aspose-psd-cli-resize-for-net-24-6-release-notes/
+url: /net/cli/resize/aspose-psd-resize-cli-app-for-net-24-6-release-notes/
 ---
 
 {{% alert color="primary" %}}
