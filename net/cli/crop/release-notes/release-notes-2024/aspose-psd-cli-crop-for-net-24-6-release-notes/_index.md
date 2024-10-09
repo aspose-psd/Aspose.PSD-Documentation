@@ -1,24 +1,24 @@
 ---
-title: Aspose.PSD CLI Crop for .NET 24.4 - Release Notes
+title: Aspose.PSD CLI Crop for .NET 24.6 - Release Notes
 type: docs
 weight: 90
-url: /net/cli/crop/aspose-psd-cli-crop-for-net-24-4-release-notes/
+url: /psd/net/cli/crop/aspose-psd-crop-cli-app-for-net-24-6-release-notes/
 ---
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.PSD CLI Crop for .NET 24.4](https://www.nuget.org/packages/Aspose.PSD.CLI.Crop/)
+This page contains release notes for [Aspose.PSD CLI Crop for .NET 24.6](https://www.nuget.org/packages/Aspose.PSD.CLI.Crop/)
 
 {{% /alert %}}
 
-| **Key**     | **Summary**                                        | **Category** |
-|:------------|:---------------------------------------------------|:-------------|
-| PSDNET-2025 | Initial release of Aspose.PSD CLI Crop Application |  Enhancement |
+| **Key**     | **Summary**                                                                                 | **Category** |
+|:------------|:--------------------------------------------------------------------------------------------|:-------------|
+| PSDNET-2110 | Initial Release of Aspose.PSD CLI Apps: Aspose.PSD.CLI.Export and Aspose.PSD.CLI.NLP.Editor |  Enhancement |
 
 
 ## **Usage examples:**
 
-**PSDNET-2023. Initial release of Aspose.PSD CLI Crop Application**
+**PSDNET-2110. Initial release of Aspose.PSD CLI Crop Application**
 
 **Usage from command line:**
 
