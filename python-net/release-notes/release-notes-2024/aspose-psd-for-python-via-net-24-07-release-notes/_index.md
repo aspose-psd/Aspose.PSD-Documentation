@@ -1,7 +1,7 @@
 ---
 title: Aspose.PSD for Python via .NET 24.7 - Release Notes
 type: docs
-weight: 10
+weight: 30
 url: /python-net/aspose-psd-for-python-via-net-24-7-release-notes/
 ---
 
@@ -83,17 +83,17 @@ This page contains release notes for [Aspose.PSD for Python via .NET 24.7](http
 
 **PSDPYTHON-90. 'Arithmetic operation resulted in an overflow' when creating smart object layer using large JPEG**
 {{< highlight python >}}
-        # Fix is made, but there is other issue in Aspose.PSD for Python that restricts this test
-        #srcFile = self.GetFileInBaseFolder("source.psd")
-        #imageJpg = self.GetFileInBaseFolder("test.jpg")
+        # This code works correctly starting  24.9
+        srcFile = self.GetFileInBaseFolder("source.psd")
+        imageJpg = self.GetFileInBaseFolder("test.jpg")
 
-        #loadOpt = PsdLoadOptions()
-        #loadOpt.data_recovery_mode = DataRecoveryMode.MAXIMAL_RECOVER
-        #with PsdImage.load(srcFile, loadOpt) as image:
-            #with open(imageJpg, "rb", buffering=0) as stream:
-                #addedLayer = SmartObjectLayer(stream)
-                #addedLayer.Name = "Test Layer"
-                #image.AddLayer(addedLayer)
+        loadOpt = PsdLoadOptions()
+        loadOpt.data_recovery_mode = DataRecoveryMode.MAXIMAL_RECOVER
+        with PsdImage.load(srcFile, loadOpt) as image:
+            with open(imageJpg, "rb", buffering=0) as stream:
+                addedLayer = SmartObjectLayer(stream)
+                addedLayer.Name = "Test Layer"
+                image.AddLayer(addedLayer)
 {{< /highlight >}}
 
 

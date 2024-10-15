@@ -1,7 +1,7 @@
 ---
 title: Aspose.PSD for Python via .NET 24.3 - Release Notes
 type: docs
-weight: 10
+weight: 70
 url: /net/aspose-psd-for-python-via-net-24-3-release-notes/
 ---
 
