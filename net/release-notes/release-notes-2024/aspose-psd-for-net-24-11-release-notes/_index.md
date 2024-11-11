@@ -48,7 +48,7 @@ string outputFile = Path.Combine(outputFolder, "output_FillLayer_GradientNoise.p
 
 using (PsdImage image = (PsdImage)Image.Load(inputFile))
 {
-FillLayer fillLayer = image.Layers[1] as FillLayer;
+    FillLayer fillLayer = image.Layers[1] as FillLayer;
 
     // Detect source fill settings.
     NoiseGradientFillSettings srcFillSettings = fillLayer.FillSettings as NoiseGradientFillSettings;
@@ -66,9 +66,9 @@ FillLayer fillLayer = image.Layers[1] as FillLayer;
 // Check changed fill settings.
 using (PsdImage image = (PsdImage)Image.Load(outputFile))
 {
-FillLayer fillLayer = image.Layers[1] as FillLayer;
-ColorFillSettings dstFillSettings = fillLayer.FillSettings as ColorFillSettings;
-AssertIsNotNull(dstFillSettings);
+    FillLayer fillLayer = image.Layers[1] as FillLayer;
+    ColorFillSettings dstFillSettings = fillLayer.FillSettings as ColorFillSettings;
+    AssertIsNotNull(dstFillSettings);
 
     // Check that Gradient resource GdFlResource is removed from Resources array of a layer.
     AssertAreEqual(true, CheckResourceIsRemoved(fillLayer.Resources, typeof(GdFlResource)));
@@ -76,31 +76,31 @@ AssertIsNotNull(dstFillSettings);
 
 bool CheckResourceIsRemoved(LayerResource[] resources, Type resourceTypeToRemove)
 {
-foreach (var resource in resources)
-{
-if (resourceTypeToRemove == resource.GetType())
-{
-return false;
-}
-}
+    foreach (var resource in resources)
+    {
+        if (resourceTypeToRemove == resource.GetType())
+        {
+            return false;
+        }
+    }
 
     return true;
 }
 
 void AssertAreEqual(object expected, object actual, string message = null)
 {
-if (!object.Equals(expected, actual))
-{
-throw new Exception(message ?? "Objects are not equal.");
-}
+    if (!object.Equals(expected, actual))
+    {
+        throw new Exception(message ?? "Objects are not equal.");
+    }
 }
 
 void AssertIsNotNull(object actual)
 {
-if (actual == null)
-{
-throw new Exception("Layer is null.");
-}
+    if (actual == null)
+    {
+        throw new Exception("Layer is null.");
+    }
 }
 {{< /highlight >}}
 
@@ -111,7 +111,7 @@ string sourceFile = Path.Combine(baseFolder, "30x20.psd");
 
 using (var psdImage = (PsdImage)Image.Load(sourceFile))
 {
-// Should be no exception on loading the image
+    // Should be no exception on loading the image
 }
 {{< /highlight >}}
 
@@ -123,7 +123,7 @@ string outputFilePng = Path.Combine(outputFolder, "output_NoLayers.png");
 
 using (AiImage image = (AiImage)Image.Load(inputFile))
 {
-image.Save(outputFilePng, new PngOptions());
+    image.Save(outputFilePng, new PngOptions());
 }
 {{< /highlight >}}
 
@@ -134,8 +134,8 @@ string inputFile = Path.Combine(baseFolder, "FillLayer_UpdateColorFillSettings.p
 
 using (PsdImage image = (PsdImage)Image.Load(inputFile))
 {
-FillLayer fillLayer = image.Layers[1] as FillLayer;
-ColorFillSettings beforeFillSettings = fillLayer.FillSettings as ColorFillSettings;
+    FillLayer fillLayer = image.Layers[1] as FillLayer;
+    ColorFillSettings beforeFillSettings = fillLayer.FillSettings as ColorFillSettings;
 
     AssertAreEqual(Color.FromArgb(255, 0, 101, 207), beforeFillSettings.Color);
 
@@ -154,10 +154,10 @@ ColorFillSettings beforeFillSettings = fillLayer.FillSettings as ColorFillSettin
 
 void AssertAreEqual(object expected, object actual, string message = null)
 {
-if (!object.Equals(expected, actual))
-{
-throw new Exception(message ?? "Objects are not equal.");
-}
+    if (!object.Equals(expected, actual))
+    {
+        throw new Exception(message ?? "Objects are not equal.");
+    }
 }
 {{< /highlight >}}
 
@@ -173,9 +173,9 @@ string outFilePng3 = Path.Combine(outputFolder, "art3.png");
 
 using (var psdImage = (PsdImage)Image.Load(srcFile))
 {
-ArtboardLayer art1 = (ArtboardLayer)psdImage.Layers[4];
-ArtboardLayer art2 = (ArtboardLayer)psdImage.Layers[9];
-ArtboardLayer art3 = (ArtboardLayer)psdImage.Layers[14];
+    ArtboardLayer art1 = (ArtboardLayer)psdImage.Layers[4];
+    ArtboardLayer art2 = (ArtboardLayer)psdImage.Layers[9];
+    ArtboardLayer art3 = (ArtboardLayer)psdImage.Layers[14];
 
     var pngSaveOptions = new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha };
     art1.Save(outFilePng1, pngSaveOptions);
