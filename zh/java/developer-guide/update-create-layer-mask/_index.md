@@ -3,7 +3,7 @@ title: 使用Aspose.PSD Java处理蒙版
 weight: 100
 type: 文档
 description: 在PSD文件中处理裁剪、栅格和矢量蒙版的示例
-url: java/update-create-layer-mask/
+url: /zh/java/update-create-layer-mask/
 ---
 
 ## **概述**

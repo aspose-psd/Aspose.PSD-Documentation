@@ -5,7 +5,7 @@ weight: 10
 url: /tr/net/baslayalim/
 ---
 
-{{% uyarı renk="primary" %}} 
+{{% alert renk="primary" %}} 
 
 **Aspose.PSD için .NET Belgelerine Hoş Geldiniz**
 
@@ -17,7 +17,7 @@ Bileşen, Png, Jpg, Bmp, Tiff, Pdf, Gif, Jpeg2000 gibi en yaygın rastgele dosya
 
 
 
-{{% /uyarı %}} 
+{{% /alert %}} 
 # **Aspose.PSD için .NET**
 Sayfa: [Ürün Açıklaması](/psd/tr/net/urun-aciklamasi/) Sayfa: [Desteklenen Dosya Biçimleri](/psd/tr/net/desteklenen-dosya-bicimleri/) Sayfa: [Özellikler](/psd/tr/net/ozellikler/) Sayfa: [Bilinen Sorunlar](/psd/tr/net/bilinen-sorunlar/) Sayfa: [Kurulum](/psd/tr/net/kurulum/) Sayfa: [Sistem Gereksinimleri](/psd/tr/net/sistem-gereksinimleri/) Sayfa: [Lisanslama](/psd/tr/net/lisanslama/) Sayfa: [Ölçülü Lisanslama](/psd/tr/net/olculu-lisanslama/) Sayfa: [Örnekleri Nasıl Çalıştırırım](/psd/tr/net/ornekleri-nasil-calistiririm/) 
 

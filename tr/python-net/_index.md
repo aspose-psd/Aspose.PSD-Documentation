@@ -2,7 +2,7 @@
 title: Aspose.PSD for Python via .NET
 type: docs
 weight: 10
-url: /python-net/
+url: /tr/python-net/
 is_root: true
 keywords: Photoshop Python Kütüphanesi, PSD Python API
 description: Photoshop Python API veya Kütüphanesi PSD dosya biçimlerinin kapsamlı bir şekilde manipülasyonunu sağlar. Adobe Photoshop'un yüklü olmasını gerektirmez ve PSD, PSB ve AI dosya biçimlerini yükleme, manipülasyon ve çeşitli rastgele dosya biçimlerine dönüştürme gibi işlemler için destekler. TIFF, JPEG, JPEG2000, PNG, GIF ve BMP gibi raster dosya biçimlerine çeşitli dışa aktarmaları destekler.

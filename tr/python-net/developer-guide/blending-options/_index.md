@@ -4,7 +4,7 @@ weight: 100
 type: docs
 description: Aspose.PSD için Python, karıştırma seçeneklerini güncellemek için basit bir kodla size yardımcı olabilir.
 keywords: [karıştırma seçenekleri, karıştırma, efekt ekleme, opaklığı değiştirme, gölge rengini değiştirme, gölge ekleme, psd api, python, kod örneği]
-url: python-net/karistirma-secenekleri/
+url: /tr/python-net/karistirma-secenekleri/
 ---
 
 ## **Genel Bakış**

@@ -4,7 +4,7 @@ weight: 100
 type: docs
 description: Перевірте, як Aspose.PSD для Python може конвертувати файл AI у формат PNG.
 keywords: [ai to png, ai format, illustrator files, convert illustrator, png, psd api, python, кодовий зразок]
-url: python-net/convert/ai-to-png
+url: /uk/python-net/convert/ai-to-png
 ---
 
 ## **Огляд**

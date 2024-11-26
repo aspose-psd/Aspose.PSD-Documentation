@@ -4,7 +4,7 @@ weight: 100
 type: docs
 description: Aspose.PSD'nin Python için AI Görüntülerini PDF'e dönüştürme işlemini nasıl manipüle edebileceğini kontrol et
 keywords: [ai'yi png'ye, ai formatı, illustrator dosyaları, illustrator dönüştürme, ai'yi pdf'e, ai'yi jpeg'e, ai'yi tiff'e, ai'yi psd'ye, psd api, python, kod örneği]
-url: python-net/convert/ai-to-pdf
+url: /tr/python-net/convert/ai-to-pdf
 ---
 
 ## **Genel Bakış**

@@ -4,7 +4,7 @@ weight: 100
 type: docs
 description: Ví dụ xuất tệp PSD, PSB, và AI sang các định dạng khác
 keywords: [mở psd, mở ai, mở psb, xuất sang png, xuất sang pdf, xuất sang jpeg, xuất sang tiff, psd api, python, mã mẫu]
-url: python-net/mo-xuat-psd-psb-ai-sang-pdf-jpeg-png-tiff-bmp-gif-bmp/
+url: /zh/python-net/mo-xuat-psd-psb-ai-sang-pdf-jpeg-png-tiff-bmp-gif-bmp/
 ---
 
 ## **Tổng quan**

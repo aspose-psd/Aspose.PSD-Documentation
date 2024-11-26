@@ -2,7 +2,7 @@
 title: Ghi chú về Aspose.PSD cho Java 20.4
 type: docs
 weight: 30
-url: /java/aspose-psd-for-java-20-4-release-notes/
+url: /zh/java/aspose-psd-for-java-20-4-release-notes/
 ---
 
 {{% alert color="primary" %}}Trang này chứa ghi chú về [Aspose.PSD cho Java 20.4](https://downloads.aspose.com/psd/java/new-releases/aspose.psd-for-java-20.4/){{% /alert %}}

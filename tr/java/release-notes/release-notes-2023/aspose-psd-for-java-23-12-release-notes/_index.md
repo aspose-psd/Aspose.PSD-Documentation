@@ -5,7 +5,7 @@ weight: 40
 url: /tr/java/aspose-psd-for-java-23-12-release-notes/
 ---
 
-{{% uyarı renk="primary" %}} Bu sayfa, [Aspose.PSD for Java 23.12](https://downloads.aspose.com/psd/java/new-releases/aspose.psd-for-java-23.12/) için sürüm notlarını içerir. {{% /uyarı %}}
+{{% alert renk="primary" %}} Bu sayfa, [Aspose.PSD for Java 23.12](https://downloads.aspose.com/psd/java/new-releases/aspose.psd-for-java-23.12/) için sürüm notlarını içerir. {{% /alert %}}
 
 | **Anahtar**  | **Özet**                                                                                              | **Kategori**  |
 |:------------|:----------------------------------------------------------------------------------------------------|:-------------|

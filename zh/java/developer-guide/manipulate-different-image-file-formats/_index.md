@@ -2,7 +2,7 @@
 title: 操控不同的图像文件格式
 type: docs
 weight: 10
-url: /java/manipulate-different-image-file-formats/
+url: /zh/java/manipulate-different-image-file-formats/
 ---
 
 ## **概述**

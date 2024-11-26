@@ -4,7 +4,7 @@ weight: 100
 type: docs
 description: Перевірте, як Aspose.PSD для Python може маніпулювати конвертацією зображень AI у PDF
 keywords: [ai до png, формат ai, файли ілюстратора, конвертувати ілюстратор, ai до pdf, ai до jpeg, ai до tiff, ai до psd, psd api, python, зразок коду]
-url: python-net/convert/ai-to-pdf
+url: /uk/python-net/convert/ai-to-pdf
 ---
 
 ## **Огляд**

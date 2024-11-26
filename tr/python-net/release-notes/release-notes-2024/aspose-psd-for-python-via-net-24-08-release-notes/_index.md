@@ -5,11 +5,11 @@ weight: 10
 url: /tr/python-net/aspose-psd-icin-python-via-net-24-8-sürüm-notları/
 ---
 
-{{% Uyarı renk="primary" %}}
+{{% alert renk="primary" %}}
 
 Bu sayfa, [Aspose.PSD için Python via .NET 24.8](https://pypi.org/project/aspose-psd/) için sürüm notlarını içerir.
 
-{{% /Uyarı %}}
+{{% /alert %}}
 
 | **Anahtar**  | **Özet**                                                                                                       | **Kategori** |
 |:------------:|:--------------------------------------------------------------------------------------------------------------|:------------:|
