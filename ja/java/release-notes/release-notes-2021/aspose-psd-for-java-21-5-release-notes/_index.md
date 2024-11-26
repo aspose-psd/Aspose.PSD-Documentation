@@ -1,0 +1,190 @@
+---
+title: Aspose.PSD for Java 21.5 - リリースノート
+type: docs
+weight: 40
+url: /ja/java/aspose-psd-for-java-21-5-release-notes/
+---
+
+{{% alert color="primary" %}} このページには [Aspose.PSD for Java 21.5](https://downloads.aspose.com/psd/java/new-releases/aspose.psd-for-java-21.5/) のリリースノートが含まれています。{{% /alert %}}
+
+{{% alert color="info" %}}
+Aspose.PSD for Java の中間リリースです。いくつか既知の問題があります。安定したバージョンが必要な場合は、[Aspose.PSD 20.9](https://downloads.aspose.com/psd/java/new-releases/aspose.psd-for-java-20.9/) を使用してください。Aspose.PSD 21.6 がリリースされるまでお待ちください。このバージョンには、20.9 以降のすべての Aspose.PSD .NET の機能（スマートオブジェクトを含む）と以下にリストされている機能が含まれています。
+{{% /alert %}}
+
+|**キー**|**概要**|**カテゴリ**|
+| :- | :- | :- |
+|PSDJAVA-340|レイヤーがリサイズされたときに、レイヤーのみがリサイズされた場合のベクター パスを持つシェイプ レイヤーのサポート|機能|
+|PSDJAVA-341|ベクター パスを持つシェイプ レイヤーのリサイズのサポート|機能|
+|PSDJAVA-342|切り捨てられたテキスト文字列|バグ|
+
+# **公開 API の変更**
+# **追加された API:**
+- M:com.aspose.psd.CmykColor.isEquals(com.aspose.psd.CmykColor,com.aspose.psd.CmykColor)
+- M:com.aspose.psd.Color.isEquals(com.aspose.psd.Color,com.aspose.psd.Color)
+- M:com.aspose.psd.ColorPaletteHelper.getCloseImagePalette(com.aspose.psd.RasterImage,com.aspose.psd.Rectangle,int,boolean)
+- M:com.aspose.psd.ColorPaletteHelper.hasTransparentColors(com.aspose.psd.IColorPalette)
+- T:com.aspose.psd.CompositeException
+- T:com.aspose.psd.CurrentThreadSettings
+- M:com.aspose.psd.CurrentThreadSettings.getLocale
+- M:com.aspose.psd.CurrentThreadSettings.setLocale(java.lang.String)
+- M:com.aspose.psd.CurrentThreadSettings.setLocale(java.util.Locale)
+- M:com.aspose.psd.DataStreamSupporter.save(java.io.RandomAccessFile)
+- M:com.aspose.psd.DataStreamSupporter.saveData(com.aspose.psd.system.io.Stream)
+- M:com.aspose.psd.DisposableObject.close
+- M:com.aspose.psd.Font.makeFontWithGraphUnit(java.lang.String,float,int)
+- M:com.aspose.psd.FontSettings.addFontsFolder(java.lang.String)
+- M:com.aspose.psd.FontSettings.removeFontsFolder(java.lang.String)
+- M:com.aspose.psd.FontSettings.setFontsFolders(java.lang.String[])
+- M:com.aspose.psd.Image.create(com.aspose.psd.Image[])
+- M:com.aspose.psd.Image.create(com.aspose.psd.Image[],boolean)
+- M:com.aspose.psd.Image.getImage2Export(com.aspose.psd.ImageOptionsBase,com.aspose.psd.Rectangle)
+- M:com.aspose.psd.Image.isAutoAdjustPalette
+- M:com.aspose.psd.Image.isUsePalette
+- M:com.aspose.psd.Image.load(java.io.RandomAccessFile)
+- M:com.aspose.psd.Image.load(java.io.RandomAccessFile,com.aspose.psd.LoadOptions)
+- M:com.aspose.psd.Image.save(java.io.RandomAccessFile,com.aspose.psd.ImageOptionsBase)
+- M:com.aspose.psd.Image.save(java.io.RandomAccessFile,com.aspose.psd.ImageOptionsBase,com.aspose.psd.Rectangle)
+- M:com.aspose.psd.ImageOptionsBase.deepClone
+- M:com.aspose.psd.ImageOptionsBase.getFullFrame
+- M:com.aspose.psd.ImageOptionsBase.memberwiseClone
+- M:com.aspose.psd.ImageOptionsBase.setFullFrame(boolean)
+- F:com.aspose.psd.Matrix.TYPE_FLIP
+- F:com.aspose.psd.Matrix.TYPE_GENERAL_ROTATION
+- F:com.aspose.psd.Matrix.TYPE_GENERAL_SCALE
+- F:com.aspose.psd.Matrix.TYPE_GENERAL_TRANSFORM
+- F:com.aspose.psd.Matrix.TYPE_IDENTITY
+- F:com.aspose.psd.Matrix.TYPE_MASK_ROTATION
+- F:com.aspose.psd.Matrix.TYPE_MASK_SCALE
+- F:com.aspose.psd.Matrix.TYPE_QUADRANT_ROTATION
+- F:com.aspose.psd.Matrix.TYPE_TRANSLATION
+- F:com.aspose.psd.Matrix.TYPE_UNIFORM_SCALE
+- M:com.aspose.psd.Matrix.isEquals(com.aspose.psd.Matrix,com.aspose.psd.Matrix)
+- M:com.aspose.psd.Matrix.isIdentity
+- M:com.aspose.psd.NonGenericDictionary.#ctor
+- M:com.aspose.psd.NonGenericDictionary.getKeysTyped
+- M:com.aspose.psd.NonGenericDictionary.getValuesTyped
+- M:com.aspose.psd.NonGenericList.add(int,java.lang.Object)
+- M:com.aspose.psd.NonGenericList.addAll(java.util.Collection)
+- M:com.aspose.psd.NonGenericList.addAll(int,java.util.Collection)
+- M:com.aspose.psd.NonGenericList.containsAll(java.util.Collection)
+- M:com.aspose.psd.NonGenericList.get(int)
+- M:com.aspose.psd.NonGenericList.getList
+- M:com.aspose.psd.NonGenericList.isEmpty
+- M:com.aspose.psd.NonGenericList.lastIndexOf(java.lang.Object)
+- M:com.aspose.psd.NonGenericList.listIterator
+- M:com.aspose.psd.NonGenericList.listIterator(int)
+- M:com.aspose.psd.NonGenericList.remove(int)
+- M:com.aspose.psd.NonGenericList.removeAll(java.util.Collection)
+- M:com.aspose.psd.NonGenericList.retainAll(java.util.Collection)
+- M:com.aspose.psd.NonGenericList.set(int,java.lang.Object)
+- M:com.aspose.psd.NonGenericList.subList(int,int)
+- M:com.aspose.psd.NonGenericList.toArray
+- M:com.aspose.psd.NonGenericList.toArray(java.lang.Object[])
+- T:com.aspose.psd.PdfComplianceVersion
+- F:com.aspose.psd.PdfComplianceVersion.Pdf15
+- F:com.aspose.psd.PdfComplianceVersion.PdfA1a
+- F:com.aspose.psd.PdfComplianceVersion.PdfA1b
+- M:com.aspose.psd.PixelDataFormat.getCieLab(int,int,int)
+- M:com.aspose.psd.PixelDataFormat.getCmyk(int,int,int,int)
+- M:com.aspose.psd.PixelDataFormat.getCmyka(int,int,int,int,int)
+- M:com.aspose.psd.PixelDataFormat.getGrayscaleAlpha(int,int)
+- M:com.aspose.psd.PixelDataFormat.getRgb(int,int,int)
+- M:com.aspose.psd.PixelDataFormat.getRgbIndexed(int)
+- M:com.aspose.psd.PixelDataFormat.getRgba(int,int,int,int)
+- M:com.aspose.psd.PixelDataFormat.getYCbCr(int,int,int)
+- F:com.aspose.psd.PixelFormat.CieLab
+- M:com.aspose.psd.Point.isEquals(com.aspose.psd.Point,com.aspose.psd.Point)
+- M:com.aspose.psd.PointF.isEquals(com.aspose.psd.PointF,com.aspose.psd.PointF)
+- M:com.aspose.psd.RasterCachedImage.doRotate(float,boolean,com.aspose.psd.Color)
+- M:com.aspose.psd.RasterCachedImage.getRotateMode
+- T:com.aspose.psd.RasterCachedImage$RotateTestMode
+- F:com.aspose.psd.RasterCachedImage$RotateTestMode.ByteArrayMode
+- F:com.aspose.psd.RasterCachedImage$RotateTestMode.RegularMode
+- F:com.aspose.psd.RasterCachedImage$RotateTestMode.StreamMode
+- M:com.aspose.psd.RasterImage.isUsePalette
+- M:com.aspose.psd.Rectangle.isEquals(com.aspose.psd.Rectangle,com.aspose.psd.Rectangle)
+- M:com.aspose.psd.RectangleF.isEquals(com.aspose.psd.RectangleF,com.aspose.psd.RectangleF)
+- M:com.aspose.psd.RectangleF.op_Division(com.aspose.psd.RectangleF,float)
+- M:com.aspose.psd.RectangleF.op_Multiply(com.aspose.psd.RectangleF,float)
+- M:com.aspose.psd.Region.isEquals(com.aspose.psd.Region,com.aspose.psd.Graphics)
+- M:com.aspose.psd.Size.isEquals(com.aspose.psd.Size,com.aspose.psd.Size)
+- M:com.aspose.psd.SizeF.isEquals(com.aspose.psd.SizeF,com.aspose.psd.SizeF)
+- F:com.aspose.psd.StreamContainer.READ_WRITE_BYTES_COUNT
+- F:com.aspose.psd.StreamContainer.startPosition
+- M:com.aspose.psd.StreamContainer.#ctor(com.aspose.psd.system.io.Stream)
+- M:com.aspose.psd.StreamContainer.#ctor(com.aspose.psd.system.io.Stream,boolean)
+- T:com.aspose.psd.asynctask.AsyncTask
+- M:com.aspose.psd.asynctask.AsyncTask.create(com.aspose.psd.asynctask.AsyncTaskAction)
+- M:com.aspose.psd.asynctask.AsyncTask.create(com.aspose.psd.asynctask.AsyncTaskFunc)
+- T:com.aspose.psd.asynctask.AsyncTaskAction
+- M:com.aspose.psd.asynctask.AsyncTaskAction.run(com.aspose.psd.asynctask.IAsyncTaskState)
+- T:com.aspose.psd.asynctask.AsyncTaskException
+- M:com.aspose.psd.asynctask.AsyncTaskException.#ctor(java.lang.String)
+- T:com.aspose.psd.asynctask.AsyncTaskFunc
+- M:com.aspose.psd.asynctask.AsyncTaskFunc.#ctor
+- M:com.aspose.psd.asynctask.AsyncTaskFunc.beginInvoke(com.aspose.psd.asynctask.IAsyncTaskState,com.aspose.psd.system.AsyncCallback,java.lang.Object)
+- M:com.aspose.psd.asynctask.AsyncTaskFunc.endInvoke(com.aspose.psd.system.IAsyncResult)
+- M:com.aspose.psd.asynctask.AsyncTaskFunc.invoke(com.aspose.psd.asynctask,
+- T:com.aspose.psd.asynctask.IAsyncTaskState
+- M:com.aspose.psd.asynctask.IAsyncTaskState.getException
+- M:com.aspose.psd.asynctask.IAsyncTaskState.getIsCompleted
+- T:com.aspose.psd.asynctask.IAsyncTaskStateProvider
+- M:com.aspose.psd.asynctask.IAsyncTaskStateProvider.createState
+- T:com.aspose.psd.asynctask.IAsyncTaskStateSetter
+- M:com.aspose.psd.asynctask.IAsyncTaskStateSetter.setResult(java.lang.Object)
+- M:com.aspose.psd.asynctask.IAsyncTaskStateSetter.setException(java.lang.Exception)
+- M:com.aspose.psd.asynctask.IAsyncTaskStateSetter.complete
+- T:com.aspose.psd.brushes.Brushes
+- M:com.aspose.psd.brushes.Brushes.getTransparent
+- F:com.aspose.psd.brushes.PatternBrush.DEFAULT_OPACITY_VALUE
+- T:com.aspose.psd.collections.Dictionary
+- M:com.aspose.psd.collections.Dictionary.#ctor(java.util.Map)
+- M:com.aspose.psd.collections.Dictionary.#ctor(java.util.Map,com.aspose.psd.system.collections.IDictionaryComparer)
+- M:com.aspose.psd.collections.Dictionary.add(java.lang.Object,java.lang.Object)
+- M:com.aspose.psd.collections.Dictionary.clear
+- M:com.aspose.psd.collections.Dictionary.containsKey(java.lang.Object)
+- M:com.aspose.psd.collections.Dictionary.containsValue(java.lang.Object)
+- M:com.aspose.psd.collections.Dictionary.copyTo(com.aspose.psd.system.Array,int)
+- M:com.aspose.psd.collections.Dictionary.get(java.lang.Object)
+- M:com.aspose.psd.collections.Dictionary.getKey(java.lang.Object)
+- M:com.aspose.psd.collections.Dictionary.getKeys
+- M:com.aspose.psd.collections.Dictionary.getValue(java.lang.Object)
+- M:com.aspose.psd.collections.Dictionary.getValues
+- M:com.aspose.psd.collections.Dictionary.remove(java.lang.Object)
+- T:com.aspose.psd.collections.HashSet
+- T:com.aspose.psd.collections.HashSet.#ctor
+- M:com.aspose.psd.collections.HashSet.add(java.lang.Object)
+- M:com.aspose.psd.collections.HashSet.clear
+- M:com.aspose.psd.collections.HashSet.contains(java.lang.Object)
+- M:com.aspose.psd.collections.HashSet.copyTo(com.aspose.psd.system.Array,int)
+- M:com.aspose.psd.collections.HashSet.getEnumerator
+- M:com.aspose.psd.collections.HashSet.remove(java.lang.Object)
+- T:com.aspose.psd.collections.List
+- F:com.aspose.psd.collections.List.InvalidIndex
+- M:com.aspose.psd.collections.List.#ctor
+- M:com.aspose.psd.collections.List.#ctor(com.aspose.psd.system.collections.ICollection)
+- M:com.aspose.psd.collections.List.add(java.lang.Object)
+- M:com.aspose.psd.collections.List.addRange(com.aspose.psd.system.collections.IEnumerable)
+- M:com.aspose.psd.collections.List.clear
+- M:com.aspose.psd.collections.List.contains(java.lang.Object)
+- M:com.aspose.psd.collections.List.copyTo(com.aspose.psd.system.Array,int)
+- M:com.aspose.psd.collections.List.get(int)
+- M:com.aspose.psd.collections.List.getList
+- M:com.aspose.psd.collections.List.insert(int,java.lang.Object)
+- M:com.aspose.psd.collections.List.isEmpty
+- M:com.aspose.psd.collections.List.item(int)
+- M:com.aspose.psd.collections.List.iterator
+- M:com.aspose.psd.collections.List.lastIndexOf(java.lang.Object)
+- M:com.aspose.psd.collections.List.remove(java.lang.Object)
+- M:com.aspose.psd.collections.List.removeAt(int)
+- M:com.aspose.psd.collections.List.removeAll(java.util.Collection)
+- M:com.aspose.psd.collections.List.retainAll(java.util.Collection)
+- M:com.aspose.psd.collections.List.set(int,java.lang.Object)
+- M:com.aspose.psd.collections.List.size
+- M:com.aspose.psd.collections.List.subList(int,int)
+- T:com.aspose.psd.collections.dictionary.keyvalue.collection.KeyValue
+- M:com.aspose.psd.collections.dictionary.keyvalue.collection.KeyValue.#ctor(java.lang.Object,java.lang.Object)
+- M:com.aspose.psd.collections.dictionary.keyvalue.collection.KeyValue.getKey
+- M:com.aspose.psd.collections.dictionary.keyvalue.collection.KeyValue.setKey(java.lang.Object)
+- M:com.aspose.psd.collections.dictionary.keyvalue.collection.KeyValue.getValue
+- M:com.aspose.psd.collections.dictionary.keyvalue.collection.KeyValue.setValue(java.lang.Object)
