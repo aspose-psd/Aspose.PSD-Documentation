@@ -10,7 +10,7 @@ url: /zh/java/manipulating-png-images/
 
 
 
-{{< gist代码 "aspose-com-gists" "31800d807a72f1f50fe4b29374119227" "Examples-src-main-java-com-aspose-psd-examples-ModifyingAndConvertingImages-PNG-SpecifyTransparency-SpecifyTransparency.java" >}}
+{{< gist "aspose-com-gists" "31800d807a72f1f50fe4b29374119227" "Examples-src-main-java-com-aspose-psd-examples-ModifyingAndConvertingImages-PNG-SpecifyTransparency-SpecifyTransparency.java" >}}
 ## **为 PNG 图像设置分辨率**
 Aspose.PSD for Java 公开了 ResolutionSetting 类，该类可用于为包括 PNG 在内的所有图像格式设置分辨率。本文演示了如何使用 Aspose.PSD for Java API 设置 PNG 图像格式的水平和垂直分辨率参数。下面的代码片段加载一个现有的 PSD 图像，并将其转换为 PNG 格式，同时更改分辨率。
 
