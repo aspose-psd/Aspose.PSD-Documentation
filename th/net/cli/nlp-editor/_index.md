@@ -27,14 +27,14 @@ Aspose.PSD CLI NLP Editor Application เป็นเครื่องมือ
 
 ## **การใช้งานจากบรรทัดคำสั่ง:**
 
-{{% แจ้งเตือน color="primary" %}}
+{{% alert color="primary" %}}
 ก่อนทุกอย่างครั้งแรกให้ติดตั้งเครื่องมือ dotnet นี้:
 {{< highlight bash >}}dotnet tool install --global Aspose.PSD.CLI.NLP.Editor --version 24.6.0{{< /highlight >}}
 
 เราขอแนะนำก่อนการใช้งานครั้งแรกให้เปิดใช้งานคำสั่งต่อไปนี้:
 {{< highlight bash >}}Aspose.PSD.CLI.NLP.Editor --setup nlp.cli{{< /highlight >}}
 หลังจากทำคำสั่งนี้คุณจะสามารถใช้แอปพลิเคชันนี้ด้วยชื่อสั้น nlp.cli แทนที่ Aspose.PSD.CLI.NLP.Editor คุณสามารถระบุชื่อสั้นของคุณเองได้
-{{% /แจ้งเตือน %}}
+{{% /alert %}}
 
 **พารามิเตอร์ที่สามารถใช้ได้สำหรับ Aspose.PSD.CLI.Crop Application** 
 
