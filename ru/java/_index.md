@@ -24,12 +24,12 @@ Aspose.PSD для Java позволяет обширную манипуляци�
 
 Ниже представлены ссылки на ряд полезных ресурсов, которые могут понадобиться для выполнения ваших задач.
 
-- [Онлайн-документация Aspose.PSD для Java](/ru/psd/java/)
-- [Возможности Aspose.PSD для Java](/ru/psd/java/features/)
-- [Примечания к выпуску Aspose.PSD для Java](/ru/psd/java/release-notes/)
+- [Онлайн-документация Aspose.PSD для Java](/psd/ru/java/)
+- [Возможности Aspose.PSD для Java](/psd/ru/java/features/)
+- [Примечания к выпуску Aspose.PSD для Java](/psd/ru/java/release-notes/)
 - [Страница продукта Aspose.PSD для Java](https://products.aspose.com/psd/java)
 - [Скачать Aspose.PSD для Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-psd)
-- [Установить Aspose.PSD для Java из репозитория Maven](/ru/psd/java/installation/)
+- [Установить Aspose.PSD для Java из репозитория Maven](/psd/ru/java/installation/)
 - [Руководство по API Aspose.PSD для Java](https://reference.aspose.com/java/psd)
 - [Скачать примеры на репозитории GitHub](https://github.com/aspose-psd/Aspose.PSD-for-Java)
 - [Форум бесплатной поддержки Aspose.PSD для Java](https://forum.aspose.com/c/psd)

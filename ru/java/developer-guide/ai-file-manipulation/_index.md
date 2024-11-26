@@ -8,15 +8,15 @@ url: ru/java/ai-file-manipulation/
 ---
 
 ## **Обзор**
-Aspose.PSD позволяет конвертировать [Ai](/psd/net/ai-adobe-illustrator-format/) в форматы Jpeg, Jpeg2000, Png, Tiff, Pdf, Gif, [Psd](https://reference.aspose.com/psd/java/com.aspose.psd.fileformats.psd/psdimage/) и Bmp.
+Aspose.PSD позволяет конвертировать [Ai](/psd/ru/net/ai-adobe-illustrator-format/) в форматы Jpeg, Jpeg2000, Png, Tiff, Pdf, Gif, [Psd](https://reference.aspose.com/psd/java/com.aspose.psd.fileformats.psd/psdimage/) и Bmp.
 
 Векторное изображение, такое как [Изображение Ai](https://reference.aspose.com/psd/java/com.aspose.psd.fileformats.ai/aiimage), состоит из линий и фигур. Aspose.PSD поддерживает возможность отображения примитивов иллюстратора с различной заливкой, контуром, пользовательской шириной, текстами и другими функциями формата AI.
 
 В настоящее время поддерживаются большинство форматов AI.
 
-Вы можете конвертировать [Файл Ai](/psd/net/ai-adobe-illustrator-format/) на своем сервере с помощью [Aspose.PSD](https://products.aspose.com/psd/java) без использования Illustrator. Это хорошая альтернатива Adobe Illustrator.
+Вы можете конвертировать [Файл Ai](/psd/ru/net/ai-adobe-illustrator-format/) на своем сервере с помощью [Aspose.PSD](https://products.aspose.com/psd/java) без использования Illustrator. Это хорошая альтернатива Adobe Illustrator.
 
 ## **Конкретные примеры экспорта AI в растровые форматы**
-- [Ai в JPEG](/psd/java/convert/ai-to-jpg/)
-- [Ai в PDF](/psd/java/convert/ai-to-pdf/)
-- [Ai в PNG](/psd/java/convert/ai-to-png/)
+- [Ai в JPEG](/psd/ru/java/convert/ai-to-jpg/)
+- [Ai в PDF](/psd/ru/java/convert/ai-to-pdf/)
+- [Ai в PNG](/psd/ru/java/convert/ai-to-png/)

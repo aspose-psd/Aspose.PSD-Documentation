@@ -17,6 +17,6 @@ C# .NET Photoshop Manipulation API - Aspose.PSD это SDK для формата
 
 Вы можете экспортировать файл PSD после редактирования или в режиме только для чтения, где будет использоваться предварительный просмотр файла PSD. 
 
-Вот пример экспорта [градиента Photoshop](/ru/psd/net/support-of-fill-layers/) и [текстового слоя PSD](/ru/psd/net/working-with-text-layers/):
+Вот пример экспорта [градиента Photoshop](/psd/ru/net/support-of-fill-layers/) и [текстового слоя PSD](/psd/ru/net/working-with-text-layers/):
 
 ![todo:image_alt_text](psd-to-jpg_1.png)

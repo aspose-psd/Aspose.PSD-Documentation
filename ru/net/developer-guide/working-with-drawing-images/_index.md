@@ -11,6 +11,6 @@ url: /ru/net/working-with-drawing-images/
 
 
 ## **Статьи в этом разделе**
-- [Рисование изображений](/ru/psd/net/drawing-images/)
-- [Рисование изображений с использованием Graphics](/ru/psd/net/drawing-images-using-graphics/)
-- [Рисование изображений с использованием GraphicsPath](/ru/psd/net/drawing-images-using-graphicspath/)
+- [Рисование изображений](/psd/ru/net/drawing-images/)
+- [Рисование изображений с использованием Graphics](/psd/ru/net/drawing-images-using-graphics/)
+- [Рисование изображений с использованием GraphicsPath](/psd/ru/net/drawing-images-using-graphicspath/)

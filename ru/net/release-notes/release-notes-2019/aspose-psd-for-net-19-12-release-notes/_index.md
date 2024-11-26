@@ -13,8 +13,8 @@ url: /ru/net/aspose-psd-for-net-19-12-release-notes/
 
 |**Ключ**|**Описание**|**Категория**|
 | :- | :- | :- |
-|PSDNET-11|[Поддержка связанных слоев](/ru/psd/net/working-with-layers/#workingwithlayers-supportoflinkedlayers)|Функция|
-|PSDNET-131|[Поддержка SoCoResource](/ru/psd/net/support-of-socoresource/)|Функция|
+|PSDNET-11|[Поддержка связанных слоев](/psd/ru/net/working-with-layers/#workingwithlayers-supportoflinkedlayers)|Функция|
+|PSDNET-131|[Поддержка SoCoResource](/psd/ru/net/support-of-socoresource/)|Функция|
 |PSDNET-115|Добавление LineBreaks к существующим LineBreaks при обновлении TextLayer текстом|Ошибка|
 |PSDNET-157|Замораживание при сохранении PSB в PNG|Ошибка|
 |PSDNET-250|Исключение при загрузке CMYK PSD файла без слоев с сжатием RLE|Ошибка|
