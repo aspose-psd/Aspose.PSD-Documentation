@@ -1,4 +1,4 @@
-This repository contains Aspose.CAD Product Family documentation.
+This repository contains Aspose.PSD Product Family documentation.
 
 [Aspose.PSD for .NET Documentation](net)
 
