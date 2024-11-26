@@ -2,7 +2,7 @@
 title: Manipulating TIFF Images
 type: docs
 weight: 40
-url: /java/manipulating-tiff-images/
+url: /uk/java/manipulating-tiff-images/
 ---
 
 ## **Додавання кадрів з різними налаштуваннями**

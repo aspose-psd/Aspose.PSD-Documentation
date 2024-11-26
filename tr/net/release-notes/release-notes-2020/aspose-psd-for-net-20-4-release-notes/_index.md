@@ -2,7 +2,7 @@
 title: Aspose.PSD for .NET 20.4 - Sürüm Notları
 type: docs
 weight: 90
-url: /net/aspose-psd-for-net-20-4-sürüm-notları/
+url: /tr/net/aspose-psd-for-net-20-4-sürüm-notları/
 ---
 
 {{% alert color="primary" %}} 

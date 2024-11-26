@@ -2,7 +2,7 @@
 title: การจัดการภาพ JPEG
 type: docs
 weight: 20
-url: /java/manipulating-jpeg-images/
+url: /th/java/manipulating-jpeg-images/
 ---
 
 ## **ใช้ ExifData Class เพื่ออ่านและแก้ไข JPEG EXIF Tags**

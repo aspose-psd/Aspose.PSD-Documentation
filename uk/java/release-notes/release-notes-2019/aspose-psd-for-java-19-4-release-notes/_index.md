@@ -2,7 +2,7 @@
 title: Примітки з випуску Aspose.PSD для Java 19.4
 type: docs
 weight: 20
-url: /java/aspose-psd-for-java-19-4-release-notes/
+url: /uk/java/aspose-psd-for-java-19-4-release-notes/
 ---
 
 {{% alert color="primary" %}} 

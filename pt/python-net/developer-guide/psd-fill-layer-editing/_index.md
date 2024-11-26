@@ -4,7 +4,7 @@ weight: 100
 type: docs
 description: Exemplos de uso de todos os tipos de camadas de ajuste, incluindo Preenchimento de Cor, Preenchimento de Gradiente e Preenchimento de Padrão
 keywords: [camada de preenchimento, Preenchimento de Cor, Preenchimento de Gradiente, Preenchimento de Padrão, api psd, python, exemplo de código]
-url: python-net/edicao-de-camada-de-preenchimento-psd/
+url: /pt/python-net/edicao-de-camada-de-preenchimento-psd/
 ---
 
 ## **Visão Geral**

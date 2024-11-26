@@ -2,7 +2,7 @@
 title: Aspose.PSD for Java 23.7 - Sürüm Notları
 type: docs
 weight: 40
-url: /java/aspose-psd-for-java-23-7-sürüm-notları/
+url: /tr/java/aspose-psd-for-java-23-7-sürüm-notları/
 ---
 
 {{% alert color="primary" %}} Bu sayfa, [Aspose.PSD for Java 23.7](https://downloads.aspose.com/psd/java/new-releases/aspose.psd-for-java-23.7/) sürümü için yayın notlarını içerir. {{% /alert %}}

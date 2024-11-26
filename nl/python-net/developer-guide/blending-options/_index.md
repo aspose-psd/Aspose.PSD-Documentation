@@ -4,7 +4,7 @@ weight: 100
 type: docs
 description: Aspose.PSD voor Python kan u helpen bij het bijwerken van blendingsopties met een eenvoudige code.
 keywords: [blend opties, mengen, effecten toevoegen, dekking wijzigen, kleur van schaduw wijzigen, schaduw toevoegen, psd api, python, voorbeeldcode]
-url: python-net/blending-options/
+url: nl/python-net/blending-options/
 ---
 
 ## **Overzicht**

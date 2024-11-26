@@ -2,7 +2,7 @@
 title: Aspose.PSD สำหรับ Python via .NET
 type: docs
 weight: 10
-url: /python-net/
+url: /th/python-net/
 is_root: true
 keywords: ไลบรารี Python ของ Photoshop, API Python สำหรับ PSD
 description: API หรือไลบรารี Python ของ Photoshop ช่วยให้คุณสามารถแก้ไขรูปแบบไฟล์ PSD อย่างครอบคลุมโดยไม่ต้องมี Adobe Photoshop ติดตั้ง และรองรับรูปแบบไฟล์ PSD, PSB และ AI สำหรับการโหลด, การจัดการ และการแปลงไปยังรูปแบบไฟล์ราสเตอร์ต่าง ๆ เช่น TIFF, JPEG, JPEG2000, PNG, GIF และ BMP

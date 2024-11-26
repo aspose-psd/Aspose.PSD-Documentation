@@ -3,7 +3,7 @@
 title: Modifying Images
 type: docs
 weight: 50
-url: /java/modifying-images/
+url: /th/java/modifying-images/
 ---
 
 ## **Dithering for Raster Images**

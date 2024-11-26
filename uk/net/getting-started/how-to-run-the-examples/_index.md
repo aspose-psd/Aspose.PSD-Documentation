@@ -1,7 +1,7 @@
 ---
 title: Як запустити приклади
 type: docs
-url: /net/how-to-run-the-examples/
+url: /uk/net/how-to-run-the-examples/
 description: Дізнайтеся, як запустити приклади, що стосуються бібліотеки формату файлів PSD, які розміщені на GitHub.
 ---
 

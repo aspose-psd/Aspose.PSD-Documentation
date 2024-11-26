@@ -2,7 +2,7 @@
 title: Aspose.PSD for Java 20.3 - Release Notes
 type: docs
 weight: 10
-url: /java/aspose-psd-for-java-20-3-release-notes/
+url: /th/java/aspose-psd-for-java-20-3-release-notes/
 ---
 
 {{% alert color="primary" %}} หน้านี้มีบันทึกการปล่อย [Aspose.PSD for Java 20.3](https://downloads.aspose.com/psd/java/new-releases/aspose.psd-for-java-20.2/) {{% /alert %}} 

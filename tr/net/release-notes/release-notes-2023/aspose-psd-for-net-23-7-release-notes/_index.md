@@ -2,7 +2,7 @@
 title: Aspose.PSD for .NET 23.7 - Sürüm Notları
 type: docs
 weight: 60
-url: /net/aspose-psd-for-net-23-7-sürüm-notları/
+url: /tr/net/aspose-psd-for-net-23-7-sürüm-notları/
 ---
 
 {{% alert color="primary" %}}

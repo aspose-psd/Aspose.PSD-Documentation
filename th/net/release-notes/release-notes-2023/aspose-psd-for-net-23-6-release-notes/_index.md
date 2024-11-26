@@ -2,7 +2,7 @@
 title: Aspose.PSD for .NET 23.6 - Release Notes
 type: docs
 weight: 70
-url: /net/aspose-psd-for-net-23-6-release-notes/
+url: /th/net/aspose-psd-for-net-23-6-release-notes/
 ---
 
 {{% alert color="primary" %}}

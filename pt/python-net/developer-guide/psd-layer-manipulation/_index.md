@@ -4,7 +4,7 @@ weight: 100
 type: docs
 description: Exemplos de como manipular Camadas de um Arquivo PSD em Python
 keywords: [camada de filtro, redimensionar camada, girar camada, recortar camada, filtros psd, manipulação de camadas, atualizar camada, api psd, python, exemplo de código]
-url: python-net/psd-layer-manipulation/
+url: /pt/python-net/psd-layer-manipulation/
 ---
 
 ## **Visão Geral**

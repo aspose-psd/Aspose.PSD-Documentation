@@ -2,7 +2,7 @@
 title: Aspose.PSD para Java 20.4 - Notas da Versão
 type: docs
 weight: 30
-url: /java/aspose-psd-for-java-20-4-release-notes/
+url: /pt/java/aspose-psd-for-java-20-4-release-notes/
 ---
 
 {{% alert color="primary" %}} Esta página contém notas de lançamento para [Aspose.PSD para Java 20.4](https://downloads.aspose.com/psd/java/new-releases/aspose.psd-for-java-20.4/) {{% /alert %}} 

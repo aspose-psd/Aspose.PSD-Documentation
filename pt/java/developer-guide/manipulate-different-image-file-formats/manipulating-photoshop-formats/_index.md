@@ -2,7 +2,7 @@
 title: Manipulação de Formatos do Photoshop
 type: docs
 weight: 10
-url: /java/manipulando-formatos-do-photoshop/
+url: /pt/java/manipulando-formatos-do-photoshop/
 ---
 
 ## **Substituição de Cor em Camadas PSD**

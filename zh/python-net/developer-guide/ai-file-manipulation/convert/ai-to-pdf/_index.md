@@ -4,7 +4,7 @@ weight: 100
 type: docs
 description: 检查Aspose.PSD for Python如何操作将AI图像转换为PDF
 keywords: [ai转png, ai格式, illustrator文件, 转换illustrator, ai转pdf, ai转jpeg, ai转tiff, ai转psd, psd api, python, 代码示例]
-url: python-net/convert/ai-to-pdf
+url: /zh/python-net/convert/ai-to-pdf
 ---
 
 ## **概述**

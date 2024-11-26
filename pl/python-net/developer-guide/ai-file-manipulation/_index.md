@@ -4,7 +4,7 @@ weight: 100
 type: docs
 description: Sprawdź, jak Aspose.PSD dla języka Python może manipulować obrazami AI.
 keywords: [ai do png, format ai, pliki illustratora, konwersja illustratora, ai do pdf, ai do jpeg, ai do tiff, ai do psd, api psd, python, przykład kodu]
-url: python-net/manipulacja-plikami-ai/
+url: /pl/python-net/manipulacja-plikami-ai/
 ---
 
 ## **Przegląd**

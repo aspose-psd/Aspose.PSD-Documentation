@@ -4,7 +4,7 @@ weight: 100
 type: docs
 description: 使用Warp转换的示例
 keywords: [warp, warp转换, 扭曲图像, warp图像, psd, psd api, python, 代码示例]
-url: python-net/warp-transform/
+url: /zh/python-net/warp-transform/
 ---
 
 ## **概述**

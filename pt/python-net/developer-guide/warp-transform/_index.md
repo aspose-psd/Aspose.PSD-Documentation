@@ -4,7 +4,7 @@ weight: 100
 type: docs
 description: Exemplos de trabalho com a Transformação de Torção
 keywords: [torção, transformação de torção, distorcer imagem, torcer imagem, psd, api psd, python, exemplo de código]
-url: python-net/transformacao-de-torcao/
+url: /pt/python-net/transformacao-de-torcao/
 ---
 
 ## **Visão Geral**

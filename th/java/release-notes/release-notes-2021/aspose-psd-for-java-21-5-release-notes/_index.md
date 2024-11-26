@@ -2,7 +2,7 @@
 title: Aspose.PSD for Java 21.5 - บันทึกการอัปเดต
 type: docs
 weight: 40
-url: /java/aspose-psd-for-java-21-5-release-notes/
+url: /th/java/aspose-psd-for-java-21-5-release-notes/
 ---
 
 {{% alert color="primary" %}} หน้านี้มีบันทึกการอัปเดตสำหรับ [Aspose.PSD for Java 21.5](https://downloads.aspose.com/psd/java/new-releases/aspose.psd-for-java-21.5/) {{% /alert %}}

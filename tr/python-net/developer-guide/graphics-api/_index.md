@@ -4,7 +4,7 @@ weight: 100
 type: docs
 description: Aspose.PSD için Python'da Grafik API'sini kullanma örneği
 keywords: [katmanı güncelle, daire çiz, elips çiz, dolgu daire çiz, grafik, psd api, python, kod örneği]
-url: python-net/graphics-api/
+url: /tr/python-net/graphics-api/
 ---
 
 ## **Genel Bakış**
