@@ -10,6 +10,6 @@ url: /ru/java/working-with-drawing-images/
 
 
 ## **Статьи в этом разделе**
-- [Рисование изображений](/ru/psd/java/drawing-images/)
-- [Рисование изображений с помощью Graphics](/ru/psd/java/drawing-images-using-graphics/)
-- [Рисование изображений с использованием GraphicsPath](/ru/psd/java/drawing-images-using-graphicspath/)
+- [Рисование изображений](/psd/ru/java/drawing-images/)
+- [Рисование изображений с помощью Graphics](/psd/ru/java/drawing-images-using-graphics/)
+- [Рисование изображений с использованием GraphicsPath](/psd/ru/java/drawing-images-using-graphicspath/)

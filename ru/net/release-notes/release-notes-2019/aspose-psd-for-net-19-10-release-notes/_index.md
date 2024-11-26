@@ -13,11 +13,11 @@ url: /ru/net/aspose-psd-for-net-19-10-release-notes/
 
 |**Ключ**|**Краткое описание**|**Категория**|
 | :- | :- | :- |
-|PSDNET-207|[Поддержка слоя коррекции баланса цвета](/ru/psd/net/modifying-images/#modifyingimages-colorbalanceadjustmentlayer)|Функция|
-|PSDNET-145|[Поддержка слоя инвертирования](/ru/psd/net/modifying-images/#modifyingimages-invertadjustmentlayer)|Функция|
-|PSDNET-139|[Реализация бикубического ресэмплера](/ru/psd/net/modifying-images/#modifyingimages-implementbicubicresampling)|Функция|
-|PSDNET-169|[Добавление поддержки экспорта PSD в PDF с маской обрезки](/ru/psd/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithclippingmask)|Функция|
-|PSDNET-168|[Добавление поддержки экспорта PSD в PDF с коррекциями](/ru/psd/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithadjustmentlayer)|Функция|
+|PSDNET-207|[Поддержка слоя коррекции баланса цвета](/psd/ru/net/modifying-images/#modifyingimages-colorbalanceadjustmentlayer)|Функция|
+|PSDNET-145|[Поддержка слоя инвертирования](/psd/ru/net/modifying-images/#modifyingimages-invertadjustmentlayer)|Функция|
+|PSDNET-139|[Реализация бикубического ресэмплера](/psd/ru/net/modifying-images/#modifyingimages-implementbicubicresampling)|Функция|
+|PSDNET-169|[Добавление поддержки экспорта PSD в PDF с маской обрезки](/psd/ru/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithclippingmask)|Функция|
+|PSDNET-168|[Добавление поддержки экспорта PSD в PDF с коррекциями](/psd/ru/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithadjustmentlayer)|Функция|
 |PSDNET-179|Проблема с получением эффекта тени слоя|Улучшение|
 |PSDNET-203|При обновлении текста с символами / (косая черта), файл не может быть открыт в Photoshop|Ошибка|
 |PSDNET-199|PSD-файл не может быть сохранен, если текстовый слой содержит только перевод строки|Ошибка|

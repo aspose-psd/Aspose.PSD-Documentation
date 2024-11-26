@@ -28,9 +28,9 @@ Aspose.PSD для Python via .NET - это продукт, который поз
 
 Ниже приведены ссылки на некоторые полезные ресурсы, которые могут понадобиться для выполнения ваших задач.
 
-- [Онлайн-документация Aspose.PSD для Python via .NET](/ru/psd/python-net/)
-- [Возможности Aspose.PSD для Python via .NET](/ru/psd/python-net/features/)
-- [Примечания к выпуску Aspose.PSD для Python via .NET](/ru/psd/python-net/release-notes/)
+- [Онлайн-документация Aspose.PSD для Python via .NET](/psd/ru/python-net/)
+- [Возможности Aspose.PSD для Python via .NET](/psd/ru/python-net/features/)
+- [Примечания к выпуску Aspose.PSD для Python via .NET](/psd/ru/python-net/release-notes/)
 - [Страница продукта Aspose.PSD для Python via .NET](https://products.aspose.com/psd/python-net)
 - [Установить пакет NuGet Aspose.PSD для Python via .NET](https://pypi.org/project/aspose-psd/)
 - [Руководство по API Aspose.PSD для Python via .NET](https://reference.aspose.com/psd/python-net)

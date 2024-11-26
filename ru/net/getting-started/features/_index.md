@@ -22,7 +22,7 @@ description: Основные функции продукта включают �
 #### **Загрузка изображений**
 - PSD
 - PSB
-- [AI](/ru/psd/net/ai-adobe-illustrator-format/)
+- [AI](/psd/ru/net/ai-adobe-illustrator-format/)
 #### **Обработка сырых данных**
 - PSD
 - PSB

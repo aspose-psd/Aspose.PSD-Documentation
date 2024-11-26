@@ -19,4 +19,4 @@ url: /ru/java/supported-file-formats/
 |[BMP](https://wiki.fileformat.com/image/bmp/)|Сохраняет документ в формате BMP| |{{< emoticons/tick >}}| |
 |[JPEG2000](https://wiki.fileformat.com/image/jp2/)|Сохраняет документ в формате JPEG2000| |{{< emoticons/tick >}}| |
 |[PDF](https://wiki.fileformat.com/view/pdf/)|Переносимый формат документа| |{{< emoticons/tick >}}| |
-|[AI](/ru/psd/java/ai-adobe-illustrator-format/)|Файл Adobe Illustrator|{{< emoticons/tick >}}| | |
+|[AI](/psd/ru/java/ai-adobe-illustrator-format/)|Файл Adobe Illustrator|{{< emoticons/tick >}}| | |

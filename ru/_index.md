@@ -23,9 +23,9 @@ Aspose.PSD для .NET - это продукт, который позволяе�
 
 Ниже приведены ссылки на некоторые полезные ресурсы, которые могут понадобиться для выполнения ваших задач.
 
-- [Онлайн-документация по Aspose.PSD для .NET](/ru/psd/net/)
-- [Возможности Aspose.PSD для .NET](/ru/psd/net/features/)
-- [Примечания к выпуску Aspose.PSD для .NET](/ru/psd/net/release-notes/)
+- [Онлайн-документация по Aspose.PSD для .NET](/psd/ru/net/)
+- [Возможности Aspose.PSD для .NET](/psd/ru/net/features/)
+- [Примечания к выпуску Aspose.PSD для .NET](/psd/ru/net/release-notes/)
 - [Страница продукта Aspose.PSD для .NET](https://products.aspose.com/psd/net)
 - [Установить пакет NuGet Aspose.PSD для .NET](https://www.nuget.org/packages/Aspose.PSD/)
 - [Руководство по API Aspose.PSD для .NET](https://reference.aspose.com/net/psd)
@@ -49,12 +49,12 @@ Aspose.PSD для Java позволяет обширное взаимодейс�
 
 Ниже приведены ссылки на некоторые полезные ресурсы, которые могут понадобиться для выполнения ваших задач.
 
-- [Онлайн-документация по Aspose.PSD для Java](/ru/psd/java/)
-- [Возможности Aspose.PSD для Java](/ru/psd/java/features/)
-- [Примечания к выпуску Aspose.PSD для Java](/ru/psd/java/release-notes/)
+- [Онлайн-документация по Aspose.PSD для Java](/psd/ru/java/)
+- [Возможности Aspose.PSD для Java](/psd/ru/java/features/)
+- [Примечания к выпуску Aspose.PSD для Java](/psd/ru/java/release-notes/)
 - [Страница продукта Aspose.PSD для Java](https://products.aspose.com/psd/java)
 - [Загрузить Aspose.PSD для Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-psd)
-- [Установить Aspose.PSD для Java из репозитория Maven](/ru/psd/java/installation/)
+- [Установить Aspose.PSD для Java из репозитория Maven](/psd/ru/java/installation/)
 - [Руководство по API Aspose.PSD для Java](https://reference.aspose.com/java/psd)
 - [Примеры загрузки в репозитории GitHub](https://github.com/aspose-psd/Aspose.PSD-for-Java)
 - [Бесплатный форум поддержки Aspose.PSD для Java](https://forum.aspose.com/c/psd)
@@ -76,12 +76,12 @@ Aspose.PSD для Python via .NET предлагает полный набор �
 
 Ниже приведены ссылки на некоторые полезные ресурсы, которые могут понадобиться для выполнения ваших задач.
 
-- [Онлайн-документация по Aspose.PSD для Python](/ru/psd/python-net/)
-- [Возможности Aspose.PSD для Python](/ru/psd/python-net/features/)
-- [Примечания к выпуску Aspose.PSD для Python](/ru/psd/python-net/release-notes/)
+- [Онлайн-документация по Aspose.PSD для Python](/psd/ru/python-net/)
+- [Возможности Aspose.PSD для Python](/psd/ru/python-net/features/)
+- [Примечания к выпуску Aspose.PSD для Python](/psd/ru/python-net/release-notes/)
 - [Страница продукта Aspose.PSD для Python](https://products.aspose.com/psd/python-net)
 - [Загрузить Aspose.PSD для Python](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-psd)
-- [Установить Aspose.PSD для Python из репозитория Maven](/ru/psd/python-net/installation/)
+- [Установить Aspose.PSD для Python из репозитория Maven](/psd/ru/python-net/installation/)
 - [Руководство по API Aspose.PSD для Python](https://reference.aspose.com/python-net/psd)
 - [Примеры загрузки в репозитории GitHub](https://github.com/aspose-psd/Aspose.PSD-for-Python-Net)
 - [Бесплатный форум поддержки Aspose.PSD для Python](https://forum.aspose.com/c/psd)

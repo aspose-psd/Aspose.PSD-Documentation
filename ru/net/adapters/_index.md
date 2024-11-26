@@ -24,12 +24,12 @@ description: Адаптеры Aspose.PSD для упрощения и ускор
 Обратите внимание, что для использования адаптеров без ограничений вам понадобятся лицензии как Aspose.PSD, так и Aspose.Imaging. Пакет NuGet адаптеров наиболее ценен для обладателей лицензии Aspose.Total.
 
 Для дополнительного описания и примеров посетите:
-- [Руководство по быстрому старту Aspose.PSD Adapters](/ru/psd/net/adapters/quick-start)
-- [Настройка лицензии для продуктов Aspose.PSD Adapters](/ru/psd/net/adapters/license)
-- [Загрузка неподдерживаемых форматов в Aspose.PSD](/ru/psd/net/adapters/load-unsupported-formats)
-- [Экспорт в неподдерживаемые форматы в Aspose.PSD](/ru/psd/net/adapters/export-to-unsupported-formats)
-- [Обзор адаптеров Aspose.PSD для Webp, SVG и других форматов](/ru/psd/net/adapters/working-with-webp-svg-formats-overview)
-- [Полное руководство по использованию адаптеров Aspose.PSD](/ru/psd/net/adapters/full-manual)
+- [Руководство по быстрому старту Aspose.PSD Adapters](/psd/ru/net/adapters/quick-start)
+- [Настройка лицензии для продуктов Aspose.PSD Adapters](/psd/ru/net/adapters/license)
+- [Загрузка неподдерживаемых форматов в Aspose.PSD](/psd/ru/net/adapters/load-unsupported-formats)
+- [Экспорт в неподдерживаемые форматы в Aspose.PSD](/psd/ru/net/adapters/export-to-unsupported-formats)
+- [Обзор адаптеров Aspose.PSD для Webp, SVG и других форматов](/psd/ru/net/adapters/working-with-webp-svg-formats-overview)
+- [Полное руководство по использованию адаптеров Aspose.PSD](/psd/ru/net/adapters/full-manual)
 
 {{% /alert %}}
 
@@ -37,8 +37,8 @@ description: Адаптеры Aspose.PSD для упрощения и ускор
 
 Ниже приведены ссылки на некоторые полезные ресурсы, которые могут понадобиться для выполнения ваших задач.
 
-- [Онлайн-документация Aspose.PSD для .NET](/ru/psd/net/adapters)
-- [Примечания к выпуску Aspose.PSD для .NET](/ru/psd/net/adapters/release-notes/)
+- [Онлайн-документация Aspose.PSD для .NET](/psd/ru/net/adapters)
+- [Примечания к выпуску Aspose.PSD для .NET](/psd/ru/net/adapters/release-notes/)
 - [Страница продукта Aspose.PSD для .NET](https://products.aspose.com/psd/net)
 - [Установить пакет NuGet Aspose.PSD для .NET](https://www.nuget.org/packages/Aspose.PSD.Adapters.Imaging/)
 - [Скачать примеры на GitHub репозитории](https://github.com/aspose-psd/Aspose.PSD-for-.NET)

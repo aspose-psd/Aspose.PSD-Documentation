@@ -42,4 +42,4 @@ BrightnessContrastLayer brightnessContrastLayer = psdImage.addBrightnessContrast
 
 В этой статье мы получили краткий обзор слоя коррекции яркости/контраста и узнали, как настроить яркость и контраст изображения с помощью фабричного метода.
 
-Обратитесь к нашей серии [статей о API слоев коррекции](/ru/psd/java/layer-types/adjustment-layer/) в Aspose.PSD для Java, чтобы узнать больше.
+Обратитесь к нашей серии [статей о API слоев коррекции](/psd/ru/java/layer-types/adjustment-layer/) в Aspose.PSD для Java, чтобы узнать больше.

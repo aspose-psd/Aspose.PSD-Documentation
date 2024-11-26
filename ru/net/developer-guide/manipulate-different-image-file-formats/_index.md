@@ -10,8 +10,8 @@ url: /ru/net/manipulate-different-image-file-formats/
 
 
 ## **Статьи в этом разделе**
-- [Обработка форматов Adobe Illustrator](/ru/psd/net/manipulating-adobe-illustrator-formats/)
-- [Обработка форматов Adobe Photoshop](/ru/psd/net/manipulating-adobe-photoshop-formats/)
-- [Обработка изображений JPEG](/ru/psd/net/manipulating-jpeg-images/)
-- [Обработка изображений PNG](/ru/psd/net/manipulating-png-images/)
-- [Обработка изображений TIFF](/ru/psd/net/manipulating-tiff-images/)
+- [Обработка форматов Adobe Illustrator](/psd/ru/net/manipulating-adobe-illustrator-formats/)
+- [Обработка форматов Adobe Photoshop](/psd/ru/net/manipulating-adobe-photoshop-formats/)
+- [Обработка изображений JPEG](/psd/ru/net/manipulating-jpeg-images/)
+- [Обработка изображений PNG](/psd/ru/net/manipulating-png-images/)
+- [Обработка изображений TIFF](/psd/ru/net/manipulating-tiff-images/)

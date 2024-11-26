@@ -15,11 +15,11 @@ description: С помощью API манипулирования Photoshop на
 ## **Обзор**
 Aspose.PSD позволяет конвертировать форматы PSD и PSB в форматы JPEG, JPEG2000, PNG, TIFF, PDF, GIF и BMP
 
-Вы можете конвертировать файлы PSD на вашем сервере с помощью Aspose.PSD без использования Photoshop. Это хорошая замена сценариям Adobe Photoshop, поскольку EULA Adobe запрещает использование приложения на сервере и изменение его пользовательского интерфейса. Но с SDK формата PSD вы можете сделать пакетное преобразование файлов PSD. Ваш экспорт формата PSD может быть пиксельно точным с [режимом только чтения](https://reference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode), или вы можете [изменить слои](/ru/psd/net/manipulating-adobe-photoshop-formats/), тексты, эффекты, а затем экспортировать.
+Вы можете конвертировать файлы PSD на вашем сервере с помощью Aspose.PSD без использования Photoshop. Это хорошая замена сценариям Adobe Photoshop, поскольку EULA Adobe запрещает использование приложения на сервере и изменение его пользовательского интерфейса. Но с SDK формата PSD вы можете сделать пакетное преобразование файлов PSD. Ваш экспорт формата PSD может быть пиксельно точным с [режимом только чтения](https://reference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode), или вы можете [изменить слои](/psd/ru/net/manipulating-adobe-photoshop-formats/), тексты, эффекты, а затем экспортировать.
 ## **Конкретные примеры экспорта PSD в растровые форматы**
-- [PSD в JPG](/ru/psd/net/psd-to-jpg/)
-- [PSD в PNG](/ru/psd/net/psd-to-png/)
-- [PSD в PDF](/ru/psd/net/psd-to-pdf/)
+- [PSD в JPG](/psd/ru/net/psd-to-jpg/)
+- [PSD в PNG](/psd/ru/net/psd-to-png/)
+- [PSD в PDF](/psd/ru/net/psd-to-pdf/)
 ## **Экспорт изображения PSD в различные растровые форматы файлов**
 Ниже представлен пример кода, демонстрирующий, как конвертировать PSD в несколько растровых форматов файлов.
 

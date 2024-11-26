@@ -25,7 +25,7 @@ url: /ru/net/adapters/aspose-psd-adapters-for-net-24-4-release-notes/
 
 ## **Примеры использования:**
 
-Пожалуйста, проверьте [страницу документации Aspose.PSD.Adapters](/ru/psd/net/adapters)
+Пожалуйста, проверьте [страницу документации Aspose.PSD.Adapters](/psd/ru/net/adapters)
 
 **PSDNET-1985. Самый полный пример использования Aspose.PSD.Adapters**
 
