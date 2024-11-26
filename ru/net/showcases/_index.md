@@ -12,5 +12,5 @@ url: /ru/net/showcases/
 
 Здесь мы собрали примеры для таких видов задач. Больше функций с примерами можно найти в разделе [Справочник API.](https://reference.aspose.com/psd/net)
 ## **Доступные статьи**
-- [Использование файлов PSD в качестве шаблонов для автоматизации (случай с визитками)](/psd/net/using-psd-files-as-templates-for-automation-business-cards-case/)
+- [Использование файлов PSD в качестве шаблонов для автоматизации (случай с визитками)](/ru/psd/net/using-psd-files-as-templates-for-automation-business-cards-case/)
 

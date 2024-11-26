@@ -36,11 +36,11 @@ description: Aspose.PSD-основное приложение экспорта C
 
 **Пожалуйста, ознакомьтесь с другими [приложениями Aspose.PSD CLI](https://docs.aspose.com/psd/net/cli) для .NET, если вам необходимо добавить поддержку форматов PSD, PSB и AI в ваш рабочий процесс**
 
-1. [Aspose.PSD CLI Конвертация](/psd/net/cli/conversion)
-2. [Aspose.PSD CLI Обрезка](/psd/net/cli/crop)
-3. [Aspose.PSD CLI Изменение размера](/psd/net/cli/resize)
-4. [Aspose.PSD CLI Экспорт](/psd/net/cli/export)
-5. [Aspose.PSD CLI Редактор NLP](/psd/net/cli/nlp-editor)
+1. [Aspose.PSD CLI Конвертация](/ru/psd/net/cli/conversion)
+2. [Aspose.PSD CLI Обрезка](/ru/psd/net/cli/crop)
+3. [Aspose.PSD CLI Изменение размера](/ru/psd/net/cli/resize)
+4. [Aspose.PSD CLI Экспорт](/ru/psd/net/cli/export)
+5. [Aspose.PSD CLI Редактор NLP](/ru/psd/net/cli/nlp-editor)
 
 **Пожалуйста, ознакомьтесь с Aspose.PSD для .NET или [другими платформами]**
 
@@ -54,8 +54,8 @@ description: Aspose.PSD-основное приложение экспорта C
 
 Вот несколько полезных ресурсов, которые помогут вам выполнить ваши задачи.
 
-- [Документация по онлайн-приложениям Aspose.PSD CLI для .NET](/psd/net/cli/conversion)
-- [Заметки к выпускам Aspose.PSD для CLI Applications для .NET](/psd/net/cli/conversion/release-notes/)
+- [Документация по онлайн-приложениям Aspose.PSD CLI для .NET](/ru/psd/net/cli/conversion)
+- [Заметки к выпускам Aspose.PSD для CLI Applications для .NET](/ru/psd/net/cli/conversion/release-notes/)
 - [Страница продукта Aspose.PSD для CLI Applications для .NET](https://products.aspose.com/psd/net/cli)
 - [Руководство по API Aspose.PSD для .NET](https://reference.aspose.com/net/psd)
 - [Скачать примеры из репозитория GitHub](https://github.com/aspose-psd/CLI-Applications)

@@ -13,10 +13,10 @@ url: /ru/net/aspose-psd-for-net-19-11-release-notes/
 
 |**Ключ**|**Краткое содержание**|**Категория**|
 | :- | :- | :- |
-|PSDNET-151|[Поддержка эффекта внутренней тени слоя](/psd/net/shadow-effects-in-photoshop/#shadoweffectsinphotoshop-innershadoweffect)|Функция|
-|PSDNET-135|[Реализация рендеринга слоя заполнения: Узор](/psd/net/support-of-fill-layers/#supportoffilllayers-filllayerswithpatternfill)|Функция|
-|PSDNET-187|[Поддержка растровых изображений в файлах формата AI](/psd/net/manipulating-adobe-illustrator-formats/#manipulatingadobeillustratorformats-rasterimagesinillustrator)|Функция|
-|PSDNET-225|[Получение свойств встроенного форматирования текстового слоя](/psd/net/working-with-text-layers/#workingwithtextlayers-gettextpropertiesfromatextlayer)|Функция|
+|PSDNET-151|[Поддержка эффекта внутренней тени слоя](/ru/psd/net/shadow-effects-in-photoshop/#shadoweffectsinphotoshop-innershadoweffect)|Функция|
+|PSDNET-135|[Реализация рендеринга слоя заполнения: Узор](/ru/psd/net/support-of-fill-layers/#supportoffilllayers-filllayerswithpatternfill)|Функция|
+|PSDNET-187|[Поддержка растровых изображений в файлах формата AI](/ru/psd/net/manipulating-adobe-illustrator-formats/#manipulatingadobeillustratorformats-rasterimagesinillustrator)|Функция|
+|PSDNET-225|[Получение свойств встроенного форматирования текстового слоя](/ru/psd/net/working-with-text-layers/#workingwithtextlayers-gettextpropertiesfromatextlayer)|Функция|
 |PSDNET-214|Некорректный экспорт PSD в другие форматы, если содержит эффекты слоя и слои настроек|Ошибка|
 
 ## **Изменения в общедоступном API**

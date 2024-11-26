@@ -8,15 +8,15 @@ url: ru/python-net/ai-file-manipulation/
 ---
 
 ## **Обзор**
-Aspose.PSD позволяет преобразовывать [Ai](/psd/net/ai-adobe-illustrator-format/) в форматы Jpeg, Jpeg2000, Png, Tiff, Pdf, Gif, [Psd](https://reference.aspose.com/psd/python-net/aspose.psd.fileformats.psd/psdimage) и Bmp.
+Aspose.PSD позволяет преобразовывать [Ai](/ru/psd/net/ai-adobe-illustrator-format/) в форматы Jpeg, Jpeg2000, Png, Tiff, Pdf, Gif, [Psd](https://reference.aspose.com/psd/python-net/aspose.psd.fileformats.psd/psdimage) и Bmp.
 
 Векторное изображение, например, [изображение Ai](https://reference.aspose.com/psd/python-net/aspose.psd.fileformats.ai/aiimage), создается из линий и форм. Aspose.PSD поддерживает возможность визуализации иллюстраторских примитивов с разным заливкой и обводкой, с настраиваемым весом, текстовыми элементами и другими функциями формата AI.
 
 На данный момент поддерживается большинство форматов AI.
 
-Вы можете конвертировать [файл Ai](/psd/net/ai-adobe-illustrator-format/) на своем сервере с помощью [Aspose.PSD](https://products.aspose.com/psd/python-net) без Illustrator. Это хорошая альтернатива Adobe Illustrator.
+Вы можете конвертировать [файл Ai](/ru/psd/net/ai-adobe-illustrator-format/) на своем сервере с помощью [Aspose.PSD](https://products.aspose.com/psd/python-net) без Illustrator. Это хорошая альтернатива Adobe Illustrator.
 
 ## **Конкретные примеры экспорта AI в растровые форматы**
-- [Ai в JPEG](/psd/python-net/convert/ai-to-jpg/)
-- [Ai в PDF](/psd/python-net/convert/ai-to-pdf/)
-- [Ai в PNG](/psd/python-net/convert/ai-to-png/)
+- [Ai в JPEG](/ru/psd/python-net/convert/ai-to-jpg/)
+- [Ai в PDF](/ru/psd/python-net/convert/ai-to-pdf/)
+- [Ai в PNG](/ru/psd/python-net/convert/ai-to-png/)

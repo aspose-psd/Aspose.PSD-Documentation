@@ -6,7 +6,7 @@ url: /ru/net/converting-ai-image-to-raster-format/
 ---
 
 ## **Обзор**
-Aspose.PSD позволяет преобразовывать [Ai](/psd/net/ai-adobe-illustrator-format/) в форматы Jpeg, Jpeg2000, Png, Tiff, Pdf, Gif, [Psd ](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd/psdimage) и Bmp.
+Aspose.PSD позволяет преобразовывать [Ai](/ru/psd/net/ai-adobe-illustrator-format/) в форматы Jpeg, Jpeg2000, Png, Tiff, Pdf, Gif, [Psd ](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd/psdimage) и Bmp.
 
 
 
@@ -16,8 +16,8 @@ Aspose.PSD позволяет преобразовывать [Ai](/psd/net/ai-ad
 
 На данный момент поддерживаемая версия файла AI до 8 и ведется работа над поддержкой всех версий.
 
-Вы можете конвертировать [файл Ai](/psd/net/ai-adobe-illustrator-format/) на своем сервере с помощью [Aspose.PSD](https://products.aspose.com/psd/net) без использования Illustrator. Это хорошая замена Adobe Illustrator.
+Вы можете конвертировать [файл Ai](/ru/psd/net/ai-adobe-illustrator-format/) на своем сервере с помощью [Aspose.PSD](https://products.aspose.com/psd/net) без использования Illustrator. Это хорошая замена Adobe Illustrator.
 ## **Конкретные примеры экспорта PSD в растровые форматы**
-- [Ai в jpeg](/psd/net/ai-to-jpg/)
-- [Ai в Pdf ](/psd/net/ai-to-pdf/)
-- [Ai в png](/psd/net/ai-to-png/)
+- [Ai в jpeg](/ru/psd/net/ai-to-jpg/)
+- [Ai в Pdf ](/ru/psd/net/ai-to-pdf/)
+- [Ai в png](/ru/psd/net/ai-to-png/)

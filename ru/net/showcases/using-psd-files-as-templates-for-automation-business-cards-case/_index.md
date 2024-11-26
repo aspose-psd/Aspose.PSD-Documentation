@@ -35,7 +35,7 @@ url: /ru/using-psd-files-as-templates-for-automation-business-cards-case/
 
 В этом случае мы рисуем новое загруженное изображение [PNG](https://wiki.fileformat.com/image/png/) на существующем слое PSD, поэтому старые данные будут утеряны в новом файле.
 
-Но что, если нам также нужно обновить текст? Процесс будет аналогичным. Найдите [текстовой слой](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/textlayer) по его имени, затем мы программно [обновляем текстовой слой файла Photoshop](/psd/net/render-text-with-different-colors-in-text-layer/).
+Но что, если нам также нужно обновить текст? Процесс будет аналогичным. Найдите [текстовой слой](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/textlayer) по его имени, затем мы программно [обновляем текстовой слой файла Photoshop](/ru/psd/net/render-text-with-different-colors-in-text-layer/).
 
 
 Как обновить текстовой слой в Photoshop с помощью C#
@@ -78,7 +78,7 @@ url: /ru/using-psd-files-as-templates-for-automation-business-cards-case/
 
 
 
-И в конце, нам нужно обновить текстовые слои в существующем изображении PSD с помощью C#. Aspose.PSD поддерживает [обновление TextLayer порциями](/psd/net/working-with-text-layers/). Каждая [текстовая порция](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.text/itextportion) имеет уникальное сочетание свойств стиля и абзаца.
+И в конце, нам нужно обновить текстовые слои в существующем изображении PSD с помощью C#. Aspose.PSD поддерживает [обновление TextLayer порциями](/ru/psd/net/working-with-text-layers/). Каждая [текстовая порция](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.text/itextportion) имеет уникальное сочетание свойств стиля и абзаца.
 
 Как скопировать свойства слоя [PsdImage](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.psd/psdimage)
 

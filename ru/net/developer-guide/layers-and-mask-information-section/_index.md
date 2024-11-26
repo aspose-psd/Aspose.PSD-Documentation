@@ -14,6 +14,6 @@ url: /ru/net/layers-and-mask-information-section/
 - [Слой заливки](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.filllayers/filllayer)
 
 ## **Поддерживаемые типы масок**
-- [Растровая маска слоя](/psd/net/update-create-layer-mask/)
-- [Векторная маска слоя](/psd/net/layer-vector-mask/)
-- [Маски обрезки](/psd/net/update-create-layer-mask/)
+- [Растровая маска слоя](/ru/psd/net/update-create-layer-mask/)
+- [Векторная маска слоя](/ru/psd/net/layer-vector-mask/)
+- [Маски обрезки](/ru/psd/net/update-create-layer-mask/)

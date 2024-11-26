@@ -6,7 +6,7 @@ url: /ru/java/kak-sozdat-generatoryoutube-thumbnail-programmaticheski-na-java/
 ---
 
 ## **Введение**
-Цель этого документа - продемонстрировать использование API некоторых составных инструментов [Aspose.PSD для Java](https://products.aspose.com/psd/java) на реальном примере. В этой статье будет описан **простой Java-программный код, который генерирует миниатюры YouTube** для канала [DW Documentary](https://www.youtube.com/channel/UCW39zufHfsuGgpLviKh297Q). Этот канал был выбран из реального мира, потому что его миниатюры довольно стандартны и они иллюстрируют использование нескольких популярных составных инструментов Aspose.PSD для Java (например, эффект [тени](/psd/java/manipulating-photoshop-formats/#manipulatingphotoshopformats-supportdropshadoweffect), радиальная градиентная заливка, рисование текста и фигур):
+Цель этого документа - продемонстрировать использование API некоторых составных инструментов [Aspose.PSD для Java](https://products.aspose.com/psd/java) на реальном примере. В этой статье будет описан **простой Java-программный код, который генерирует миниатюры YouTube** для канала [DW Documentary](https://www.youtube.com/channel/UCW39zufHfsuGgpLviKh297Q). Этот канал был выбран из реального мира, потому что его миниатюры довольно стандартны и они иллюстрируют использование нескольких популярных составных инструментов Aspose.PSD для Java (например, эффект [тени](/ru/psd/java/manipulating-photoshop-formats/#manipulatingphotoshopformats-supportdropshadoweffect), радиальная градиентная заливка, рисование текста и фигур):
 
 ![todo:image_alt_text](how-to-create-youtube-thumbnail-generator-programmatically-in-java_1.png)
 
@@ -19,7 +19,7 @@ url: /ru/java/kak-sozdat-generatoryoutube-thumbnail-programmaticheski-na-java/
 Для успешного запуска кода этой статьи требуются следующие технологии:
 
 - Java 6+
-- [Aspose.PSD для Java](/psd/java/installation/) (последняя версия)
+- [Aspose.PSD для Java](/ru/psd/java/installation/) (последняя версия)
 
 ## **Начало работы**
 Как уже упоминалось, программа использует в ОЗУ PSD для создания миниатюры. Так что давайте **создадим документ PSD**, чтобы начать:
@@ -36,7 +36,7 @@ PsdImage psdImage = new PsdImage(1280, 720);
 Давайте поглубже посмотрим, как реализовать каждый из этих компонентов с использованием Aspose.PSD для Java в следующих разделах.
 
 ## **1. Добавление фонового изображения**
-Порядок слоев важен. Поэтому фоновое изображение должно быть добавлено первым, чтобы не перекрывать другие слои. Обратите внимание, что в настоящее время поддерживаются только [растровые форматы файлов](/psd/java/supported-file-formats/).
+Порядок слоев важен. Поэтому фоновое изображение должно быть добавлено первым, чтобы не перекрывать другие слои. Обратите внимание, что в настоящее время поддерживаются только [растровые форматы файлов](/ru/psd/java/supported-file-formats/).
 ### **1.1. Добавление фонового изображения в слой Photoshop**
 Чтобы **добавить растровое изображение в PSD**, поток ввода должен быть передан как аргумент во время создания слоя (смотрите больше [примеров загрузки растровых изображений](https://docs.aspose.com/display/psdnet/Creating%2C+Opening+and+Saving+Images)):
 
@@ -57,8 +57,8 @@ PsdImage psdImage = new PsdImage(1280, 720);
 ## **2. Добавление радиального градиента**
 Существует **два способа добавления радиального градиента**: используя:
 
-- эффект наложения градиента (/psd/java/aspose-psd-for-java-20-4-release-notes/#-~ - text = psdjava-163) на существующий слой (эффект градиента, который связывается с текущим слоем и применяется к его содержимому)
-- новый [слой заливки градиентом](/psd/java/support-of-fill-layers/#supportoffilllayers-supportoffilllayerswithgradientfill) (отдельный слой, который сохраняет самостоятельную конфигурацию градиента)
+- эффект наложения градиента (/ru/psd/java/aspose-psd-for-java-20-4-release-notes/#-~ - text = psdjava-163) на существующий слой (эффект градиента, который связывается с текущим слоем и применяется к его содержимому)
+- новый [слой заливки градиентом](/ru/psd/java/support-of-fill-layers/#supportoffilllayers-supportoffilllayerswithgradientfill) (отдельный слой, который сохраняет самостоятельную конфигурацию градиента)
 
 Для этого примера достаточно использовать эффект наложения градиента. Однако чтобы сделать эту статью более интересной и полезной, **используется слой заполнения градиентом**, поскольку все эффекты слоя применяются аналогичным образом, и в следующем разделе будет использован еще один эффект слоя.
 ### **2.1. Добавление слоя заполнения радиальным градиентом**
@@ -91,7 +91,7 @@ PsdImage psdImage = new PsdImage(1280, 720);
 {{< gist "aspose-com-gists" "31800d807a72f1f50fe4b29374119227" "Documentation-Java-Aspose-YouTubeThumbnailGenerator-Snippet-8.java" >}}
 
 ### **3.3. Добавление эффекта тени к логотипу**
-Логотип может быть невидимым, если используется светлое фоновое изображение. Поэтому желательно **добавить эффект тени** к логотипу через свойство параметров наложения (смотрите больше [примеров создания теней](/psd/java/manipulating-photoshop-formats/#manipulatingphotoshopformats-supportdropshadoweffect)):
+Логотип может быть невидимым, если используется светлое фоновое изображение. Поэтому желательно **добавить эффект тени** к логотипу через свойство параметров наложения (смотрите больше [примеров создания теней](/ru/psd/java/manipulating-photoshop-formats/#manipulatingphotoshopformats-supportdropshadoweffect)):
 
 {{< gist "aspose-com-gists" "31800d807a72f1f50fe4b29374119227" "Documentation-Java-Aspose-YouTubeThumbnailGenerator-Snippet-9.java" >}}
 
@@ -99,7 +99,7 @@ PsdImage psdImage = new PsdImage(1280, 720);
 
 ## **4. Добавление рисунка текста и фигуры**
 ### **3.1. Создание графического слоя**
-Рисование не поддерживается обычным слоем непосредственно. Поэтому использован движок графики наряду со слоем, чтобы **предоставить API для рисования** (смотрите больше [примеров рисования](/psd/java/drawing-images-using-graphics/)):
+Рисование не поддерживается обычным слоем непосредственно. Поэтому использован движок графики наряду со слоем, чтобы **предоставить API для рисования** (смотрите больше [примеров рисования](/ru/psd/java/drawing-images-using-graphics/)):
 
 Layer graphicLayer = psdImage.addRegularLayer();
 Graphics graphics = **new** Graphics(graphicLayer);

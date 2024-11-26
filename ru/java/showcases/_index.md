@@ -13,5 +13,5 @@ url: /ru/java/showcases/
 Здесь мы собрали примеры для всех видов задач. Больше функций с примерами можно найти в [Справочнике API](https://reference.aspose.com/psd/net) или в [Случаях использования формата Psd](https://downloads.aspose.com/corporate/case-studies/aspose.psd/)
 ## **Доступные статьи**
 - [Использование файлов PSD в качестве шаблонов для автоматизации (случай визиток)](https://docs.aspose.com/display/psdnet/Using+PSD+files+as+templates+for+automation+-+Business+Cards+Case)
-- [Как создать генератор обложек YouTube программным способом на Java](/psd/java/how-to-create-youtube-thumbnail-generator-programmatically-in-java/)
+- [Как создать генератор обложек YouTube программным способом на Java](/ru/psd/java/how-to-create-youtube-thumbnail-generator-programmatically-in-java/)
 

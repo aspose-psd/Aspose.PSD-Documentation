@@ -36,7 +36,7 @@ url: /ru/net/editing-raster-layer-masks-in-psd-file-via-api/
 ## **Как проверить, есть ли у слоя в файле PSD растровая маска?**
 Следующий код на C# может помочь вам проверить, есть ли у слоя растровая маска:
 
-Как узнать, применена ли к растровой маска к [слою PSD](/psd/net/psd-layer/)
+Как узнать, применена ли к растровой маска к [слою PSD](/ru/psd/net/psd-layer/)
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "Documentation-CSharp-Aspose-WorkingWithRasterMasks-Snippet-6.cs" >}}
 
@@ -78,7 +78,7 @@ url: /ru/net/editing-raster-layer-masks-in-psd-file-via-api/
 ## **Обновление векторной маски в файле PSD, когда присутствует растровая маска слоя**
 Предполагается, что пользователь уже изменил ресурс векторного пути. Затем можно обновить векторную маску просто, вызвав [AddLayerMask ](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/layer/methods/addlayermask)метод слоя:
 
-Обновление [PSD Layer Vector Mask ](/psd/net/layer-vector-mask/)с C#
+Обновление [PSD Layer Vector Mask ](/ru/psd/net/layer-vector-mask/)с C#
 
 {{< gist "aspose-com-gists" "8d34ce856d1642fc7c0ce974175c" "Documentation-CSharp-Aspose-WorkingWithRasterMasks-Snippet-9.cs" >}}
 
