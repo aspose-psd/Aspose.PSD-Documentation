@@ -9,7 +9,7 @@ url: /vi/java/layer-types/adjustment-layer/invert/
 
 Trong bài viết này, chúng tôi sẽ hướng dẫn cách chuyển ảnh trong tài liệu Photoshop thành ảnh âm một cách tự động trong Java. Vì mục đích này, chúng ta sẽ sử dụng thư viện cho việc tương tác với định dạng tập tin PSD gọi là Aspose.PSD cho Java.
 
-API đảo ngược màu cho phép **thêm hiệu ứng âm vào ảnh**. Bạn có thể đã biết cách [đảo ngược màu ảnh bằng layer điều chỉnh Curves](/vi/psd/java/layer-types/adjustment-layer/curves/). Tuy nhiên, hôm nay chúng ta sẽ xem xét một cách nhanh hơn và dễ dàng hơn để thực hiện công việc với layer điều chỉnh Đảo Ngược.
+API đảo ngược màu cho phép **thêm hiệu ứng âm vào ảnh**. Bạn có thể đã biết cách [đảo ngược màu ảnh bằng layer điều chỉnh Curves](/psd/vi/java/layer-types/adjustment-layer/curves/). Tuy nhiên, hôm nay chúng ta sẽ xem xét một cách nhanh hơn và dễ dàng hơn để thực hiện công việc với layer điều chỉnh Đảo Ngược.
 
 ## Tổng quan về API
 

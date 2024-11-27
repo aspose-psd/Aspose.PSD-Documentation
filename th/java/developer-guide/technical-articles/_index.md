@@ -11,11 +11,11 @@ url: /th/java/technical-articles/
 
 
 ## **บทความในส่วนนี้**
-- [การเพิ่มลายเซ็นลงในภาพ](/th/psd/java/adding-a-signature-to-an-image/)
-- [การเพิ่มลายน้ำลงในภาพ](/th/psd/java/adding-a-watermark-to-an-image/)
-- [การปรับปรุงประสิทธิภาพ Aspose.PSD โดยใช้แคชที่กำหนดเอง](/th/psd/java/aspose-psd-performance-improvement-using-customizable-cache/)
-- [ป้องกันการเสื่อมความสามารถในการประสิทธิภาพเมื่อวาดภาพบนภาพบีบอัด](/th/psd/java/avoid-performance-degradation-when-drawing-over-compressed-images/)
-- [การแปลงพื้นที่สีสำหรับ JPEG ผ่านโปรไฟล์ ICC](/th/psd/java/color-space-conversion-for-jpeg-through-icc-profiles/)
-- [การสนับสนุนภาพขนาดใหญ่](/th/psd/java/large-image-support/)
-- [การประมวลผลข้อมูลเบื้องต้น](/th/psd/java/raw-data-processing/)
-- [การสนับสนุนกล้องติดตามจุดหลัก](/th/psd/java/support-for-interrupt-monitor/)
+- [การเพิ่มลายเซ็นลงในภาพ](/psd/th/java/adding-a-signature-to-an-image/)
+- [การเพิ่มลายน้ำลงในภาพ](/psd/th/java/adding-a-watermark-to-an-image/)
+- [การปรับปรุงประสิทธิภาพ Aspose.PSD โดยใช้แคชที่กำหนดเอง](/psd/th/java/aspose-psd-performance-improvement-using-customizable-cache/)
+- [ป้องกันการเสื่อมความสามารถในการประสิทธิภาพเมื่อวาดภาพบนภาพบีบอัด](/psd/th/java/avoid-performance-degradation-when-drawing-over-compressed-images/)
+- [การแปลงพื้นที่สีสำหรับ JPEG ผ่านโปรไฟล์ ICC](/psd/th/java/color-space-conversion-for-jpeg-through-icc-profiles/)
+- [การสนับสนุนภาพขนาดใหญ่](/psd/th/java/large-image-support/)
+- [การประมวลผลข้อมูลเบื้องต้น](/psd/th/java/raw-data-processing/)
+- [การสนับสนุนกล้องติดตามจุดหลัก](/psd/th/java/support-for-interrupt-monitor/)

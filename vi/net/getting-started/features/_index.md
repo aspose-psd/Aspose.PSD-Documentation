@@ -22,7 +22,7 @@ Dưới đây là các tính năng cốt lõi của Aspose.PSD:
 #### **Tải Ảnh**
 - PSD
 - PSB
-- [AI](/vi/psd/net/ai-adobe-illustrator-format/)
+- [AI](/psd/vi/net/ai-adobe-illustrator-format/)
 #### **Xử Lý Dữ Liệu Gốc**
 - PSD
 - PSB

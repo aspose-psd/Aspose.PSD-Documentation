@@ -9,7 +9,7 @@ description: C# .NET Photoshop Manipulation API'sini kullanarak, geliştiriciler
 
 {{% alert color="primary" %}} 
 
-Aspose.PSD for .NET kullanarak, geliştiriciler PSD görüntüsünü [raster formatına dönüştürürken](/tr/psd/net/psd-goruntusunu-raster-formata-cevirme/) PSD görüntüsünü kırparlar. Bu konu, mevcut görüntüleri yükleme, kırpmayı ve raster formata dönüştürmeyi açıklar.
+Aspose.PSD for .NET kullanarak, geliştiriciler PSD görüntüsünü [raster formatına dönüştürürken](/psd/tr/net/psd-goruntusunu-raster-formata-cevirme/) PSD görüntüsünü kırparlar. Bu konu, mevcut görüntüleri yükleme, kırpmayı ve raster formata dönüştürmeyi açıklar.
 
 {{% /alert %}} 
 ## **PSD dosyasını PNG'ye çevirirken kırpma**

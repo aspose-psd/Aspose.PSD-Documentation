@@ -7,9 +7,9 @@ url: /pt/java/layer-types/adjustment-layer/levels/
 
 ## Trabalhando com a camada de ajuste de níveis no Photoshop em Java
 
-Neste artigo, aprenderemos como ajustar o alcance tonal e o equilíbrio de cor de uma foto no formato de arquivo [PSD](/pt/psd/java/psd-format/) programaticamente em Java. Não utilizamos o editor de fotos Adobe® Photoshop® em si. Em vez disso, utilizamos a biblioteca Aspose.PSD para Java, que funciona de forma independente para manipular o documento do Photoshop.
+Neste artigo, aprenderemos como ajustar o alcance tonal e o equilíbrio de cor de uma foto no formato de arquivo [PSD](/psd/pt/java/psd-format/) programaticamente em Java. Não utilizamos o editor de fotos Adobe® Photoshop® em si. Em vez disso, utilizamos a biblioteca Aspose.PSD para Java, que funciona de forma independente para manipular o documento do Photoshop.
 
-Embora o Aspose.PSD para Java suporte mais do que ferramentas suficientes para [editar a foto](/pt/psd/java/manipulating-images/) como desejamos, vamos **utilizar a API da camada de ajuste de níveis** que é uma das maneiras mais simples e rápidas de realizar o trabalho.
+Embora o Aspose.PSD para Java suporte mais do que ferramentas suficientes para [editar a foto](/psd/pt/java/manipulating-images/) como desejamos, vamos **utilizar a API da camada de ajuste de níveis** que é uma das maneiras mais simples e rápidas de realizar o trabalho.
 
 ## Visão geral da API
 

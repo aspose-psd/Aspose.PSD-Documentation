@@ -35,11 +35,11 @@ Aspose.PSD CLI 转换应用程序是一个轻量级的工作流自动化控制�
 
 **如果你需要将对 PSD、PSB 和 AI 格式的支持添加到工作流中，请查看其他 [Aspose.PSD CLI 应用程序](https://docs.aspose.com/psd/net/cli) for .NET**
 
-1. [Aspose.PSD CLI 转换](/zh/psd/net/cli/convert)
-2. [Aspose.PSD CLI 裁剪](/zh/psd/net/cli/crop)
-3. [Aspose.PSD CLI 调整大小](/zh/psd/net/cli/resize)
-4. [Aspose.PSD CLI 导出](/zh/psd/net/cli/export)
-5. [Aspose.PSD CLI NLP 编辑器](/zh/psd/net/cli/nlp-editor)
+1. [Aspose.PSD CLI 转换](/psd/zh/net/cli/convert)
+2. [Aspose.PSD CLI 裁剪](/psd/zh/net/cli/crop)
+3. [Aspose.PSD CLI 调整大小](/psd/zh/net/cli/resize)
+4. [Aspose.PSD CLI 导出](/psd/zh/net/cli/export)
+5. [Aspose.PSD CLI NLP 编辑器](/psd/zh/net/cli/nlp-editor)
 
 **请查看 Aspose.PSD for .NET 或 [其他平台]**
 
@@ -53,8 +53,8 @@ Aspose.PSD CLI 应用程序是一个即插即用的解决方案，适用于大�
 
 以下是一些有用资源的链接，可能有助于完成你的任务。
 
-- [Aspose.PSD CLI 应用程序 for .NET 在线文档](/zh/psd/net/cli/convert)
-- [Aspose.PSD for CLI 应用程序 for .NET 发布说明](/zh/psd/net/cli/convert/release-notes/)
+- [Aspose.PSD CLI 应用程序 for .NET 在线文档](/psd/zh/net/cli/convert)
+- [Aspose.PSD for CLI 应用程序 for .NET 发布说明](/psd/zh/net/cli/convert/release-notes/)
 - [Aspose.PSD for CLI 应用程序 .NET 产品页面](https://products.aspose.com/psd/net/cli)
 - [Aspose.PSD for .NET API 参考指南](https://reference.aspose.com/net/psd)
 - [在 GitHub 代码仓库下载示例](https://github.com/aspose-psd/CLI-Applications)

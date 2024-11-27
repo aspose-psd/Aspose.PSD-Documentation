@@ -10,6 +10,6 @@ url: /th/net/working-with-drawing-images/
 
 
 ## **บทความในส่วนนี้**
-- [วาดภาพ](/th/psd/net/drawing-images/)
-- [วาดภาพโดยใช้ Graphics](/th/psd/net/drawing-images-using-graphics/)
-- [วาดภาพโดยใช้ GraphicsPath](/th/psd/net/drawing-images-using-graphicspath/)
+- [วาดภาพ](/psd/th/net/drawing-images/)
+- [วาดภาพโดยใช้ Graphics](/psd/th/net/drawing-images-using-graphics/)
+- [วาดภาพโดยใช้ GraphicsPath](/psd/th/net/drawing-images-using-graphicspath/)

@@ -10,6 +10,6 @@ Lớp Graphics cho phép bạn vẽ các hình dạng đơn giản trong một t
 
 
 ## **Bài viết trong phần này**
-- [Vẽ Hình Ảnh](/vi/psd/net/drawing-images/)
-- [Vẽ Hình Ảnh Sử Dụng Graphics](/vi/psd/net/drawing-images-using-graphics/)
-- [Vẽ Hình Ảnh Sử Dụng GraphicsPath](/vi/psd/net/drawing-images-using-graphicspath/)
+- [Vẽ Hình Ảnh](/psd/vi/net/drawing-images/)
+- [Vẽ Hình Ảnh Sử Dụng Graphics](/psd/vi/net/drawing-images-using-graphics/)
+- [Vẽ Hình Ảnh Sử Dụng GraphicsPath](/psd/vi/net/drawing-images-using-graphicspath/)

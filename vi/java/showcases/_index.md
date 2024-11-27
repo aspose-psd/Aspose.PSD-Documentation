@@ -14,5 +14,5 @@ Với định dạng PSD, bạn có thể tự động hóa các nhiệm vụ nh
 
 ## **Các Bài viết Tương tự**
 - [Sử dụng các tệp PSD như làm mẫu cho tự động hóa (Trường hợp danh thiếp kinh doanh)](https://docs.aspose.com/display/psdnet/Using+PSD+files+as+templates+for+automation+-+Business+Cards+Case)
-- [Cách tạo phần mềm tạo hình ảnh thu nhỏ YouTube theo cách lập trình trong Java](/vi/psd/java/cách-tạo-hình-ảnh-thu-nhỏ-youtube-theo-cách-lập-trình-trong-java/)
+- [Cách tạo phần mềm tạo hình ảnh thu nhỏ YouTube theo cách lập trình trong Java](/psd/vi/java/cách-tạo-hình-ảnh-thu-nhỏ-youtube-theo-cách-lập-trình-trong-java/)
 

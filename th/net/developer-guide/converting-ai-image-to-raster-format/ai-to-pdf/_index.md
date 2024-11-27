@@ -7,7 +7,7 @@ url: /th/net/ai-to-pdf/
 
 Aspose.PSD มีฟังก์ชันในการแปลงไฟล์ AI เป็นไฟล์ PDF เพื่อการส่งออก Ai คุณต้องใช้โค้ดส่วนต่อไปนี้:
 
-โค้ดตัวอย่างที่ให้ด้านล่างแสดงวิธีการส่งออกไฟล์ AI เป็น PDF ด้วย [API การจัดการรูปแบบไฟล์](/th/psd/net/manipulate-different-image-file-formats/)
+โค้ดตัวอย่างที่ให้ด้านล่างแสดงวิธีการส่งออกไฟล์ AI เป็น PDF ด้วย [API การจัดการรูปแบบไฟล์](/psd/th/net/manipulate-different-image-file-formats/)
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "AIToPDF-AIToPDF.cs" >}}
 

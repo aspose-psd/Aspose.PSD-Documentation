@@ -8,7 +8,7 @@ url: /pt/net/ai-to-jpg/
 Aspose.PSD é um SDK de Formato PSD, que também pode converter arquivos AI para Jpg. Você pode converter o Arquivo Adobe Illustrator para arquivo Jpg. Para exportar Ai, você precisa usar o seguinte trecho de código:
 
 
-O código de exemplo fornecido abaixo demonstra como exportar o arquivo AI para Jpg com a [API de Manipulação de Formato de Arquivo](/pt/psd/net/manipulate-different-image-file-formats/)
+O código de exemplo fornecido abaixo demonstra como exportar o arquivo AI para Jpg com a [API de Manipulação de Formato de Arquivo](/psd/pt/net/manipulate-different-image-file-formats/)
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c7c0ce974175c" "Exemplos-CSharp-Aspose-ModifyingAndConvertingImages-AI-AIToJPG-AIToJPG.cs" >}}
 

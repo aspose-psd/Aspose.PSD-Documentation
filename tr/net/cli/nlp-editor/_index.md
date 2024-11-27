@@ -74,11 +74,11 @@ Efektler olmadan smth.psd dosyasını aç ve output.bmp olarak kaydet
 
 **Lütfen iş akışınıza PSD, PSB ve AI Biçimleri desteği eklemeniz gerekiyorsa, diğer [Aspose.PSD CLI Uygulamalarını](https://docs.aspose.com/psd/net/cli) kontrol edin** 
 
-1. [Aspose.PSD CLI Dönüştür](/tr/psd/net/cli/donustur)
-2. [Aspose.PSD CLI Kırpma](/tr/psd/net/cli/krpma)
-3. [Aspose.PSD CLI Boyutlandırma](/tr/psd/net/cli/boyutlandirma)
-4. [Aspose.PSD CLI Dışa Aktar](/tr/psd/net/cli/dışa-aktar)
-5. [Aspose.PSD CLI NLP Editör](/tr/psd/net/cli/nlp-editor)
+1. [Aspose.PSD CLI Dönüştür](/psd/tr/net/cli/donustur)
+2. [Aspose.PSD CLI Kırpma](/psd/tr/net/cli/krpma)
+3. [Aspose.PSD CLI Boyutlandırma](/psd/tr/net/cli/boyutlandirma)
+4. [Aspose.PSD CLI Dışa Aktar](/psd/tr/net/cli/dışa-aktar)
+5. [Aspose.PSD CLI NLP Editör](/psd/tr/net/cli/nlp-editor)
 
 **Lütfen Aspose.PSD for .NET veya [diğer platformları](https://releases.aspose.com/psd) kontrol edin** 
 
@@ -92,8 +92,8 @@ Aspose.PSD CLI Uygulamaları, popüler işlemler için kullanıma hazır bir ç�
 
 Aşağıdaki bağlantılar, görevlerinizi başarıyla tamamlamanız için ihtiyacınız olan bazı faydalı kaynaklara yönlendirme yapar.
 
-- [.NET için Aspose.PSD CLI Uygulamaları Çevrimiçi Belgeleri](/tr/psd/net/cli/dönüştürme)
-- [.NET için Aspose.PSD CLI Uygulamaları Yayın Notları](/tr/psd/net/cli/dönüştürme/yayın-notları/)
+- [.NET için Aspose.PSD CLI Uygulamaları Çevrimiçi Belgeleri](/psd/tr/net/cli/dönüştürme)
+- [.NET için Aspose.PSD CLI Uygulamaları Yayın Notları](/psd/tr/net/cli/dönüştürme/yayın-notları/)
 - [.NET için Aspose.PSD CLI Uygulamaları Ürün Sayfası](https://products.aspose.com/psd/net/cli)
 - [.NET için Aspose.PSD API Referans Kılavuzu](https://reference.aspose.com/net/psd)
 - [GitHub Deposundan Örnekleri İndirin](https://github.com/aspose-psd/CLI-Applications)

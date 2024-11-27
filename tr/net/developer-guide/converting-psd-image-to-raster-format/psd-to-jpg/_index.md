@@ -17,6 +17,6 @@ PSD'nin JPG'ye dışa aktarımında JPEG Dosya Biçimi kalitesi, JPEG İzin Veri
 
 Düzenlemeden sonra PSD dosyasını dışa aktarabilir veya piksel mükemmelliği [Salt Okunur Mod](https://reference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode)unda veya PSD Dosyası Önizlemesi kullanılacağı yerlerde PSD dosyası dışa aktarılabilir.
 
-İşte [Photoshop Gradyanı](/tr/psd/net/support-of-fill-layers/) ve [PSD Metin Katmanı](/tr/psd/net/working-with-text-layers/) dışa aktarma örneği:
+İşte [Photoshop Gradyanı](/psd/tr/net/support-of-fill-layers/) ve [PSD Metin Katmanı](/psd/tr/net/working-with-text-layers/) dışa aktarma örneği:
 
 ![todo:image_alt_text](psd-to-jpg_1.png)

@@ -20,4 +20,4 @@ Bảng dưới đây cho biết các định dạng tệp mà Aspose.PSD dành c
 |[BMP](https://wiki.fileformat.com/image/bmp/)|Lưu tài liệu dưới dạng BMP| |{{< emoticons/tick >}}| |
 |[JPEG2000](https://wiki.fileformat.com/image/jp2/)|Lưu tài liệu dưới dạng JPEG2000| |{{< emoticons/tick >}}| |
 |[PDF](https://wiki.fileformat.com/view/pdf/)|Định dạng Tài liệu Di động| |{{< emoticons/tick >}}| |
-|[AI](/vi/psd/net/ai-adobe-illustrator-format/)|Tệp Adobe Illustrator|{{< emoticons/tick >}}| | |
+|[AI](/psd/vi/net/ai-adobe-illustrator-format/)|Tệp Adobe Illustrator|{{< emoticons/tick >}}| | |

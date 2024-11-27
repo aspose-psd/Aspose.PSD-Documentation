@@ -13,7 +13,7 @@ description: Aspose.PSD Adapters Toàn bộ Hướng dẫn.
 
 ## Áp dụng bản quyền
 
-Vui lòng kiểm tra [bài viết đầy đủ về áp dụng bản quyền](/vi/psd/net/adapters/license) cho các bộ chuyển đổi.
+Vui lòng kiểm tra [bài viết đầy đủ về áp dụng bản quyền](/psd/vi/net/adapters/license) cho các bộ chuyển đổi.
 
 {{% alert color="primary" %}} 
 Vui lòng lưu ý, để sử dụng các Bộ chuyển đổi, bạn cần cả Bản quyền của cả Aspose.PSD và adaptees.

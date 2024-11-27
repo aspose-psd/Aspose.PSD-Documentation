@@ -13,10 +13,10 @@ Aspose.PSD için Java, Adobe Photoshop PSD dosya biçiminin tüm bölümlerini d
 ## **PSD Biçimi Belgelendirmesi**
 Belge, tüm PSD Bölümleri için bilgi ve örnekler içerir.
 
-## **Desteklenen [PSD Katman Türleri](/tr/psd/java/layer-types/)**
+## **Desteklenen [PSD Katman Türleri](/psd/tr/java/layer-types/)**
 
 - Temel
 - Metin Katmanları
-- [Ayar Katmanları](/tr/psd/java/layer-types/adjustment-layer/)
+- [Ayar Katmanları](/psd/tr/java/layer-types/adjustment-layer/)
 - Doldurma Katmanları
 - Akıllı Nesneler

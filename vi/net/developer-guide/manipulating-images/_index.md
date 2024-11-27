@@ -13,10 +13,10 @@ Aspose. PSD C# .NET Photoshop Manipulation API hỗ trợ nhiều tính năng đ
 
 
 ## **Bài viết trong phần này**
-- [Áp dụng bộ lọc Median và Wiener](/vi/psd/net/applying-median-and-wiener-filters/)
-- [Chuyển đổi ảnh](/vi/psd/net/converting-images/)
-- [Tạo, Mở và Lưu ảnh](/vi/psd/net/creating-opening-and-saving-images/)
-- [Cắt, Xoay và Thay đổi kích thước ảnh](/vi/psd/net/crop-rotate-and-resize-images/)
-- [Thay đổi ảnh](/vi/psd/net/modifying-images/)
-- [Thiết lập thuộc tính cho ảnh](/vi/psd/net/setting-properties-on-images/)
+- [Áp dụng bộ lọc Median và Wiener](/psd/vi/net/applying-median-and-wiener-filters/)
+- [Chuyển đổi ảnh](/psd/vi/net/converting-images/)
+- [Tạo, Mở và Lưu ảnh](/psd/vi/net/creating-opening-and-saving-images/)
+- [Cắt, Xoay và Thay đổi kích thước ảnh](/psd/vi/net/crop-rotate-and-resize-images/)
+- [Thay đổi ảnh](/psd/vi/net/modifying-images/)
+- [Thiết lập thuộc tính cho ảnh](/psd/vi/net/setting-properties-on-images/)
 

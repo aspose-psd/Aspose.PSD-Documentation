@@ -12,4 +12,4 @@ Com o formato PSD é possível automatizar tarefas como Tradução de materiais 
 
 Aqui estão exemplos coletados para esses tipos de tarefas. Mais recursos com exemplos podem ser encontrados na [Referência da API.](https://reference.aspose.com/psd/net)
 ## **Artigos Disponíveis**
-- [Usando arquivos PSD como modelos para automação (Caso de cartões de visita)](/pt/psd/net/usando-psd-files-as-templates-for-automation-business-cards-case/)
+- [Usando arquivos PSD como modelos para automação (Caso de cartões de visita)](/psd/pt/net/usando-psd-files-as-templates-for-automation-business-cards-case/)

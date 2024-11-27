@@ -24,12 +24,12 @@ Aspose.PSD .NET 适配器是特殊的 NuGet 包，允许您以更少的代码编
 请注意，要无限制地使用适配器，您需要同时拥有 Aspose.PSD 和 Aspose.Imaging 许可证。适配器 NuGet 包对于拥有 Aspose.Total 许可证的所有者最有价值。
 
 有关更多描述和示例，请查看：
-- [Aspose.PSD 适配器快速入门指南](/zh/psd/net/adapters/quick-start)
-- [如何为产品设置许可证的 Aspose.PSD 适配器](/zh/psd/net/adapters/license)
-- [如何加载不受支持格式的 Aspose.PSD](/zh/psd/net/adapters/load-unsupported-formats)
-- [将不支持的格式导出到 Aspose.PSD](/zh/psd/net/adapters/export-to-unsupported-formats)
-- [适配器用于 Webp、SVG 和其他格式的 Aspose.PSD 概述](/zh/psd/net/adapters/working-with-webp-svg-formats-overview)
-- [Aspose.PSD 加载适配器完整手册](/zh/psd/net/adapters/full-manual)
+- [Aspose.PSD 适配器快速入门指南](/psd/zh/net/adapters/quick-start)
+- [如何为产品设置许可证的 Aspose.PSD 适配器](/psd/zh/net/adapters/license)
+- [如何加载不受支持格式的 Aspose.PSD](/psd/zh/net/adapters/load-unsupported-formats)
+- [将不支持的格式导出到 Aspose.PSD](/psd/zh/net/adapters/export-to-unsupported-formats)
+- [适配器用于 Webp、SVG 和其他格式的 Aspose.PSD 概述](/psd/zh/net/adapters/working-with-webp-svg-formats-overview)
+- [Aspose.PSD 加载适配器完整手册](/psd/zh/net/adapters/full-manual)
 
 {{% /alert %}} 
 
@@ -37,8 +37,8 @@ Aspose.PSD .NET 适配器是特殊的 NuGet 包，允许您以更少的代码编
 
 以下是一些有用资源的链接，可能有助于完成您的任务。
 
-- [Aspose.PSD .NET 在线文档](/zh/psd/net/adapters)
-- [Aspose.PSD .NET 版本说明](/zh/psd/net/adapters/release-notes/)
+- [Aspose.PSD .NET 在线文档](/psd/zh/net/adapters)
+- [Aspose.PSD .NET 版本说明](/psd/zh/net/adapters/release-notes/)
 - [Aspose.PSD .NET 产品页面](https://products.aspose.com/psd/net)
 - [安装 Aspose.PSD .NET NuGet 包](https://www.nuget.org/packages/Aspose.PSD.Adapters.Imaging/)
 - [在 GitHub 存储库下载示例](https://github.com/aspose-psd/Aspose.PSD-for-.NET)

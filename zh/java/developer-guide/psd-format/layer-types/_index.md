@@ -15,7 +15,7 @@ url: /zh/java/layer-types/
 
    包含文本数据的图层，包括PSD文本引擎的样式和段落。
 
-- [调整图层](/zh/psd/java/layer-types/adjustment-layer/)
+- [调整图层](/psd/zh/java/layer-types/adjustment-layer/)
 
    这些图层会对其下的图层应用不同的图形调整。
 

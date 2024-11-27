@@ -19,6 +19,6 @@ Bạn có thể xác định mức nén định dạng Png từ 0 đến 9, tron
 
 Sử dụng Png bán trong với kênh Alpha cho trang web hoặc công việc của bạn là một giải pháp tốt. File từ Adobe Photoshop có thể được xuất hoàn chỉnh pixel theo chế độ [Chỉ Đọc](https://reference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode)
 
-Dưới đây là ví dụ về file PSD xuất ra với [Mask Đã Áp Dụng](https://docs.aspose.com/display/psdjava/Apply+Masking), [Lớp với Văn bản](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/textlayer) và Lớp Màu [Đổ Bóng Trong Suốt](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.filllayers/filllayer) (Aspose.PSD hỗ trợ tất cả các loại [Lớp Đổ Màu của Adobe Photoshop](https://docs.aspose.com/display/psdjava/Support+of+Fill+Layers)). Bạn cũng có thể thấy [hiệu ứng bóng](/vi/psd/net/shadow-effects-in-psd-file/) trên Lớp Hình dạng PSD.
+Dưới đây là ví dụ về file PSD xuất ra với [Mask Đã Áp Dụng](https://docs.aspose.com/display/psdjava/Apply+Masking), [Lớp với Văn bản](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers/textlayer) và Lớp Màu [Đổ Bóng Trong Suốt](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd.layers.filllayers/filllayer) (Aspose.PSD hỗ trợ tất cả các loại [Lớp Đổ Màu của Adobe Photoshop](https://docs.aspose.com/display/psdjava/Support+of+Fill+Layers)). Bạn cũng có thể thấy [hiệu ứng bóng](/psd/vi/net/shadow-effects-in-psd-file/) trên Lớp Hình dạng PSD.
 
 ![todo:image_alt_text](psd-to-png_1.png)

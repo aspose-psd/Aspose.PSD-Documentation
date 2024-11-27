@@ -9,7 +9,7 @@ description: Usando a API de Manipulação do Photoshop em C# .NET, os desenvolv
 
 {{% alert color="primary" %}} 
 
-Usando Aspose.PSD para .NET, os desenvolvedores podem recortar a imagem PSD enquanto [convertendo-a para formato raster](/pt/psd/net/converting-psd-image-to-raster-format/). Este tópico explica a abordagem para carregar imagens existentes, recortá-las e convertê-las para formato raster.
+Usando Aspose.PSD para .NET, os desenvolvedores podem recortar a imagem PSD enquanto [convertendo-a para formato raster](/psd/pt/net/converting-psd-image-to-raster-format/). Este tópico explica a abordagem para carregar imagens existentes, recortá-las e convertê-las para formato raster.
 
 {{% /alert %}} 
 ## **Recortando arquivo PSD ao converter para PNG**

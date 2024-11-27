@@ -20,4 +20,4 @@ Aşağıdaki tablo, Aspose.PSD for .NET'in yükleyebileceği ve kaydedebileceği
 |[BMP](https://wiki.fileformat.com/image/bmp/)|Belgeyi BMP Biçiminde kaydeder| |{{< emoticons/tick >}}| |
 |[JPEG2000](https://wiki.fileformat.com/image/jp2/)|Belgeyi JPEG2000 Biçiminde kaydeder| |{{< emoticons/tick >}}| |
 |[PDF](https://wiki.fileformat.com/view/pdf/)|Taşınabilir Belge Biçimi| |{{< emoticons/tick >}}| |
-|[AI](/tr/psd/net/ai-adobe-illustrator-format/)|Adobe Illustrator Dosyası|{{< emoticons/tick >}}| | |
+|[AI](/psd/tr/net/ai-adobe-illustrator-format/)|Adobe Illustrator Dosyası|{{< emoticons/tick >}}| | |

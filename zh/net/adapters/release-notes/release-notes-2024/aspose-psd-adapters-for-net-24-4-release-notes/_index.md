@@ -25,7 +25,7 @@ url: /zh/net/adapters/aspose-psd-adapters-for-net-24-4-release-notes/
 
 ## **使用示例:**
 
-请查看 [Aspose.PSD.Adapters文档页面](/zh/psd/net/adapters)
+请查看 [Aspose.PSD.Adapters文档页面](/psd/zh/net/adapters)
 
 **PSDNET-1985. 使用Aspose.PSD.Adapters的最完整示例**
 

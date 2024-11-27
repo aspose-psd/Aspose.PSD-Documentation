@@ -24,12 +24,12 @@ Hiện tại, Aspose.PSD cho Java hỗ trợ các định dạng tệp PSD và P
 
 Dưới đây là các liên kết đến một số tài nguyên hữu ích mà bạn có thể cần để hoàn thành các nhiệm vụ của mình.
 
-- [Tài liệu trực tuyến Aspose.PSD cho Java](/vi/psd/java/)
-- [Tính năng Aspose.PSD cho Java](/vi/psd/java/features/)
-- [Ghi chú phát hành Aspose.PSD cho Java](/vi/psd/java/release-notes/)
+- [Tài liệu trực tuyến Aspose.PSD cho Java](/psd/vi/java/)
+- [Tính năng Aspose.PSD cho Java](/psd/vi/java/features/)
+- [Ghi chú phát hành Aspose.PSD cho Java](/psd/vi/java/release-notes/)
 - [Trang Sản phẩm Aspose.PSD cho Java](https://products.aspose.com/psd/java)
 - [Tải về Aspose.PSD cho Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-psd)
-- [Cài đặt Aspose.PSD cho Java từ Kho lưu trữ Maven](/vi/psd/java/installation/)
+- [Cài đặt Aspose.PSD cho Java từ Kho lưu trữ Maven](/psd/vi/java/installation/)
 - [Hướng dẫn Tham khảo API Aspose.PSD cho Java](https://reference.aspose.com/java/psd)
 - [Tải Ví dụ tại Kho lưu trữ GitHub](https://github.com/aspose-psd/Aspose.PSD-for-Java)
 - [Diễn đàn Hỗ trợ Miễn phí Aspose.PSD cho Java](https://forum.aspose.com/c/psd)

@@ -11,6 +11,6 @@ Graphics 类为您提供在 PsdImage 实例或 Image 类的任何继承类中绘
 
 
 ## **本节中的文章**
-- [绘制图像](/zh/psd/net/drawing-images/)
-- [使用 Graphics 绘制图像](/zh/psd/net/drawing-images-using-graphics/)
-- [使用 GraphicsPath 绘制图像](/zh/psd/net/drawing-images-using-graphicspath/)
+- [绘制图像](/psd/zh/net/drawing-images/)
+- [使用 Graphics 绘制图像](/psd/zh/net/drawing-images-using-graphics/)
+- [使用 GraphicsPath 绘制图像](/psd/zh/net/drawing-images-using-graphicspath/)

@@ -42,4 +42,4 @@ Consulte a documentação da [BrightnessContrastLayer](https://reference.aspose.
 
 Neste artigo, tivemos uma rápida visão geral da camada de ajuste de Brilho/Contraste e aprendemos como ajustar o brilho e o contraste da imagem usando o método de fábrica.
 
-Consulte nossa série de [artigos sobre APIs de camadas de ajuste](/pt/psd/java/layer-types/adjustment-layer/) do Aspose.PSD para Java para saber mais.
+Consulte nossa série de [artigos sobre APIs de camadas de ajuste](/psd/pt/java/layer-types/adjustment-layer/) do Aspose.PSD para Java para saber mais.

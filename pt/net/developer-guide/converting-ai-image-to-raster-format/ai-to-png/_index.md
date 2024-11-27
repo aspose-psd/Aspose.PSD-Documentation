@@ -5,7 +5,7 @@ weight: 30
 url: /pt/net/ai-to-png/
 ---
 
-Usando Aspose.PSD, você pode converter versões suportadas de arquivos AI para o formato Png. Png é um formato de arquivo de gráficos rasterizados que suporta compressão de dados sem perdas. Além disso, o Png suporta transparência. A [rasterização dos arquivos Ai](/pt/psd/net/converting-ai-image-to-raster-format/) no servidor pode ser automatizada. Para exportar Ai, você precisa usar o seguinte trecho de código:
+Usando Aspose.PSD, você pode converter versões suportadas de arquivos AI para o formato Png. Png é um formato de arquivo de gráficos rasterizados que suporta compressão de dados sem perdas. Além disso, o Png suporta transparência. A [rasterização dos arquivos Ai](/psd/pt/net/converting-ai-image-to-raster-format/) no servidor pode ser automatizada. Para exportar Ai, você precisa usar o seguinte trecho de código:
 
 O código de exemplo fornecido abaixo demonstra como exportar o arquivo AI para o formato Png programaticamente.
 

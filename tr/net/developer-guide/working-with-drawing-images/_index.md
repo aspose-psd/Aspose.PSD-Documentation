@@ -11,7 +11,7 @@ Grafikler sınıfı, PsdImage örneğinde veya Image sınıfından kalıtılan h
 
 
 ## **Bu bölümdeki makaleler**
-- [Görüntüleri Çizme](/tr/psd/net/drawing-images/)
-- [Görüntüleri Graphics Kullanarak Çizme](/tr/psd/net/drawing-images-using-graphics/)
-- [Görüntüleri GraphicsPath Kullanarak Çizme](/tr/psd/net/drawing-images-using-graphicspath/)
+- [Görüntüleri Çizme](/psd/tr/net/drawing-images/)
+- [Görüntüleri Graphics Kullanarak Çizme](/psd/tr/net/drawing-images-using-graphics/)
+- [Görüntüleri GraphicsPath Kullanarak Çizme](/psd/tr/net/drawing-images-using-graphicspath/)
 

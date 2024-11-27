@@ -13,7 +13,7 @@ url: /tr/java/layer-types/
 - Metin Katmanları
 
 		Metin verilerini içeren ve PSD Metin Motoru'nun Stilleri ve Paragraflarını içeren katmanlar
-- [Ayarlama Katmanları](/tr/psd/java/layer-types/adjustment-layer/)
+- [Ayarlama Katmanları](/psd/tr/java/layer-types/adjustment-layer/)
 
 		Bu katmanlar altındaki katmanlara farklı grafik ayarlamalar uygular.
 		

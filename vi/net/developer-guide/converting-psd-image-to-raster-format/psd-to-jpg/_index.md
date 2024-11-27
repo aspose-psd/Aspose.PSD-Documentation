@@ -17,6 +17,6 @@ Bạn có thể chỉ định chất lượng Định dạng Tập tin JPEG, L�
 
 Bạn có thể xuất tập tin PSD sau khi chỉnh sửa hoặc pixel hoàn hảo trong [Chế Độ Chỉ Đọc](https://reference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode), nơi sẽ sử dụng Xem Trước Tập Tin PSD.
 
-Dưới đây là ví dụ về việc xuất [Gradient trong Photoshop](/vi/psd/net/support-of-fill-layers/) và [Lớp Văn bản PSD](/vi/psd/net/working-with-text-layers/):
+Dưới đây là ví dụ về việc xuất [Gradient trong Photoshop](/psd/vi/net/support-of-fill-layers/) và [Lớp Văn bản PSD](/psd/vi/net/working-with-text-layers/):
 
 ![todo:image_alt_text](psd-to-jpg_1.png)

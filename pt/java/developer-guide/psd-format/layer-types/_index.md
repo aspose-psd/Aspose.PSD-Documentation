@@ -13,7 +13,7 @@ url: /pt/java/layer-types/
 - Camadas de Texto
 
 		Camadas que contêm dados de texto, incluindo Estilos e Parágrafos do Motor de Texto do PSD.
-- [Camadas de Ajuste](/pt/psd/java/layer-types/adjustment-layer/)
+- [Camadas de Ajuste](/psd/pt/java/layer-types/adjustment-layer/)
 
 		Estas camadas aplicam diferentes ajustes gráficos às camadas abaixo.
 		

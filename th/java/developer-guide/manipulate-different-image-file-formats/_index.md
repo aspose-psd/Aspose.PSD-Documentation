@@ -11,10 +11,10 @@ url: /th/java/manipulate-different-image-file-formats/
 
 
 ## **บทความในส่วนนี้**
-- [การจัดการกับรูปแบบ Adobe Illustrator](/th/psd/java/manipulating-adobe-illustrator-formats/)
-- [การจัดการกับรูปภาพ JPEG](/th/psd/java/manipulating-jpeg-images/)
-- [การจัดการกับรูปแบบ Photoshop](/th/psd/java/manipulating-photoshop-formats/)
-- [การจัดการกับรูปภาพ PNG](/th/psd/java/manipulating-png-images/)
-- [การจัดการกับรูปภาพ TIFF](/th/psd/java/manipulating-tiff-images/)
-- [การทำงานกับไฟล์ PSB](/th/psd/java/working-with-psb-files/)
+- [การจัดการกับรูปแบบ Adobe Illustrator](/psd/th/java/manipulating-adobe-illustrator-formats/)
+- [การจัดการกับรูปภาพ JPEG](/psd/th/java/manipulating-jpeg-images/)
+- [การจัดการกับรูปแบบ Photoshop](/psd/th/java/manipulating-photoshop-formats/)
+- [การจัดการกับรูปภาพ PNG](/psd/th/java/manipulating-png-images/)
+- [การจัดการกับรูปภาพ TIFF](/psd/th/java/manipulating-tiff-images/)
+- [การทำงานกับไฟล์ PSB](/psd/th/java/working-with-psb-files/)
 

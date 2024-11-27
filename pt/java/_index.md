@@ -24,12 +24,12 @@ Atualmente, o Aspose.PSD para Java suporta os formatos de arquivos PSD e PSB par
 
 Abaixo estão os links para alguns recursos úteis que você pode precisar para realizar suas tarefas.
 
-- [Documentação Online do Aspose.PSD para Java](/pt/psd/java/)
-- [Recursos do Aspose.PSD para Java](/pt/psd/java/features/)
-- [Notas de Lançamento do Aspose.PSD para Java](/pt/psd/java/release-notes/)
+- [Documentação Online do Aspose.PSD para Java](/psd/pt/java/)
+- [Recursos do Aspose.PSD para Java](/psd/pt/java/features/)
+- [Notas de Lançamento do Aspose.PSD para Java](/psd/pt/java/release-notes/)
 - [Página do Produto Aspose.PSD para Java](https://products.aspose.com/psd/java)
 - [Baixar o Aspose.PSD para Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-psd)
-- [Instalar o Aspose.PSD para Java a partir do Repositório Maven](/pt/psd/java/installation/)
+- [Instalar o Aspose.PSD para Java a partir do Repositório Maven](/psd/pt/java/installation/)
 - [Guia de Referência da API Aspose.PSD para Java](https://reference.aspose.com/java/psd)
 - [Baixar Exemplos no Repositório do GitHub](https://github.com/aspose-psd/Aspose.PSD-for-Java)
 - [Fórum de Suporte Gratuito do Aspose.PSD para Java](https://forum.aspose.com/c/psd)

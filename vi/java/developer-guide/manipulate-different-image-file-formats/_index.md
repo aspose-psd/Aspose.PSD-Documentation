@@ -10,10 +10,10 @@ Sử dụng Aspose.PSD cho Java, nhà phát triển có thể chuyển đổi c�
 
 
 ## **Bài viết trong phần này**
-- [Xử Lý Các Định Dạng Adobe Illustrator](/vi/psd/java/xu-ly-cac-dinh-dang-adobe-illustrator/)
-- [Xử Lý Hình Ảnh JPEG](/vi/psd/java/xu-ly-hinh-anh-jpeg/)
-- [Xử Lý Các Định Dạng Photoshop](/vi/psd/java/xu-ly-cac-dinh-dang-photoshop/)
-- [Xử Lý Hình Ảnh PNG](/vi/psd/java/xu-ly-hinh-anh-png/)
-- [Xử Lý Hình Ảnh TIFF](/vi/psd/java/xu-ly-hinh-anh-tiff/)
-- [Làm Việc Với Tệp PSB](/vi/psd/java/lam-viec-voi-tep-psb/)
+- [Xử Lý Các Định Dạng Adobe Illustrator](/psd/vi/java/xu-ly-cac-dinh-dang-adobe-illustrator/)
+- [Xử Lý Hình Ảnh JPEG](/psd/vi/java/xu-ly-hinh-anh-jpeg/)
+- [Xử Lý Các Định Dạng Photoshop](/psd/vi/java/xu-ly-cac-dinh-dang-photoshop/)
+- [Xử Lý Hình Ảnh PNG](/psd/vi/java/xu-ly-hinh-anh-png/)
+- [Xử Lý Hình Ảnh TIFF](/psd/vi/java/xu-ly-hinh-anh-tiff/)
+- [Làm Việc Với Tệp PSB](/psd/vi/java/lam-viec-voi-tep-psb/)
 

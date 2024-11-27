@@ -6,7 +6,7 @@ url: /zh/net/converting-ai-image-to-raster-format/
 ---
 
 ## **概述**
-Aspose.PSD允许将[Ai](/zh/psd/net/ai-adobe-illustrator-format/)转换为Jpeg、Jpeg2000、Png、Tiff、Pdf、Gif、[Psd](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd/psdimage)和Bmp格式。
+Aspose.PSD允许将[Ai](/psd/zh/net/ai-adobe-illustrator-format/)转换为Jpeg、Jpeg2000、Png、Tiff、Pdf、Gif、[Psd](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd/psdimage)和Bmp格式。
 
 光栅图像通常是由像素的矩形网格组成的。您无法在不损失质量的情况下放大它们。
 
@@ -14,8 +14,8 @@ Aspose.PSD允许将[Ai](/zh/psd/net/ai-adobe-illustrator-format/)转换为Jpeg�
 
 目前支持的AI文件版本为8，并且正在支持所有版本。
 
-您可以在服务器上使用[Aspose.PSD](https://products.aspose.com/psd/net)将[Ai文件](/zh/psd/net/ai-adobe-illustrator-format/)转换，无需Illustrator。这是Adobe Illustrator的良好替代品。
+您可以在服务器上使用[Aspose.PSD](https://products.aspose.com/psd/net)将[Ai文件](/psd/zh/net/ai-adobe-illustrator-format/)转换，无需Illustrator。这是Adobe Illustrator的良好替代品。
 ## **将PSD导出为光栅格式的具体示例**
-- [Ai转jpeg](/zh/psd/net/ai-to-jpg/)
-- [Ai转Pdf](/zh/psd/net/ai-to-pdf/)
-- [Ai转png](/zh/psd/net/ai-to-png/)
+- [Ai转jpeg](/psd/zh/net/ai-to-jpg/)
+- [Ai转Pdf](/psd/zh/net/ai-to-pdf/)
+- [Ai转png](/psd/zh/net/ai-to-png/)

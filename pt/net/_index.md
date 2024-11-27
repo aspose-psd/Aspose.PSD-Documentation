@@ -24,7 +24,7 @@ Atualmente, o Aspose.PSD para .NET suporta os formatos de arquivo PSD e PSB para
 
 **![Logotipo do Produto Aspose.PSD para Adaptadores para .NET](aspose_psd-for-net-adapter.png)**
 
-**Por favor, verifique [Os Adaptadores Aspose.PSD](/pt/psd/net/adapters) para .NET se você precisar processar formatos adicionais no Aspose.PSD**
+**Por favor, verifique [Os Adaptadores Aspose.PSD](/psd/pt/net/adapters) para .NET se você precisar processar formatos adicionais no Aspose.PSD**
 
 Os Adaptadores Aspose.PSD para .NET são os Pacotes Nuget especiais que permitem que você escreva código de integração com outros Produtos Aspose com menos esforço.
 
@@ -36,9 +36,9 @@ Por exemplo, normalmente, para abrir um formato não suportado pelo Aspose.PSD, 
 
 A seguir estão os links para alguns recursos úteis que você pode precisar para realizar suas tarefas.
 
-- [Documentação Online do Aspose.PSD para .NET](/pt/psd/net/)
-- [Recursos do Aspose.PSD para .NET](/pt/psd/net/features/)
-- [Notas de Lançamento do Aspose.PSD para .NET](/pt/psd/net/release-notes/)
+- [Documentação Online do Aspose.PSD para .NET](/psd/pt/net/)
+- [Recursos do Aspose.PSD para .NET](/psd/pt/net/features/)
+- [Notas de Lançamento do Aspose.PSD para .NET](/psd/pt/net/release-notes/)
 - [Página do Produto Aspose.PSD para .NET](https://products.aspose.com/psd/net)
 - [Instale o Pacote NuGet do Aspose.PSD para .NET](https://www.nuget.org/packages/Aspose.PSD/)
 - [Guia de Referência da API do Aspose.PSD para .NET](https://reference.aspose.com/net/psd)

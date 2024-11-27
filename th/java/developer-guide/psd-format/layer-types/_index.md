@@ -13,7 +13,7 @@ url: /th/java/layer-types/
 - Text Layers
 
 		เลเยอร์ที่ประกอบด้วยข้อมูลข้อความ รวมถึงสไตล์และย่อหน้าของ PSD Text Engine
-- [Adjustment Layers](/th/psd/java/layer-types/adjustment-layer/)
+- [Adjustment Layers](/psd/th/java/layer-types/adjustment-layer/)
 
 		เลเยอร์เหล่านี้ใช้ในการปรับปรุงกราฟิกต่าง ๆ ให้กับเลเยอร์ที่อยู่ด้านล่าง
 		

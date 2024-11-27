@@ -17,9 +17,9 @@ Aspose.PSD cho phép chuyển đổi các định dạng PSD và PSB sang JPEG, 
 
 Bạn có thể chuyển đổi các tệp PSD trên máy chủ của mình với Aspose.PSD mà không cần Photoshop. Đó là một sự thay thế tốt cho việc viết script của Adobe Photoshop vì EULA của Adobe cấm việc sử dụng ứng dụng trên một máy chủ và thay đổi giao diện người dùng của nó. Nhưng với SDK định dạng PSD, bạn có thể tạo một chuyển đổi hàng loạt của các Tệp PSD. Việc xuất định dạng PSD của bạn có thể hoàn hảo với chế độ [Chỉ Đọc](https://reference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode), hoặc bạn có thể [thay đổi lớp](/psd/vi/net/manipulating-adobe-photoshop-formats/), văn bản, hiệu ứng, và sau đó làm xuất.
 ## **Các Ví Dụ Cụ Thể Của Chuyển Đổi PSD Sang Định Dạng Raster**
-- [PSD sang JPG](/vi/psd/net/psd-to-jpg/)
-- [PSD sang PNG](/vi/psd/net/psd-to-png/)
-- [PSD sang PDF](/vi/psd/net/psd-to-pdf/)
+- [PSD sang JPG](/psd/vi/net/psd-to-jpg/)
+- [PSD sang PNG](/psd/vi/net/psd-to-png/)
+- [PSD sang PDF](/psd/vi/net/psd-to-pdf/)
 ## **Xuất Hình Ảnh PSD Sang Các Định Dạng Tập Tin Raster Khác Nhau**
 Mã mẫu dưới đây minh họa cách chuyển đổi PSD sang một số định dạng tập tin raster khác nhau.
 

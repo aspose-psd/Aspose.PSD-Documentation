@@ -15,11 +15,11 @@ description: 利用 C# .NET Photoshop 操作 API，开发人员可以将 PSD 和
 ## **概述**
 Aspose.PSD 允许将 PSD 和 PSB 格式转换为 JPEG、JPEG2000、PNG、TIFF、PDF、GIF 和 BMP 格式
 
-您可以使用 Aspose.PSD 在服务器上转换 PSD 文件，无需 Photoshop。这是 Adobe Photoshop 脚本的良好替代品，因为 Adobe 的 EULA 禁止在服务器上使用应用程序并更改其用户界面。但是使用 PSD 格式 SDK，您可以批量转换 PSD 文件。您的 PSD 格式导出可以通过[只读模式](https://reference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode)实现像素完美，或者您可以[更改图层](/zh/psd/net/manipulating-adobe-photoshop-formats/)、文字、效果，然后导出。
+您可以使用 Aspose.PSD 在服务器上转换 PSD 文件，无需 Photoshop。这是 Adobe Photoshop 脚本的良好替代品，因为 Adobe 的 EULA 禁止在服务器上使用应用程序并更改其用户界面。但是使用 PSD 格式 SDK，您可以批量转换 PSD 文件。您的 PSD 格式导出可以通过[只读模式](https://reference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode)实现像素完美，或者您可以[更改图层](/psd/zh/net/manipulating-adobe-photoshop-formats/)、文字、效果，然后导出。
 ## **将 PSD 导出为光栅格式的具体示例**
-- [PSD 转 JPG](/zh/psd/net/psd-to-jpg/)
-- [PSD 转 PNG](/zh/psd/net/psd-to-png/)
-- [PSD 转 PDF](/zh/psd/net/psd-to-pdf/)
+- [PSD 转 JPG](/psd/zh/net/psd-to-jpg/)
+- [PSD 转 PNG](/psd/zh/net/psd-to-png/)
+- [PSD 转 PDF](/psd/zh/net/psd-to-pdf/)
 ## **将 PSD 图像导出为各种光栅文件格式**
 以下示例代码演示了如何将 PSD 转换为多个光栅文件格式。
 

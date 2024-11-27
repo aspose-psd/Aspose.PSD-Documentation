@@ -13,10 +13,10 @@ Trang này chứa các ghi chú phát hành cho [Aspose.PSD cho .NET 19.11](http
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|PSDNET-151|[Hỗ trợ Hiệu ứng Lớp Bóng bên trong](/vi/psd/net/hieu-ung-bong-trong-photoshop/#hieuungbongtrongphotoshop-hieuung-lapbongbentrong)|Tính năng|
-|PSDNET-135|[Thực hiện hiển thị Lớp Fill: Mẫu](/vi/psd/net/hieu-ung-lap-fill/#hieuunglapfill-laplaptimhieuthu)|Tính năng|
-|PSDNET-187|[Hỗ trợ Hình ảnh Raster trong Tập tin Định dạng AI](/vi/psd/net/thao-tac-voi-cac-dinh-dang-illustrator-adobe/#thaotacvoicacdinhfomatillustrator-adoberastertrongillustrator)|Tính năng|
-|PSDNET-225|[Nhận các thuộc tính của định dạng nội dòng của lớp Text](/vi/psd/net/lam-viec-voi-layers-chu/#lamviecvoilayerchu-nhan-thuoctinhsanphamdinhvonoidongcuachuong)|Tính năng|
+|PSDNET-151|[Hỗ trợ Hiệu ứng Lớp Bóng bên trong](/psd/vi/net/hieu-ung-bong-trong-photoshop/#hieuungbongtrongphotoshop-hieuung-lapbongbentrong)|Tính năng|
+|PSDNET-135|[Thực hiện hiển thị Lớp Fill: Mẫu](/psd/vi/net/hieu-ung-lap-fill/#hieuunglapfill-laplaptimhieuthu)|Tính năng|
+|PSDNET-187|[Hỗ trợ Hình ảnh Raster trong Tập tin Định dạng AI](/psd/vi/net/thao-tac-voi-cac-dinh-dang-illustrator-adobe/#thaotacvoicacdinhfomatillustrator-adoberastertrongillustrator)|Tính năng|
+|PSDNET-225|[Nhận các thuộc tính của định dạng nội dòng của lớp Text](/psd/vi/net/lam-viec-voi-layers-chu/#lamviecvoilayerchu-nhan-thuoctinhsanphamdinhvonoidongcuachuong)|Tính năng|
 |PSDNET-214|Xuất PSD không chính xác sang các định dạng khác nếu chứa Hiệu ứng Lớp và Lớp Điều chỉnh|Lỗi|
 
 ## **Thay đổi API Công khai**

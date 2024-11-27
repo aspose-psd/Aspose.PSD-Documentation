@@ -12,10 +12,10 @@ Aspose.PSD C# .NET Photoshop操作API支持许多功能以处理PSD图像。以�
 
 
 ## **本节中的文章**
-- [应用中值和Wiener滤波器](/zh/psd/net/applying-median-and-wiener-filters/)
-- [转换图像](/zh/psd/net/converting-images/)
-- [创建、打开和保存图像](/zh/psd/net/creating-opening-and-saving-images/)
-- [裁剪、旋转和调整图像大小](/zh/psd/net/crop-rotate-and-resize-images/)
-- [修改图像](/zh/psd/net/modifying-images/)
-- [在图像上设置属性](/zh/psd/net/setting-properties-on-images/)
+- [应用中值和Wiener滤波器](/psd/zh/net/applying-median-and-wiener-filters/)
+- [转换图像](/psd/zh/net/converting-images/)
+- [创建、打开和保存图像](/psd/zh/net/creating-opening-and-saving-images/)
+- [裁剪、旋转和调整图像大小](/psd/zh/net/crop-rotate-and-resize-images/)
+- [修改图像](/psd/zh/net/modifying-images/)
+- [在图像上设置属性](/psd/zh/net/setting-properties-on-images/)
 

@@ -11,9 +11,9 @@ Aspose.PSD สนับสนุนคุณสมบัติมากมาย
 
 
 ## **บทความในส่วนนี้**
-* [การทำงานกับตัวกรอง Median และ Wiener](/th/psd/java/applying-median-and-wiener-filters/)
-* [แปลงรูปภาพของรูปแบบทั้งหมดที่รองรับ](/th/psd/java/converting-images/)
-* [สร้าง, เปิด และ บันทึกรูปภาพ](/th/psd/java/creating-opening-and-saving-images/)
-* [ครอบ, หมุน, ปรับขนาด และอื่น ๆ ในการแปลง PSD](/th/psd/java/crop-rotate-and-resize-images/)
-* [การปรับเปลี่ยน PSD Images และ Layers](/th/psd/java/modifying-images/)
-* [การตั้งค่าคุณสมบัติของรูปภาพ](/th/psd/java/setting-properties-on-images/)
+* [การทำงานกับตัวกรอง Median และ Wiener](/psd/th/java/applying-median-and-wiener-filters/)
+* [แปลงรูปภาพของรูปแบบทั้งหมดที่รองรับ](/psd/th/java/converting-images/)
+* [สร้าง, เปิด และ บันทึกรูปภาพ](/psd/th/java/creating-opening-and-saving-images/)
+* [ครอบ, หมุน, ปรับขนาด และอื่น ๆ ในการแปลง PSD](/psd/th/java/crop-rotate-and-resize-images/)
+* [การปรับเปลี่ยน PSD Images และ Layers](/psd/th/java/modifying-images/)
+* [การตั้งค่าคุณสมบัติของรูปภาพ](/psd/th/java/setting-properties-on-images/)

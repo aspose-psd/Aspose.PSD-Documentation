@@ -10,6 +10,6 @@ url: /th/java/working-with-drawing-images/
 
 
 ## **บทความในส่วนนี้**
-- [การวาดรูปภาพ](/th/psd/java/drawing-images/)
-- [การวาดรูปภาพโดยใช้กราฟิก](/th/psd/java/drawing-images-using-graphics/)
-- [การวาดรูปภาพโดยใช้ GraphicsPath](/th/psd/java/drawing-images-using-graphicspath/)
+- [การวาดรูปภาพ](/psd/th/java/drawing-images/)
+- [การวาดรูปภาพโดยใช้กราฟิก](/psd/th/java/drawing-images-using-graphics/)
+- [การวาดรูปภาพโดยใช้ GraphicsPath](/psd/th/java/drawing-images-using-graphicspath/)

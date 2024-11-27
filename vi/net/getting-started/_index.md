@@ -17,6 +17,6 @@ Thành phần hỗ trợ xuất ra các định dạng tệp raster phổ biến
 
 {{% /alert %}} 
 # **Aspose.PSD cho .NET**
-Trang: [Mô tả Sản phẩm](/vi/psd/net/mo-ta-san-pham/) Trang: [Định Dạng Tệp Được Hỗ Trợ](/vi/psd/net/dinh-dang-tap-tin-duoc-ho-tro/) Trang: [Tính Năng](/vi/psd/net/tinh-nang/) Trang: [Vấn Đề Đã Biết](/vi/psd/net/van-de-da-biet/) Trang: [Cài Đặt](/vi/psd/net/cai-dat/) Trang: [Yêu Cầu Hệ Thống](/vi/psd/net/yeu-cau-he-thong/) Trang: [Cấp Phép](/vi/psd/net/cap-phep/) Trang: [Cấp Phép Theo Dung Lượng](/vi/psd/net/cap-phep-theo-dung-luong/) Trang: [Cách Chạy Các Ví dụ](/vi/psd/net/cach-chay-cac-vi-du/) 
+Trang: [Mô tả Sản phẩm](/psd/vi/net/mo-ta-san-pham/) Trang: [Định Dạng Tệp Được Hỗ Trợ](/psd/vi/net/dinh-dang-tap-tin-duoc-ho-tro/) Trang: [Tính Năng](/psd/vi/net/tinh-nang/) Trang: [Vấn Đề Đã Biết](/psd/vi/net/van-de-da-biet/) Trang: [Cài Đặt](/psd/vi/net/cai-dat/) Trang: [Yêu Cầu Hệ Thống](/psd/vi/net/yeu-cau-he-thong/) Trang: [Cấp Phép](/psd/vi/net/cap-phep/) Trang: [Cấp Phép Theo Dung Lượng](/psd/vi/net/cap-phep-theo-dung-luong/) Trang: [Cách Chạy Các Ví dụ](/psd/vi/net/cach-chay-cac-vi-du/) 
 
 

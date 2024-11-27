@@ -24,7 +24,7 @@ Hiện tại, Aspose.PSD cho .NET hỗ trợ các định dạng tệp PSD và P
 
 **![Logo Sản phẩm Aspose.PSD Adapters cho .NET](aspose_psd-for-net-adapter.png)**
 
-**Vui lòng kiểm tra [Aspose.PSD Adapters](/vi/psd/net/adapters) cho .NET nếu bạn cần xử lý các định dạng bổ sung trong Aspose.PSD**
+**Vui lòng kiểm tra [Aspose.PSD Adapters](/psd/vi/net/adapters) cho .NET nếu bạn cần xử lý các định dạng bổ sung trong Aspose.PSD**
 
 Aspose.PSD Adapters cho .NET là các Gói Nuget đặc biệt cho phép bạn viết mã tích hợp với các Sản phẩm Aspose khác ít hơn.
 
@@ -36,9 +36,9 @@ Ví dụ, thường, để mở các định dạng không được hỗ trợ b
 
 Dưới đây là các liên kết đến một số tài nguyên hữu ích mà bạn có thể cần để hoàn thành các nhiệm vụ của mình.
 
-- [Tài liệu trực tuyến Aspose.PSD cho .NET](/vi/psd/net/)
-- [Tính năng của Aspose.PSD cho .NET](/vi/psd/net/features/)
-- [Ghi chú phát hành Aspose.PSD cho .NET](/vi/psd/net/release-notes/)
+- [Tài liệu trực tuyến Aspose.PSD cho .NET](/psd/vi/net/)
+- [Tính năng của Aspose.PSD cho .NET](/psd/vi/net/features/)
+- [Ghi chú phát hành Aspose.PSD cho .NET](/psd/vi/net/release-notes/)
 - [Trang Sản phẩm Aspose.PSD cho .NET](https://products.aspose.com/psd/net)
 - [Cài đặt Gói NuGet Aspose.PSD cho .NET](https://www.nuget.org/packages/Aspose.PSD/)
 - [Hướng dẫn Tham chiếu API Aspose.PSD cho .NET](https://reference.aspose.com/net/psd)

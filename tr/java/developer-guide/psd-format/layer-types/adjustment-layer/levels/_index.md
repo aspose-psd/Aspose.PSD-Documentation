@@ -7,9 +7,9 @@ url: /tr/java/layer-types/adjustment-layer/levels/
 
 ## Java'da Photoshop Seviyeler Ayarlama Katmanı İle Çalışmak
 
-Bu makalede, Java'da [PSD dosya formatında](/tr/psd/java/psd-format/) bir fotoğrafın tonal aralığını ve renk dengesini programatik olarak nasıl ayarlayacağımızı öğreneceğiz. Adobe® Photoshop® fotoğraf düzenleyicisini kendisi olarak kullanmıyoruz. Bunun yerine Photoshop belgesini manipüle etmek için kendi başına çalışan Aspose.PSD kütüphanesini kullanıyoruz.
+Bu makalede, Java'da [PSD dosya formatında](/psd/tr/java/psd-format/) bir fotoğrafın tonal aralığını ve renk dengesini programatik olarak nasıl ayarlayacağımızı öğreneceğiz. Adobe® Photoshop® fotoğraf düzenleyicisini kendisi olarak kullanmıyoruz. Bunun yerine Photoshop belgesini manipüle etmek için kendi başına çalışan Aspose.PSD kütüphanesini kullanıyoruz.
 
-Aspose.PSD for Java'da fotoğrafı istediğimiz gibi düzenlemek için yeterli sayıda [aracı desteklese de](/tr/psd/java/manipulating-images/), **Seviyeler ayarlama katmanı API'sıyla devam edelim** ki bu çalışmanın en basit ve en hızlı yollarından biridir.
+Aspose.PSD for Java'da fotoğrafı istediğimiz gibi düzenlemek için yeterli sayıda [aracı desteklese de](/psd/tr/java/manipulating-images/), **Seviyeler ayarlama katmanı API'sıyla devam edelim** ki bu çalışmanın en basit ve en hızlı yollarından biridir.
 
 ## API genel bakış
 
