@@ -1,29 +1,29 @@
 ---
-title: Aspose.PSD за .NET 19.9 - Бележки към версията
+title: Aspose.PSD за .NET 19.9 - Бележки за версията
 type: docs
 weight: 40
-url: /bg/net/aspose-psd-for-net-19-9-release-notes/
+url: /bg/net/aspose-psd-za-net-19-9-release-notes/
 ---
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}} 
 
-Тази страница съдържа бележки към версията за [Aspose.PSD за .NET 19.9](https://www.nuget.org/packages/Aspose.PSD/)
+Тази страница съдържа бележки за версията на [Aspose.PSD за .NET 19.9](https://www.nuget.org/packages/Aspose.PSD/)
 
 {{% /alert %}} 
 
 |**Ключ**|**Резюме**|**Категория**|
 | :- | :- | :- |
-|PSDNET-160|Грешно извлечено име на слой|Функционалност|
-|PSDNET-175|Получаване на свойствата на текста от различен порцион текст във PSD TextLayer|Функционалност|
-|PSDNET-190|Поддръжка за добавяне на група слой|Функционалност|
-|PSDNET-192|Поддръжка на свойство Scale за Gradient Fill Layer|Функционалност|
+|PSDNET-160|Грешно извличане на име на слой|Функционалност|
+|PSDNET-175|Извличане на текстови свойства от различна част на текст вътре в PSD TextLayer|Функционалност|
+|PSDNET-190|Поддръжка за добавяне на група на слоеве|Функционалност|
+|PSDNET-192|Поддръжка на свойството Scale за слой за пълнене с градиент|Функционалност|
 |PSDNET-162|Настройка на яркостта|Подобрение|
-|PSDNET-174|IndexOutOfRangeException при запазване на PSD изображение като JPEG|Проблем|
-|PSDNET-180|Актуализация на текстов слой, който хвърля изключение|Проблем|
-|PSDNET-182|Запазване на PSD изображение след операция RotateFlip произвежда повреден файл, който не може да бъде отворен|Проблем|
+|PSDNET-174|IndexOutOfRangeException при запазване на изображение PSD като JPEG|Проблем|
+|PSDNET-180|Актуализация на текстов слой хвърля изключение|Проблем|
+|PSDNET-182|След въртене и отразяване на PSD изображение се произвежда повреден файл, който не може да бъде отворен|Проблем|
 
-## **Промени в публичното API**
-# **Добавени API:**
+## **Промени в общественото API**
+# **Добавени API-та:**
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerGroup.AddLayerGroup(System.String,System.Int32)
 - T:Aspose.PSD.FileFormats.Psd.Layers.Text.IText
 - P:Aspose.PSD.FileFormats.Psd.Layers.Text.IText.Items
@@ -76,17 +76,17 @@ url: /bg/net/aspose-psd-for-net-19-9-release-notes/
 - P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientFillSettings.Scale
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.Scale
 - P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.Scale
-# **Премахнати API:**
-- Нито едно
+# **Премахнати API-та:**
+- Няма
 
 ## **Примери за използване:**
-**PSDNET-160. Грешно извлечено име на слой**
+**PSDNET-160. Грешно извличане на име на слой**
 
-За да се покаже името на слоя правилно, използвайте свойството **DisplayName**. Вече е добавен setter за това свойство и то може да бъде модифицирано. Когато Photoshop запазва име на слоя, използвайки свойството Име, към него като ASCII се запазват корейски знаци като байт 63 '?'. Използвайте свойството **DisplayName**, защото свойството Име не поддържа корейски знаци.
+За да се покаже правилно името на слоя, използвайте свойството **DisplayName**. Вече е добавен сетър за това свойство и то може да бъде модифицирано. Когато Photoshop запазва име на слой, използвайки свойството Name, корейските знаци се съхраняват като байт 63'?' в ASCII. Използвайте свойството **DisplayName**, защото свойството Name не поддържа корейски знаци.
 
 {{< highlight java >}}
 
-             // направете промени в имената на слоевете и ги запазвайте
+             // направете промени в имената на слоевете и ги запазете
 
             using (var image = (PsdImage)Image.Load("layers with names.psd"))
 
@@ -98,7 +98,7 @@ url: /bg/net/aspose-psd-for-net-19-9-release-notes/
 
                     var layer = image.Layers[i];
 
-                    // задаване на нова стойност в свойството DisplayName
+                    // задайте нова стойност на свойството DisplayName
 
                     layer.DisplayName += "_changed";
 
@@ -110,7 +110,7 @@ url: /bg/net/aspose-psd-for-net-19-9-release-notes/
 
 {{< /highlight >}}
 
-**PSDNET-175. Получаване на свойствата на текста от различен порцион текст във PSD TextLayer**
+**PSDNET-175. Извличане на текстови свойства от различна част на текст вътре в PSD TextLayer**
 
 {{< highlight java >}}
 
@@ -144,7 +144,7 @@ url: /bg/net/aspose-psd-for-net-19-9-release-notes/
 
                         }
 
-                        // Проверка на текста във всеки порцион
+                        // Проверка на текста на всяка част
 
                         if (portions[0].Text != "Стар " ||
 
@@ -160,9 +160,9 @@ url: /bg/net/aspose-psd-for-net-19-9-release-notes/
 
                         }
 
-                        // Проверка на данните на параграфите
+                        // Проверка на данните за параграфите
 
-                        // Параграфите имат различно подравняване
+                        // Параграфите имат различно оправдание
 
                         if (
 
@@ -254,7 +254,7 @@ url: /bg/net/aspose-psd-for-net-19-9-release-notes/
 
                         }
 
-                        // Проверка на данните за стиловете
+                        // Проверка на данните за стила
 
                         // Стиловете имат различни цветове и размер на шрифта
 
@@ -312,19 +312,19 @@ url: /bg/net/aspose-psd-for-net-19-9-release-notes/
 
                         }
 
-                        // Пример за редакция на текста
+                        // Пример за редактиране на текст
 
                         portions[0].Text = "Здравейте ";
 
                         portions[1].Text = "Свят";
 
-                        // Пример за премахване на порции от текста
+                        // Пример за премахване на текстови порции
 
                         layer.TextData.RemovePortion(3);
 
                         layer.TextData.RemovePortion(2);
 
-                        // Пример за добавяне на нова порция текст
+                        // Пример за добавяне на нова текстова порция
 
                         var createdPortion = layer.TextData.ProducePortion();
 
@@ -334,9 +334,9 @@ url: /bg/net/aspose-psd-for-net-19-9-release-notes/
 
                         portions = layer.TextData.Items;
 
-                        // Пример за редакция на параграфа и стиловете за порциите
+                        // Пример за редактиране на параграф и стил за порции
 
-                        // Задаване на право подравняване
+                        // Задаване на право оправдаване
 
                         portions[0].Paragraph.Justification = 1;
 
@@ -344,7 +344,7 @@ url: /bg/net/aspose-psd-for-net-19-9-release-notes/
 
                         portions[2].Paragraph.Justification = 1;
 
-                        // Различни цветове за всеки стил. Те ще бъдат променени, но рендерирането не е изцяло поддържано
+                        // Различни цветове за всеки стил. Те ще бъдат променени, но рендирането не е напълно поддържано
 
                         portions[0].Style.FillColor = Color.Aquamarine;
 
@@ -352,7 +352,7 @@ url: /bg/net/aspose-psd-for-net-19-9-release-notes/
 
                         portions[2].Style.FillColor = Color.LightBlue;
 
-                        // Различен шрифт. Той ще бъде променен, но рендерирането не е изцяло поддържано
+                        // Различен шрифт. Те ще бъдат променени, но рендирането не е напълно поддържано
 
                         portions[0].Style.FontSize = 6;
 
@@ -374,7 +374,7 @@ url: /bg/net/aspose-psd-for-net-19-9-release-notes/
 
 {{< /highlight >}}
 
-**PSDNET-190. Поддръжка за добавяне на група слой**
+**PSDNET-190. Поддръжка за добавяне на група на слоеве**
 
 {{< highlight java >}}
 
@@ -436,7 +436,7 @@ url: /bg/net/aspose-psd-for-net-19-9-release-notes/
 
 {{< /highlight >}}
 
-**PSDNET-192. Поддръжка на свойство Scale за Gradient Fill Layer**
+**PSDNET-192. Поддръжка на свойството Scale за слой за пълнене с градиент**
 
 {{< highlight java >}}
 
@@ -444,7 +444,7 @@ url: /bg/net/aspose-psd-for-net-19-9-release-notes/
 
             {
 
-                // получаване на слой за запълване
+                // получаване на слой за пълнене
 
                 FillLayer fillLayer = null;
 
@@ -464,122 +464,4 @@ url: /bg/net/aspose-psd-for-net-19-9-release-notes/
 
                 }
 
-                var settings = fillLayer.FillSettings as IGradientFillSettings;
-
-                // актуализация на стойността на мащаба
-
-                settings.Scale = 200;
-
-                fillLayer.Update(); // Актуализализиране на данни за пиксели
-
-                image.Save("scaledImage.png", new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
-
-            }
-
-{{< /highlight >}}
-
-
-
-**PSDNET-174. IndexOutOfRangeException при запазване на PSD изображение като JPEG**
-
-{{< highlight java >}}
-
-         using (var image = Aspose.PSD.Image.Load("SamplePSD.psd"))
-
-        {
-
-            image.Save("sampleJPG.jpg", new JpegOptions());
-
-        }
-
-{{< /highlight >}}
-
-
-
-**PSDNET-180. Актуализация на текстов слой, който хвърля изключение**
-
-{{< highlight java >}}
-
-           // Актуализация на текстов слой, който хвърля изключение
-
-            string filePath = "FlipVertical.psd";
-
-            string outputPath = "FlipVertical_changed.psd";
-
-            var newText = "Тест";
-
-            using (var image = Image.Load(filePath))
-
-            {
-
-                var psdImage = image as PsdImage;
-
-                if (image == null)
-
-                {
-
-                    return;
-
-                }
-
-                var layers = psdImage.Layers;
-
-                for (var index = layers.Length - 1; index >= 0; index--)
-
-                {
-
-                    var layer = layers[index] as TextLayer;
-
-                    if (layer == null)
-
-                    {
-
-                        continue;
-
-                    }
-
-                    layer.UpdateText(newText);
-
-                }
-
-                var imageOptions = new PsdOptions(psdImage);
-
-                psdImage.Save(outputPath, imageOptions);
-
-            }
-
-{{< /highlight >}}
-
-
-
-**PSDNET-182. Запазване на PSD изображение след операция RotateFlip произвежда повреден файл, който не може да бъде отворен**
-
-{{< highlight java >}}
-
- string sourceFileName = "1.psd";
-
-RotateFlipType flipType = RotateFlipType.Rotate270FlipXY;
-
-string outFileNamePsd = "RotateFlipTest2617.psd";
-
-using (PsdImage image = (PsdImage)Image.Load(sourceFileName))
-
-{
-
-    image.RotateFlip(flipType);
-
-    image.Save(outFileNamePsd);
-
-}
-
-// Трябва да се изпълнява без изключения
-
-using (PsdImage image = (PsdImage)Image.Load(outFileNamePsd)) 
-
-{
-
-    // Направете нищо
-
-}
-
-{{< /highlight >}}
+                var
