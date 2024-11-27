@@ -5,11 +5,11 @@ weight: 100
 url: /cs/net/aspose-psd-pro-net-22-3-poznamky-k-vydani/
 ---
 
-{{% upozorneni barva="primary" %}}
+{{% alert color="primary" %}} 
 
 Tato stránka obsahuje poznámky k vydání pro [Aspose.PSD pro .NET 22.3](https://www.nuget.org/packages/Aspose.PSD/)
 
-{{% /upozorneni %}}
+{{% /alert %}} 
 
 |**Klíč**|**Shrnutí**|**Kategorie**|
 | :- | :- | :- |
