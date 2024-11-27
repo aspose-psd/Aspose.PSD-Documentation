@@ -419,8 +419,6 @@ String dstPath = "BrightnessContrastPS6_output.psd";
 
 // 명암/조도 조정 레이어를 포함하는 Photoshop 문서를 로드
 
-{{< /highlight >}}
-
 PsdImage psdImage = (PsdImage)Image.load(srcPath);
 
 try
@@ -498,7 +496,6 @@ finally
 }
 
 {{< /highlight >}}
-
 
 
 **PSDJAVA-217: 조정된 PSD 파일 크기가 조정 레이어에 빈 바운드를 가진 마스크가 있는 경우 잘못 작동함**
