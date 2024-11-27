@@ -17,9 +17,9 @@ Aspose.PSD maakt het mogelijk om PSD- en PSB-indelingen te converteren naar JPEG
 
 U kunt PSD-bestanden converteren op uw server met Aspose.PSD zonder Photoshop. Het is een goede vervanging voor het scripten van Adobe Photoshop omdat de EULA van Adobe het gebruik van de app op een server verbiedt en de gebruikersinterface te wijzigen. Maar met de PSD-indeling SDK kunt u een batchconversie van PSD-bestanden maken. Uw PSD-indelingsexport kan pixel-perfect zijn met de [Alleen-lezen modus](https://reference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode), of u kunt [lagen](/psd/nl/net/manipulating-adobe-photoshop-formats/), tekst, effecten wijzigen en vervolgens exporteren.
 ## **Specifieke voorbeelden van export van PSD naar rasterindelingen**
-- [PSD naar JPG](/nl/psd/net/psd-naar-jpg/)
-- [PSD naar PNG](/nl/psd/net/psd-naar-png/)
-- [PSD naar PDF](/nl/psd/net/psd-naar-pdf/)
+- [PSD naar JPG](/psd/nl/net/psd-naar-jpg/)
+- [PSD naar PNG](/psd/nl/net/psd-naar-png/)
+- [PSD naar PDF](/psd/nl/net/psd-naar-pdf/)
 ## **PSD-afbeelding exporteren naar verschillende rasterbestandsindelingen**
 Onderstaande voorbeeldcode geeft aan hoe PSD wordt geconverteerd naar verschillende rasterbestandsindelingen.
 

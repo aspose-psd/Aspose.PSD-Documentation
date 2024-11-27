@@ -2,7 +2,7 @@
 title: Aspose.PSD CLI Przycinanie dla .NET 24.6 - Notatki wydania
 type: docs
 weight: 90
-url: /pl/psd/net/cli/przycinanie/aspose-psd-przytnij-cli-dla-net-24-6-notatki-wydania/
+url: /psd/pl/net/cli/przycinanie/aspose-psd-przytnij-cli-dla-net-24-6-notatki-wydania/
 ---
 
 {{% alert color="primary" %}}

@@ -25,8 +25,8 @@ Ook kunt u contact opnemen met lokale resellers.
 ## **Aanvullend materiaal over adapters**
 
 Voor aanvullende beschrijvingen en voorbeelden kunt u de volgende links bekijken:
-- [Aspose.PSD Adapters snelstartgids](/nl/psd/net/adapters/quick-start)
-- [Aspose.PSD hoe onondersteunde formaten te laden](/nl/psd/net/adapters/load-unsupported-formats)
-- [Aspose.PSD Volledige handleiding voor exporteren naar onondersteunde formaten](/nl/psd/net/adapters/export-to-unsupported-formats)
-- [Aspose.PSD Adapters voor Webp, SVG en andere formaten overzicht](/nl/psd/net/adapters/working-with-webp-svg-formats-overview)
-- [Aspose.PSD Laden van Adapters Volledige Handleiding](/nl/psd/net/adapters/full-manual)
+- [Aspose.PSD Adapters snelstartgids](/psd/nl/net/adapters/quick-start)
+- [Aspose.PSD hoe onondersteunde formaten te laden](/psd/nl/net/adapters/load-unsupported-formats)
+- [Aspose.PSD Volledige handleiding voor exporteren naar onondersteunde formaten](/psd/nl/net/adapters/export-to-unsupported-formats)
+- [Aspose.PSD Adapters voor Webp, SVG en andere formaten overzicht](/psd/nl/net/adapters/working-with-webp-svg-formats-overview)
+- [Aspose.PSD Laden van Adapters Volledige Handleiding](/psd/nl/net/adapters/full-manual)

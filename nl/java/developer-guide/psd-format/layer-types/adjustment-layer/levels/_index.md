@@ -7,9 +7,9 @@ url: /nl/java/layer-types/adjustment-layer/levels/
 
 ## Werken met de aanpassingslaag Niveaus in Java
 
-In dit artikel zullen we leren hoe we het toonbereik en de kleurbalans van een foto in [PSD-bestandsindeling](/nl/psd/java/psd-format/) programmeerbaar kunnen aanpassen in Java. We gebruiken niet de Adobe® Photoshop® fotobewerker zelf. In plaats daarvan gebruiken we de bibliotheek Aspose.PSD voor Java die zelfstandig werkt om het Photoshop-document te manipuleren.
+In dit artikel zullen we leren hoe we het toonbereik en de kleurbalans van een foto in [PSD-bestandsindeling](/psd/nl/java/psd-format/) programmeerbaar kunnen aanpassen in Java. We gebruiken niet de Adobe® Photoshop® fotobewerker zelf. In plaats daarvan gebruiken we de bibliotheek Aspose.PSD voor Java die zelfstandig werkt om het Photoshop-document te manipuleren.
 
-Hoewel Aspose.PSD voor Java meer dan voldoende [tools ondersteunt om de foto te bewerken](/nl/psd/java/manipulating-images/) zoals wij willen, laten we toch **werken met de API voor aanpassingslaag Niveaus** omdat dit een van de eenvoudigste en snelste manieren is om het werk te doen.
+Hoewel Aspose.PSD voor Java meer dan voldoende [tools ondersteunt om de foto te bewerken](/psd/nl/java/manipulating-images/) zoals wij willen, laten we toch **werken met de API voor aanpassingslaag Niveaus** omdat dit een van de eenvoudigste en snelste manieren is om het werk te doen.
 
 ## API-overzicht
 

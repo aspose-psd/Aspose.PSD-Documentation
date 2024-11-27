@@ -42,4 +42,4 @@ Raadpleeg de documentatie van [BrightnessContrastLayer](https://reference.aspose
 
 In dit artikel hebben we een snel overzicht gekregen van de Helderheid/Contrast aanpassingslaag en geleerd hoe we de helderheid en contrast van de afbeelding kunnen aanpassen met behulp van de fabrieksmethode.
 
-Raadpleeg onze serie [artikelen over aanpassingslaag-API's](/nl/psd/java/layer-types/adjustment-layer/) van Aspose.PSD voor Java om meer te leren.
+Raadpleeg onze serie [artikelen over aanpassingslaag-API's](/psd/nl/java/layer-types/adjustment-layer/) van Aspose.PSD voor Java om meer te leren.

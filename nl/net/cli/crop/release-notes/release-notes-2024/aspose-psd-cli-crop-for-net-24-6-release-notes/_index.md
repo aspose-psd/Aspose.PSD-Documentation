@@ -2,7 +2,7 @@
 title: Aspose.PSD CLI Bijsnijden voor .NET 24.6 - Release-opmerkingen
 type: docs
 weight: 90
-url: /nl/psd/net/cli/bijsnijden/aspose-psd-bijsnijd-cli-app-voor-net-24-6-release-opmerkingen/
+url: /psd/nl/net/cli/bijsnijden/aspose-psd-bijsnijd-cli-app-voor-net-24-6-release-opmerkingen/
 ---
 
 {{% alert color="primary" %}}

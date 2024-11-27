@@ -17,6 +17,6 @@ U kunt de kwaliteit van het JPEG-bestandsformaat, de toegestane JPEG-verliesscha
 
 U kunt het PSD-bestand exporteren na het bewerken of pixel-perfect in [Alleen-lezen modus](https://reference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode), waarbij de PSD-bestandsvoorbeeld wordt gebruikt.
 
-Hier is een voorbeeld van het exporteren van [Photoshop Gradient](/nl/psd/net/support-of-fill-layers/) en [PSD Tekstlaag](/nl/psd/net/working-with-text-layers/):
+Hier is een voorbeeld van het exporteren van [Photoshop Gradient](/psd/nl/net/support-of-fill-layers/) en [PSD Tekstlaag](/psd/nl/net/working-with-text-layers/):
 
 ![todo:image_alt_text](psd/nl-to-jpg_1.png)

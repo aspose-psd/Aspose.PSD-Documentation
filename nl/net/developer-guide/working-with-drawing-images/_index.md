@@ -11,6 +11,6 @@ De Graphics-klasse geeft u de mogelijkheid om eenvoudige vormen te tekenen in ee
 
 
 ## **Artikelen in deze sectie**
-- [Tekenafbeeldingen](/nl/psd/net/tekenafbeeldingen/)
-- [Tekenafbeeldingen met behulp van Graphics](/nl/psd/net/tekenafbeeldingen-met-behulp-van-graphics/)
-- [Tekenafbeeldingen met behulp van GraphicsPath](/nl/psd/net/tekenafbeeldingen-met-behulp-van-graphicspath/)
+- [Tekenafbeeldingen](/psd/nl/net/tekenafbeeldingen/)
+- [Tekenafbeeldingen met behulp van Graphics](/psd/nl/net/tekenafbeeldingen-met-behulp-van-graphics/)
+- [Tekenafbeeldingen met behulp van GraphicsPath](/psd/nl/net/tekenafbeeldingen-met-behulp-van-graphicspath/)
