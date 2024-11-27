@@ -1,32 +1,32 @@
 ---
-title: Aspose.PSD за .NET 20.2 - Бележки за версията
+title: Aspose.PSD за .NET 20.2 - Бележки към изданието
 type: docs
 weight: 110
-url: /bg/net/aspose-psd-for-net-20-2-release-notes/
+url: /bg/net/aspose-psd-za-net-20-2-release-notes/
 ---
 
 {{% alert color="primary" %}} 
 
-Тази страница съдържа бележки за версията на [Aspose.PSD за .NET 20.2](https://www.nuget.org/packages/Aspose.PSD/)
+Тази страница съдържа бележки към изданието на [Aspose.PSD за .NET 20.2](https://www.nuget.org/packages/Aspose.PSD/).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 |**Ключ**|**Резюме**|**Категория**|
 | :- | :- | :- |
-|PSDNET-206|Подобрение на способността да се визуализират текстове в различни цветове в текстовия слой|Функционалност|
-|PSDNET-369|Поддръжка на clbl ресурс (Ресурс на слоя, който съдържа информация за смесване на обрязващите елементи)|Функционалност|
-|PSDNET-274 |Поддръжка на blwh ресурс (Ресурс, който съдържа данни за корекция на черно и бяло настройките на слоя)|Функционалност|
-|PSDNET-230|Възможност за експортиране на Група от слоеве към Jpeg/Png/Tiff/Gif/Bmp/Jpeg2000/Psd/Psb/Pdf|Функционалност|
-|PSDNET-372|Поддръжка на lspf Ресурс (Съдържа настройки за защита на слоя)|Функционалност|
-|PSDNET-370|Поддръжка на infx ресурс (Съдържа данни за смесването на вътрешни елементи)|Функционалност|
-|PSDNET-251|Преосмисляне на PsdImage и Layer за промяна на поведението на трансформацията (Правилно мащабиране/завъртане/изрязване за маски на слоя, ако трансформираме един слой поотделно)|Подобрение|
-|PSDNET-276 |В някои настройки за глобализация AI изображението от равно на растерно изображение не може да бъде отворено|Проблем|
-|PSDNET-194|` `След извършване на операцията за обръщане/завъртане на слой, PSD изображението става неразчетливо|Проблем|
-|PSDNET-177. |System.ArgumentException по време на зареждането на PSD файла|Проблем|
-|PSDNET-249|След използване на метод на трансформация само за слой, запазеният слой има грешни граници или маска|Проблем|
+|PSDNET-206|Подобряване на способността да се визуализират текстове с различни цветове в слой Text|Функционалност|
+|PSDNET-369|Поддръжка на clbl ресурс (ресурс за слой, който съдържа информация за елементи за съчетаване)|Функционалност|
+|PSDNET-274 |Поддръжка на blwh ресурс (Ресурс, който съдържа данни за слой за корекция на черно и бяло)|Функционалност|
+|PSDNET-230|Възможност за експортиране на група слоеве към Jpeg/Png/Tiff/Gif/Bmp/Jpeg2000/Psd/Psb/Pdf|Функционалност|
+|PSDNET-372|Поддръжка на lspf Ресурс (Съдържа настройки за защитена настройка на слоя)|Функционалност|
+|PSDNET-370|Поддръжка на infx ресурс (Съдържа данни за смесване на вътрешни елементи)|Функционалност|
+|PSDNET-251|Рефакториране на PsdImage и Layer за промяна на поведението на трансформацията (Правилно изменение на размерите/въртенето/изрязването за маските на слоевете, ако трансформираме един слой отделно)|Подобрение|
+|PSDNET-276 |При някои настройки за глобализация, растеризираният AI изображение не може да бъде отворено|Проблем|
+|PSDNET-194|` `След извършване на операцията FlipRotate върху слоя, PSD изображението става неразбираемо|Проблем|
+|PSDNET-177. |System.ArgumentException по време на зареждане на PSD файл|Проблем|
+|PSDNET-249|След използване на метод за трансформация само за слой, запазеният слой има неправилни граници или маска|Проблем|
 
-## **Промени в публичното API**
-# **Добавени API-та:**
+## **Промени в общественото API**
+# **Добавени APIs:**
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerMaskDataFull.UserMaskRectangle
 - M:Aspose.PSD.FileFormats.Ai.AiDataSection.ReleaseManagedResources
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerGroup.Width
@@ -107,14 +107,14 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 - M:Aspose.PSD.RasterImage.GetSkewAngle
 - M:Aspose.PSD.RasterImage.NormalizeAngle
 - M:Aspose.PSD.RasterImage.NormalizeAngle(System.Boolean,Aspose.PSD.Color)
-# **Премахнати API-та:**
+# **Премахнати APIs:**
 - M:Aspose.PSD.FileFormats.Ai.AiDataSection.Dispose
 - P:Aspose.PSD.FileFormats.Ai.AiRasterImageSection.ImageRectangle
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.Lr16Resource.#ctor(System.Int32)
 - F:Aspose.PSD.Xmp.Types.Derived.RenditionClass.DefinedValues
 
 ## **Примери за използване:**
-**PSDNET-206. Подобрение на способността да се визуализират текстове в различни цветове в текстовия слой**
+**PSDNET-206. Подобряване на способността да се визуализират текстове с различни цветове в слой Text**
 
 {{< highlight java >}}
 
@@ -132,7 +132,7 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
 {{< /highlight >}}
 
-**PSDNET-369. Поддръжка на clbl ресурс (Ресурс на слоя, който съдържа информация за смесване на обрязващите елементи)**
+**PSDNET-369. Поддръжка на clbl ресурс (Ресурс за слой, който съдържа информация за елементи за съчетаване)**
 
 {{< highlight java >}}
 
@@ -210,7 +210,7 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
 {{< /highlight >}}
 
-**PSDNET-274. Поддръжка на blwh ресурс (Ресурс, който съдържа данни за корекция на черно и бяло настройките на слоя)**
+**PSDNET-274. Поддръжка на blwh ресурс (Ресурс, който съдържа данни за слой за корекция на черно и бяло)**
 
 {{< highlight java >}}
 
@@ -264,7 +264,7 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
         {
 
-            string destinationFileName = "Output"FileName;
+            string destinationFileName = "Output" + sourceFileName;
 
             bool isRequiredResourceFound = false;
 
@@ -396,7 +396,7 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
                             AssertIsTrue(blwhResource.TintColor == newTintColor, ActualPropertyValueIsWrongMessage);
 
-                            AssertIsTrue(blwhResource.BwPresetKind == 4, ActualPropertyValueIsWrongMessage);
+                            AssertIsTrue(blwhResource.BwPresetKind == 4, ActualPropertyValueIsWrongMessageWrongMessage);
 
                             AssertIsTrue(blwhResource.BlackAndWhitePresetFileName == "bwPresetFileName", ActualPropertyValueIsWrongMessage);
 
@@ -484,11 +484,11 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
             -4963324);
 
-        Console.WriteLine("Aktualiziraneto na BlwhResource raboti spored ochakvaniqata. Natisnete lubovolno klavish.");
+        Console.WriteLine("BlwhResource updating works as expected. Press any key.");
 
 {{< /highlight >}}
 
-**PSDNET-230. Възможност за експортиране на Група от слоеве към Jpeg/Png/Tiff/Gif/Bmp/Jpeg2000/Psd/Psb/Pdf**
+**PSDNET-230. Възможност за експортиране на група слоеве към Jpeg/Png/Tiff/Gif/Bmp/Jpeg2000/Psd/Psb/Pdf**
 
 {{< highlight java >}}
 
@@ -496,11 +496,11 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
             {
 
-                // папка с фон
+                // folder with background
 
                 LayerGroup bg_folder = (LayerGroup)psdImage.Layers[0];
 
-                // папка със съдържание
+                // folder with content
 
                 LayerGroup content_folder = (LayerGroup)psdImage.Layers[4];
 
@@ -512,11 +512,11 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
 {{< /highlight >}}
 
-` `**PSDNET-372. Поддръжка на lspf Ресурс (Съдържа настройки за защита на слоя)**
+` `**PSDNET-372. Поддръжка на lspf Ресурс (Съдържа настройки за защитена настройка на слоя)**
 
 {{< highlight java >}}
 
-         const string ActualPropertyValueIsWrongMessage = "Очакваната стойност на свойството не съвпада със стойността на действителното";
+         const string ActualPropertyValueIsWrongMessage = "Expected property value is not equal to actual value";
 
         void AssertIsTrue(bool condition, string message)
 
@@ -564,7 +564,7 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
                         AssertIsTrue(false == resource.IsTransparencyProtected, ActualPropertyValueIsWrongMessage);
 
-                        // Тестване на редактиране и запазване
+                        // Test editing and saving
 
                         resource.IsCompositeProtected = true;
 
@@ -612,7 +612,7 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
         }
 
-        AssertIsTrue(isRequiredResourceFound, "Не е намерен указаният LspfResource");
+        AssertIsTrue(isRequiredResourceFound, "The specified LspfResource not found");
 
         isRequiredResourceFound = false;
 
@@ -652,13 +652,13 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
         }
 
-        AssertIsTrue(isRequiredResourceFound, "Не е намерен указаният LspfResource");
+        AssertIsTrue(isRequiredResourceFound, "The specified LspfResource not found");
 
-        Console.WriteLine("Актуализирането на LspfResource работи както се очакваше. Натиснете произволен клавиш.");
+        Console.WriteLine("LspfResource updating works as expected. Press any key.");
 
 {{< /highlight >}}
 
-` `**PSDNET-370. Поддръжка на infx ресурс (Съдържа данни за смесването на вътрешни елементи)**
+` `**PSDNET-370. Поддръжка на infx ресурс (Съдържа данни за смесване на вътрешни елементи)**
 
 {{< highlight java >}}
 
@@ -702,9 +702,9 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
                         isRequiredResourceFound = true;
 
-                        AssertIsTrue(!resource.BlendInteriorElements, "InfxResource.BlendInteriorElements трябва да бъде false");
+                        AssertIsTrue(!resource.BlendInteriorElements, "The InfxResource.BlendInteriorElements should be false");
 
-                        // Тестване на редактиране и запазване
+                        // Test editing and saving
 
                         resource.BlendInteriorElements = true;
 
@@ -720,7 +720,7 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
         }
 
-        AssertIsTrue(isRequiredResourceFound, "Не е намерен указаният InfxResource");
+        AssertIsTrue(isRequiredResourceFound, "The specified InfxResource not found");
 
         isRequiredResourceFound = false;
 
@@ -744,7 +744,7 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
                         isRequiredResourceFound = true;
 
-                        AssertIsTrue(resource.BlendInteriorElements, "InfxResource.BlendInteriorElements трябва да се промени на true");
+                        AssertIsTrue(resource.BlendInteriorElements, "The InfxResource.BlendInteriorElements should change to true");
 
                         break;
 
@@ -756,11 +756,11 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
         }
 
-        AssertIsTrue(isRequiredResourceFound, "Не е намерен указаният InfxResource");
+        AssertIsTrue(isRequiredResourceFound, "The specified InfxResource not found");
 
 {{< /highlight >}}
 
-**PSDNET-251. Преосмисляне на PsdImage и Layer за промяна на поведението на трансформацията (Правилно мащабиране/завъртане/изрязване за маски на слоя, ако трансформираме един слой поотделно)**
+**PSDNET-251. Рефакториране на PsdImage и Layer за промяна на поведението на трансформацията (Правилно изменение на размерите/въртенето/изрязването за маските на слоевете, ако трансформираме един слой отделно)**
 
 {{< highlight java >}}
 
@@ -810,7 +810,7 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
 {{< /highlight >}}
 
-**PSDNET-276. В някои настройки за глобализация AI изображението от равно на растерно изображение не може да бъде отворено**
+**PSDNET-276. При някои настройки за глобализация, растеризираният AI изображение не може да бъде отворено**
 
 {{< highlight java >}}
 
@@ -818,19 +818,19 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
         System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("ru_RU");
 
-        System.Threading.Thread.CurrentThread.CurrentUICulture = System.Threading.ThreadCurrentThread.CurrentCulture;
+        System.Threading.Thread.CurrentThread.CurrentUICulture = System.Threading.Thread.CurrentThread.CurrentCulture;
 
         using (AiImage image = (AiImage)Image.Load(sourceFileName))
 
         {
 
-            // не трябва да се хвърли изключение
+            // no exception should be thrown
 
         }
 
 {{< /highlight >}}
 
-**PSDNET-194. След извършване на операцията за обръщане/завъртане на слой, PSD изображението става неразчетливо**
+**PSDNET-194. След извършване на операцията FlipRotate върху слоя, PSD изображението става неразбираемо**
 
 {{< highlight java >}}
 
@@ -870,19 +870,19 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
                 }
 
-            // Тук получаваме изключение. За Photoshop този файл също е неразчетлив,
+            // Here we get exception. For PhotoShop this file is unreadable too,
 
-            using (PsdImage image = (PsdImage)Image.Load(outFileNamePsd)) // Хвърля изключение
+            using (PsdImage image = (PsdImage)Image.Load(outFileNamePsd)) // Throws an exception
 
             {
 
-                // Не прави нищо
+                // Do nothing
 
             }
 
 {{< /highlight >}}
 
-**PSDNET-177. System.ArgumentException по време на зареждането на PSD файла**
+**PSDNET-177. System.ArgumentException по време на зареждане на PSD файл**
 
 {{< highlight java >}}
 
@@ -902,17 +902,17 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
         }
 
-        using (var im = (PsdImage)(Image.Load(psdPath))) // Тук трябва да няма изключения
+        using (var im = (PsdImage)(Image.Load(psdPath))) // Here we should get no exceptions
 
         {
 
-            // Не прави нищо
+            // do nothing
 
         }
 
 {{< /highlight >}}
 
-**PSDNET-249. След използване на метод на трансформация само за слой, запазеният слой има грешни граници или маска**
+**PSDNET-249. След използване на метод за трансформация само за слой, запазеният слой има неправилни граници или маска**
 
 {{< highlight java >}}
 
@@ -958,21 +958,21 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
             layer.Resize(newWidth, newHeight);
 
-            AssertIsTrue(layer.Left == newLeft, "Свойството Left на слоя трябва да е " + newLeft);
+            AssertIsTrue(layer.Left == newLeft, "Left layer property should be " + newLeft);
 
-            AssertIsTrue(layer.Top == newTop, "Свойството Top на слоя трябва да е " + newTop);
+            AssertIsTrue(layer.Top == newTop, "Top layer property should be " + newTop);
 
-            AssertIsTrue(layer.Width == newWidth, "Свойството Width на слоя трябва да е " + newWidth);
+            AssertIsTrue(layer.Width == newWidth, "Width layer property should be " + newWidth);
 
-            AssertIsTrue(layer.Height == newHeight, "Свойството Height на слоя трябва да е " + newHeight);
+            AssertIsTrue(layer.Height == newHeight, "Height layer property should be " + newHeight);
 
-            AssertIsTrue(Math.Abs(layer.TransformMatrix[0] - xScale) <= Tolerance, "Свойството TransformMatrix[0] на слоя трябва да е " + xScale);
+            AssertIsTrue(Math.Abs(layer.TransformMatrix[0] - xScale) <= Tolerance, "TransformMatrix[0] layer property should be " + xScale);
 
-            AssertIsTrue(Math.Abs(layer.TransformMatrix[3] - yScale) <= Tolerance, "Свойството TransformMatrix[3] на слоя трябва да е " + yScale);
+            AssertIsTrue(Math.Abs(layer.TransformMatrix[3] - yScale) <= Tolerance, "TransformMatrix[3] layer property should be " + yScale);
 
-            AssertIsTrue(Math.Abs(layer.TransformMatrix[4] - newLeft) <= Tolerance, "Свойството TransformMatrix[4] на слоя трябва да е " + newLeft);
+            AssertIsTrue(Math.Abs(layer.TransformMatrix[4] - newLeft) <= Tolerance, "TransformMatrix[4] layer property should be " + newLeft);
 
-            AssertIsTrue(Math.Abs(layer.TransformMatrix[5] - newTop) <= Tolerance, "Свойството TransformMatrix[5] на слоя трябва да е " + newTop);
+            AssertIsTrue(Math.Abs(layer.TransformMatrix[5] - newTop) <= Tolerance, "TransformMatrix[5] layer property should be " + newTop);
 
             image.Save(outputFileName + ".psd", new PsdOptions());
 
@@ -980,11 +980,4 @@ url: /bg/net/aspose-psd-for-net-20-2-release-notes/
 
         }
 
-{{< /highlight >}}```json
-{
-    "title": "Aspose.PSD за .NET 20.2 - Бележки за версията",
-    "type": "docs",
-    "weight": 110,
-    "url": "/net/aspose-psd-for-net-20-2-release-notes/"
-}
-```
+{{< /highlight >}}

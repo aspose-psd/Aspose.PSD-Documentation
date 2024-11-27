@@ -46,7 +46,7 @@ url: /bg/java/aspose-psd-za-java-23-7-belejki-za-izdanieto/
 
 **PSDJAVA-502. Добавяне на възможност за експортиране на всяко ниво на PSD файл към файл с анимиран GIF**
 
-```java
+{{< highlight java >}}
     String src = "src/main/resources/EachLayerIsFrame.psd";
     String outputGif = "src/main/resources/out_EachLayerIsFrame.gif";
     String outputPsd = "src/main/resources/out_EachLayerIsFrame.psd";
@@ -81,11 +81,11 @@ url: /bg/java/aspose-psd-za-java-23-7-belejki-za-izdanieto/
         timeline.save(outputGif, new GifOptions());
         psdImage.save(outputPsd);
     }
-```
+{{< /highlight >}}
 
 **PSDJAVA-503. Присвояване на свойство за попълване на форма от ресурс vscg на слой от формата**
 
-```java
+{{< highlight java >}}
         // Пример за пълноцветно попълване
         public static void main(String[] args) {
             String srcFile = "src/main/resources/ShapeInternalSolid.psd";
@@ -161,4 +161,4 @@ url: /bg/java/aspose-psd-za-java-23-7-belejki-za-izdanieto/
             assertAreEqual((double) 10, fillSettings.getTransparencyPoints()[1].getOpacity());
         }
     }
-```
+{{< /highlight >}}

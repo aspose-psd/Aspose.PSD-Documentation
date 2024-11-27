@@ -1,8 +1,8 @@
 ---
-title: Aspose.PSD за .NET 20.3 - Бележки за изданието
+title: Aspose.PSD за .NET 20.3 - Бележки към Изданието
 type: docs
 weight: 100
-url: /bg/net/aspose-psd-for-net-20-3-release-notes/
+url: /bg/net/aspose-psd-za-net-20-3-release-notes/
 ---
 
 {{% alert color="primary" %}}
@@ -14,17 +14,17 @@ url: /bg/net/aspose-psd-for-net-20-3-release-notes/
 |**Ключ**|**Резюме**|**Категория**|
 | :- | :- | :- |
 |PSDNET-188|Поддръжка на .Net Core|Функционалност|
-|PSDNET-523|Преобразуване на файлове Adobe Illustrator в PDF формат|Функционалност|
+|PSDNET-523|Конвертиране на файлове от Adobe Illustrator в PDF|Функционалност|
 |PSDNET-212|Добавяне на възможност за изобразяване на различни стилове в един текстов слой|Функционалност|
-|PSDNET-144|Поддръжка на слой за корекция на черно и бяло|Функционалност|
-|PSDNET-233|Добавяне на поддръжка за експорт AI формат (Версия 8) към други формати|Функционалност|
-|PSDNET-540|Поддръжка на обработка на режим на смесване (Blending Mode) PassThrough (Използва се само за Група на слоя).|Функционалност|
-|PSDNET-539|Изключение: Зареждането на изображение с празни Unicode Alpha имена на ресурс се проваля|Проблем|
-|PSDNET-541|Некоректен изход след промяна на видимостта на група слоеве|Проблем|
-|PSDNET-516|Изключение при зареждане на PSD изображение: Цветната секция (DropShadow Resource) трябва да съдържа 3 цветни компонента за RGB или 4 цветни компонента за CMYK|Проблем|
-|PSDNET-536|Изключение, ако се опитате да рисувате върху новосъздаден слой, ако се използва простата версия на конструктора|Проблем|
+|PSDNET-144|Поддръжка на регулиране на черното и бялото в слой за коригиране|Функционалност|
+|PSDNET-233|Добавяне на поддръжка на експорт на AI формат (Версия 8) към други формати|Функционалност|
+|PSDNET-540|Поддръжка на обработка на режим на смесване PassThrough (Използва се само за Група на слоевете)|Функционалност|
+|PSDNET-539|Грешка: Зареждането на изображение е неуспешно при зареждане на изображение с празни Unicode Alpha Names Resource|Проблем|
+|PSDNET-541|Некоректен изход след промяна на видимостта на Група на слоевете|Проблем|
+|PSDNET-516|Грешка при зареждане на PSD изображение: Секцията за цвят (DropShadow Resource) трябва да съдържа 3 цветови компонента за RGB или 4 цветови компонента за CMYK|Проблем|
+|PSDNET-536|Грешка, ако се опитате да рисувате върху вново създаден слой, ако се използва простата версия на конструктора|Проблем|
 
-## **Промени в публичното API**:
+## **Промени в Общественото API**
 # **Добавени API:**
 - T:Aspose.PSD.FileFormats.Psd.FontBaseline
 - F:Aspose.PSD.FileFormats.Psd.FontBaseline.None
@@ -46,10 +46,10 @@ url: /bg/net/aspose-psd-for-net-20-3-release-notes/
 - P:Aspose.PSD.FileFormats.Psd.Layers.Text.ITextStyle.FontCaps
 - M:Aspose.PSD.FileFormats.Psd.Layers.Text.IText.ProducePortions(System.String[],Aspose.PSD.FileFormats.Psd.Layers.Text.ITextStyle,Aspose.PSD.FileFormats.Psd.Layers.Text.ITextParagraph)
 # **Премахнати API:**
-- Нито едно
+- Няма
 
-## **Примери за използване:**
-**PSDNET-523. Преобразуване на файлове Adobe Illustrator в PDFs**
+## **Примери за Използване:**
+**PSDNET-523. Конвертиране на файлове от Adobe Illustrator в PDF**
 
 {{< highlight java >}}
 
@@ -93,19 +93,19 @@ using (var img = (PsdImage)Image.Load(sourceFile))
 
     textData.Items[1].Style.Strikethrough = true;
 
-    ITextPortion[] newPortions = textData.ProducePortions(new string[] { "E=mc",  "2\r",  "Bold",  "Italic\r",  "Lowercasetext" }, defaultStyle, defaultParagraph);
+    ITextPortion[] newPortions = textData.ProducePortions(new string[] { "E=mc",  "2\r",  "Наситен",  "Курсив\r",  "Малкибукви" }, defaultStyle, defaultParagraph);
 
-    newPortions[0].Style.Underline = true; // редакция на текстовия стил "E=mc"
+    newPortions[0].Style.Underline = true; // редакция на стила на текста "E=mc"
 
-    newPortions[1].Style.FontBaseline = FontBaseline.Superscript; // редакция на текстовия стил "2\r"
+    newPortions[1].Style.FontBaseline = FontBaseline.Superscript; // редакция на стила на текста "2\r"
 
-    newPortions[2].Style.FauxBold = true; // редакция на текстовия стил "Bold"
+    newPortions[2].Style.FauxBold = true; // редакция на стила на текста "Наситен"
 
-    newPortions[3].Style.FauxItalic = true; // редакция на текстовия стил "Italic\r"
+    newPortions[3].Style.FauxItalic = true; // редакция на стила на текста "Курсив\r"
 
-    newPortions[3].Style.BaselineShift = -25; // редакция на текстовия стил "Italic\r"
+    newPortions[3].Style.BaselineShift = -25; // редакция на стила на текста "Курсив\r"
 
-    newPortions[4].Style.FontCaps = FontCaps.SmallCaps; // редакция на текстовия стил "Lowercasetext"
+    newPortions[4].Style.FontCaps = FontCaps.SmallCaps; // редакция на стила на текста "Малкибукви"
 
     foreach (var newPortion in newPortions)
 
@@ -123,11 +123,11 @@ using (var img = (PsdImage)Image.Load(sourceFile))
 
 {{< /highlight >}}
 
-**PSDNET-233. Добавяне на поддръжка за експорт на AI формат (Версия 8) към други формати**
+**PSDNET-233. Добавяне на поддръжка на експорт на AI формат (Версия 8) към други формати**
 
 {{< highlight java >}}
 
- // Пример за експорт на файл AI към PSD и PNG формат
+ // Пример за експортиране на AI файл към PSD и PNG формат
 
 string sourceFileName = "form_8.ai";
 
@@ -145,7 +145,7 @@ using (AiImage image = (AiImage)Image.Load(sourceFileName))
 
 {{< /highlight >}}
 
-**PSDNET-540. Поддръжка на обработка на режим на смесване (Blending Mode) PassThrough (Използва се само за Група на слоя).**
+**PSDNET-540. Поддръжка на обработка на режим на смесване PassThrough (Използва се само за Група на слоевете).**
 
 {{< highlight java >}}
 
@@ -163,7 +163,7 @@ using (AiImage image = (AiImage)Image.Load(sourceFileName))
 
 }
 
-string sourceFileName = "Ябълка.psd";
+string sourceFileName = "Apple.psd";
 
 string outputFileName = "Output" + sourceFileName;
 
@@ -171,35 +171,35 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFileName))
 
 {
 
-    AssertIsTrue(image.Layers.Length >= 23, "Липсва 23-ият слой.");
+    AssertIsTrue(image.Layers.Length >= 23, "Липсва 23-тият слой.");
 
     var layer = image.Layers[23] as LayerGroup;
 
-    AssertIsTrue(layer != null, "23-ият слой не е група на слоеве.");
+    AssertIsTrue(layer != null, "23-тият слой не е група на слоевете.");
 
-    AssertIsTrue(layer.Name == "AdjustmentGroup", "Името на 23-ият слой не е 'AdjustmentGroup'.");
+    AssertIsTrue(layer.Name == "AdjustmentGroup", "Името на 23-тият слой не е 'AdjustmentGroup'.");
 
-    AssertIsTrue(layer.BlendModeKey == BlendMode.PassThrough, "Слоят AdjustmentGroup трябва да има режим на смесване 'pass through'.");
+    AssertIsTrue(layer.BlendModeKey == BlendMode.PassThrough, "Слоят на групата за коригиране трябва да има режим на смесване 'pass through'.");
 
     image.Save(outputFileName, new PsdOptions());
 
-    image.Save("OutputЯбълка.png", new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+    image.Save("OutputApple.png", new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
 
     layer.BlendModeKey = BlendMode.Normal;
 
     image.Save("Normal" + outputFileName, new PsdOptions());
 
-    image.Save("NormalOutputЯбълка.png", new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+    image.Save("NormalOutputApple.png", new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
 
 }
 
 {{< /highlight >}}
 
-**SPSDNET-180. Актуализирането на текстов слой предизвиква изключение**
+**SPSDNET-180. Обновяването на текстов слой предизвиква изключение**
 
 {{< highlight java >}}
 
- // Актуализирането на текстов слой текст предизвиква изключение
+ // Обновяването на текстов слой предизвиква изключение
 
 string filePath = "FlipVertical.psd";
 
@@ -249,7 +249,7 @@ using (var image = Image.Load(filePath))
 
 {{< /highlight >}}
 
-**PSDNET-182. Запазване на PSD изображение след операция RotateFlip произвежда повреден файл, който не може да бъде отворен.**
+**PSDNET-182. Запазването на PSD изображение след операцията RotateFlip произвежда повреден файл, който не може да бъде отворен.**
 
 {{< highlight java >}}
 
@@ -281,7 +281,7 @@ using (PsdImage image = (PsdImage)Image.Load(outFileNamePsd))
 
 {{< /highlight >}}
 
-**PSDNET-539. Изключение: Зареждането на изображение с празни Unicode Alpha имена на ресурс се проваля**
+**PSDNET-539. Грешка: Зареждането на изображение е неуспешно при зареждане на изображение с празни Unicode Alpha Names Resource**
 
 {{< highlight java >}}
 
@@ -291,13 +291,13 @@ using (var psdImage = (PsdImage)Image.Load(sourcePath)) // Тук не бива 
 
 {
 
-    // Нищо
+    // нищо
 
 }
 
 {{< /highlight >}}
 
-**PSDNET-541. Некоректен изход след промяна на видимостта на група слоеве**
+**PSDNET-541. Некоректен изход след промяна на видимостта на Група на слоевете**
 
 {{< highlight java >}}
 
@@ -305,7 +305,7 @@ using (var psdImage = (PsdImage)Image.Load(sourcePath)) // Тук не бива 
 
 string outputFile = "output.psd";
 
-// Направете промени в имената на слоевете и го запазва
+// направете промени в имената на слоевете и го запазете
 
 using (var image = (PsdImage)Image.Load(sourceFile))
 
@@ -317,7 +317,7 @@ using (var image = (PsdImage)Image.Load(sourceFile))
 
         var layer = image.Layers[i];
 
-        // Изключване на всичко вътре в група
+        // Изключете всичко вътре в група
 
         if (layer is LayerGroup)
 
@@ -335,7 +335,7 @@ using (var image = (PsdImage)Image.Load(sourceFile))
 
 {{< /highlight >}}
 
-**PSDNET-516. Изключение при зареждане на PSD изображение: Цветната секция (DropShadow Resource) трябва да съдържа 3 цветни компонента за RGB или 4 цветни компонента за CMYK**
+**PSDNET-516. Изключение при зареждане на PSD изображение: Секцията за цвят (DropShadow Resource) трябва да съдържа 3 цветови компонента за RGB или 4 цветови компонента за CMYK**
 
 {{< highlight java >}}
 
@@ -345,13 +345,13 @@ using (var img = (PsdImage)Image.Load(sourceFile)) // Тук не бива да 
 
 {
 
-    // Нищо
+    // нищо
 
 }
 
 {{< /highlight >}}
 
-**PSDNET-536. Изключение, ако се опитате да рисувате върху новосъздаден слой, ако се използва простата версия на конструктора**
+**PSDNET-536. Изключение при опит да се нарисува върху вново създаден слой, ако използвате простата версия на конструктора**
 
 {{< highlight java >}}
 
@@ -377,11 +377,11 @@ using (var image = new PsdImage(width, height))
 
     graphic.Clear(Color.Yellow);
 
-    // Нарисувайте правоъгълник с инструмента Pen
+    // нарисувайте правоъгълник с инструмента за писалка
 
     graphic.DrawRectangle(new Pen(Color.Red), new Rectangle(30, 10, 40, 80));
 
-    // Нарисувайте друг правоъгълник с Solid Brush в син цвят
+    // нарисувайте друг правоъгълник с пълен четка в син цвят
 
     graphic.DrawRectangle(new Pen(new SolidBrush(Color.Blue)), new Rectangle(10, 30, 80, 40));
 

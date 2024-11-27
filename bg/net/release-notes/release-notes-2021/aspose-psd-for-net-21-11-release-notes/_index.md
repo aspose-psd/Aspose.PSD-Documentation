@@ -137,9 +137,11 @@ url: /bg/net/aspose-psd-for-net-21-11-release-notes/
             {
                 image.Layers[4].Save(outputPng, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
             }
-{{< /highlight >}}**PSDNET-1002. Неправилен експорт на векторна форма при експортиране на папка**
+{{< /highlight >}}
 
-```csharp
+**PSDNET-1002. Неправилен експорт на векторна форма при експортиране на папка**
+
+{{< highlight csharp >}}
 string srcFile = "psdnet1002.psd";
 string outputPng = "output.png";
 
@@ -147,4 +149,4 @@ using (var image = (PsdImage)Image.Load(srcFile))
 {
     image.Layers[4].Save(outputPng, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
 }
-```
+{{< /highlight >}}

@@ -2,29 +2,29 @@
 title: Aspose.PSD за .NET 20.4 - Бележки за версията
 type: docs
 weight: 90
-url: /bg/net/aspose-psd-for-net-20-4-release-notes/
+url: /bg/net/aspose-psd-za-net-20-4-belejki-za-versiyata/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Тази страница съдържа бележки за версията на [Aspose.PSD за .NET 20.4](https://www.nuget.org/packages/Aspose.PSD/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
-|**Ключ**|**Резюме**|**Категория**|
+|**Ключ**|**Обобщение**|**Категория**|
 | :- | :- | :- |
-|PSDNET-567|Поддръжка на ресурс 'Vector Origination Data'|Функционалност|
+|PSDNET-567|Поддръжка на ресурса 'Данни за произход на вектора'|Функционалност|
 |PSDNET-373|Поддръжка на lclrResource (Настройка на цвета на листа)|Функционалност|
-|PSDNET-563|Поддръжка на свойства от данните на LengthRecord. (Операции с пътища (булеви операции), индексът на фигурата в слоя, броят на записите на бецелови контролни точки)|Функционалност|
-|PSDNET-425|Поддръжка на Image Section Resource #1010 Фонов цвят|Функционалност|
-|PSDNET-530|Добавяне на Fill Layers по време на изпълнение|Функционалност|
-|PSDNET-424|Поддръжка на Image Section Resource #1009 Информация за границата|Функционалност|
-|PSDNET-592|Поддръжка на слоеве в AI форматни файлове|Функционалност|
-|PSDNET-256|Поддръжка на четене и редактиране на ефект на градиентно оверлей слой|Функционалност|
-|PSDNET-257|Рендиране на ефект на градиентно оверлей слой|Функционалност|
+|PSDNET-563|Поддръжка на свойствата от данните на LengthRecord. (Операции върху пътеки (булеви операции), индекс на формата в слоя, брой на записите за кръгови възли)|Функционалност|
+|PSDNET-425|Поддръжка на ресурса Image Section #1010 Заден план на цвета|Функционалност|
+|PSDNET-530|Добавяне на слоеве за попълване по време на изпълнение|Функционалност|
+|PSDNET-424|Поддръжка на ресурса Image Section #1009 Информация за границите|Функционалност|
+|PSDNET-592|Поддръжка на слоеве във файловете във формат AI|Функционалност|
+|PSDNET-256|Поддръжка за четене и редактиране на ефекта на слоя с градиентен оверлей|Функционалност|
+|PSDNET-257|Изчертаване на ефекта на слоя с градиентен оверлей|Функционалност|
 |PSDNET-585|Промените в свойството BlendMode на GradientOverlayEffect не се показват в Photoshop|Проблем|
-|PSDNET-561|Оправяне на запазването на PSD изображение с Grayscale ColorMode и 16 бита на канал към Grayscale PSD формат|Проблем|
-|PSDNET-560|Оправяне на запазването на PSD изображение с Grayscale ColorMode и 16 бита на канал към PNG формат|Проблем|
+|PSDNET-561|Оправяне на запазването на PSD изображение с Grayscale ColorMode и 16 бита на канал към формата на Grayscale PSD|Проблем|
+|PSDNET-560|Оправяне на запазването на PSD изображение с Grayscale ColorMode и 16 бита на канал към формата PNG|Проблем|
 
 ## **Промени в публичното API**
 # **Добавени API:**
@@ -82,56 +82,56 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.#ctor
 - M:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientColorPoint.#ctor(Aspose.PSD.Color,System.Int32,System.Int32)
 # **Премахнати API:**
-- Няма
+- Нито един
 
 ## **Примери за използване:**
-**PSDNET-567. Поддръжка на ресурс 'Vector Origination Data'**
+**PSDNET-567. Поддръжка на ресурса 'Данни за произход на вектора'**
 
 {{< highlight java >}}
 
-         // Поддръжка на VogkResource
+         // Поддръжка на ресурса VogkResource
 
-        static void ExampleOfVogkResourceSupport()
+        static void ПримерЗаПоддръжкаНаРесурсаВогкРесурс()
 
         {
 
-            string fileName = "VectorOriginationDataResource.psd";
+            string имеНаФайла = "VectorOriginationDataResource.psd";
 
-            string outFileName = "out_VectorOriginationDataResource_.psd";
+            string имеЗаИзходноФайлаНаФайл = "out_VectorOriginationDataResource_.psd";
 
-            using (var psdImage = (PsdImage)Image.Load(fileName))
+            using (var изображениеПсд = (PsdImage)Image.Load(имеНаФайла))
 
             {
 
-                var resource = GetVogkResource(psdImage);
+                var ресурс = GetVogkResource(изображениеПсд);
 
                 // Четене
 
-                if (resource.ShapeOriginSettings.Length != 1 ||
+                if (ресурс.ShapeOriginSettings.Length != 1 ||
 
-                    !resource.ShapeOriginSettings[0].IsShapeInvalidated ||
+                    !ресурс.ShapeOriginSettings[0].IsShapeInvalidated ||
 
-                    resource.ShapeOriginSettings[0].OriginIndex != 0)
+                    ресурс.ShapeOriginSettings[0].OriginIndex != 0)
 
                 {
 
-                    throw new Exception("VogkResource were read wrong.");
+                    throw new Exception("Има грешка при четене на VogkResource.");
 
                 }
 
                 // Редактиране
 
-                resource.ShapeOriginSettings = new[]
+                ресурс.ShapeOriginSettings = new[]
 
                 {
 
-                    resource.ShapeOriginSettings[0],
+                    ресурс.ShapeOriginSettings[0],
 
                     new VectorShapeOriginSettings(true, 1)
 
                 };
 
-                psdImage.Save(outFileName);
+                изображениеПсд.Save(имеЗаИзходноФайлаНаФайл);
 
             }
 
@@ -167,7 +167,7 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 
             {
 
-                throw new Exception("VogkResourcenot found.");
+                throw new Exception("Ресурсът VogkResource не е намерен.");
 
             }
 
@@ -181,43 +181,43 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 
 {{< highlight java >}}
 
-         static void CheckSheetColorsAndRerverse(SheetColorHighlightEnum[] sheetColors, PsdImage img)
+         static void ПроверкаНаЦветоветеНаЛистИОбръщане(SheetColorHighlightEnum[] цветовеЗаЛистове, PsdImage изображение)
 
         {
 
-            int layersCount = img.Layers.Length;
+            int бройСлоеве = изображение.Layers.Length;
 
-            for (int layerIndex = 0; layerIndex < layersCount; layerIndex++)
+            for (int индексНаСлой = 0; индексНаСлоеве < бройСлоеве; индексНаСлой++)
 
             {
 
-                Layer layer = img.Layers[layerIndex];
+                Layer слой = изображение.Layers[индексНаСлой];
 
-                LayerResource[] resources = layer.Resources;
+                LayerResource[] ресурси = слой.Resources;
 
-                foreach (LayerResource layerResource in resources)
+                foreach (LayerResource слойРесурс in ресурси)
 
                 {
 
-                    // Ресурсът lcrl винаги е присъствал в списъка на ресурсите на psd файл.
+                    // Ресурсът lcrl винаги е наличен в списъка с ресурси на psd файл.
 
-                    LclrResource resource = layerResource as LclrResource;
+                    LclrResource ресурс = слойРесурс as LclrResource;
 
-                    if (resource != null)
+                    if (ресурс != null)
 
                     {
 
-                        if (resource.Color != sheetColors[layerIndex])
+                        if (ресурс.Color != цветовеЗаЛистове[индексНаСлой])
 
                         {
 
-                            throw new Exception("Sheet Color has been read wrong");
+                            throw new Exception("Цветът на листа е прочетен грешно");
 
                         }
 
-                        // Обръщане на цветовете на стиловете на лист. Настройка на оцветяване на слоя.
+                        // Обръщане на цветовете на листовете. Задаване на оцветяването на слой.
 
-                        resource.Color = sheetColors[layersCount - layerIndex - 1];
+                        ресурс.Color = цветовеЗаЛистове[бройСлоеве - индексНаСлой - 1];
 
                         break;
 
@@ -229,13 +229,13 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 
         }
 
-            string sourceFilePath = "AllLclrResourceColors.psd";
+            string източенФайлПът = "AllLclrResourceColors.psd";
 
-            string outputFilePath = "AllLclrResourceColorsReversed.psd";
+            string изходенФайлПът = "AllLclrResourceColorsReversed.psd";
 
-            // Във файла цветовете на оцветяването на слоевете са в този ред
+            // Във файла цветовете на слоевете за оцветяване са в този ред
 
-            SheetColorHighlightEnum[] sheetColors = new SheetColorHighlightEnum[] {
+            SheetColorHighlightEnum[] цветовеЗаЛистове = new SheetColorHighlightEnum[] {
 
                 SheetColorHighlightEnum.Red,
 
@@ -255,47 +255,47 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 
             };            
 
-            // Цветът на листа се използва за визуално оцветяване на слоевете.
+            // Цветовете на листа се използват за визуално оцветяване на слоевете. 
 
-            // Например можете да актуализирате някои слоеве в PSD и след това да оцветите с цвят слоя, който искате да привлечете вниманието.
+            // Например можете да актуализирате някои слоеве в PSD и след това да оцветите с цвят слоя, който искате да привлече вниманието.
 
-            using (PsdImage img = (PsdImage)Image.Load(sourceFilePath))
+            using (PsdImage изображение = (PsdImage)Image.Load(източенФайлПът))
 
             {
 
-                CheckSheetColorsAndRerverse(sheetColors, img);
+                ПроверкаНаЦветоветеНаЛистИОбръщане(цветовеЗаЛистове, изображение);
 
-                img.Save(outputFilePath, new PsdOptions());
+                изображение.Save(изходенФайлПът, new PsdOptions());
 
             }
 
-            using (PsdImage img = (PsdImage)Image.Load(outputFilePath))
+            using (PsdImage изображение = (PsdImage)Image.Load(изходенФайлПът))
 
             {
 
-                // В цветовете трябва да бъдат обърнати
+                // Цветовете трябва да бъдат обръщани
 
-                Array.Reverse(sheetColors);
+                Array.Reverse(цветовеЗаЛистове);
 
-                CheckSheetColorsAndRerverse(sheetColors, img);
+                ПроверкаНаЦветоветеНаЛистИОбръщане(цветовеЗаЛистове, изображение);
 
             }
 
 {{< /highlight >}}
 
-**PSDNET-563. Поддръжка на свойства от данните на LengthRecord. (Операции с пътища (булеви операции), индексът на фигурата в слоя, броят на записите на бецелови контролни точки)**
+**PSDNET-563. Поддръжка на свойствата от данните на LengthRecord. (Операции върху пътеки (булеви операции), индекс на формата в слоя, брой на записите за кръгови възли)**
 
 {{< highlight java >}}
 
-            string fileName = "PathOperationsShape.psd";
+            string имеНаФайла = "PathOperationsShape.psd";
 
-            using (var im = (PsdImage)Image.Load(fileName))
+            using (var им = (PsdImage)Image.Load(имеНаФайла))
 
             {
 
-                VsmsResource resource = null;
+                VsmsResource ресурс = null;
 
-                foreach (var layerResource in im.Layers[1].Resources)
+                foreach (var layerResource in им.Layers[1].Resources)
 
                 {
 
@@ -303,7 +303,7 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 
                     {
 
-                        resource = (VsmsResource)layerResource;
+                        ресурс = (VsmsResource)layerResource;
 
                         break;
 
@@ -311,13 +311,13 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 
                 }
 
-                LengthRecord lengthRecord0 = (LengthRecord)resource.Paths[2];
+                LengthRecord lengthRecord0 = (LengthRecord)ресурс.Paths[2];
 
-                LengthRecord lengthRecord1 = (LengthRecord)resource.Paths[7];
+                LengthRecord lengthRecord1 = (LengthRecord)ресурс.Paths[7];
 
-                LengthRecord lengthRecord2 = (LengthRecord)resource.Paths[11];
+                LengthRecord lengthRecord2 = (LengthRecord)ресурс.Paths[11];
 
-                // Тук променяме начина на комбиниране между фигурите.
+                // Тук променяме начина на комбиниране между формите.
 
                 lengthRecord0.PathOperations = PathOperations.ExcludeOverlappingShapes;
 
@@ -325,37 +325,35 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 
                 lengthRecord2.PathOperations = PathOperations.SubtractFrontShape;
 
-                im.Save("out_" + fileName);
+                им.Save("out_" + имеНаФайла);
 
             }
 
 {{< /highlight >}}
 
-**PSDNET-425. Поддръжка на Image Section Resource #1010 Фонов цвят**
+**PSDNET-425. Поддръжка на ресурса Image Section #1010 Заден план на цвета**
 
 {{< highlight java >}}
 
-             string sourceFile = "input.psd";
+             string изходенФайл = "изходен.psd";
 
-            string outputFile = "output.psd";
-
-            using (var image = (PsdImage)Image.Load(sourceFile))
+            using (var изображение = (PsdImage)Image.Load(изходенФайл))
 
             {
 
-                ResourceBlock[] imageResources = image.ImageResources;
+                ResourceBlock[] ресурсиНаИзображението = изображение.ImageResources;
 
-                BackgroundColorResource backgroundColorResource = null;
+                BackgroundColorResource ресурсНаЗаденПланНаЦвета = null;
 
-                foreach (var imageResource in imageResources)
+                foreach (var ресурсНаИзображението in ресурсиНаИзображението)
 
                 {
 
-                    if (imageResource is BackgroundColorResource)
+                    if (ресурсНаИзображението is BackgroundColorResource)
 
                     {
 
-                        backgroundColorResource = (BackgroundColorResource)imageResource;
+                        ресурсНаЗаденПланНаЦвета = (BackgroundColorResource)ресурсНаИзображението;
 
                         break;
 
@@ -365,15 +363,15 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 
                 // актуализация на BackgroundColorResource
 
-                backgroundColorResource .Color = Color.DarkRed;
+                ресурсНаЗаденПланНаЦвета.Color = Color.DarkRed;
 
-                image.Save(outputFile);
+                изображение.Save(изходенФайл);
 
             }
 
 {{< /highlight >}}
 
-**PSDNET-530. Добавяне на Fill Layers по време на изпълнение**
+**PSDNET-530. Добавяне на слоеве за попълване по време на изпълнение**
 
 {{< highlight java >}}
 
@@ -409,7 +407,7 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 
 {{< /highlight >}}
 
-**PSDNET-424. Поддръжка на Image Section Resource #1009 Информация за границата**
+**PSDNET-424. Поддръжка на ресурса Image Section #1009 Информация за границите**
 
 {{< highlight java >}}
 
@@ -441,7 +439,7 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 
                 }
 
-                // актуализация на BorderInformationResource
+                // update BorderInformationResource
 
                 borderInfoResource.Width = 0.1;
 
@@ -453,7 +451,7 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 
 {{< /highlight >}}
 
-**PSDNET-592. Поддръжка на слоеве в AI форматни файлове**
+**PSDNET-592. Поддръжка на слоеве във файловете във формат AI**
 
 {{< highlight java >}}
 
@@ -503,7 +501,8 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 
             AssertIsTrue(layer0.Red == 79, "The Red property of the layer 0 should be 79.");
 
-            AssertIsTrue(layer0.Green == 128, "The Green```java
+            AssertIsTrue(layer0.Green == 128, "The Green property of the layer 0 should be 128.");
+
             AssertIsTrue(layer0.Blue == 255, "The Blue property of the layer 0 should be 255.");
 
             AssertIsTrue(layer0.RasterImages.Length == 0, "The pixels length property of the raster image in the layer 0 should equals 0.");
@@ -529,15 +528,16 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
             image.Save(outputFileName + ".psd", new PsdOptions());
 
             image.Save(outputFileName + ".png", new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+
         }
 
 {{< /highlight >}}
 
-**PSDNET-256. Поддръжка на четене и редактиране на ефект на градиентно оверлей слой**
+**PSDNET-256. Поддръжка за четене и редактиране на ефекта на слоя с градиентен оверлей**
 
 {{< highlight java >}}
 
-             // Създаване/Намиране и редактиране на ефекта на градиентно оверлей в слой.
+             // Creates/Gets and edits the gradient overlay effect in a layer.
 
             using (var psdImage = this.LoadFile("psdnet256.psd", new PsdLoadOptions() { LoadEffectsResource = true }))
 
@@ -547,7 +547,7 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 
                 GradientOverlayEffect gradientOverlayEffect = null;
 
-                // Търсене на GradientOverlayEffect в слой.
+                // Search GradientOverlayEffect in a layer.
 
                 foreach (ILayerEffect effect in layerBlendOptions.Effects)
 
@@ -569,25 +569,25 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 
                 {
 
-                    // Можете да създадете нов GradientOverlayEffect ако той не съществува.
+                    // You can create a new GradientOverlayEffect if it not exists.
 
                     gradientOverlayEffect = layerBlendOptions.AddGradientOverlay();
 
                 }
 
-                // Добавяне на малко прозрачност към ефекта.
+                // Add a bit of transparency to the effect.
 
                 gradientOverlayEffect.Opacity = 200;
 
-                // Промяна на режима на смесване на градиента.
+                // Change the blend mode of gradient effect.
 
                 gradientOverlayEffect.BlendMode = BlendMode.Hue;
 
-                // Получаване на обекта GradientFillSettings за конфигуриране на настройките на градиентен оверлей.
+                // Gets GradientFillSettings object to configure gradient overlay settings.
 
                 GradientFillSettings settings = gradientOverlayEffect.Settings;
 
-                // Задаване на нов градиент с два цвята.
+                // Setting a new gradient with two colors.
 
                 settings.ColorPoints = new IGradientColorPoint[]
 
@@ -599,30 +599,31 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 
                 };
 
-                // Задаване на наклон на градиента под ъгъл от 80 градуса.
+                // Sets an inclination of the gradient at an angle of 80 degrees.
 
                 settings.Angle = 80;
 
-                // Скалиране на ефекта на градиента до 150%.
+                // Scale gradient effect up to 150%.
 
                 settings.Scale = 150;
 
-                // Задаване на тип на градиента.
+                // Sets type of gradient.
 
                 settings.GradientType = GradientType.Linear;
 
-                // Направете градиента непрозрачен, като зададете прозрачността на 100% за всяка точка на прозрачност.
+                // Make the gradient opaque by setting the opacity to 100% at each transparency point.
 
                 settings.TransparencyPoints[0].Opacity = 100;
 
                 settings.TransparencyPoints[1].Opacity = 100;
 
                 psdImage.Save("psdnet256.psd_output.psd");
+
             }
 
 {{< /highlight >}}
 
-**PSDNET-257. Рендиране на ефект на градиентно оверлей слой**
+**PSDNET-257. Изчертаване на ефекта на слоя с градиентен оверлей. Функционалност**
 
 {{< highlight java >}}
 
@@ -639,6 +640,7 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
                 psdImage.Save(outputPng, new PngOptions());
 
                 psdImage.Save(outputPsd);
+
             }
 
 {{< /highlight >}}
@@ -661,13 +663,13 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 
                 psdImage.Save(outFile);
 
-                // След като запаметите, отворете 'outFile' ръчно в Photoshop и проверете режима на смесване в настройките на 'Gradient Overlay' ефекта на 'Layer 1'.
+                // After saving open 'outFile' manually in Photoshop and check Blend Mode in 'Gradient Overlay' effect settings of 'Layer 1'.
 
             }
 
 {{< /highlight >}}
 
-**PSDNET-561. Оправяне на запазването на PSD изображение с Grayscale ColorMode и 16 бита на канал към Grayscale PSD формат**
+**PSDNET-561. Оправяне на запазването на PSD изображение с Grayscale ColorMode и 16 бита на канал към формата на Grayscale PSD**
 
 {{< highlight java >}}
 
@@ -709,14 +711,15 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
 
         {
 
-            // Тук не трябва да има изключение.
+            // Here should be no exception.
 
             image.Save(pngExportPath, new PngOptions() { ColorType = PngColorType.GrayscaleWithAlpha });
+
         }
 
 {{< /highlight >}}
 
-**PSDNET-560. Оправяне на запазването на PSD изображение с Grayscale ColorMode и 16 бита на канал към PNG формат**
+**PSDNET-560. Оправяне на запазването на PSD изображение с Grayscale ColorMode и 16 бита на канал към формата PNG**
 
 {{< highlight java >}}
 
@@ -729,19 +732,6 @@ url: /bg/net/aspose-psd-for-net-20-4-release-notes/
         {
 
             image.Save(exportPath, new PngOptions() { ColorType = PngColorType.GrayscaleWithAlpha });
-        }
-
-{{< /highlight >}}
-``````java
-         string sourceFileName = "grayscale16bit.psd";
-
-        string outputFile = "grayscale_output.png";
-
-        using (PsdImage image = (PsdImage)Image.Load(sourceFileName))
-
-        {
-
-            image.Save(outputFile, new PngOptions() { ColorType = PngColorType.GrayscaleWithAlpha });
 
         }
 
