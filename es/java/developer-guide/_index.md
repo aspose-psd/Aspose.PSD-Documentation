@@ -1,5 +1,5 @@
 ---
-title: Guía para desarrolladores: Aspose.PSD para Java. API de manipulación de archivos de Photoshop e Illustrator
+title: Guía para desarrolladores. Aspose.PSD para Java. API de manipulación de archivos de Photoshop e Illustrator
 linktitle: Guía para desarrolladores
 type: docs
 weight: 20
