@@ -223,15 +223,7 @@ url: /bg/net/aspose-psd-za-net-22-1-zabejki-za-izdanieto/
 
                 image.Save(output);
             }
-{{< /highlight >}}```json
-{
-  "title": "Aspose.PSD за .NET 22.1 - Забележки за изданието",
-  "type": "docs",
-  "weight": 120,
-  "url": "/bg/net/aspose-psd-za-net-22-1-zabejki-za-izdanieto/"
-}
-
----
+{{< /highlight >}}
 
 ## **Промени в общественото API**
 # **Добавени API:**
@@ -253,7 +245,7 @@ url: /bg/net/aspose-psd-za-net-22-1-zabejki-za-izdanieto/
 - ...
 
 ## **Примери за използване:**
-...
+
 
 **PSDNET-1056. Преливат временни файлове при отваряне на файл от поток**
 {{< highlight csharp >}}
@@ -268,7 +260,6 @@ url: /bg/net/aspose-psd-za-net-22-1-zabejki-za-izdanieto/
             }
 {{< /highlight >}}
 
-...
 
 **PSDNET-1044. Поддръжка на множество данни за шаблони в PattResource**
 {{< highlight csharp >}}
@@ -284,4 +275,3 @@ url: /bg/net/aspose-psd-za-net-22-1-zabejki-za-izdanieto/
                 image.Save(изход);
             }
 {{< /highlight >}}
-```

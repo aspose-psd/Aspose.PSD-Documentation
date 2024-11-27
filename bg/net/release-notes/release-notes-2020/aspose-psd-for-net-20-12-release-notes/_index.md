@@ -1,30 +1,29 @@
 ---
-title: Aspose.PSD за .NET 20.12 - Бележки за изданието
+title: Забележки за версията Aspose.PSD за .NET 20.12
 type: docs
 weight: 10
-url: /bg/net/aspose-psd-za-net-20-12-belezki-za-izdanieto/
+url: /bg/net/aspose-psd-for-net-20-12-release-notes/
 ---
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}} 
 
-Тази страница съдържа бележки за изданието на [Aspose.PSD за .NET 20.12](https://www.nuget.org/packages/Aspose.PSD/)
+Тази страница съдържа забележки за версията на [Aspose.PSD за .NET 20.12](https://www.nuget.org/packages/Aspose.PSD/)
 
-{{% /alert %}}
+{{% /alert %}} 
 
 |**Ключ**|**Резюме**|**Категория**|
 | :- | :- | :- |
-|PSDNET-757|Поддръжка на преобразуване на слоевете в Слой на интелигентен обект|Функционалност|
-|PSDNET-764|Методът SmartObjectLayer.ReplaceContents хвърля NullReferenceException при опит за добавяне на PSB файл|Проблем|
-|PSDNET-773|Неправилно изобразяване на CMYK 8-битови и CMYK 16-битови изображения, ако слоят е по-голям от платното|Проблем|
-|PSDNET-782|Запазеният PSB файл може да се отвори с нашето API, но не и с Photoshop|Проблем|
-|PSDNET-783|При опит за промяна на Смарт слой в конкретен PSD файл с общ източник на данни получаваме изключение|Проблем|
+|PSDNET-757|Поддръжка за преобразуване на слоеве в умни обекти|Функционалност|
+|PSDNET-764|Методът SmartObjectLayer.ReplaceContents хвърля NullReferenceException, ако се опитаме да добавим PSB файл|Проблем|
+|PSDNET-773|Грешно изобразяване на CMYK 8-битови и CMYK 16-битови изображения, ако слоят е по-голям от платното|Проблем|
+|PSDNET-782|Запазеният PSB файл може да бъде отворен с API нашата, но не с Photoshop|Проблем|
+|PSDNET-783|Ако се опитаме да променим Smart Layer в конкретен PSD с общ източник на данни, получаваме изключение|Проблем|
 |PSDNET-172|Преименуване на FileFormatVersion на PsdVersion, за да се избегне объркване|Подобрение|
 |PSDNET-620|Премахване на конфигурацията за Compact framework от Aspose.PSD .NET|Подобрение|
-|PSDNET-765|PsdImageException: Неизвестен заглавие на ресурс при опит за отваряне на PSB файл с SmartObjectLayers|Подобрение|
-|PSDNET-798|Преместване на йерархията на класовете за Векторни маски в основно пространство имена, за да се гарантира униформността на продуктите Aspose.PSD и Aspose.Imaging|Подобрение|
+|PSDNET-765|PsdImageException: Неизвестен ресурсен хедър при опит за отваряне на PSB файл с SmartObjectLayers|Подобрение|
 
 ## **Промени в общественото API**
-# **Добавени API:**
+# **Добавени APIs:**
 - T:Aspose.PSD.FileFormats.Psd.PsdVersion
 - F:Aspose.PSD.FileFormats.Psd.PsdVersion.Psd
 - F:Aspose.PSD.FileFormats.Psd.PsdVersion.Psb
@@ -70,6 +69,11 @@ url: /bg/net/aspose-psd-za-net-20-12-belezki-za-izdanieto/
 - M:Aspose.PSD.FileFormats.Core.VectorPaths.PathFillRuleRecord.#ctor
 - M:Aspose.PSD.FileFormats.Core.VectorPaths.PathFillRuleRecord.#ctor(System.Byte[])
 - P:Aspose.PSD.FileFormats.Core.VectorPaths.PathFillRuleRecord.Type
+- T:Aspose.PSD.FileFormats.Core.VectorPaths.PathOperations
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.PathOperations.ExcludeOverlappingShapes
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.PathOperations.CombineShapes
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.PathOperations.SubtractFrontShape
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.PathOperations.IntersectShapeAreas
 - T:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathRecord
 - M:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathRecord.#ctor
 - P:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathRecord.Type
@@ -194,7 +198,7 @@ url: /bg/net/aspose-psd-za-net-20-12-belezki-za-izdanieto/
 - M:Aspose.PSD.RectangleF.op_Multiply(Aspose.PSD.RectangleF,System.Single)
 - M:Aspose.PSD.RectangleF.op_Division(Aspose.PSD.RectangleF,System.Single)
 
-# **Премахнати API:**
+# **Премахнати APIs:**
 - T:Aspose.PSD.FileFormats.Psd.FileFormatVersion
 - F:Aspose.PSD.FileFormats.Psd.FileFormatVersion.Psd
 - F:Aspose.PSD.FileFormats.Psd.FileFormatVersion.Psb
@@ -217,159 +221,3 @@ url: /bg/net/aspose-psd-za-net-20-12-belezki-za-izdanieto/
 - F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.LinearBurn
 - F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.LinearDodge
 - F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.LighterColor
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Lighten
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Luminosity
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Multiply
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Normal
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Overlay
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.PinLight
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.PassThrough
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.SoftLight
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Saturation
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Screen
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Exclusion
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.VividLight
-
-Т:Aspose.PSD.AsyncTask.AsyncTask
-- М:Aspose.PSD.AsyncTask.AsyncTask.Create(Aspose.PSD.AsyncTask.AsyncTaskAction)
-- М:Aspose.PSD.AsyncTask.AsyncTask.Create(Aspose.PSD.AsyncTask.AsyncTaskFunc)
-- Т:Aspose.PSD.AsyncTask.AsyncTaskAction
-- Т:Aspose.PSD.AsyncTask.AsyncTaskException
-- М:Aspose.PSD.AsyncTask.AsyncTaskException.#ctor(Стринг)
-- Т:Aspose.PSD.AsyncTask.AsyncTaskFunc
-- Т:Aspose.PSD.AsyncTask.AsyncTaskProgress
-- М:Aspose.PSD.AsyncTask.AsyncTaskProgress.#ctor(Систем.Int32,Систем.TimeSpan)
-- F:Aspose.PSD.AsyncTask.AsyncTaskProgress.Duration
-- F:Aspose.PSD.AsyncTask.AsyncTaskProgress.ProgressPercentage
-- Т:Aspose.PSD.AsyncTask.CompleteCallback
-- Т:Aspose.PSD.AsyncTask.IAsyncTask
-- Р:Aspose.PSD.AsyncTask.IAsyncTask.Progress
-- Р:Aspose.PSD.AsyncTask.IAsyncTask.IsBusy
-- Р:Aspose.PSD.AsyncTask.IAsyncTask.IsCanceled
-- Р:Aspose.PSD.AsyncTask.IAsyncTask.IsFaulted
-- Р:Aspose.PSD.AsyncTask.IAsyncTask.Error
-- Р:Aspose.PSD.AsyncTask.IAsyncTask.Result
-- М:Aspose.PSD.AsyncTask.IAsyncTask.RunAsync
-- М:Aspose.PSD.AsyncTask.IAsyncTask.RunAsync(System.Threading.ThreadPriority)
-- М:Aspose.PSD.AsyncTask.IAsyncTask.Cancel
-- М:Aspose.PSD.AsyncTask.IAsyncTask.Abort
-- М:Aspose.PSD.AsyncTask.IAsyncTask.SetProgressCallback(Aspose.PSD.AsyncTask.ProgressCallback)
-- М:Aspose.PSD.AsyncTask.IAsyncTask.SetCompleteCallback(Aspose.PSD.AsyncTask.CompleteCallback)
-- Т:Aspose.PSD.AsyncTask.IAsyncTaskState
-- Р:Aspose.PSD.AsyncTask.IAsyncTaskState.IsCanceled
-- Р:Aspose.PSD.AsyncTask.IAsyncTaskState.Progress
-- М:Aspose.PSD.AsyncTask.IAsyncTaskState.SetProgress(Систем.Int32)
-- Т:Aspose.PSD.AsyncTask.ProgressCallback
-- М:Aspose.PSD.ColorPaletteHelper.GetCloseImagePalette(Aspose.PSD.RasterImage,Aspose.PSD.Rectangle,Систем.Int32,Систем.Boolean)
-- М:Aspose.PSD.ColorPaletteHelper.HasTransparentColors(Aspose.PSD.IColorPalette)
-- Т:Aspose.PSD.Evalute.EvalException
-- Р:Aspose.PSD.Evalute.EvalException.Message
-- F:Aspose.PSD.FileFormats.Bmp.BitmapCompression.Dxt1
-- Р:Aspose.PSD.FileFormats.Pdf.PdfCoreOptions.PdfCompliance
-- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.PhotoshopResources
-- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.XPTitle
-- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.XPComment
-- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.XPAuthor
-- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.XPKeywords
-- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.XPSubject
-- Т:Aspose.PSD.FlatArray.Exceptions.FlatArrayException
-- М:Aspose.PSD.Image.GetImage2Export(Aspose.PSD.ImageOptionsBase,Aspose.PSD.Rectangle)
-- Р:Aspose.PSD.ImageOptions.MultiPageOptions.PageRasterizationOptions
-- Р:Aspose.PSD.ImageOptions.MultiPageOptions.MergeLayers
-- F:Aspose.PSD.ImageOptions.PngOptions.DefaultCompressionLevel
-- Р:Aspose.PSD.ImageOptions.TiffOptions.CompressedQuality
-- Р:Aspose.PSD.ImageOptions.TiffOptions.XPTitle
-- Р:Aspose.PSD.ImageOptions.TiffOptions.XPComment
-- Р:Aspose.PSD.ImageOptions.TiffOptions.XPAuthor
-- Р:Aspose.PSD.ImageOptions.TiffOptions.XPKeywords
-- Р:Aspose.PSD.ImageOptions.TiffOptions.XPSubject
-- Р:Aspose.PSD.ImageOptionsBase.FullFrame
-- Т:Aspose.PSD.PdfComplianceVersion
-- F:Aspose.PSD.PdfComplianceVersion.Pdf15
-- F:Aspose.PSD.PdfComplianceVersion.PdfA1a
-- F:Aspose.PSD.PdfComplianceVersion.PdfA1b
-- М:Aspose.PSD.PixelDataFormat.GetGrayscaleAlpha(Систем.Int32,Систем.Int32)
-- М:Aspose.PSD.PixelDataFormat.GetRgb(Систем.Int32,Систем.Int32,Систем.Int32)
-- М:Aspose.PSD.PixelDataFormat.GetRgba(Систем.Int32,Систем.Int32,Систем.Int32,Систем.Int32)
-- М:Aspose.PSD.PixelDataFormat.GetRgbIndexed(Систем.Int32)
-- М:Aspose.PSD.PixelDataFormat.GetYCbCr(Систем.Int32,Систем.Int32,Систем.Int32)
-- М:Aspose.PSD.PixelDataFormat.GetCmyk(Систем.Int32,Систем.Int32,Систем.Int32,Систем.Int32)
-- М:Aspose.PSD.PixelDataFormat.GetCmyka(Систем.Int32,Систем.Int32,Систем.Int32,Систем.Int32,Систем.Int32)
-- М:Aspose.PSD.PixelDataFormat.GetCieLab(Систем.Int32,Систем.Int32,Систем.Int32)
-- F:Aspose.PSD.PixelFormat.CieLab
-- М:Aspose.PSD.RasterImage.Save(Систем.IO.Stream,Aspose.PSD.ImageOptionsBase,Aspose.PSD.Rectangle)
-- М:Aspose.PSD.RectangleF.op_Multiply(Aspose.PSD.RectangleF,Систем.Single)
-- М:Aspose.PSD.RectangleF.op_Division(Aspose.PSD.RectangleF,Систем.Single)Color
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Lighten
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Luminosity
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Multiply
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Normal
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Overlay
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.PinLight
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.PassThrough
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.SoftLight
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Saturation
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Screen
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Exclusion
-- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.VividLight
-
-Т:Aspose.PSD.AsyncTask.AsyncTask
-- М:Aspose.PSD.AsyncTask.AsyncTask.Create(Aspose.PSD.AsyncTask.AsyncTaskAction)
-- М:Aspose.PSD.AsyncTask.AsyncTask.Create(Aspose.PSD.AsyncTask.AsyncTaskFunc)
-- Т:Aspose.PSD.AsyncTask.AsyncTaskAction
-- Т:Aspose.PSD.AsyncTask.AsyncTaskException
-- М:Aspose.PSD.AsyncTask.AsyncTaskException.#ctor(Стринг)
-- Т:Aspose.PSD.AsyncTask.AsyncTaskFunc
-- Т:Aspose.PSD.AsyncTask.AsyncTaskProgress
-- М:Aspose.PSD.AsyncTask.AsyncTaskProgress.#ctor(Систем.Int32,Систем.TimeSpan)
-- F:Aspose.PSD.AsyncTask.AsyncTaskProgress.Duration
-- F:Aspose.PSD.AsyncTask.AsyncTaskProgress.ProgressPercentage
-- Т:Aspose.PSD.AsyncTask.CompleteCallback
-- Т:Aspose.PSD.AsyncTask.IAsyncTask
-- Р:Aspose.PSD.AsyncTask.IAsyncTask.Progress
-- Р:Aspose.PSD.AsyncTask.IAsyncTask.IsBusy
-- Р:Aspose.PSD.AsyncTask.IAsyncTask.IsCanceled
-- Р:Aspose.PSD.AsyncTask.IAsyncTask.IsFaulted
-- Р:Aspose.PSD.AsyncTask.IAsyncTask.Error
-- Р:Aspose.PSD.AsyncTask.IAsyncTask.Result
-- М:Aspose.PSD.AsyncTask.IAsyncTask.RunAsync
-- М:Aspose.PSD.AsyncTask.IAsyncTask.RunAsync(System.Threading.ThreadPriority)
-- М:Aspose.PSD.AsyncTask.IAsyncTask.Cancel
-- М:Aspose.PSD.AsyncTask.IAsyncTask.Abort
-- М:Aspose.PSD.AsyncTask.IAsyncTask.SetProgressCallback(Aspose.PSD.AsyncTask.ProgressCallback)
-- М:Aspose.PSD.AsyncTask.IAsyncTask.SetCompleteCallback(Aspose.PSD.AsyncTask.CompleteCallback)
-- Т:Aspose.PSD.AsyncTask.IAsyncTaskState
-- Р:Aspose.PSD.AsyncTask.IAsyncTaskState.IsCanceled
-- Р:Aspose.PSD.AsyncTask.IAsyncTaskState.Progress
-- М:Aspose.PSD.AsyncTask.IAsyncTaskState.SetProgress(Систем.Int32)
-- Т:Aspose.PSD.AsyncTask.ProgressCallback
-- М:Aspose.PSD.ColorPaletteHelper.GetCloseImagePalette(Aspose.PSD.RasterImage,Aspose.PSD.Rectangle,Систем.Int32,Систем.Boolean)
-- М:Aspose.PSD.ColorPaletteHelper.HasTransparentColors(Aspose.PSD.IColorPalette)
-- Т:Aspose.PSD.Evalute.EvalException
-- Р:Aspose.PSD.Evalute.EvalException.Message
-- F:Aspose.PSD.FileFormats.Bmp.BitmapCompression.Dxt1
-- Р:Aspose.PSD.FileFormats.Pdf.PdfCoreOptions.PdfCompliance
-- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.PhotoshopResources
-- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.XPTitle
-- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.XPComment
-- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.XPAuthor
-- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.XPKeywords
-- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.XPSubject
-- Т:Aspose.PSD.FlatArray.Exceptions.FlatArrayException
-- М:Aspose.PSD.Image.GetImage2Export(Aspose.PSD.ImageOptionsBase,Aspose.PSD.Rectangle)
-- Р:Aspose.PSD.ImageOptions.MultiPageOptions.PageRasterizationOptions
-- Р:Aspose.PSD.ImageOptions.MultiPageOptions.MergeLayers
-- F:Aspose.PSD.ImageOptions.PngOptions.DefaultCompressionLevel
-- Р:Aspose.PSD.ImageOptions.TiffOptions.CompressedQuality
-- Р:Aspose.PSD.ImageOptions.TiffOptions.XPTitle
-- Р:Aspose.PSD.ImageOptions.TiffOptions.XPComment
-- Р:Aspose.PSD.ImageOptions.TiffOptions.XPAuthor
-- Р:Aspose.PSD.ImageOptions.TiffOptions.XPKeywords
-- Р:Aspose.PSD.ImageOptions.TiffOptions.XPSubject
-- Р:Aspose.PSD.ImageOptionsBase.FullFrame
-- Т:Aspose.PSD.PdfComplianceVersion
-- F:Aspose.PSD.PdfComplianceVersion.Pdf15
-- F:Aspose.PSD.PdfComplianceVersion.PdfA1a
-- F:Aspose.PSD.PdfComplianceVersion.PdfA1b
-- М:Aspose.PSD.PixelDataFormat.GetGrayscaleAlpha(Систем.Int32,Систем.Int32)
-- М:Aspose.PSD.PixelDataFormat.GetRgb(Систем.Int32,Систем.Int32,Систем.Int32)

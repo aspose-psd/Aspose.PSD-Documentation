@@ -379,10 +379,4 @@ url: /bg/net/aspose-psd-for-python-via-net-23-12-release-notes/
 
         with Image.load(sourceFile) as im:
             im.save(outputFile)
-{{< /highlight >}}```
-        sourceFile = "DifferentLayerMasks.psd"
-        outputFile = "DifferentLayerMasks_output.psd"
-
-        with Image.load(sourceFile) as im:
-            im.save(outputFile)
-```
+{{< /highlight >}}

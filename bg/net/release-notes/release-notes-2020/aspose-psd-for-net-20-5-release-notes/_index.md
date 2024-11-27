@@ -1,36 +1,37 @@
---- 
-title: Забележки към версия 20.5 на Aspose.PSD за .NET
+---
+title: Aspose.PSD за .NET 20.5 - Бележки за Изданието
 type: docs
 weight: 80
-url: /bg/net/aspose-psd-za-net-20-5-zabelezhki-kam-izdavaneto/
+url: /bg/net/aspose-psd-za-net-20-5-belezhki-za-izdanieto/
 ---
 
 {{% alert color="primary" %}}
 
-Тази страница съдържа забележки към [Aspose.PSD за .NET 20.5](https://www.nuget.org/packages/Aspose.PSD/)
+Тази страница съдържа бележки за изданието на [Aspose.PSD за .NET 20.5](https://www.nuget.org/packages/Aspose.PSD/)
 
 {{% /alert %}}
 
 |**Ключ**|**Обобщение**|**Категория**|
 | :- | :- | :- |
-|PSDNET-595|Поддръжка на слойни маски за групи на слоеве|Функционалност|
-|PSDNET-201|Поддръжка на прогрес при конвертиране на документи|Функционалност|
-|PSDNET-275|Поддръжка на Nvrt ресурс (ресурс за корекция на инверсия на слой)|Функционалност|
-|PSDNET-124|Поддръжка на запазване на PSD изображение с цветови режим на сиво с 16 бита на канал|Функционалност|
-|PSDNET-589|Рефакториране на примерите в GitHub|Подобрение|
-|PSDNET-587|Подравняване на текст чрез ITextPortion не работи за дясно-наляви езици. Изходният файл е повреден.|Проблем|
-|PSDNET-604|Изключение при опит за отваряне на конкретен Psd файл с Lab цвят и 8 бита/канал|Проблем|
-|PSDNET-598|Оправяне на запазване на PSD изображение с цветови режим на сиво с 16 бита на канал до 8 бита на канал формат на сиво-картинен PSD|Проблем|
-|PSDNET-599|Оправяне на запазване на PSD изображение с цветови режим на сиво с 16 бита на канал до 16 бита на канал RGB формат PSD|Проблем|
+|PSDNET-595|Поддръжка на маски на слоеве за Групи на слоеве|Функционалност|
+|PSDNET-201|Поддръжка за напредъка на конверсия на документи|Функционалност|
+|PSDNET-275|Поддръжка на Nvrt Ресурс (ресурс за регулиране на цветовете)|Функционалност|
+|PSDNET-124|Поддръжка за запазване на изображения в режим Grayscale ColorMode PSD с 16 бита на канал|Функционалност|
+|PSDNET-589|Рефакториране на Примерите в GitHub|Подобрение|
+|PSDNET-587|Подравняването на текста чрез ITextPortion не работи за десно-наляво езици. Изходният файл е повреден.|Грешка|
+|PSDNET-604|Изключение при опит за отваряне на конкретен Psd файл с Lab Color и 8 бита/канал|Грешка|
+|PSDNET-598|Поправка за запазване на изображение в PSD формат с режим на цвят Grayscale с 16 бита на канал към 8 бита на канал Grayscale PSD формат|Грешка|
+|PSDNET-599|Поправка за запазване на изображение в PSD формат с режим на цвят Grayscale с 16 бита на канал към 16-бита на канал RGB PSD формат|Грешка|
 
-## **Промени в общественото API**
-# **Добавени APIs:**
+## **Промени в Общественото API**
+# **Добавени API-та:**
 - Няма
-# **Премахнати APIs:**
+# **Премахнати API-та:**
 - Няма
 
-## **Примери за използване:**
-**PSDNET-595. Поддръжка на слойни маски за групи на слоеве**
+## **Примери за Използване:**
+
+**PSDNET-595. Поддръжка на маски на слоеве за Групи на слоеве**
 
 {{< highlight java >}}
 
@@ -52,7 +53,7 @@ using (var input = (PsdImage)Image.Load(srcFile))
 
 {{< /highlight >}}
 
-**PSDNET-201. Поддръжка на прогрес при конвертиране на документи**
+**PSDNET-201. Поддръжка за напредъка на конверсия на документи**
 
 {{< highlight java >}}
 
@@ -124,7 +125,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFilePath, loadOptions))
 
 {{< /highlight >}}
 
-**PSDNET-275. Поддръжка на Nvrt ресурс (ресурс за корекция на инверсия на слой)**
+**PSDNET-275. Поддръжка на Nvrt Ресурс (ресурс за регулиране на цветовете)**
 
 {{< highlight java >}}
 
@@ -148,7 +149,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFilePath, loadOptions))
 
                       {
 
-                           // Ресурсът NvrtResource е поддържан.
+                           // NvrtResource е поддържан.
 
                            var resource = (NvrtResource)layerResource;
 
@@ -166,7 +167,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFilePath, loadOptions))
 
 {{< /highlight >}}
 
-**PSDNET-124. Оправяне на запазване на PSD изображение с цветови режим на сиво с 16 бита на канал до формат на сиво-картинен PSD с 8 бита на канал**
+**PSDNET-124. Поправка за запазване на изображение в PSD формат с режим Grayscale с 16 бита на канал към 8 бита на канал Grayscale PSD формат**
 
 {{< highlight java >}}
 
@@ -240,7 +241,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFilePath, loadOptions))
 
     {
 
-        // Тук не би трябвало да има изключение.
+        // Тук не бива да има изключение.
 
         image.Save(pngExportPath, new PngOptions() { ColorType = PngColorType.GrayscaleWithAlpha });
 
@@ -264,7 +265,7 @@ SaveToPsdThenLoadAndSaveToPng("index8bit_5x5", ColorModes.Grayscale, 16, 2, Comp
 
 {{< /highlight >}}
 
-**PSDNET-587. Подравняване на текст чрез ITextPortion не работи за дясно-наляви езици. Изходният файл е повреден.**
+**PSDNET-587. Подравняването на текста чрез ITextPortion не работи за десно-наляво езици. Изходният файл е повреден.**
 
 {{< highlight java >}}
 
@@ -290,7 +291,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFileName))
 
 {{< /highlight >}}
 
-` `**PSDNET-604. Изключение при опит за отваряне на конкретен Psd файл с Lab цвят и 8 бита/канал**
+**PSDNET-604. Изключение при опит за отваряне на конкретен Psd файл с Lab Color и 8 бита/канал**
 
 {{< highlight java >}}
 
@@ -306,11 +307,11 @@ using (var psdImage = (PsdImage)Image.Load(srcFile))
 
 }
 
-// Файлът LAB е зареден и записан без хвърляне на изключения.
+// LAB файлът е зареден и запазен без хвърляне на изключения.
 
 {{< /highlight >}}
 
-**PSDNET-598. Оправяне на запазване на PSD изображение с цветови режим на сиво с 16 бита на канал до 8 бита на канал формат на сиво-картинен PSD**
+**PSDNET-598. Поправка за запазване на изображение в PSD формат с режим Grayscale с 16 бита на канал към 8 бита на канал Grayscale PSD формат**
 
 {{< highlight java >}}
 
@@ -356,7 +357,7 @@ using (PsdImage image = (PsdImage)Image.Load(exportFileName))
 
 {
 
-    // Тук не би трябвало да има изключение.
+    // Тук не бива да има изключение.
 
     image.Save(pngExportPath, new PngOptions() { ColorType = PngColorType.GrayscaleWithAlpha });
 
@@ -364,7 +365,7 @@ using (PsdImage image = (PsdImage)Image.Load(exportFileName))
 
 {{< /highlight >}}
 
-**PSDNET-599. Оправяне на запазване на PSD изображение с цветови режим на сиво с 16 бита на канал до 16бита на канал RGB формат PSD**
+**PSDNET-599. Поправка за запазване на изображение в PSD формат с режим Grayscale с 16 бита на канал към 16-бита на канал RGB PSD формат**
 
 {{< highlight java >}}
 
@@ -410,7 +411,7 @@ using (PsdImage image = (PsdImage)Image.Load(exportFileName))
 
 {
 
-    // Тук не би трябвало да има изключение.
+    // Тук не бива да има изключение.
 
     image.Save(pngExportPath, new PngOptions() { ColorType = PngColorType.GrayscaleWithAlpha });
 
