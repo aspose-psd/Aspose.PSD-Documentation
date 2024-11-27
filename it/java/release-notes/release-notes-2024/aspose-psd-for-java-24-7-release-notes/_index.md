@@ -5,7 +5,7 @@ weight: 40
 url: /it/java/aspose-psd-for-java-24-7-note-sulla-release/
 ---
 
-{{% avviso color="primary" %}} Questa pagina contiene le note sulla release per [Aspose.PSD per Java 24.7](https://downloads.aspose.com/psd/java/new-releases/aspose.psd-for-java-24.7/) {{% /avviso %}}
+{{% alert color="primary" %}} Questa pagina contiene le note sulla release per [Aspose.PSD per Java 24.7](https://downloads.aspose.com/psd/java/new-releases/aspose.psd-for-java-24.7/) {{% /alert %}}
 
 | **Chiave**  | **Sommario**                                                                                     | **Categoria** |
 |:------------|:-------------------------------------------------------------------------------------------------|:-------------|
