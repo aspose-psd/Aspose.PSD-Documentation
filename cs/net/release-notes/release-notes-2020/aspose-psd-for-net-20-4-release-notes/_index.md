@@ -5,11 +5,12 @@ weight: 90
 url: /cs/net/aspose-psd-pro-net-20-4-poznamky-k-vydani/
 ---
 
-{{% upozornění barva="primary" %}}
+{{% alert color="primary" %}} 
 
 Tato stránka obsahuje poznámky k vydání pro [Aspose.PSD pro .NET 20.4](https://www.nuget.org/packages/Aspose.PSD/)
 
-{{% /upozornění %}}
+{{% /alert %}} 
+
 
 |**Klíč**|**Souhrn**|**Kategorie**|
 | :- | :- | :- |
