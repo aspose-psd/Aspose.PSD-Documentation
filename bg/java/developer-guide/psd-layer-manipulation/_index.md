@@ -1,7 +1,7 @@
 ---
 title: Управление на слоевете в Aspose.PSD за Java
 weight: 100
-type: документация
+type: docs
 description: Примери за манипулиране на слоевете на PSD файл в Java
 keywords: [филтриране на слой, преоразмеряване на слой, завъртане на слой, изрязване на слой, psd филтри, манипулиране на слой, актуализиране на слой, psd api, java, примерен код]
 url: /bg/java/psd-layer-manipulation/

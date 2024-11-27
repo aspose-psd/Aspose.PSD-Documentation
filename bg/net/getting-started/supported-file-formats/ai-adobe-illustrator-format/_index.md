@@ -1,6 +1,6 @@
 ---
 title: Формат AI (Adobe Illustrator)
-type: документация
+type: docs
 weight: 10
 url: /bg/net/ai-adobe-illustrator-format/
 ---
