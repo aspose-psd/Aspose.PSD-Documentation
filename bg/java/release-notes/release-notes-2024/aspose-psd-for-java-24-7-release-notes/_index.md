@@ -5,7 +5,7 @@ weight: 40
 url: /bg/java/aspose-psd-za-java-24-7-belezhki-za-izdanieto/
 ---
 
-{{% предупреждение цвят="първичен" %}} Тази страница съдържа бележки за изданието на [Aspose.PSD за Java 24.7](https://downloads.aspose.com/psd/java/new-releases/aspose.psd-for-java-24.7/) {{% /предупреждение %}}
+{{% alert color="primary" %}} Тази страница съдържа бележки за изданието на [Aspose.PSD за Java 24.7](https://downloads.aspose.com/psd/java/new-releases/aspose.psd-for-java-24.7/) {{% /alert %}} 
 
 | **Ключ**     | **Резюме**                                                                                      | **Категория** |
 |:------------|:-------------------------------------------------------------------------------------------------|:-------------|
@@ -29,7 +29,7 @@ url: /bg/java/aspose-psd-za-java-24-7-belezhki-za-izdanieto/
 
 **PSDJAVA-635. Изключение "Грешка при зареждане на изображението." при отваряне на AI документ**
 
-{{< подчертаване java >}}
+{{< highlight java >}}
 
     String sourceFile = "src/main/resources/[SA]_ID_card_template.ai";
     String outputFile = "src/main/resources/[SA]_ID_card_template.png";
@@ -38,11 +38,11 @@ url: /bg/java/aspose-psd-za-java-24-7-belezhki-za-izdanieto/
         image.save(outputFile, new PngOptions());
     }
 
-{{< /подчертаване >}}
+{{< /highlight >}}
 
 **PSDJAVA-636. Текстът се визуализира неправилно в изходните PDF файлове**
 
-{{< подчертаване java >}}
+{{< highlight java >}}
 
     String src = "src/main/resources/CVFlor.psd";
     String output = "src/main/resources/output.pdf";
@@ -54,11 +54,11 @@ url: /bg/java/aspose-psd-za-java-24-7-belezhki-za-izdanieto/
         psdImage.save(output, saveOptions);
     }
 
-{{< /подчертаване >}}
+{{< /highlight >}}
 
 **PSDJAVA-637. Оправяне на грешката ImageSaveException: Грешка при експортиране на изображението за дадения файл на Linux**
 
-{{< подчертаване java >}}
+{{< highlight java >}}
 
     String sourceFile = "src/main/resources/Bed_Roll-Sticker4_1.psd";
     String outputFile = "src/main/resources/output.jpg";
@@ -72,11 +72,11 @@ url: /bg/java/aspose-psd-za-java-24-7-belezhki-za-izdanieto/
         psdImage.save(outputFile, saveOptions);
     }
 
-{{< /подчертаване >}}
+{{< /highlight >}}
 
 **PSDJAVA-638. Оправяне на зареждането на шрифтове при използване на Aspose.Drawing**
 
-{{< подчертаване java >}}
+{{< highlight java >}}
 
     final var installedFonts = new InstalledFontCollection();
     try {
@@ -92,11 +92,11 @@ url: /bg/java/aspose-psd-za-java-24-7-belezhki-za-izdanieto/
         installedFonts.dispose();
     }
 
-{{< /подчертаване >}}
+{{< /highlight >}}
 
 **PSDJAVA-639. 'Аритметичната операция доведе до препълване' при създаване на смарт обектен слой с голям JPEG**
 
-{{< подчертаване java >}}
+{{< highlight java >}}
 
     String srcFile = "src/main/resources/source.psd";
     String imageJpg = "src/main/resources/test.jpg";
@@ -114,11 +114,11 @@ url: /bg/java/aspose-psd-za-java-24-7-belezhki-za-izdanieto/
         }
     }
 
-{{< /подчертаване >}}
+{{< /highlight >}}
 
 **PSDJAVA-640. Файлът AI не може да бъде конвертиран в JPG файл**
 
-{{< подчертаване java >}}
+{{< highlight java >}}
 
     String sourceFile = "src/main/resources/aaa.ai";
     String outputFile = "src/main/resources/aaa.png";
@@ -127,4 +127,4 @@ url: /bg/java/aspose-psd-za-java-24-7-belezhki-za-izdanieto/
         image.save(outputFile, new PngOptions());
     }
 
-{{< /подчертаване >}}
+{{< /highlight >}}
