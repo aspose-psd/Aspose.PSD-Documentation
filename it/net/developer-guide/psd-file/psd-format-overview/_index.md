@@ -29,8 +29,8 @@ I file PSD possono includere livelli di immagine, livelli di regolazione, masche
 
 ## **Come può essere utilizzato**
 1. Uno strumento per il Taglio di PSD.
-1. [Convertire PSD](/it/psd/net/convertire-immagine-psd-in-formato-raster/) in HTML
-1. Utilizzare [PSD come Modello](/it/psd/net/utilizzare-file-psd-come-modelli-per-le-carte-da-visita-di-automazione/) per Email
+1. [Convertire PSD](/psd/it/net/convertire-immagine-psd-in-formato-raster/) in HTML
+1. Utilizzare [PSD come Modello](/psd/it/net/utilizzare-file-psd-come-modelli-per-le-carte-da-visita-di-automazione/) per Email
 1. Dalla PSD all'HTML di un CMS specifico
 1. Identikit nel File PSD (Disegno della Polizia)
 1. Creare anteprime pseudo-3D utilizzando oggetti intelligenti per beni quali bottiglie, tazze, magliette, ecc.
@@ -41,4 +41,4 @@ E molto altro. Se hai realizzato qualcosa di grandioso con Aspose.PSD, condividi
 Esempi aggiuntivi da cui puoi imparare:
 
 - [Casi di Studio](https://downloads.aspose.com/corporate/case-studies/aspose.psd/)
-- [Esempi](/it/psd/net/mostra-efficacia-html/)
+- [Esempi](/psd/it/net/mostra-efficacia-html/)

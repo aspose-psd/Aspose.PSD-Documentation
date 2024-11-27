@@ -11,6 +11,6 @@
     
     
     ## **Articoli in questa sezione**
-    - [Immagini di disegno](/it/psd/net/immagini-di-disegno/)
-    - [Immagini di disegno utilizzando Graphics](/it/psd/net/immagini-di-disegno-utilizzando-graphics/)
-    - [Immagini di disegno utilizzando GraphicsPath](/it/psd/net/immagini-di-disegno-utilizzando-graphicspath/)
+    - [Immagini di disegno](/psd/it/net/immagini-di-disegno/)
+    - [Immagini di disegno utilizzando Graphics](/psd/it/net/immagini-di-disegno-utilizzando-graphics/)
+    - [Immagini di disegno utilizzando GraphicsPath](/psd/it/net/immagini-di-disegno-utilizzando-graphicspath/)

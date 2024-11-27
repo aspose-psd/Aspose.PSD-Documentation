@@ -42,4 +42,4 @@ Consultare la documentazione di [BrightnessContrastLayer](https://reference.aspo
 
 In questo articolo abbiamo ottenuto una panoramica rapida del layer di regolazione luminosità/contrasto e appreso come regolare luminosità e contrasto dell'immagine utilizzando il metodo di fabbrica.
 
-Consultare la nostra serie di [articoli sulle API dei layer di regolazione](/it/psd/java/layer-types/adjustment-layer/) di Aspose.PSD for Java per saperne di più.
+Consultare la nostra serie di [articoli sulle API dei layer di regolazione](/psd/it/java/layer-types/adjustment-layer/) di Aspose.PSD for Java per saperne di più.

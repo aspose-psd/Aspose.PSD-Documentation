@@ -11,6 +11,6 @@ La classe Graphics ti offre la possibilità di disegnare forme semplici in un'is
 
 
 ## **Articoli in questa sezione**
-- [Immagini di Disegno](/it/psd/java/immagini-di-disegno/)
-- [Immagini di Disegno utilizzando Graphics](/it/psd/java/immagini-di-disegno-utilizzando-graphics/)
-- [Immagini di Disegno utilizzando GraphicsPath](/it/psd/java/immagini-di-disegno-utilizzando-graphicpath/)
+- [Immagini di Disegno](/psd/it/java/immagini-di-disegno/)
+- [Immagini di Disegno utilizzando Graphics](/psd/it/java/immagini-di-disegno-utilizzando-graphics/)
+- [Immagini di Disegno utilizzando GraphicsPath](/psd/it/java/immagini-di-disegno-utilizzando-graphicpath/)

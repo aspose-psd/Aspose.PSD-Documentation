@@ -12,4 +12,4 @@ Con il formato PSD è possibile automatizzare compiti come la traduzione di mate
 
 Qui abbiamo raccolto esempi per questo tipo di compiti. Altre funzionalità con esempi possono essere trovate nella [Referenza API.](https://reference.aspose.com/psd/net)
 ## **Articoli Disponibili**
-- [Utilizzo di file PSD come modelli per l'automazione (caso dei biglietti da visita)](/it/psd/net/utilizzo-di-file-psd-come-modelli-per-lautomazione-caso-dei-biglietti-da-visita/)
+- [Utilizzo di file PSD come modelli per l'automazione (caso dei biglietti da visita)](/psd/it/net/utilizzo-di-file-psd-come-modelli-per-lautomazione-caso-dei-biglietti-da-visita/)

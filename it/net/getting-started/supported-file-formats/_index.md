@@ -20,4 +20,4 @@ La seguente tabella indica i formati di file che Aspose.PSD per .NET può carica
 |[BMP](https://wiki.fileformat.com/image/bmp/)|Salva il documento nel formato BMP| |{{< emoticons/tick >}}| |
 |[JPEG2000](https://wiki.fileformat.com/image/jp2/)|Salva il documento nel formato JPEG2000| |{{< emoticons/tick >}}| |
 |[PDF](https://wiki.fileformat.com/view/pdf/)|Formato di Documento Portatile| |{{< emoticons/tick >}}| |
-|[AI](/it/psd/net/formato-adobe-illustrator-ai/)|File di Adobe Illustrator|{{< emoticons/tick >}}| | |
+|[AI](/psd/it/net/formato-adobe-illustrator-ai/)|File di Adobe Illustrator|{{< emoticons/tick >}}| | |
