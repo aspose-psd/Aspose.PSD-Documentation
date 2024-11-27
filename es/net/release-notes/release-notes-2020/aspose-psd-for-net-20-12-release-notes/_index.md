@@ -70,6 +70,11 @@ Esta página contiene notas de lanzamiento para [Aspose.PSD para .NET 20.12](htt
 - M:Aspose.PSD.FileFormats.Core.VectorPaths.PathFillRuleRecord.#ctor
 - M:Aspose.PSD.FileFormats.Core.VectorPaths.PathFillRuleRecord.#ctor(System.Byte[])
 - P:Aspose.PSD.FileFormats.Core.VectorPaths.PathFillRuleRecord.Type
+- T:Aspose.PSD.FileFormats.Core.VectorPaths.PathOperations
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.PathOperations.ExcludeOverlappingShapes
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.PathOperations.CombineShapes
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.PathOperations.SubtractFrontShape
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.PathOperations.IntersectShapeAreas
 - T:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathRecord
 - M:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathRecord.#ctor
 - P:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathRecord.Type
@@ -194,7 +199,7 @@ Esta página contiene notas de lanzamiento para [Aspose.PSD para .NET 20.12](htt
 - M:Aspose.PSD.RectangleF.op_Multiply(Aspose.PSD.RectangleF,System.Single)
 - M:Aspose.PSD.RectangleF.op_Division(Aspose.PSD.RectangleF,System.Single)
 
-# **APIs eliminadas:**
+# **Removed APIs:**
 - T:Aspose.PSD.FileFormats.Psd.FileFormatVersion
 - F:Aspose.PSD.FileFormats.Psd.FileFormatVersion.Psd
 - F:Aspose.PSD.FileFormats.Psd.FileFormatVersion.Psb
@@ -226,4 +231,243 @@ Esta página contiene notas de lanzamiento para [Aspose.PSD para .NET 20.12](htt
 - F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.PassThrough
 - F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.SoftLight
 - F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Saturation
-- F:Aspose.PSD
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Screen
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Exclusion
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.VividLight
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotRecord
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotRecord.#ctor
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotRecord.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotRecord.Points
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotRecord.IsClosed
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotRecord.IsLinked
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotRecord.IsOpen
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotRecord.Type
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.ClipboardRecord
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.ClipboardRecord.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.ClipboardRecord.Type
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.InitialFillRuleRecord
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.InitialFillRuleRecord.#ctor(System.Boolean)
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.InitialFillRuleRecord.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.InitialFillRuleRecord.IsFillStartsWithAllPixels
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.InitialFillRuleRecord.Type
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord.#ctor(System.Byte[])
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord.#ctor
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord.IsClosed
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord.IsOpen
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord.Type
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord.BezierKnotRecordsCount
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord.PathOperations
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord.ShapeIndex
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.PathFillRuleRecord
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.PathFillRuleRecord.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.PathFillRuleRecord.Type
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathRecord
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathRecord.#ctor
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathRecord.Type
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathRecordFactory
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathRecordFactory.#ctor
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathRecordFactory.ProducePathRecord(System.Byte[])
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.ClosedSubpathLengthRecord
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.ClosedSubpathBezierKnotLinked
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.ClosedSubpathBezierKnotUnlinked
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.OpenSubpathLengthRecord
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.OpenSubpathBezierKnotLinked
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.OpenSubpathBezierKnotUnlinked
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.PathFillRuleRecord
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.ClipboardRecord
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.InitialFillRuleRecord
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorShapeOriginSettings
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorShapeOriginSettings.#ctor(System.Boolean,System.Int32)
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorShapeOriginSettings.IsShapeInvalidated
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorShapeOriginSettings.OriginIndex
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.PathOperations
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.PathOperations.ExcludeOverlappingShapes
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.PathOperations.CombineShapes
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.PathOperations.SubtractFrontShape
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.PathOperations.IntersectShapeAreas
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.IVectorPathData
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.IVectorPathData.Paths
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.IVectorPathData.Version
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.IVectorPathData.IsDisabled
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.IVectorPathData.IsNotLinked
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.IVectorPathData.IsInverted
+- M:Aspose.PSD.Image.GetImage2Export(Aspose.PSD.ImageOptionsBase)
+
+## **Usage examples:**
+**PSDNET-757. Support converting layers to Smart Object Layer**
+{{< highlight csharp >}}
+            string dataDir = "PSDNET757_1\\";
+            string outputDir = dataDir + "output\\";
+
+            // These examples demonstrate how to convert layers to a smart object layer in the PSD file
+            ExampleOfConvertingToSmartObjectLayer("ThreeRegularLayers", 0, 1);
+            ExampleOfConvertingToSmartObjectLayer("FourWithMasks", 0, 2);
+            ExampleOfConvertingToSmartObjectLayer("dummy", 2, 3, 1);
+            ExampleOfConvertingToSmartObjectLayer("dummy_group", 6, 2);
+            ExampleOfConvertingToSmartObjectLayer("argb16bit_5x5", 0);
+            ExampleOfConvertingToSmartObjectLayer("cmyk16bit_5x5", 0);
+            ExampleOfConvertingToSmartObjectLayer("grayscale5x5", 0);
+
+            void ExampleOfConvertingToSmartObjectLayer(string filePath, params int[] layerNumbers)
+            {
+                string outputFilePath = outputDir + "Converted_" + filePath + ".psd";
+                string pngOutputPath = Path.ChangeExtension(outputFilePath, ".png");
+                using (PsdImage image = (PsdImage)Image.Load(dataDir + filePath + ".psd"))
+                {
+                    var layerCount = image.Layers.Length;
+                    var smartObjectLayer = image.SmartObjectProvider.ConvertToSmartObject(layerNumbers);
+                    var newLayerCount = image.Layers.Length;
+
+                    image.Save(pngOutputPath, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+                    image.Save(outputFilePath, new PsdOptions(image));
+                }
+            }
+{{< /highlight >}}
+
+**PSDNET-764. SmartObjectLayer.ReplaceContents method throws NullReferenceException if we try to add PSB file**
+{{< highlight csharp >}}
+            // This example demonstrates that the ReplaceContents method works correctly with the specified PSD file.
+            const string baseFolder = "PSDNET764_1\\";
+            const string outputFolder = baseFolder + "output\\";
+            const string fileName = "CommonPsb.psd";
+            const string filePath = baseFolder + fileName;
+            const string newContentPath = baseFolder + "Smart2.psb";
+            const string outputFilePath = outputFolder + "ChangedPsd";
+            const string pngOutputPath = outputFilePath + ".png";
+            const string psdOutputPath = outputFilePath + ".psd";
+            using (PsdImage psd = (PsdImage)Image.Load(filePath))
+            {
+                for (int i = 0; i < psd.Layers.Length; i++)
+                {
+                    var layer = psd.Layers[i];
+                    SmartObjectLayer smartObjectLayer = layer as SmartObjectLayer;
+                    if (smartObjectLayer != null)
+                    {
+                        smartObjectLayer.ReplaceContents(newContentPath); // No exception should be thrown.
+
+                        psd.Save(psdOutputPath);
+                        psd.Save(pngOutputPath, new PngOptions() { ColorType = Aspose.PSD.FileFormats.Png.PngColorType.TruecolorWithAlpha });
+                    }
+                }
+            }
+{{< /highlight >}}
+
+**PSDNET-765. PsdImageException: Unknown resource header on trying to open PSB file with SmartObjectLayers**
+{{< highlight csharp >}}
+            // This example demonstrates that the specified PSD file is loaded, saved, and loaded again correctly.
+            // Test manually that the saved files can be opened by Adobe® Photoshop®
+            string baseFolder = "PSDNET765_1\\";
+            string outputFolder = baseFolder + "output\\";
+            string fileName = "CommonPsb.psb";
+            string filePath = baseFolder + fileName;
+            string psbOutputPath = outputFolder + fileName + "_saved.psb";
+            string psdOutputPath = outputFolder + fileName + "_saved_as_psd.psd";
+            using (PsdImage image = (PsdImage)Image.Load(filePath))
+            {
+                image.Save(psbOutputPath, new PsdOptions(image) { PsdVersion = PsdVersion.Psb, Resources = null, XmpData = null });
+                image.Save(psdOutputPath, new PsdOptions(image) { PsdVersion = PsdVersion.Psd, Resources = null, XmpData = null });
+            }
+
+            using (PsdImage image1 = (PsdImage)Image.Load(psdOutputPath))
+            {
+                Console.WriteLine("PSD loaded");
+            }
+
+            using (PsdImage image2 = (PsdImage)Image.Load(psbOutputPath))
+            {
+                Console.WriteLine("PSB loaded");
+            }
+{{< /highlight >}}
+
+**PSDNET-773. Incorrect rendering of CMYK 8-bit and CMYK 16-bit Images, if the layer is bigger than Canvas**
+{{< highlight csharp >}}
+            string baseFolder = "PSDNET773_1\\";
+            string outputFolder = baseFolder + "output\\";
+
+            // Tests that Psd Image with CMYK mode and 16 bit renders correctly if a layer is bigger than Canvas.
+            SaveCmykImageCorrectlyWhenLayerIsBiggerThanCanvas("Test1");
+
+            // Tests that Psd Image with CMYK mode and 8 bit renders correctly if a layer is bigger than Canvas.
+            SaveCmykImageCorrectlyWhenLayerIsBiggerThanCanvas("Test2");
+
+            void SaveCmykImageCorrectlyWhenLayerIsBiggerThanCanvas(string fileName)
+            {
+                string sourceFilePath = baseFolder + fileName + ".psd";
+                string outputFilePath = outputFolder + fileName + "_output.psd";
+                string outputPngFilePath = Path.ChangeExtension(outputFilePath, ".png");
+                PsdLoadOptions options = new PsdLoadOptions();
+                using (PsdImage image = (PsdImage)Image.Load(sourceFilePath, options))
+                {
+                    image.Save(outputFilePath, new PsdOptions(image));
+                    image.Save(outputPngFilePath, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+                }
+            }
+{{< /highlight >}}
+
+**PSDNET-782. Saved PSB file can be opened with our API, but cannot with Photoshop**
+{{< highlight csharp >}}
+        // This example demonstrates that the specified PSD file is saved and loaded correctly.
+        // Test manually that the saved file can be opened by Adobe® Photoshop®
+        LoadAndSaveThenLoadPsbImage("CommonPsb0.psb");
+        void LoadAndSaveThenLoadPsbImage(string fullFileName)
+        {
+            string fileName = Path.GetFileNameWithoutExtension(fullFileName);
+
+            string filePath = baseFolder + fullFileName;
+            string psbOutputPath = outputFolder + fileName + "_saved.psb";
+            string psdOutputPath = outputFolder + fileName + "_saved_as_psd.psd";
+            using (PsdImage image = (PsdImage)Image.Load(filePath))
+            {
+                image.Save(psbOutputPath, new PsdOptions(image) { PsdVersion = PsdVersion.Psb, XmpData = null, Resources = null });
+                Console.WriteLine("PSB saved");
+                image.Save(psdOutputPath, new PsdOptions(image) { PsdVersion = PsdVersion.Psd, XmpData = null, Resources = null });
+                Console.WriteLine("PSD saved");
+            }
+
+            using (PsdImage image1 = (PsdImage)Image.Load(psdOutputPath))
+            {
+                Console.WriteLine("PSD loaded");
+            }
+
+            using (PsdImage image2 = (PsdImage)Image.Load(psbOutputPath))
+            {
+                Console.WriteLine("PSB loaded");
+            }
+        }
+{{< /highlight >}}
+
+**PSDNET-783. If we trying to change Smart Layer in a specific PSD with a shared data source we get an exception**
+{{< highlight csharp >}}
+            string baseFolder = "PSDNET783_1\\";
+            string outputDir = baseFolder + "output\\";
+            string filePath = baseFolder + "5741b34576ee1757385296ecb6e8ee88.psd";
+            var newContentPath1 = baseFolder + "smartReplace1.png";
+            var newContentPath2 = baseFolder + "smartReplace2.png";
+            string outputFilePath = outputDir + "DataSourceIsShared";
+            string pngOutputPath = outputFilePath + ".png";
+            string psdOutputPath = outputFilePath + ".psd";
+            using (PsdImage image = (PsdImage)Image.Load(filePath))
+            {
+                for (int i = 0; i < image.Layers.Length; i++)
+                {
+                    if (image.Layers[i].GetType().Name.Contains("SmartObjectLayer"))
+                    {
+                        SmartObjectLayer smartObjectLayer = (SmartObjectLayer)image.Layers[i];
+
+                        if (i % 2 == 1)
+                        {
+                            smartObjectLayer.ReplaceContents(newContentPath1);
+                        }
+                        else
+                        {
+                            smartObjectLayer.ReplaceContents(newContentPath2);
+                        }
+                    }
+                }
+
+                image.Save(pngOutputPath, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+                image.Save(psdOutputPath, new PsdOptions(image));
+            }
+{{< /highlight >}}
