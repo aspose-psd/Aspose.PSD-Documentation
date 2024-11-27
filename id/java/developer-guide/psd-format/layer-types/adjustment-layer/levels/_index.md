@@ -7,9 +7,9 @@ url: /id/java/layer-types/adjustment-layer/levels/
 
 ## Bekerja dengan Lapisan Penyesuaian Level Photoshop di Java
 
-Dalam artikel ini kita akan belajar bagaimana menyesuaikan rentang tonal dan keseimbangan warna dari foto dalam format file [PSD](/id/psd/java/psd-format/) secara programatik di Java. Kami tidak menggunakan editor foto Adobe® Photoshop® itu sendiri. Sebagai gantinya, kami menggunakan perpustakaan Aspose.PSD untuk Java yang bekerja sendiri untuk memanipulasi dokumen Photoshop.
+Dalam artikel ini kita akan belajar bagaimana menyesuaikan rentang tonal dan keseimbangan warna dari foto dalam format file [PSD](/psd/id/java/psd-format/) secara programatik di Java. Kami tidak menggunakan editor foto Adobe® Photoshop® itu sendiri. Sebagai gantinya, kami menggunakan perpustakaan Aspose.PSD untuk Java yang bekerja sendiri untuk memanipulasi dokumen Photoshop.
 
-Walaupun, Aspose.PSD untuk Java mendukung lebih dari cukup [alat untuk mengedit foto](/id/psd/java/manipulating-images/) sesuai keinginan kita, mari **gunakan API lapisan penyesuaian Levels** yang merupakan salah satu cara termudah dan tercepat untuk melakukannya.
+Walaupun, Aspose.PSD untuk Java mendukung lebih dari cukup [alat untuk mengedit foto](/psd/id/java/manipulating-images/) sesuai keinginan kita, mari **gunakan API lapisan penyesuaian Levels** yang merupakan salah satu cara termudah dan tercepat untuk melakukannya.
 
 ## Gambaran API
 

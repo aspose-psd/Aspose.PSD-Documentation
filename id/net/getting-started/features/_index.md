@@ -22,7 +22,7 @@ Berikut adalah fitur inti Aspose.PSD:
 #### **Pemuatan Gambar**
 - PSD
 - PSB
-- [AI](/id/psd/net/format-adobe-illustrator-ai/)
+- [AI](/psd/id/net/format-adobe-illustrator-ai/)
 #### **Pemrosesan Data Mentah**
 - PSD
 - PSB

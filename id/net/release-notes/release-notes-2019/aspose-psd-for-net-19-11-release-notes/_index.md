@@ -13,10 +13,10 @@ Halaman ini berisi catatan rilis untuk [Aspose.PSD untuk .NET 19.11](https://www
 
 |**Kunci**|**Ringkasan**|**Kategori**|
 | :- | :- | :- |
-|PSDNET-151|[Dukungan untuk Efek Layer Bayangan Dalam](/id/psd/net/shadow-effects-in-photoshop/#shadoweffectsinphotoshop-innershadoweffect)|Fitur|
-|PSDNET-135|[Menerapkan pembuatan lapisan Isi: Pola](/id/psd/net/support-of-fill-layers/#supportoffilllayers-filllayerswithpatternfill)|Fitur|
-|PSDNET-187|[Dukungan untuk Gambar Raster dalam Berkas Format AI](/id/psd/net/manipulating-adobe-illustrator-formats/#manipulatingadobeillustratorformats-rasterimagesinillustrator)|Fitur|
-|PSDNET-225|[Dapatkan properti dari pemformatan inline dari TextLayer](/id/psd/net/working-with-text-layers/#workingwithtextlayers-gettextpropertiesfromatextlayer)|Fitur|
+|PSDNET-151|[Dukungan untuk Efek Layer Bayangan Dalam](/psd/id/net/shadow-effects-in-photoshop/#shadoweffectsinphotoshop-innershadoweffect)|Fitur|
+|PSDNET-135|[Menerapkan pembuatan lapisan Isi: Pola](/psd/id/net/support-of-fill-layers/#supportoffilllayers-filllayerswithpatternfill)|Fitur|
+|PSDNET-187|[Dukungan untuk Gambar Raster dalam Berkas Format AI](/psd/id/net/manipulating-adobe-illustrator-formats/#manipulatingadobeillustratorformats-rasterimagesinillustrator)|Fitur|
+|PSDNET-225|[Dapatkan properti dari pemformatan inline dari TextLayer](/psd/id/net/working-with-text-layers/#workingwithtextlayers-gettextpropertiesfromatextlayer)|Fitur|
 |PSDNET-214|Ekspor yang Tidak Benar dari PSD ke format lain jika berisi Efek Layer dan Lapisan Penyesuaian|Bug|
 
 ## Perubahan API Publik

@@ -14,5 +14,5 @@ Di sini kami telah mengumpulkan contoh-contoh untuk berbagai jenis tugas. Fitur-
 
 ## **Artikel Tersedia**
 - [Menggunakan file PSD sebagai template untuk otomatisasi (Kasus kartu bisnis)](https://docs.aspose.com/display/psdnet/Using+PSD+files+as+templates+for+automation+-+Business+Cards+Case)
-- [Bagaimana cara membuat generator gambar miniatur YouTube secara programatik di Java](/id/psd/java/how-to-create-youtube-thumbnail-generator-programmatically-in-java/)
+- [Bagaimana cara membuat generator gambar miniatur YouTube secara programatik di Java](/psd/id/java/how-to-create-youtube-thumbnail-generator-programmatically-in-java/)
 

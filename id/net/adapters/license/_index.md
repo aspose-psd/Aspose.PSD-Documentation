@@ -24,8 +24,8 @@ Juga, Anda dapat menghubungi reseller lokal Anda.
 ## **Material tambahan tentang Adapters**
 
 Untuk deskripsi dan contoh tambahan, silakan cek:
-- [Panduan memulai cepat Aspose.PSD Adapters](/id/psd/net/adapters/quick-start)
-- [Cara memuat format yang tidak didukung Aspose.PSD](/id/psd/net/adapters/load-unsupported-formats)
-- [Panduan Lengkap Ekspor ke format yang tidak didukung Aspose.PSD](/id/psd/net/adapters/export-to-unsupported-formats)
-- [Aspose.PSD Adapters untuk Webp, SVG dan overview format lainnya](/id/psd/net/adapters/working-with-webp-svg-formats-overview)
-- [Panduan Lengkap Memuat Adapters Aspose.PSD](/id/psd/net/adapters/full-manual)
+- [Panduan memulai cepat Aspose.PSD Adapters](/psd/id/net/adapters/quick-start)
+- [Cara memuat format yang tidak didukung Aspose.PSD](/psd/id/net/adapters/load-unsupported-formats)
+- [Panduan Lengkap Ekspor ke format yang tidak didukung Aspose.PSD](/psd/id/net/adapters/export-to-unsupported-formats)
+- [Aspose.PSD Adapters untuk Webp, SVG dan overview format lainnya](/psd/id/net/adapters/working-with-webp-svg-formats-overview)
+- [Panduan Lengkap Memuat Adapters Aspose.PSD](/psd/id/net/adapters/full-manual)

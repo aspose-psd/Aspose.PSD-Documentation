@@ -28,9 +28,9 @@ Saat ini Aspose.PSD untuk Python via .NET mendukung format file PSD dan PSB untu
 
 Berikut adalah tautan ke beberapa sumber daya yang berguna yang mungkin Anda butuhkan untuk menyelesaikan tugas Anda.
 
-- [Dokumentasi Online Aspose.PSD untuk Python via .NET](/id/psd/python-net/)
-- [Fitur Aspose.PSD untuk Python via .NET](/id/psd/python-net/features/)
-- [Catatan Rilis Aspose.PSD untuk Python via .NET](/id/psd/python-net/release-notes/)
+- [Dokumentasi Online Aspose.PSD untuk Python via .NET](/psd/id/python-net/)
+- [Fitur Aspose.PSD untuk Python via .NET](/psd/id/python-net/features/)
+- [Catatan Rilis Aspose.PSD untuk Python via .NET](/psd/id/python-net/release-notes/)
 - [Halaman Produk Aspose.PSD untuk Python via .NET](https://products.aspose.com/psd/python-net)
 - [Pasang Aspose.PSD untuk Paket NuGet Python via .NET](https://pypi.org/project/aspose-psd/)
 - [Panduan Referensi API Aspose.PSD untuk Python via .NET](https://reference.aspose.com/psd/python-net)

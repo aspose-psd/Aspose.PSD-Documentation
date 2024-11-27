@@ -24,12 +24,12 @@ Berikut adalah contoh cepat cara menggunakan penyesuaian:
 Harap diperhatikan, untuk menggunakan penyesuaian tanpa batasan, Anda memerlukan lisensi Aspose.PSD dan Aspose.Imaging. Paket Nuget Penyesuaian paling berharga untuk pemilik Lisensi Aspose.Total.
 
 Untuk deskripsi tambahan dan contoh, silakan cek:
-- [Panduan memulai cepat Penyesuaian Aspose.PSD](/id/psd/net/adapters/quick-start)
-- [Cara menyiapkan lisensi produk untuk Penyesuaian Aspose.PSD](/id/psd/net/adapters/license)
-- [Cara memuat format tidak didukung oleh Aspose.PSD](/id/psd/net/adapters/load-unsupported-formats)
-- [Eksportasi ke format tidak didukung oleh Aspose.PSD](/id/psd/net/adapters/export-to-unsupported-formats)
-- [Peninjauan Penyesuaian Aspose.PSD untuk format Webp, SVG, dan format lainnya](/id/psd/net/adapters/working-with-webp-svg-formats-overview)
-- [Panduan Lengkap Memuat Penyesuaian Aspose.PSD](/id/psd/net/adapters/full-manual)
+- [Panduan memulai cepat Penyesuaian Aspose.PSD](/psd/id/net/adapters/quick-start)
+- [Cara menyiapkan lisensi produk untuk Penyesuaian Aspose.PSD](/psd/id/net/adapters/license)
+- [Cara memuat format tidak didukung oleh Aspose.PSD](/psd/id/net/adapters/load-unsupported-formats)
+- [Eksportasi ke format tidak didukung oleh Aspose.PSD](/psd/id/net/adapters/export-to-unsupported-formats)
+- [Peninjauan Penyesuaian Aspose.PSD untuk format Webp, SVG, dan format lainnya](/psd/id/net/adapters/working-with-webp-svg-formats-overview)
+- [Panduan Lengkap Memuat Penyesuaian Aspose.PSD](/psd/id/net/adapters/full-manual)
 
 {{% /alert %}}
 
@@ -37,8 +37,8 @@ Untuk deskripsi tambahan dan contoh, silakan cek:
 
 Berikut adalah tautan ke beberapa sumber daya yang berguna yang mungkin Anda butuhkan untuk menyelesaikan tugas Anda.
 
-- [Dokumentasi Online Aspose.PSD untuk .NET](/id/psd/net/adapters)
-- [Catatan Rilis Aspose.PSD untuk .NET](/id/psd/net/adapters/release-notes/)
+- [Dokumentasi Online Aspose.PSD untuk .NET](/psd/id/net/adapters)
+- [Catatan Rilis Aspose.PSD untuk .NET](/psd/id/net/adapters/release-notes/)
 - [Halaman Produk Aspose.PSD untuk .NET](https://products.aspose.com/psd/net)
 - [Pasang Paket NuGet Aspose.PSD untuk .NET](https://www.nuget.org/packages/Aspose.PSD.Adapters.Imaging/)
 - [Unduh Contoh di Repositori GitHub](https://github.com/aspose-psd/Aspose.PSD-for-.NET)

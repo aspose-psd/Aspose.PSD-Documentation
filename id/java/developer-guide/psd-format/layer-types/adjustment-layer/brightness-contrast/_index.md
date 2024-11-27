@@ -42,4 +42,4 @@ Merujuk ke dokumentasi dari [BrightnessContrastLayer](https://reference.aspose.c
 
 Dalam artikel ini kita telah mendapatkan gambaran singkat tentang lapisan penyesuaian Kecerahan/Kontras dan belajar bagaimana menyesuaikan kecerahan dan kontras gambar menggunakan metode pabrik.
 
-Merujuk ke serangkaian [artikel tentang API lapisan penyesuaian](/id/psd/java/layer-types/adjustment-layer/) dari Aspose.PSD untuk Java untuk mempelajari lebih lanjut.
+Merujuk ke serangkaian [artikel tentang API lapisan penyesuaian](/psd/id/java/layer-types/adjustment-layer/) dari Aspose.PSD untuk Java untuk mempelajari lebih lanjut.
