@@ -3,7 +3,7 @@ title: Formverarbeitung in Aspose.PSD für C#
 weight: 100
 type: docs
 description: Beispiele zur Manipulation von Formebenen der PSD-Datei
-keywords: [form ebene, kurve, bezierkurve, Verankerungspunkt, bezier-knoten, psd api, C #, csharp, codebeispiel]
+keywords: [form ebene, kurve, bezierkurve, Verankerungspunkt, bezier-knoten, psd api, Csharp, csharp, codebeispiel]
 url: de/net/psd-formverarbeitung/
 ---
 
