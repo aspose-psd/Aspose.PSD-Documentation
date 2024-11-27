@@ -5,11 +5,11 @@ weight: 20
 url: /id/net/aspose-psd-for-net-19-11-release-notes/
 ---
 
-{{% peringatan warna="utama" %}} 
+{{% alert color="primary" %}}
 
 Halaman ini berisi catatan rilis untuk [Aspose.PSD untuk .NET 19.11](https://www.nuget.org/packages/Aspose.PSD/)
 
-{{% /peringatan %}} 
+{{% /alert %}}
 
 |**Kunci**|**Ringkasan**|**Kategori**|
 | :- | :- | :- |
