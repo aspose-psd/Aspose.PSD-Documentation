@@ -931,6 +931,7 @@ This page contains release notes for [Aspose.PSD for .NET 20.9](https://www.nug
                 image.Save(outputFile, new PngOptions());
             }
 {{< /highlight >}}
+
 **PSDNET-712. Regression: Aspose.PSD 20.8.0 can’t open file**
 {{< highlight csharp >}}
             string dataDir = "PSDNET712_1\\";

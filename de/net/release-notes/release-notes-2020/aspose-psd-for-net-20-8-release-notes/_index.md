@@ -26,50 +26,8 @@ Diese Seite enthält Versionshinweise für [Aspose.PSD für .NET 20.8](https://w
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.ClassID.#ctor(System.Byte[],System.Boolean)
 - T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.TypeToolInfoStructures.ObjectArrayStructure
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.TypeToolInfoStructures.ObjectArrayStructure.#ctor(System.String,System.String,Aspose.PSD.FileFormats.Psd.Layers.LayerResources.OSTypeStructure[])
-...
 
 ## **Beispiele**
-
-**PSDNET-390. Unterstützung von PlLdResource (Platzierte Ressource für Smart Object Layer)**
-{{< highlight csharp >}}
-        void AssertAreEqual(object actual, object expected)
-        {
-            var areEqual = object.Equals(actual, expected);
-            if (!areEqual && actual is Array && expected is Array)
-            {
-                var actualArray = (Array)actual;
-                var expectedArray = (Array)actual;
-                if (actualArray.Length == expectedArray.Length)
-                {
-                    for (int i = 0; i < actualArray.Length; i++)
-                    {
-                        if (!object.Equals(actualArray.GetValue(i), expectedArray.GetValue(i)))
-                        {
-                            break;
-                        }
-                    }
-
-                    areEqual = true;
-                }
-            }
-
-            if (!areEqual)
-            {
-                throw new FormatException(
-...
-
-{{< /highlight >}}
-
-**PSDNET-400. Unterstützung von SoLdResource (Smart Object Layer Data-Ressource)**
-{{< highlight csharp >}}
-        // Dieses Beispiel zeigt, wie die Eigenschaften der Smart Object Layer-Daten einer PSD-Datei abgerufen oder festgelegt werden können.
-
-        void AssertAreEqual(object actual, object expected)
-        {
-            var areEqual = object.Equals(actual, expected);
-            if (!areEqual && actual is Array && ...
-
-{{< /highlight >}}
 
 **PSDNET-693. Hinzufügen von Unterstützung für Objekt- und Einheits-Array-Strukturen: ObAr / UnFl-Signaturen**
 {{< highlight csharp >}}
@@ -83,7 +41,6 @@ Diese Seite enthält Versionshinweise für [Aspose.PSD für .NET 20.8](https://w
 
             string dataDir = "PSDNET693_1\\";
             var sourceFilePath = dataDir + "LayeredSmartObjects8bit2.psd";
-...
 
 {{< /highlight >}}
 
@@ -132,7 +89,7 @@ Diese Seite enthält Versionshinweise für [Aspose.PSD für .NET 20.8](https://w
 
                 psdImage.Save(outputFilePng, new PngOptions());
             }
-{{< /highlight >}}{{< /highlight >}}
+{{< /highlight >}}
 
 **PSDNET-693. Hinzufügen von Unterstützung für Objekt- und Einheits-Array-Strukturen: ObAr / UnFl-Signaturen**
 {{< highlight csharp >}}
