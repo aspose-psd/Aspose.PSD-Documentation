@@ -22,7 +22,7 @@ description: תכונות הליבה של המוצר כוללות קריאה א�
 #### **טעינת תמונות**
 - PSD
 - PSB
-- [AI](/he/psd/net/ai-adobe-illustrator-format/)
+- [AI](/psd/he//net/ai-adobe-illustrator-format/)
 #### **עיבוד נתונים גולמיים**
 - PSD
 - PSB

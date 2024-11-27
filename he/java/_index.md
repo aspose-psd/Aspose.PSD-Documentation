@@ -24,12 +24,12 @@ Aspose.PSD ל-Java מאפשר עיבוד רחב של פורמטי קובץ PSD. 
 
 הנה הקישורים למשאבים שימותגרו לך לשלים את המשימות שלך.
 
-- [תיעוד מקוון ל-Aspose.PSD ל-Java](/he/psd/java/)
-- [תכונות של Aspose.PSD ל-Java](/he/psd/java/features/)
-- [הערות לגרסה של Aspose.PSD ל-Java](/he/psd/java/release-notes/)
+- [תיעוד מקוון ל-Aspose.PSD ל-Java](/psd/he//java/)
+- [תכונות של Aspose.PSD ל-Java](/psd/he//java/features/)
+- [הערות לגרסה של Aspose.PSD ל-Java](/psd/he//java/release-notes/)
 - [דף מוצר של Aspose.PSD ל-Java](https://products.aspose.com/psd/java)
 - [הורדת Aspose.PSD ל-Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-psd)
-- [התקנת Aspose.PSD ל-Java מתוך Maven Repository](/he/psd/java/installation/)
+- [התקנת Aspose.PSD ל-Java מתוך Maven Repository](/psd/he//java/installation/)
 - [מדריך לממשק API של Aspose.PSD ל-Java](https://reference.aspose.com/java/psd)
 - [הורדת דוגמאות במאגר ה-GitHub](https://github.com/aspose-psd/Aspose.PSD-for-Java)
 - [פורום תמיכה חינמית ל-Aspose.PSD ל-Java](https://forum.aspose.com/c/psd)

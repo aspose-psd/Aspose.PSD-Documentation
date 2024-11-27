@@ -13,7 +13,7 @@ url: /he/java/layer-types/
 - طبقات النصوص
 
 		الطبقات التي تحتوي على بيانات نصية، بما في ذلك الأنماط والفقرات من محرك نص PSD.
-- [طبقات التعديل](/he/psd/java/layer-types/adjustment-layer/)
+- [طبقات التعديل](/psd/he//java/layer-types/adjustment-layer/)
 
 		هذه الطبقات تطبق تعديلات رسومية مختلفة على الطبقات التحتية.
 		

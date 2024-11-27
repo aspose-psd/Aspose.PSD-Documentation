@@ -10,9 +10,9 @@ url: /he/java/manipulate-different-image-file-formats/
 
 
 ## **מאמרים בסעיף זה**
-- [לעבד תבניות של Adobe Illustrator](/he/psd/java/manipulating-adobe-illustrator-formats/)
-- [לעבד תמונות JPEG](/he/psd/java/manipulating-jpeg-images/)
-- [לעבד תבניות של Photoshop](/he/psd/java/manipulating-photoshop-formats/)
-- [לעבד תמונות PNG](/he/psd/java/manipulating-png-images/)
-- [לעבד תמונות TIFF](/he/psd/java/manipulating-tiff-images/)
-- [עבוד עם קבצי PSB](/he/psd/java/working-with-psb-files/)
+- [לעבד תבניות של Adobe Illustrator](/psd/he//java/manipulating-adobe-illustrator-formats/)
+- [לעבד תמונות JPEG](/psd/he//java/manipulating-jpeg-images/)
+- [לעבד תבניות של Photoshop](/psd/he//java/manipulating-photoshop-formats/)
+- [לעבד תמונות PNG](/psd/he//java/manipulating-png-images/)
+- [לעבד תמונות TIFF](/psd/he//java/manipulating-tiff-images/)
+- [עבוד עם קבצי PSB](/psd/he//java/working-with-psb-files/)

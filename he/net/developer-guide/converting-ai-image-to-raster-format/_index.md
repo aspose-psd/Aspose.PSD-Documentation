@@ -6,7 +6,7 @@ url: /he/net/converting-ai-image-to-raster-format/
 ---
 
 ## **תצוגה כללית**
-Aspose.PSD מאפשרת להמיר [Ai](/he/psd/net/ai-adobe-illustrator-format/) ל-Jpeg, Jpeg2000, Png, Tiff, Pdf, Gif, [Psd ](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd/psdimage)ולפורמט Bmp.
+Aspose.PSD מאפשרת להמיר [Ai](/psd/he//net/ai-adobe-illustrator-format/) ל-Jpeg, Jpeg2000, Png, Tiff, Pdf, Gif, [Psd ](https://reference.aspose.com/psd/net/aspose.psd.fileformats.psd/psdimage)ולפורמט Bmp.
 
 
 
@@ -16,8 +16,8 @@ Aspose.PSD מאפשרת להמיר [Ai](/he/psd/net/ai-adobe-illustrator-format/
 
 ברגע זה, גרסה נתמכת של קובץ AI היא עד 8 ומשתמשים בתמיכה בכל הגרסאות.
 
-ניתן להמיר [קובץ Ai](/he/psd/net/ai-adobe-illustrator-format/) בשרת שלך עם [Aspose.PSD](https://products.aspose.com/psd/net) בלעדי Illustrator. זהו תחליף טוב ל-Adobe Illustrator.
+ניתן להמיר [קובץ Ai](/psd/he//net/ai-adobe-illustrator-format/) בשרת שלך עם [Aspose.PSD](https://products.aspose.com/psd/net) בלעדי Illustrator. זהו תחליף טוב ל-Adobe Illustrator.
 ## **דוגמאות ספציפיות לייצוא של PSD לפורמטי רסטר**
-- [Ai ל-Jpeg](/he/psd/net/ai-to-jpg/)
-- [Ai ל-Pdf ](/he/psd/net/ai-to-pdf/)
-- [Ai ל-Png](/he/psd/net/ai-to-png/)
+- [Ai ל-Jpeg](/psd/he//net/ai-to-jpg/)
+- [Ai ל-Pdf ](/psd/he//net/ai-to-pdf/)
+- [Ai ל-Png](/psd/he//net/ai-to-png/)

@@ -11,11 +11,11 @@ url: /he/java/technical-articles/
 
 
 ## **מאמרים בסעיף זה**
-- [הוספת חתימה לתמונה](/he/psd/java/adding-a-signature-to-an-image/)
-- [הוספת Watermark לתמונה](/he/psd/java/adding-a-watermark-to-an-image/)
-- [שיפור ביצועים ב-Aspose.PSD באמצעות מטמון שניתן להתאמה אישית](/he/psd/java/aspose-psd-performance-improvement-using-customizable-cache/)
-- [מניעת נפילת ביצועים בזמן ציור מעל תמונות דחוסות](/he/psd/java/avoid-performance-degradation-when-drawing-over-compressed-images/)
-- [המרת מרחב צבעים ל-JPEG דרך פרופילי ICC](/he/psd/java/color-space-conversion-for-jpeg-through-icc-profiles/)
-- [תמיכה בתמיכה למוניטור מפריע](/he/psd/java/support-for-interrupt-monitor/)
-- [תמיכה בתמיכה לתמיכה בתמיכה בתמיכה בתמיכה בתמיכה בתמיכה בתמיכה בתמיכה בתמיכה בתמיכה בתמיכה בתמיכה](/he/psd/java/large-image-support/)
-- [עיבוד נתונים גולמיים](/he/psd/java/raw-data-processing/)
+- [הוספת חתימה לתמונה](/psd/he//java/adding-a-signature-to-an-image/)
+- [הוספת Watermark לתמונה](/psd/he//java/adding-a-watermark-to-an-image/)
+- [שיפור ביצועים ב-Aspose.PSD באמצעות מטמון שניתן להתאמה אישית](/psd/he//java/aspose-psd-performance-improvement-using-customizable-cache/)
+- [מניעת נפילת ביצועים בזמן ציור מעל תמונות דחוסות](/psd/he//java/avoid-performance-degradation-when-drawing-over-compressed-images/)
+- [המרת מרחב צבעים ל-JPEG דרך פרופילי ICC](/psd/he//java/color-space-conversion-for-jpeg-through-icc-profiles/)
+- [תמיכה בתמיכה למוניטור מפריע](/psd/he//java/support-for-interrupt-monitor/)
+- [תמיכה בתמיכה לתמיכה בתמיכה בתמיכה בתמיכה בתמיכה בתמיכה בתמיכה בתמיכה בתמיכה בתמיכה בתמיכה בתמיכה](/psd/he//java/large-image-support/)
+- [עיבוד נתונים גולמיים](/psd/he//java/raw-data-processing/)

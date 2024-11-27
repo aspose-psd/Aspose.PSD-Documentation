@@ -12,7 +12,7 @@ description: למד כיצד להריץ את הדוגמאות הקשורות ל�
 1. Visual Studio 2010 או גרסה גבוהה יותר
 1. מנהל החבילות NuGet מותקן ב-Visual Studio. וודא שהגרסה האחרונה של API של NuGet מותקנת ב-Visual Studio. לפרטים נוספים על איך להתקין את מנהל החבילות של NuGet, אנא בדוק [כאן](http://docs.nuget.org/ndocs/guides/install-nuget)
 1. עבור אל Tools->Options->NuGet Package Manager->Package Sources ווודא שהאפשרות **nuget.org** מסומנת
-1. הפרויקט המסורת של NuGet משתמש בתכונת הגעת החבילות אוטומטית לכן עליך לכלול חיבור אינטרנט פעיל. אם אין לך חיבור אינטרנט פעיל במחשב שבו נדרש להריץ את הדוגמאות, אנא בדק ב-[התקנה](/he/psd/net/installation/) להוספת הפניה ל-Aspose.Imaging.dll בפרויקט הדוגמה. 
+1. הפרויקט המסורת של NuGet משתמש בתכונת הגעת החבילות אוטומטית לכן עליך לכלול חיבור אינטרנט פעיל. אם אין לך חיבור אינטרנט פעיל במחשב שבו נדרש להריץ את הדוגמאות, אנא בדק ב-[התקנה](/psd/he//net/installation/) להוספת הפניה ל-Aspose.Imaging.dll בפרויקט הדוגמה. 
 
 ## **הורדה מ- GitHub**
 כל הדוגמאות של Aspose.PSD עבור .NET מאוחסנות ב-[GitHub](https://github.com/aspose-psd/Aspose.PSD-for-.NET).

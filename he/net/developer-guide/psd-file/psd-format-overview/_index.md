@@ -26,8 +26,8 @@ PSD, תיק פוטושופ, מייצג את פורמט הקובץ המקורי �
 קבצי PSD עשויים להכיל שכבות תמונה, שכבות התאמה, מסכות שכבה, הערות, מידע על הקובץ, מילות מפתח, ורכיבים אחרים הקשורים לפוטושופ. קבצי פוטושופ מגיעים עם סיומת ברירת מחדל כ.PSD ויש להם גבול בגובה ורוחב של 30,000 פיקסלים והגבלת אורך של 2 ג'יגה-בתים
 ## **איך ניתן להשתמש בו**
 1. כאמצעי לניתוח PSD.
-1. [המרת PSD](/he/psd/net/converting-psd-image-to-raster-format/) ל-HTML
-1. השתמשות ב-[PSD כתבנית](/he/psd/net/using-psd-files-as-templates-for-automation-business-cards-case/) עבור דוא"ל
+1. [המרת PSD](/psd/he//net/converting-psd-image-to-raster-format/) ל-HTML
+1. השתמשות ב-[PSD כתבנית](/psd/he//net/using-psd-files-as-templates-for-automation-business-cards-case/) עבור דוא"ל
 1. PSD ל-HTML של CMS ספציפי
 1. אידנטיקיט בקובץ PSD (סקיצה של שוטר)
 1. צור תמונות תצוגה פסאודו-תלת-ממדיות באמצעות עצמים חכמים עבור פריטים כגון בקבוקים, כוסות, חולצות, וכו'.
@@ -39,4 +39,4 @@ PSD, תיק פוטושופ, מייצג את פורמט הקובץ המקורי �
 דוגמאות נוספות אפשר ללמוד ממנו:
 
 - [מאמרי מקרה](https://downloads.aspose.com/corporate/case-studies/aspose.psd/)
-- [הצגות](/he/psd/net/showcases-html/)
+- [הצגות](/psd/he//net/showcases-html/)

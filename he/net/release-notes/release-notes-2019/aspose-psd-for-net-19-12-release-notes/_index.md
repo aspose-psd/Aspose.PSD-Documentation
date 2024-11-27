@@ -14,8 +14,8 @@ url: "/he/net/aspose-psd-for-net-19-12-release-notes/"
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|PSDNET-11|[תמיכה בשכבת קישור](/he/psd/net/working-with-layers/#workingwithlayers-supportoflinkedlayers)|תכונה|
-|PSDNET-131|[תמיכה ב-SoCoResource](/he/psd/net/support-of-socoresource/)|תכונה|
+|PSDNET-11|[תמיכה בשכבת קישור](/psd/he//net/working-with-layers/#workingwithlayers-supportoflinkedlayers)|תכונה|
+|PSDNET-131|[תמיכה ב-SoCoResource](/psd/he//net/support-of-socoresource/)|תכונה|
 |PSDNET-115|שורות פיסוק מתווספות לשורות פיסוק קיימות אם שכבת טקסט מתעדכנת עם מחרוזת|באג|
 |PSDNET-157|שמירת PSB כ-PNG קופאת|באג|
 |PSDNET-250|חריגה בטעינה של קובץ PSD CMYK ללא שכבות עם דחיסת RLE|באג|
