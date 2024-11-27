@@ -5,7 +5,7 @@ weight: 30
 url: /id/net/ai-to-png/
 ---
 
-Menggunakan Aspose.PSD, Anda dapat mengonversi versi-versi AI yang didukung ke format Png. Png adalah format file grafis raster yang mendukung kompresi data lossless. Selain itu, Png mendukung transparansi. [Rasterisasi file Ai](/id/psd/net/mengonversi-gambar-ai-ke-format-raster/) di server dapat diotomatisasi. Untuk ekspor Ai, Anda perlu menggunakan potongan kode berikut:
+Menggunakan Aspose.PSD, Anda dapat mengonversi versi-versi AI yang didukung ke format Png. Png adalah format file grafis raster yang mendukung kompresi data lossless. Selain itu, Png mendukung transparansi. [Rasterisasi file Ai](/psd/id/net/mengonversi-gambar-ai-ke-format-raster/) di server dapat diotomatisasi. Untuk ekspor Ai, Anda perlu menggunakan potongan kode berikut:
 
 Kode contoh di bawah ini menunjukkan bagaimana cara mengekspor file AI ke format Png secara programatik.
 

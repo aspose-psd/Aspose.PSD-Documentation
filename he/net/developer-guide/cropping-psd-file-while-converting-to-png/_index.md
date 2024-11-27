@@ -9,7 +9,7 @@ description: באמצעות ממשק מניפולציה של Photoshop של C#.N
 
 {{% alert color="primary" %}} 
 
-באמצעות Aspose.PSD ל-.NET, מפתחים יכולים לחתוך את התמונה PSD בעת [המרתה לתבנית אלסטית](/he/psd/net/converting-psd-image-to-raster-format/). נושא זה מסביר את הגישה לטעינת תמונות קיימות, חיתוך והמרתן לתבנית אלסטית.
+באמצעות Aspose.PSD ל-.NET, מפתחים יכולים לחתוך את התמונה PSD בעת [המרתה לתבנית אלסטית](/psd/he//net/converting-psd-image-to-raster-format/). נושא זה מסביר את הגישה לטעינת תמונות קיימות, חיתוך והמרתן לתבנית אלסטית.
 
 {{% /alert %}} 
 ## **לחיתוך קובץ PSD בעת המרתו ל- PNG**

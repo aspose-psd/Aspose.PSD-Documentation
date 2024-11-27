@@ -29,9 +29,9 @@ Hiện tại, Aspose.PSD cho Python via .NET hỗ trợ các định dạng tậ
 
 Dưới đây là các liên kết đến một số tài nguyên hữu ích bạn có thể cần để hoàn thành các nhiệm vụ của mình.
 
-- [Tài liệu Trực tuyến Aspose.PSD cho Python via .NET](/vi/psd/python-net/)
-- [Tính năng Aspose.PSD cho Python via .NET](/vi/psd/python-net/features/)
-- [Ghi chú Phát hành Aspose.PSD cho Python via .NET](/vi/psd/python-net/release-notes/)
+- [Tài liệu Trực tuyến Aspose.PSD cho Python via .NET](/psd/vi/python-net/)
+- [Tính năng Aspose.PSD cho Python via .NET](/psd/vi/python-net/features/)
+- [Ghi chú Phát hành Aspose.PSD cho Python via .NET](/psd/vi/python-net/release-notes/)
 - [Trang Sản phẩm Aspose.PSD cho Python via .NET](https://products.aspose.com/psd/python-net)
 - [Cài đặt Gói NuGet Aspose.PSD cho Python via .NET](https://pypi.org/project/aspose-psd/)
 - [Hướng dẫn Tham khảo API Aspose.PSD cho Python via .NET](https://reference.aspose.com/psd/python-net)

@@ -13,7 +13,7 @@ url: /nl/java/layer-types/
 - Tekstlagen
 
 		Lagen die tekstgegevens bevatten, inclusief stijlen en alinea's van de PSD-tekstengine.
-- [Aanpassingslagen](/nl/psd/java/layer-types/adjustment-layer/)
+- [Aanpassingslagen](/psd/nl/java/layer-types/adjustment-layer/)
 
 		Deze lagen passen verschillende grafische aanpassingen toe op lagen eronder.
 		

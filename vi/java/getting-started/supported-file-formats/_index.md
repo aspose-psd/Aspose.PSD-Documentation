@@ -19,4 +19,4 @@ Bảng dưới đây chỉ ra các định dạng tệp mà Aspose.PSD cho Java 
 |[BMP](https://wiki.fileformat.com/image/bmp/)|Lưu tài liệu dưới dạng Định dạng BMP| |{{< emoticons/tick >}}| |
 |[JPEG2000](https://wiki.fileformat.com/image/jp2/)|Lưu tài liệu dưới dạng Định dạng JPEG2000| |{{< emoticons/tick >}}| |
 |[PDF](https://wiki.fileformat.com/view/pdf/)|Định dạng Tài liệu Di động| |{{< emoticons/tick >}}| |
-|[AI](/vi/psd/java/ai-adobe-illustrator-format/)|Tệp Adobe Illustrator|{{< emoticons/tick >}}| | |
+|[AI](/psd/vi/java/ai-adobe-illustrator-format/)|Tệp Adobe Illustrator|{{< emoticons/tick >}}| | |

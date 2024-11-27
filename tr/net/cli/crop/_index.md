@@ -36,11 +36,11 @@ Aspose.PSD CLI Kırpma Uygulaması, iş akışı otomasyonu için hafif bir kons
 
 **Diğer [Aspose.PSD CLI Uygulamalarını](https://docs.aspose.com/psd/net/cli) .NET için kontrol edin eğer iş akışınıza PSD, PSB ve AI Formatları desteği eklemeniz gerekiyorsa**
 
-1. [Aspose.PSD CLI Dönüştür](/tr/psd/net/cli/donustur)
-2. [Aspose.PSD CLI Kırın](/tr/psd/net/cli/kirin)
-3. [Aspose.PSD CLI Yeniden Boyutlandır](/tr/psd/net/cli/yeniden-boyutlandir)
-4. [Aspose.PSD CLI Dışa Aktar](/tr/psd/net/cli/disa-aktar)
-5. [Aspose.PSD CLI NLP Düzenleyici](/tr/psd/net/cli/nlp-editör)
+1. [Aspose.PSD CLI Dönüştür](/psd/tr/net/cli/donustur)
+2. [Aspose.PSD CLI Kırın](/psd/tr/net/cli/kirin)
+3. [Aspose.PSD CLI Yeniden Boyutlandır](/psd/tr/net/cli/yeniden-boyutlandir)
+4. [Aspose.PSD CLI Dışa Aktar](/psd/tr/net/cli/disa-aktar)
+5. [Aspose.PSD CLI NLP Düzenleyici](/psd/tr/net/cli/nlp-editör)
 
 **Aspose.PSD için .NET veya [diğer platformlara] bakın**
 
@@ -54,8 +54,8 @@ Aspose.PSD CLI Uygulamaları, en popüler işlemler için kutudan çıkmış bir
 
 Görevlerinizi tamamlamanız için gerekebilecek bazı faydalı kaynaklara aşağıdaki bağlantılardan ulaşabilirsiniz.
 
-- [Aspose.PSD CLI Uygulamaları için .NET Çevrimiçi Belgeleri](/tr/psd/net/cli/kirp)
-- [Aspose.PSD için CLI Uygulamaları için .NET Sürüm Notları](/tr/psd/net/cli/surum-notlari/)
+- [Aspose.PSD CLI Uygulamaları için .NET Çevrimiçi Belgeleri](/psd/tr/net/cli/kirp)
+- [Aspose.PSD için CLI Uygulamaları için .NET Sürüm Notları](/psd/tr/net/cli/surum-notlari/)
 - [Aspose.PSD için CLI Uygulamaları .NET Ürün Sayfası](https://products.aspose.com/psd/net/cli)
 - [Aspose.PSD için .NET API Başvuru Kılavuzu](https://reference.aspose.com/net/psd)
 - [GitHub Deposundaki Örnekleri İndirin](https://github.com/aspose-psd/CLI-Applications)

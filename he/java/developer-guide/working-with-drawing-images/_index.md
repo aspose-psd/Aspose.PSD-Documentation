@@ -11,6 +11,6 @@ url: /he/java/working-with-drawing-images/
 
 
 ## **מאמרים בסעיף זה**
-- [שרטוט תמונות](/he/psd/java/drawing-images/)
-- [שרטוט תמונות באמצעות Graphics](/he/psd/java/drawing-images-using-graphics/)
-- [שרטוט תמונות באמצעות GraphicsPath](/he/psd/java/drawing-images-using-graphicspath/)
+- [שרטוט תמונות](/psd/he//java/drawing-images/)
+- [שרטוט תמונות באמצעות Graphics](/psd/he//java/drawing-images-using-graphics/)
+- [שרטוט תמונות באמצעות GraphicsPath](/psd/he//java/drawing-images-using-graphicspath/)

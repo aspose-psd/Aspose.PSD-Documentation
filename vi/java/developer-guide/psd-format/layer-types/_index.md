@@ -13,7 +13,7 @@ url: /vi/java/layer-types/
 - Lớp Văn Bản
 
 		Các lớp chứa dữ liệu văn bản, bao gồm các kiểu và đoạn văn của Bộ máy Văn bản PSD.
-- [Các Lớp Điều Chỉnh](/vi/psd/java/layer-types/adjustment-layer/)
+- [Các Lớp Điều Chỉnh](/psd/vi/java/layer-types/adjustment-layer/)
 
 		Các lớp này áp dụng các điều chỉnh đồ họa khác nhau cho các lớp phía dưới.
 		

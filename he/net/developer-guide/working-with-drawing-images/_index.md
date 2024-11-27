@@ -11,6 +11,6 @@ url: /he/net/working-with-drawing-images/
 
 
 ## **מאמרים בסעיף זה**
-- [שרטוט תמונות](/he/psd/net/drawing-images/)
-- [שרטוט תמונות באמצעות Graphics](/he/psd/net/drawing-images-using-graphics/)
-- [שרטוט תמונות באמצעות GraphicsPath](/he/psd/net/drawing-images-using-graphicspath/)
+- [שרטוט תמונות](/psd/he//net/drawing-images/)
+- [שרטוט תמונות באמצעות Graphics](/psd/he//net/drawing-images-using-graphics/)
+- [שרטוט תמונות באמצעות GraphicsPath](/psd/he//net/drawing-images-using-graphicspath/)

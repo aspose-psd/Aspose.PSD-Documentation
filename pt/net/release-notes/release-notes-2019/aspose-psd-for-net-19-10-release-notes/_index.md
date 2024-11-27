@@ -13,11 +13,11 @@ Esta página contém as notas de lançamento para o Aspose.PSD para .NET 19.10
 
 |**Chave**|**Sumário**|**Categoria**|
 | :- | :- | :- |
-|PSDNET-207|[Suporte à Camada de Ajuste de Equilíbrio de Cor](/pt/psd/net/modifying-images/#modifyingimages-colorbalanceadjustmentlayer)|Recurso|
-|PSDNET-145|[Suporte à Camada de Inversão de Cores](/pt/psd/net/modifying-images/#modifyingimages-invertadjustmentlayer)|Recurso|
-|PSDNET-139|[Implementar Bicubic Resampler](/pt/psd/net/modifying-images/#modifyingimages-implementbicubicresampling)|Recurso|
-|PSDNET-169|[Adicionar suporte à exportação de PSD para PDF com Máscara de Recorte](/pt/psd/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithclippingmask)|Recurso|
-|PSDNET-168|[Adicionar suporte à exportação de PSD para PDF com Camadas de Ajuste](/pt/psd/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithadjustmentlayer)|Recurso|
+|PSDNET-207|[Suporte à Camada de Ajuste de Equilíbrio de Cor](/psd/pt/net/modifying-images/#modifyingimages-colorbalanceadjustmentlayer)|Recurso|
+|PSDNET-145|[Suporte à Camada de Inversão de Cores](/psd/pt/net/modifying-images/#modifyingimages-invertadjustmentlayer)|Recurso|
+|PSDNET-139|[Implementar Bicubic Resampler](/psd/pt/net/modifying-images/#modifyingimages-implementbicubicresampling)|Recurso|
+|PSDNET-169|[Adicionar suporte à exportação de PSD para PDF com Máscara de Recorte](/psd/pt/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithclippingmask)|Recurso|
+|PSDNET-168|[Adicionar suporte à exportação de PSD para PDF com Camadas de Ajuste](/psd/pt/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithadjustmentlayer)|Recurso|
 |PSDNET-179|Problema Obter Efeito DropShadowEffect da Camada|Melhoria|
 |PSDNET-203|Quando o texto é atualizado com caracteres / (barra inclinada), o arquivo não pode ser aberto no Photoshop|Erro|
 |PSDNET-199|Arquivo PSD não pode ser salvo quando a camada de texto contém apenas quebra de linha|Erro|

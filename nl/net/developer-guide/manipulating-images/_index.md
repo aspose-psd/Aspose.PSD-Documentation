@@ -12,10 +12,10 @@ Aspose.PSD C# .NET Photoshop Manipulation API ondersteunt veel functies om te we
 
 
 ## **Artikelen in deze sectie**
-- [Toepassen van Mediaan- en Wienerfilters](/nl/psd/net/applying-median-and-wiener-filters/)
-- [Afbeeldingen converteren](/nl/psd/net/converting-images/)
-- [Afbeeldingen maken, openen en opslaan](/nl/psd/net/creating-opening-and-saving-images/)
-- [Bijsnijden, roteren en formaat wijzigen van afbeeldingen](/nl/psd/net/crop-rotate-and-resize-images/)
-- [Afbeeldingen aanpassen](/nl/psd/net/modifying-images/)
-- [Eigenschappen instellen op afbeeldingen](/nl/psd/net/setting-properties-on-images/)
+- [Toepassen van Mediaan- en Wienerfilters](/psd/nl/net/applying-median-and-wiener-filters/)
+- [Afbeeldingen converteren](/psd/nl/net/converting-images/)
+- [Afbeeldingen maken, openen en opslaan](/psd/nl/net/creating-opening-and-saving-images/)
+- [Bijsnijden, roteren en formaat wijzigen van afbeeldingen](/psd/nl/net/crop-rotate-and-resize-images/)
+- [Afbeeldingen aanpassen](/psd/nl/net/modifying-images/)
+- [Eigenschappen instellen op afbeeldingen](/psd/nl/net/setting-properties-on-images/)
 

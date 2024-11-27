@@ -13,7 +13,7 @@ url: /it/java/layer-types/
 - Strati di Testo
 
 		Strati che contengono dati di testo, inclusi Stili e Paragrafi del Motore di Testo PSD
-- [Strati di Regolazione](/it/psd/java/layer-types/adjustment-layer/)
+- [Strati di Regolazione](/psd/it/java/layer-types/adjustment-layer/)
 
 		Questi strati applicano differenti regolazioni grafiche agli strati sottostanti.
 		

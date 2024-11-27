@@ -13,7 +13,7 @@ Bu, Aspose.PSD adaptörleriyle çalışmanın tam kılavuzudur. Adaptörler, Asp
 
 ## Lisans Başvurusu
 
-Lisans başvurusuyla ilgili tam [makaleye](/tr/psd/net/adapters/license) adaptörler için bakınız.
+Lisans başvurusuyla ilgili tam [makaleye](/psd/tr/net/adapters/license) adaptörler için bakınız.
 
 {{% alert color="primary" %}}
 Lütfen dikkat, Adaptörleri kullanmak için hem Aspose.PSD hem de adapte lisanslarına ihtiyacınız var.

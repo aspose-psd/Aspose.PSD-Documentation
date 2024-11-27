@@ -10,8 +10,8 @@ Met Aspose.PSD voor .NET kunnen ontwikkelaars AI, PDF, PNG en vele andere bestan
 
 
 ## **Artikelen in deze sectie**
-- [Adobe Illustrator-indelingen manipuleren](/nl/psd/net/manipuleren-van-adobe-illustrator-indelingen/)
-- [Adobe Photoshop-indelingen manipuleren](/nl/psd/net/manipuleren-van-adobe-photoshop-indelingen/)
-- [JPEG-afbeeldingen manipuleren](/nl/psd/net/manipuleren-van-jpeg-afbeeldingen/)
-- [PNG-afbeeldingen manipuleren](/nl/psd/net/manipuleren-van-png-afbeeldingen/)
-- [TIFF-afbeeldingen manipuleren](/nl/psd/net/manipuleren-van-tiff-afbeeldingen/)
+- [Adobe Illustrator-indelingen manipuleren](/psd/nl/net/manipuleren-van-adobe-illustrator-indelingen/)
+- [Adobe Photoshop-indelingen manipuleren](/psd/nl/net/manipuleren-van-adobe-photoshop-indelingen/)
+- [JPEG-afbeeldingen manipuleren](/psd/nl/net/manipuleren-van-jpeg-afbeeldingen/)
+- [PNG-afbeeldingen manipuleren](/psd/nl/net/manipuleren-van-png-afbeeldingen/)
+- [TIFF-afbeeldingen manipuleren](/psd/nl/net/manipuleren-van-tiff-afbeeldingen/)

@@ -10,8 +10,8 @@ url: /he/net/manipulate-different-image-file-formats/
 
 
 ## **מאמרים בסעיף זה**
-- [עיבוד פורמטים של Adobe Illustrator](/he/psd/net/manipulating-adobe-illustrator-formats/)
-- [עיבוד פורמטים של Adobe Photoshop](/he/psd/net/manipulating-adobe-photoshop-formats/)
-- [עיבוד תמונות JPEG](/he/psd/net/manipulating-jpeg-images/)
-- [עיבוד תמונות PNG](/he/psd/net/manipulating-png-images/)
-- [עיבוד תמונות TIFF](/he/psd/net/manipulating-tiff-images/)
+- [עיבוד פורמטים של Adobe Illustrator](/psd/he//net/manipulating-adobe-illustrator-formats/)
+- [עיבוד פורמטים של Adobe Photoshop](/psd/he//net/manipulating-adobe-photoshop-formats/)
+- [עיבוד תמונות JPEG](/psd/he//net/manipulating-jpeg-images/)
+- [עיבוד תמונות PNG](/psd/he//net/manipulating-png-images/)
+- [עיבוד תמונות TIFF](/psd/he//net/manipulating-tiff-images/)

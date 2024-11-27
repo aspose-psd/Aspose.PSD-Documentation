@@ -17,6 +17,6 @@ C# .NET Photoshop Manipulation API - Aspose.PSD 是一种 PSD 格式 SDK，允�
 
 您可以在编辑 PSD 文件后或以像素完美的方式以[只读模式](https://reference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode)导出 PSD 文件，其中将使用 PSD 文件预览。
 
-这里是导出[Photoshop 渐变](/zh/psd/net/support-of-fill-layers/)和[PSD 文本图层](/zh/psd/net/working-with-text-layers/)的示例效果：
+这里是导出[Photoshop 渐变](/psd/zh/net/support-of-fill-layers/)和[PSD 文本图层](/psd/zh/net/working-with-text-layers/)的示例效果：
 
 ![todo:image_alt_text](psd-to-jpg_1.png)

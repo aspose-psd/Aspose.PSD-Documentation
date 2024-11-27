@@ -24,8 +24,8 @@ description: 应用许可证以使用 Aspose.PSD 适配器的代码示例
 ## **关于适配器的其他资料**
 
 有关适配器的附加描述和示例，请参阅:
-- [Aspose.PSD 适配器快速入门指南](/zh/psd/net/adapters/quick-start)
-- [Aspose.PSD 如何加载不受支持的格式](/zh/psd/net/adapters/load-unsupported-formats)
-- [Aspose.PSD 将内容导出到不支持的格式完整手册](/zh/psd/net/adapters/export-to-unsupported-formats)
-- [Aspose.PSD 适配器支持 Webp、SVG 和其他格式的概述](/zh/psd/net/adapters/working-with-webp-svg-formats-overview)
-- [Aspose.PSD 加载适配器完整手册](/zh/psd/net/adapters/full-manual)
+- [Aspose.PSD 适配器快速入门指南](/psd/zh/net/adapters/quick-start)
+- [Aspose.PSD 如何加载不受支持的格式](/psd/zh/net/adapters/load-unsupported-formats)
+- [Aspose.PSD 将内容导出到不支持的格式完整手册](/psd/zh/net/adapters/export-to-unsupported-formats)
+- [Aspose.PSD 适配器支持 Webp、SVG 和其他格式的概述](/psd/zh/net/adapters/working-with-webp-svg-formats-overview)
+- [Aspose.PSD 加载适配器完整手册](/psd/zh/net/adapters/full-manual)

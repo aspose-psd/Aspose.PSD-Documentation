@@ -22,7 +22,7 @@ Aşağıdakiler Aspose.PSD'nin temel özellikleridir:
 #### **Görüntü Yükleme**
 - PSD
 - PSB
-- [AI](/tr/psd/net/ai-adobe-illustrator-format/)
+- [AI](/psd/tr/net/ai-adobe-illustrator-format/)
 #### **Ham Veri İşleme**
 - PSD
 - PSB

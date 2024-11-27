@@ -10,9 +10,9 @@ Aspose.PSD'yi .NET için kullanarak, geliştiriciler AI, PDF, PNG ve birçok di�
 
 
 ## **Bu Bölümdeki Yazılar**
-- [Adobe Illustrator Biçimlerini Manipüle Etme](/tr/psd/net/adobe-illustrator-bicimlerini-manipule-etme/)
-- [Adobe Photoshop Biçimlerini Manipüle Etme](/tr/psd/net/adobe-photoshop-bicimlerini-manipule-etme/)
-- [JPEG Görüntülerini Manipüle Etme](/tr/psd/net/jpeg-goruntulerini-manipule-etme/)
-- [PNG Görüntülerini Manipüle Etme](/tr/psd/net/png-goruntulerini-manipule-etme/)
-- [TIFF Görüntülerini Manipüle Etme](/tr/psd/net/tiff-goruntulerini-manipule-etme/)
+- [Adobe Illustrator Biçimlerini Manipüle Etme](/psd/tr/net/adobe-illustrator-bicimlerini-manipule-etme/)
+- [Adobe Photoshop Biçimlerini Manipüle Etme](/psd/tr/net/adobe-photoshop-bicimlerini-manipule-etme/)
+- [JPEG Görüntülerini Manipüle Etme](/psd/tr/net/jpeg-goruntulerini-manipule-etme/)
+- [PNG Görüntülerini Manipüle Etme](/psd/tr/net/png-goruntulerini-manipule-etme/)
+- [TIFF Görüntülerini Manipüle Etme](/psd/tr/net/tiff-goruntulerini-manipule-etme/)
 

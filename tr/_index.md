@@ -23,9 +23,9 @@ Aspose.PSD for .NET, PSD dosya biçimlerinin kapsamlı bir şekilde manipülasyo
 
 Aşağıda, görevlerinizi başarıyla gerçekleştirmek için ihtiyaç duyabileceğiniz bazı faydalı kaynaklara yönlendirmeler bulunmaktadır.
 
-- [Aspose.PSD for .NET Çevrimiçi Belgeleri](/tr/psd/net/)
-- [Aspose.PSD for .NET Özellikler](/tr/psd/net/features/)
-- [Aspose.PSD for .NET Sürüm Notları](/tr/psd/net/release-notes/)
+- [Aspose.PSD for .NET Çevrimiçi Belgeleri](/psd/tr/net/)
+- [Aspose.PSD for .NET Özellikler](/psd/tr/net/features/)
+- [Aspose.PSD for .NET Sürüm Notları](/psd/tr/net/release-notes/)
 - [Aspose.PSD for .NET Ürün Sayfası](https://products.aspose.com/psd/net)
 - [Aspose.PSD for .NET NuGet Paketini Yükle](https://www.nuget.org/packages/Aspose.PSD/)
 - [Aspose.PSD for .NET API Referans Kılavuzu](https://reference.aspose.com/net/psd)
@@ -49,12 +49,12 @@ Aspose.PSD for Java, PSD dosya biçimlerinin kapsamlı bir şekilde manipülasyo
 
 Aşağıda, görevlerinizi başarıyla gerçekleştirmek için ihtiyaç duyabileceğiniz bazı faydalı kaynaklara yönlendirmeler bulunmaktadır.
 
-- [Aspose.PSD for Java Çevrimiçi Belgeleri](/tr/psd/java/)
-- [Aspose.PSD for Java Özellikler](/tr/psd/java/features/)
-- [Aspose.PSD for Java Sürüm Notları](/tr/psd/java/release-notes/)
+- [Aspose.PSD for Java Çevrimiçi Belgeleri](/psd/tr/java/)
+- [Aspose.PSD for Java Özellikler](/psd/tr/java/features/)
+- [Aspose.PSD for Java Sürüm Notları](/psd/tr/java/release-notes/)
 - [Aspose.PSD for Java Ürün Sayfası](https://products.aspose.com/psd/java)
 - [Aspose.PSD for Java İndir](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-psd)
-- [Aspose.PSD for Java'nın Maven Deposundan Yükle](/tr/psd/java/installation/)
+- [Aspose.PSD for Java'nın Maven Deposundan Yükle](/psd/tr/java/installation/)
 - [Aspose.PSD for Java API Referans Kılavuzu](https://reference.aspose.com/java/psd)
 - [GitHub Deposundan Örnekleri İndirin](https://github.com/aspose-psd/Aspose.PSD-for-Java)
 - [Aspose.PSD for Java Ücretsiz Destek Forumu](https://forum.aspose.com/c/psd)
@@ -76,12 +76,12 @@ Mevcut durumda, Aspose.PSD for Python via .NET, PSD, PSB ve AI dosya biçimlerin
 
 Aşağıda, görevlerinizi başarıyla gerçekleştirmek için ihtiyaç duyabileceğiniz bazı faydalı kaynaklara yönlendirmeler bulunmaktadır.
 
-- [Aspose.PSD for Python Çevrimiçi Belgeleri](/tr/psd/python-net/)
-- [Aspose.PSD for Python Özellikler](/tr/psd/python-net/features/)
-- [Aspose.PSD for Python Sürüm Notları](/tr/psd/python-net/release-notes/)
+- [Aspose.PSD for Python Çevrimiçi Belgeleri](/psd/tr/python-net/)
+- [Aspose.PSD for Python Özellikler](/psd/tr/python-net/features/)
+- [Aspose.PSD for Python Sürüm Notları](/psd/tr/python-net/release-notes/)
 - [Aspose.PSD for Python Ürün Sayfası](https://products.aspose.com/psd/python-net)
 - [Aspose.PSD for Python İndir](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-psd)
-- [Aspose.PSD for Python'ı Maven Deposundan Yükle](/tr/psd/python-net/installation/)
+- [Aspose.PSD for Python'ı Maven Deposundan Yükle](/psd/tr/python-net/installation/)
 - [Aspose.PSD for Python API Referans Kılavuzu](https://reference.aspose.com/python-net/psd)
 - [GitHub Deposundan Örnekleri İndirin](https://github.com/aspose-psd/Aspose.PSD-for-Python-Net)
 - [Aspose.PSD for Python Ücretsiz Destek Forumu](https://forum.aspose.com/c/psd)

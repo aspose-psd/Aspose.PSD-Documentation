@@ -12,5 +12,5 @@ url: /th/net/showcases/
 
 ที่นี่เรารวบรวมตัวอย่างสำหรับงานชนิดเหล่านี้ คุณสามารถค้นหาคุณลักษณะเพิ่มเติมพร้อมตัวอย่างได้ใน [API Reference.](https://reference.aspose.com/psd/net)
 ## **บทความที่มีอยู่**
-- [การใช้ไฟล์ PSD เป็นเทมเพลตสำหรับอัตโนมัติ (กรณีการ์ดนามบัตรธุรกิจ)](/th/psd/net/using-psd-files-as-templates-for-automation-business-cards-case/)
+- [การใช้ไฟล์ PSD เป็นเทมเพลตสำหรับอัตโนมัติ (กรณีการ์ดนามบัตรธุรกิจ)](/psd/th/net/using-psd-files-as-templates-for-automation-business-cards-case/)
 

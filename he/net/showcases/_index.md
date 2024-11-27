@@ -12,4 +12,4 @@ url: /he/net/showcases/
 
 פה אנחנו אספנו דוגמאות לסוגים אלה של משימות. ישנן עוד תכונות עם דוגמאות שניתן למצוא ב-[מדריך API.](https://reference.aspose.com/psd/net)
 ## **מאמרים זמינים**
-- [שימוש בקבצי PSD כתבצוות עבור אוטומציה (מקרה כרטיסי ביקור)](/he/psd/net/using-psd-files-as-templates-for-automation-business-cards-case/)
+- [שימוש בקבצי PSD כתבצוות עבור אוטומציה (מקרה כרטיסי ביקור)](/psd/he//net/using-psd-files-as-templates-for-automation-business-cards-case/)

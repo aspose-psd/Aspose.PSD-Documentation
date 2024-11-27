@@ -25,7 +25,7 @@ Trang này chứa các ghi chú phát hành cho [Aspose.PSD Bộ chuyển đổi
 
 ## **Ví dụ Sử dụng:**
 
-Vui lòng kiểm tra [trang tài liệu Aspose.PSD.Adapters](/vi/psd/net/adapters)
+Vui lòng kiểm tra [trang tài liệu Aspose.PSD.Adapters](/psd/vi/net/adapters)
 
 **PSDNET-1985. Ví dụ hoàn chỉnh nhất về việc sử dụng Aspose.PSD.Adapters**
 

@@ -17,6 +17,6 @@ Puoi specificare la qualità del formato di file JPEG, l'errore di perdita conse
 
 Puoi esportare il file PSD dopo l'editing o perfetto dal punto di vista dei pixel in [Modalità Sola Lettura](https://reference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode), dove verrà utilizzata una Anteprima del File PSD.
 
-Ecco un esempio di esportazione del [Gradiente di Photoshop](/it/psd/net/support-of-fill-layers/) e dello [Strato di Testo PSD](/it/psd/net/working-with-text-layers/):
+Ecco un esempio di esportazione del [Gradiente di Photoshop](/psd/it/net/support-of-fill-layers/) e dello [Strato di Testo PSD](/psd/it/net/working-with-text-layers/):
 
 ![todo:image_alt_text](psd-to-jpg_1.png)

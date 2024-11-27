@@ -13,11 +13,11 @@ url: /zh/net/aspose-psd-for-net-19-10-release-notes/
 
 |**关键**|**摘要**|**类别**|
 | :- | :- | :- |
-|PSDNET-207|[支持颜色平衡调整图层](/zh/psd/net/modifying-images/#modifyingimages-colorbalanceadjustmentlayer)|特性|
-|PSDNET-145|[支持反相调整图层](/zh/psd/net/modifying-images/#modifyingimages-invertadjustmentlayer)|特性|
-|PSDNET-139|[实现双三次重采样](/zh/psd/net/modifying-images/#modifyingimages-implementbicubicresampling)|特性|
-|PSDNET-169|[增加支持带剪裁蒙版的 PSD 导出到 PDF](/zh/psd/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithclippingmask)|特性|
-|PSDNET-168|[增加支持带调整图层的 PSD 导出到 PDF](/zh/psd/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithadjustmentlayer)|特性|
+|PSDNET-207|[支持颜色平衡调整图层](/psd/zh/net/modifying-images/#modifyingimages-colorbalanceadjustmentlayer)|特性|
+|PSDNET-145|[支持反相调整图层](/psd/zh/net/modifying-images/#modifyingimages-invertadjustmentlayer)|特性|
+|PSDNET-139|[实现双三次重采样](/psd/zh/net/modifying-images/#modifyingimages-implementbicubicresampling)|特性|
+|PSDNET-169|[增加支持带剪裁蒙版的 PSD 导出到 PDF](/psd/zh/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithclippingmask)|特性|
+|PSDNET-168|[增加支持带调整图层的 PSD 导出到 PDF](/psd/zh/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithadjustmentlayer)|特性|
 |PSDNET-179|获取图层 DropShadowEffect 问题|增强功能|
 |PSDNET-203|当文本更新为 / （正斜杠）字符时，文件无法在 Photoshop 中打开|错误|
 |PSDNET-199|当文本图层仅包含换行符时，无法保存 PSD 文件|错误|

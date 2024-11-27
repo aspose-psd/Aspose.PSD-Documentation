@@ -13,10 +13,10 @@ Questa pagina contiene le note sulla versione di [Aspose.PSD per .NET 19.11](htt
 
 |**Chiave**|**Sommario**|**Categoria**|
 | :- | :- | :- |
-|PSDNET-151|[Supporto dell'Effetto ombra interna in un Livello](/it/psd/net/effetti-ombra-in-photoshop/#shadoweffectsinphotoshop-innershadoweffect)|Funzionalità|
-|PSDNET-135|[Implementazione della resa di un Livello di Riempimento: Pattern](/it/psd/net/supporto-dei-livelli-di-riempimento/#supportoffilllayers-filllayerswithpatternfill)|Funzionalità|
-|PSDNET-187|[Supporto delle Immagini raster nei File in Formato AI](/it/psd/net/manipolazione-dei-formati-adobe-illustrator/#manipolazioneformatiadobeillustrator-immaginirasterinillustrator)|Funzionalità|
-|PSDNET-225|[Ottenere proprietà della formattazione inline di un Livello di testo](/it/psd/net/lavorare-con-i-livelli-di-testo/#lavorareconlivelliditesto-ottenereproprietàdeltestodautestuale)|Funzionalità|
+|PSDNET-151|[Supporto dell'Effetto ombra interna in un Livello](/psd/it/net/effetti-ombra-in-photoshop/#shadoweffectsinphotoshop-innershadoweffect)|Funzionalità|
+|PSDNET-135|[Implementazione della resa di un Livello di Riempimento: Pattern](/psd/it/net/supporto-dei-livelli-di-riempimento/#supportoffilllayers-filllayerswithpatternfill)|Funzionalità|
+|PSDNET-187|[Supporto delle Immagini raster nei File in Formato AI](/psd/it/net/manipolazione-dei-formati-adobe-illustrator/#manipolazioneformatiadobeillustrator-immaginirasterinillustrator)|Funzionalità|
+|PSDNET-225|[Ottenere proprietà della formattazione inline di un Livello di testo](/psd/it/net/lavorare-con-i-livelli-di-testo/#lavorareconlivelliditesto-ottenereproprietàdeltestodautestuale)|Funzionalità|
 |PSDNET-214|Esportazione non corretta di un file PSD in altri formati se contiene Effetti del Livello e Livelli di Regolazione|Errore|
 
 ## **Modifiche nell'API Pubblica**

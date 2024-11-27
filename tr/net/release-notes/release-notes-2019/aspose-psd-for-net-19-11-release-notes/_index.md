@@ -13,10 +13,10 @@ Bu sayfa, [Aspose.PSD for .NET 19.11](https://www.nuget.org/packages/Aspose.PSD/
 
 |**Anahtar**|**Özet**|**Kategori**|
 | :- | :- | :- |
-|PSDNET-151|[İç Gölge Katman Efekti Desteği](/tr/psd/net/shadow-effects-in-photoshop/#shadoweffectsinphotoshop-innershadoweffect)|Özellik|
-|PSDNET-135|[Doldurma Katmanını Render Etme: Desen](/tr/psd/net/support-of-fill-layers/#supportoffilllayers-filllayerswithpatternfill)|Özellik|
-|PSDNET-187|[AI Format Dosyalarında Raster Görüntülerinin Desteği](/tr/psd/net/manipulating-adobe-illustrator-formats/#manipulatingadobeillustratorformats-rasterimagesinillustrator)|Özellik|
-|PSDNET-225|[TextLayer'ın iç biçimlendirme özelliklerini alın](/tr/psd/net/working-with-text-layers/#workingwithtextlayers-gettextpropertiesfromatextlayer)|Özellik|
+|PSDNET-151|[İç Gölge Katman Efekti Desteği](/psd/tr/net/shadow-effects-in-photoshop/#shadoweffectsinphotoshop-innershadoweffect)|Özellik|
+|PSDNET-135|[Doldurma Katmanını Render Etme: Desen](/psd/tr/net/support-of-fill-layers/#supportoffilllayers-filllayerswithpatternfill)|Özellik|
+|PSDNET-187|[AI Format Dosyalarında Raster Görüntülerinin Desteği](/psd/tr/net/manipulating-adobe-illustrator-formats/#manipulatingadobeillustratorformats-rasterimagesinillustrator)|Özellik|
+|PSDNET-225|[TextLayer'ın iç biçimlendirme özelliklerini alın](/psd/tr/net/working-with-text-layers/#workingwithtextlayers-gettextpropertiesfromatextlayer)|Özellik|
 |PSDNET-214|Katman Efektleri ve Ayar Katmanları içeren PSD'nin diğer formatlara yanlış dışa aktarımı|Hata|
 
 ## **Genel API Değişiklikleri**

@@ -9,7 +9,7 @@ description: Dengan API Manipulasi Photoshop C# .NET Aspose.PSD, para pengembang
 
 {{% alert color="primary" %}} 
 
-Dengan Aspose.PSD untuk .NET, para pengembang dapat memangkas gambar PSD saat [mengonversinya ke format raster](/id/psd/net/mengonversi-gambar-psd-ke-format-raster/). Topik ini menjelaskan pendekatan untuk memuat gambar yang sudah ada, memangkasnya, dan mengonversinya ke format raster.
+Dengan Aspose.PSD untuk .NET, para pengembang dapat memangkas gambar PSD saat [mengonversinya ke format raster](/psd/id/net/mengonversi-gambar-psd-ke-format-raster/). Topik ini menjelaskan pendekatan untuk memuat gambar yang sudah ada, memangkasnya, dan mengonversinya ke format raster.
 
 {{% /alert %}} 
 ## **Memangkas Berkas PSD Saat Mengonversi ke PNG**

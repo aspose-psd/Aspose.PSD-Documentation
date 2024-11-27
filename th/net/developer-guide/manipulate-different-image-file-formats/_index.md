@@ -10,9 +10,9 @@ url: /th/net/manipulate-different-image-file-formats/
 
 
 ## **บทความในส่วนนี้**
-- [การจัดการกับรูปแบบ Adobe Illustrator](/th/psd/net/manipulating-adobe-illustrator-formats/)
-- [การจัดการกับรูปแบบ Adobe Photoshop](/th/psd/net/manipulating-adobe-photoshop-formats/)
-- [การจัดการกับรูป JPEG](/th/psd/net/manipulating-jpeg-images/)
-- [การจัดการกับรูป PNG](/th/psd/net/manipulating-png-images/)
-- [การจัดการกับรูป TIFF](/th/psd/net/manipulating-tiff-images/)
+- [การจัดการกับรูปแบบ Adobe Illustrator](/psd/th/net/manipulating-adobe-illustrator-formats/)
+- [การจัดการกับรูปแบบ Adobe Photoshop](/psd/th/net/manipulating-adobe-photoshop-formats/)
+- [การจัดการกับรูป JPEG](/psd/th/net/manipulating-jpeg-images/)
+- [การจัดการกับรูป PNG](/psd/th/net/manipulating-png-images/)
+- [การจัดการกับรูป TIFF](/psd/th/net/manipulating-tiff-images/)
 

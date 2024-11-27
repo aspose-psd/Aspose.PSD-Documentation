@@ -10,6 +10,6 @@ Graphics 类让您能够在 PsdImage 实例或 Image 类的任何后代中绘制
 
 
 ## **本节中的文章**
-- [绘制图像](/zh/psd/java/drawing-images/)
-- [使用 Graphics 绘制图像](/zh/psd/java/drawing-images-using-graphics/)
-- [使用 GraphicsPath 绘制图像](/zh/psd/java/drawing-images-using-graphicspath/)
+- [绘制图像](/psd/zh/java/drawing-images/)
+- [使用 Graphics 绘制图像](/psd/zh/java/drawing-images-using-graphics/)
+- [使用 GraphicsPath 绘制图像](/psd/zh/java/drawing-images-using-graphicspath/)

@@ -37,7 +37,7 @@ Come disegnare sullo strato Graphics del PSD
 
 In questo caso, disegniamo una nuova immagine [PNG](https://wiki.fileformat.com/image/png/) sullo strato PSD esistente, quindi i vecchi dati saranno persi nel nuovo file.
 
-Ma se avessimo bisogno anche di aggiornare il testo? Il processo sarà simile. Trova lo [strato di testo](https://reference.aspose.com/psd/net/aspose.psd/fileformats/psd/layers/testolivello) per nome e poi [aggiorniamo il Livello di testo del file di Photoshop](/it/psd/net/renderizza-testo-con-colori-differenziati-nel-livello-di-testo/).
+Ma se avessimo bisogno anche di aggiornare il testo? Il processo sarà simile. Trova lo [strato di testo](https://reference.aspose.com/psd/net/aspose.psd/fileformats/psd/layers/testolivello) per nome e poi [aggiorniamo il Livello di testo del file di Photoshop](/psd/it/net/renderizza-testo-con-colori-differenziati-nel-livello-di-testo/).
 
 Come aggiornare un Livello di testo in Photoshop usando C#
 

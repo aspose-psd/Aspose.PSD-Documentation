@@ -5,7 +5,7 @@ weight: 30
 url: /nl/net/ai-to-png/
 ---
 
-Met Aspose.PSD kunt u ondersteunde versies van AI-bestanden converteren naar het Png-formaat. Png is een bestandsindeling voor rasterafbeeldingen die verliesloze gegevenscompressie ondersteunt. Ook ondersteunt Png transparantie. Het [rasteriseren van de Ai-bestanden](/nl/psd/net/converting-ai-image-to-raster-format/) op de server kan worden geautomatiseerd. Voor export van Ai moet u de volgende codesnippet gebruiken:
+Met Aspose.PSD kunt u ondersteunde versies van AI-bestanden converteren naar het Png-formaat. Png is een bestandsindeling voor rasterafbeeldingen die verliesloze gegevenscompressie ondersteunt. Ook ondersteunt Png transparantie. Het [rasteriseren van de Ai-bestanden](/psd/nl/net/converting-ai-image-to-raster-format/) op de server kan worden geautomatiseerd. Voor export van Ai moet u de volgende codesnippet gebruiken:
 
 De onderstaande voorbeeldcode demonstreert hoe u het AI-bestand programmatisch naar Png-formaat kunt exporteren.
 

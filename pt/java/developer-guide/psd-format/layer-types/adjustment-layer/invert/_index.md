@@ -9,7 +9,7 @@ url: /pt/java/layer-types/adjustment-layer/invert/
 
 Neste artigo, vamos mostrar como transformar uma imagem em um documento do Photoshop em uma imagem negativa programaticamente em Java. Para este propósito, vamos utilizar a biblioteca para manipulação de arquivos PSD chamada Aspose.PSD para Java.
 
-A API de inversão de cor permite **adicionar um efeito negativo a uma imagem**. Você já pode ter visto como [inverter as cores da imagem usando a camada de ajuste Curvas](/pt/psd/java/layer-types/adjustment-layer/curves/). No entanto, hoje iremos considerar uma forma mais rápida e fácil de fazer o trabalho usando a camada de ajuste Inverter.
+A API de inversão de cor permite **adicionar um efeito negativo a uma imagem**. Você já pode ter visto como [inverter as cores da imagem usando a camada de ajuste Curvas](/psd/pt/java/layer-types/adjustment-layer/curves/). No entanto, hoje iremos considerar uma forma mais rápida e fácil de fazer o trabalho usando a camada de ajuste Inverter.
 
 ## Visão geral da API
 

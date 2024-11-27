@@ -13,10 +13,10 @@ A API de Manipulação do Photoshop C# .NET suporta muitos recursos para trabalh
 
 
 ## **Artigos nesta seção**
-- [Aplicando Filtros de Mediana e Wiener](/pt/psd/net/aplicando-filtros-de-mediana-e-wiener/)
-- [Convertendo Imagens](/pt/psd/net/convertendo-imagens/)
-- [Criando, Abrindo e Salvando Imagens](/pt/psd/net/criando-abrindo-e-salvando-imagens/)
-- [Recortando, Rotacionando e Redimensionando Imagens](/pt/psd/net/recortando-rotacionando-e-redimensionando-imagens/)
-- [Modificando Imagens](/pt/psd/net/modificando-imagens/)
-- [Definindo Propriedades nas Imagens](/pt/psd/net/definindo-propriedades-nas-imagens/)
+- [Aplicando Filtros de Mediana e Wiener](/psd/pt/net/aplicando-filtros-de-mediana-e-wiener/)
+- [Convertendo Imagens](/psd/pt/net/convertendo-imagens/)
+- [Criando, Abrindo e Salvando Imagens](/psd/pt/net/criando-abrindo-e-salvando-imagens/)
+- [Recortando, Rotacionando e Redimensionando Imagens](/psd/pt/net/recortando-rotacionando-e-redimensionando-imagens/)
+- [Modificando Imagens](/psd/pt/net/modificando-imagens/)
+- [Definindo Propriedades nas Imagens](/psd/pt/net/definindo-propriedades-nas-imagens/)
 

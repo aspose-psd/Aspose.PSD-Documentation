@@ -24,8 +24,8 @@ Inoltre, puoi contattare i rivenditori locali.
 ## **Materiali aggiuntivi sugli adattatori**
 
 Per ulteriori descrizioni ed esempi si prega di controllare:
-- [Guida rapida su come utilizzare gli adattatori Aspose.PSD](/it/psd/net/adapters/quick-start)
-- [Come caricare formati non supportati da Aspose.PSD](/it/psd/net/adapters/load-unsupported-formats)
-- [Esportazione in formati non supportati Full Manual di Aspose.PSD](/it/psd/net/adapters/export-to-unsupported-formats)
-- [Panoramica sugli adattatori Aspose.PSD per Webp, SVG e altri formati](/it/psd/net/adapters/working-with-webp-svg-formats-overview)
-- [Manuale completo sugli Adattatori di Caricamento di Aspose.PSD](/it/psd/net/adapters/full-manual)
+- [Guida rapida su come utilizzare gli adattatori Aspose.PSD](/psd/it/net/adapters/quick-start)
+- [Come caricare formati non supportati da Aspose.PSD](/psd/it/net/adapters/load-unsupported-formats)
+- [Esportazione in formati non supportati Full Manual di Aspose.PSD](/psd/it/net/adapters/export-to-unsupported-formats)
+- [Panoramica sugli adattatori Aspose.PSD per Webp, SVG e altri formati](/psd/it/net/adapters/working-with-webp-svg-formats-overview)
+- [Manuale completo sugli Adattatori di Caricamento di Aspose.PSD](/psd/it/net/adapters/full-manual)

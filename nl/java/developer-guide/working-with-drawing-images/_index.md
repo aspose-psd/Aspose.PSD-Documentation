@@ -11,6 +11,6 @@ De Graphics-klasse geeft je de mogelijkheid om eenvoudige vormen te tekenen in e
 
 
 ## **Artikelen in deze sectie**
-- [Afbeeldingen tekenen](/nl/psd/java/afbeeldingen-tekenen/)
-- [Afbeeldingen tekenen met Graphics](/nl/psd/java/afbeeldingen-tekenen-met-graphics/)
-- [Afbeeldingen tekenen met GraphicsPath](/nl/psd/java/afbeeldingen-tekenen-met-graphicspath/)
+- [Afbeeldingen tekenen](/psd/nl/java/afbeeldingen-tekenen/)
+- [Afbeeldingen tekenen met Graphics](/psd/nl/java/afbeeldingen-tekenen-met-graphics/)
+- [Afbeeldingen tekenen met GraphicsPath](/psd/nl/java/afbeeldingen-tekenen-met-graphicspath/)

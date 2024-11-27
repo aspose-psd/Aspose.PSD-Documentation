@@ -13,7 +13,7 @@ Este é um manual completo sobre como trabalhar com os adaptadores Aspose.PSD pa
 
 ## Aplicação de Licenças
 
-Por favor, verifique o [artigo completo sobre aplicação de licenças](/pt/psd/net/adapters/license) para adaptadores.
+Por favor, verifique o [artigo completo sobre aplicação de licenças](/psd/pt/net/adapters/license) para adaptadores.
 
 {{% alert color="primary" %}} 
 Por favor, observe que para usar os Adaptadores você precisa das Licenças tanto do Aspose.PSD quanto dos adaptadores.

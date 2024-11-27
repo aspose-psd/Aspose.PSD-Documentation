@@ -12,9 +12,9 @@ Aspose.PSD C# .NET Photoshop การจัดการ API รองรับ�
 
 
 ## **บทความในส่วนนี้**
-- [การใช้ Median และ Wiener Filters](/th/psd/net/applying-median-and-wiener-filters/)
-- [การแปลงภาพ](/th/psd/net/converting-images/)
-- [การสร้าง, เปิด และ บันทึก ภาพ](/th/psd/net/creating-opening-and-saving-images/)
-- [การครอบ, หมุน และ ปรับขนาด ภาพ](/th/psd/net/crop-rotate-and-resize-images/)
-- [การปรับเปลี่ยน ภาพ](/th/psd/net/modifying-images/)
-- [การตั้งค่าบน ภาพ](/th/psd/net/setting-properties-on-images/)
+- [การใช้ Median และ Wiener Filters](/psd/th/net/applying-median-and-wiener-filters/)
+- [การแปลงภาพ](/psd/th/net/converting-images/)
+- [การสร้าง, เปิด และ บันทึก ภาพ](/psd/th/net/creating-opening-and-saving-images/)
+- [การครอบ, หมุน และ ปรับขนาด ภาพ](/psd/th/net/crop-rotate-and-resize-images/)
+- [การปรับเปลี่ยน ภาพ](/psd/th/net/modifying-images/)
+- [การตั้งค่าบน ภาพ](/psd/th/net/setting-properties-on-images/)

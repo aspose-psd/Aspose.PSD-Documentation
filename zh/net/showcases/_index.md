@@ -12,4 +12,4 @@ url: /zh/net/showcases/
 
 在这里，我们收集了这些任务类型的示例。更多带有示例的功能信息，请查看[API 参考.](https://reference.aspose.com/psd/net)
 ## **可用文章**
-- [将PSD文件用作自动化模板（名片案例）](/zh/psd/net/using-psd-files-as-templates-for-automation-business-cards-case/)
+- [将PSD文件用作自动化模板（名片案例）](/psd/zh/net/using-psd-files-as-templates-for-automation-business-cards-case/)

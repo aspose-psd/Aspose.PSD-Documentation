@@ -10,6 +10,6 @@ A classe Graphics oferece a capacidade de desenhar formas simples em uma instân
 
 
 ## **Artigos nesta seção**
-- [Desenhando Imagens](/pt/psd/java/desenhando-imagens/)
-- [Desenhando imagens usando Graphics](/pt/psd/java/desenhando-imagens-usando-graphics/)
-- [Desenhando imagens usando GraphicsPath](/pt/psd/java/desenhando-imagens-usando-graphicspath/)
+- [Desenhando Imagens](/psd/pt/java/desenhando-imagens/)
+- [Desenhando imagens usando Graphics](/psd/pt/java/desenhando-imagens-usando-graphics/)
+- [Desenhando imagens usando GraphicsPath](/psd/pt/java/desenhando-imagens-usando-graphicspath/)

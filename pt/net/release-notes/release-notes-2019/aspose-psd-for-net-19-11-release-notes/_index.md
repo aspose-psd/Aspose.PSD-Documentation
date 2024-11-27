@@ -13,10 +13,10 @@ Esta página contém as notas de lançamento para [Aspose.PSD para .NET 19.11](h
 
 |**Chave**|**Resumo**|**Categoria**|
 | :- | :- | :- |
-|PSDNET-151|[Suporte ao Efeito de Sombra Interna](/pt/psd/net/efeitos-de-sombra-no-photoshop/#efeitosdesombranophotoshop-sombradentro)|Recurso|
-|PSDNET-135|[Implementar renderização da Camada de Preenchimento: Padrão](/pt/psd/net/suporte-de-camadas-de-preenchimento/#suportedecamadasdepreenchimento-camadasdepreenchimentocompadrao)|Recurso|
-|PSDNET-187|[Suporte a Imagens Raster em Arquivos de Formato AI](/pt/psd/net/manipulando-formatos-adobe-illustrator/#manipulandoformatosadobeillustrator-imagensrasternoillustrator)|Recurso|
-|PSDNET-225|[Obter propriedades de formatação inline de TextLayer](/pt/psd/net/trabalhando-com-camadas-de-texto/#trabalhandocomcamadasdetexto-obterpropriedadesdetextodeumacamadadetexto)|Recurso|
+|PSDNET-151|[Suporte ao Efeito de Sombra Interna](/psd/pt/net/efeitos-de-sombra-no-photoshop/#efeitosdesombranophotoshop-sombradentro)|Recurso|
+|PSDNET-135|[Implementar renderização da Camada de Preenchimento: Padrão](/psd/pt/net/suporte-de-camadas-de-preenchimento/#suportedecamadasdepreenchimento-camadasdepreenchimentocompadrao)|Recurso|
+|PSDNET-187|[Suporte a Imagens Raster em Arquivos de Formato AI](/psd/pt/net/manipulando-formatos-adobe-illustrator/#manipulandoformatosadobeillustrator-imagensrasternoillustrator)|Recurso|
+|PSDNET-225|[Obter propriedades de formatação inline de TextLayer](/psd/pt/net/trabalhando-com-camadas-de-texto/#trabalhandocomcamadasdetexto-obterpropriedadesdetextodeumacamadadetexto)|Recurso|
 |PSDNET-214|Exportação incorreta de PSD para outros formatos se contém Efeitos de Camada e Camadas de Ajuste|Erro|
 
 ## **Mudanças na API Pública**

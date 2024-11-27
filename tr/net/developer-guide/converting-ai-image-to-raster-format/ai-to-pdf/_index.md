@@ -7,7 +7,7 @@ url: /tr/net/ai-to-pdf/
 
 Aspose.PSD, AI dosyalarını PDF dosyalarına dönüştürme işlevselliği sağlar. Ai dışa aktarımı için aşağıdaki kod parçasını kullanmanız gerekmektedir:
 
-Aşağıda verilen örnek kod, AI dosyasının [Dosya Biçimi Manipülasyonu API'si](/tr/psd/net/manipulate-different-image-file-formats/) ile PDF'ye nasıl aktarılacağını göstermektedir.
+Aşağıda verilen örnek kod, AI dosyasının [Dosya Biçimi Manipülasyonu API'si](/psd/tr/net/manipulate-different-image-file-formats/) ile PDF'ye nasıl aktarılacağını göstermektedir.
 
 {{< gist "aspose-com-gists" "8a4c9d34ce856d1642fc7c0ce974175c" "AIToPDF-AIToPDF.cs" >}}
 

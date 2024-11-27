@@ -22,7 +22,7 @@ Le seguenti sono le funzionalità principali di Aspose.PSD:
 #### **Caricamento di Immagini**
 - PSD
 - PSB
-- [AI](/it/psd/net/ai-adobe-illustrator-format/)
+- [AI](/psd/it/net/ai-adobe-illustrator-format/)
 #### **Elaborazione dei Dati Raw**
 - PSD
 - PSB

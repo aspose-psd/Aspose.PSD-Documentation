@@ -17,9 +17,9 @@ Aspose.PSD, PSD ve PSB biçimlerini JPEG, JPEG2000, PNG, TIFF, PDF, GIF ve BMP b
 
 Aspose.PSD ile sunucunuzda PSD dosyalarını dönüştürebilirsiniz ve bunu Photoshop olmadan yapabilirsiniz. Adobe Photoshop betiklerinin yerine kullanabileceğiniz iyi bir alternatiftir, çünkü Adobe'nin EULA'sı bir sunucuda Uygulamayı kullanmayı ve UI'sını değiştirmeyi yasaklar. Ancak PSD Format SDK ile PSD Dosyalarının toplu dönüşümünü yapabilirsiniz. PSD biçimli dışa aktarımınız, [Salt Okunur mod](https://reference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode) ile mükemmel pikselli olabilir veya katmanları, metinleri, efektleri değiştirebilir ve ardından dışa aktarım yapabilirsiniz.
 ## **PSD'nin Raster Biçimlere Dönüştürülmesine Özel Örnekler**
-- [PSD'ten JPG'ye](/tr/psd/net/psd-to-jpg/)
-- [PSD'den PNG'ye](/tr/psd/net/psd-to-png/)
-- [PSD'den PDF'ye](/tr/psd/net/psd-to-pdf/)
+- [PSD'ten JPG'ye](/psd/tr/net/psd-to-jpg/)
+- [PSD'den PNG'ye](/psd/tr/net/psd-to-png/)
+- [PSD'den PDF'ye](/psd/tr/net/psd-to-pdf/)
 ## **Çeşitli raster dosya biçimlerine PSD görüntüsünün dışa aktarılması**
 Aşağıdaki örnek kod, PSD'yi çeşitli raster dosya biçimlerine dönüştürmenin nasıl yapılacağını göstermektedir.
 

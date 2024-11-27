@@ -14,4 +14,4 @@ Hier hebben we voorbeelden verzameld voor allerlei taken. Meer functies met voor
 
 ## **Beschikbare Artikelen**
 - [Het gebruik van PSD-bestanden als sjablonen voor automatisering (visitekaartjes)](https://docs.aspose.com/display/psdnet/Using+PSD+files+as+templates+for+automation+-+Business+Cards+Case)
-- [Hoe maak je een YouTube miniaturengenerator programmatisch in Java](/nl/psd/java/how-to-create-youtube-thumbnail-generator-programmatically-in-java/)
+- [Hoe maak je een YouTube miniaturengenerator programmatisch in Java](/psd/nl/java/how-to-create-youtube-thumbnail-generator-programmatically-in-java/)

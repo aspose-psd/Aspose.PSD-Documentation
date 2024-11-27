@@ -25,7 +25,7 @@ Bu sayfa, [Aspose.PSD Adaptörler için .NET 24.4](https://www.nuget.org/package
 
 ## **Kullanım örnekleri:**
 
-Lütfen [Aspose.PSD.Adaptörler belgelendirme sayfasına](/tr/psd/net/adapters) bakın
+Lütfen [Aspose.PSD.Adaptörler belgelendirme sayfasına](/psd/tr/net/adapters) bakın
 
 **PSDNET-1985. Aspose.PSD.Adaptörlerin kullanımının en kapsamlı örneği**
 

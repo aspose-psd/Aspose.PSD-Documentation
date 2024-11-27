@@ -1,5 +1,5 @@
 ---
-title: כותרת: Aspose.PSD עבור Java 21.6 - הערות אחרי גרסה
+title: Aspose.PSD עבור Java 21.6 - הערות אחרי גרסה
 type: מסמכים
 weight: 40
 url: /he/java/aspose-psd-for-java-21-6-release-notes/

@@ -13,11 +13,11 @@ Bu sayfa, Aspose.PSD for .NET 19.10 için sürüm notlarını içerir.
 
 |**Anahtar**|**Özet**|**Kategori**|
 | :- | :- | :- |
-|PSDNET-207|[Renk Denge Ayarlama Katmanı Desteği](/tr/psd/net/modifying-images/#modifyingimages-colorbalanceadjustmentlayer)|Özellik|
-|PSDNET-145|[Ters Çevirme Ayarlama Katmanı Desteği](/tr/psd/net/modifying-images/#modifyingimages-invertadjustmentlayer)|Özellik|
-|PSDNET-139|[Bikübik Yeniden Örnekleyiciyi Uygula](/tr/psd/net/modifying-images/#modifyingimages-implementbicubicresampling)|Özellik|
-|PSDNET-169|[Kırpma Maskesi ile PSD'nin PDF'ye Dönüştürülmesi Desteği Ekle](/tr/psd/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithclippingmask)|Özellik|
-|PSDNET-168|[Ayar Katmanlarıyla PSD'nin PDF'ye Dönüştürülmesi Desteği Ekle](/tr/psd/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithadjustmentlayer)|Özellik|
+|PSDNET-207|[Renk Denge Ayarlama Katmanı Desteği](/psd/tr/net/modifying-images/#modifyingimages-colorbalanceadjustmentlayer)|Özellik|
+|PSDNET-145|[Ters Çevirme Ayarlama Katmanı Desteği](/psd/tr/net/modifying-images/#modifyingimages-invertadjustmentlayer)|Özellik|
+|PSDNET-139|[Bikübik Yeniden Örnekleyiciyi Uygula](/psd/tr/net/modifying-images/#modifyingimages-implementbicubicresampling)|Özellik|
+|PSDNET-169|[Kırpma Maskesi ile PSD'nin PDF'ye Dönüştürülmesi Desteği Ekle](/psd/tr/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithclippingmask)|Özellik|
+|PSDNET-168|[Ayar Katmanlarıyla PSD'nin PDF'ye Dönüştürülmesi Desteği Ekle](/psd/tr/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithadjustmentlayer)|Özellik|
 |PSDNET-179|Katman DropShadowEffect'i Alındığında Sorun|Geliştirme|
 |PSDNET-203|Metin / karakterleriyle güncellendiğinde dosya Photoshop'ta açılamaz|Hata|
 |PSDNET-199|PSD dosyası, metin katmanı sadece satır kesme içerdiğinde kaydedilemez|Hata|

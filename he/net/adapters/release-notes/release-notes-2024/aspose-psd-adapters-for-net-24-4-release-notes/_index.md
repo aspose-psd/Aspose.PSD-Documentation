@@ -23,7 +23,7 @@ url: /he/net/adapters/aspose-psd-adapters-for-net-24-4-release-notes/
 
 ## **דוגמאות שימוש:**
 
-אנא בדקו את [עמוד התיעוד של Aspose.PSD.Adapters](/he/psd/net/adapters)
+אנא בדקו את [עמוד התיעוד של Aspose.PSD.Adapters](/psd/he//net/adapters)
 
 **PSDNET-1985. דוגמא מלאה ביותר לשימוש ב- Aspose.PSD.Adapters**
 

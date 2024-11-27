@@ -13,8 +13,8 @@ Esta página contém as notas de lançamento para [Aspose.PSD para .NET 19.12](h
 
 |**Chave**|**Resumo**|**Categoria**|
 | :- | :- | :- |
-|PSDNET-11|[Suporte de Camada Linkada](/pt/psd/net/trabalhando-com-camadas/#trabalhandocomcamadas-suportedecamadaslinkadas)|Recurso|
-|PSDNET-131|[Suporte de Recurso SoCo](/pt/psd/net/suporte-de-socoresource/)|Recurso|
+|PSDNET-11|[Suporte de Camada Linkada](/psd/pt/net/trabalhando-com-camadas/#trabalhandocomcamadas-suportedecamadaslinkadas)|Recurso|
+|PSDNET-131|[Suporte de Recurso SoCo](/psd/pt/net/suporte-de-socoresource/)|Recurso|
 |PSDNET-115|Quebras de Linha são adicionadas a Quebras de Linha existentes se a Camada de Texto for atualizada com uma sequência|Erro|
 |PSDNET-157|Salvar PSB como PNG congela|Erro|
 |PSDNET-250|Exceção ao carregar arquivo PSD CMYK sem camadas com compressão RLE|Erro|

@@ -11,6 +11,6 @@ Lớp Graphics cho phép bạn vẽ các hình dạng đơn giản trong một t
 
 
 ## **Các bài viết trong phần này**
-- [Vẽ Hình ảnh](/vi/psd/java/drawing-images/)
-- [Vẽ Hình ảnh bằng Graphics](/vi/psd/java/drawing-images-using-graphics/)
-- [Vẽ Hình ảnh bằng GraphicsPath](/vi/psd/java/drawing-images-using-graphicspath/)
+- [Vẽ Hình ảnh](/psd/vi/java/drawing-images/)
+- [Vẽ Hình ảnh bằng Graphics](/psd/vi/java/drawing-images-using-graphics/)
+- [Vẽ Hình ảnh bằng GraphicsPath](/psd/vi/java/drawing-images-using-graphicspath/)

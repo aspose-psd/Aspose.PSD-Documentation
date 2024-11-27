@@ -13,11 +13,11 @@ Questa pagina contiene le note sulla versione di Aspose.PSD per .NET 19.10
 
 |**Chiave**|**Sommario**|**Categoria**|
 | :- | :- | :- |
-|PSDNET-207|[Supporto dello Strato di Regolazione del Bilanciamento del Colore](/it/psd/net/modifying-images/#modifyingimages-colorbalanceadjustmentlayer)|Caratteristica|
-|PSDNET-145|[Supporto dello Strato di Regolazione dell'Inversione](/it/psd/net/modifying-images/#modifyingimages-invertadjustmentlayer)|Caratteristica|
-|PSDNET-139|[Implementare il Resampler bicubico](/it/psd/net/modifying-images/#modifyingimages-implementbicubicresampling)|Caratteristica|
-|PSDNET-169|[Aggiungere il supporto per l'esportazione PSD in PDF con Maschera di Ritaglio](/it/psd/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithclippingmask)|Caratteristica|
-|PSDNET-168|[Aggiungere il supporto per l'esportazione PSD in PDF con Strati di Regolazione](/it/psd/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithadjustmentlayer)|Caratteristica|
+|PSDNET-207|[Supporto dello Strato di Regolazione del Bilanciamento del Colore](/psd/it/net/modifying-images/#modifyingimages-colorbalanceadjustmentlayer)|Caratteristica|
+|PSDNET-145|[Supporto dello Strato di Regolazione dell'Inversione](/psd/it/net/modifying-images/#modifyingimages-invertadjustmentlayer)|Caratteristica|
+|PSDNET-139|[Implementare il Resampler bicubico](/psd/it/net/modifying-images/#modifyingimages-implementbicubicresampling)|Caratteristica|
+|PSDNET-169|[Aggiungere il supporto per l'esportazione PSD in PDF con Maschera di Ritaglio](/psd/it/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithclippingmask)|Caratteristica|
+|PSDNET-168|[Aggiungere il supporto per l'esportazione PSD in PDF con Strati di Regolazione](/psd/it/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithadjustmentlayer)|Caratteristica|
 |PSDNET-179|Problema con l'ottenimento di DropShadowEffect dello Strato|Potenziamento|
 |PSDNET-203|Quando il testo viene aggiornato con caratteri / (barra obliqua), il file non può essere aperto in Photoshop|Bug|
 |PSDNET-199|Il file PSD non può essere salvato quando lo strato di testo contiene solo ritorno a capo|Bug|

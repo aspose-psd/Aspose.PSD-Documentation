@@ -7,9 +7,9 @@ url: /it/java/layer-types/adjustment-layer/levels/
 
 ## Lavorare con il livello di regolazione Livelli di Photoshop in Java
 
-In questo articolo impareremo come regolare l'intervallo tonale e il bilanciamento del colore di una foto nel formato file [PSD](/it/psd/java/psd-format/) in modo programmatico in Java. Non utilizziamo l'editor fotografico Adobe® Photoshop® stesso. Invece, utilizziamo la libreria Aspose.PSD per Java che funziona autonomamente per manipolare il documento Photoshop.
+In questo articolo impareremo come regolare l'intervallo tonale e il bilanciamento del colore di una foto nel formato file [PSD](/psd/it/java/psd-format/) in modo programmatico in Java. Non utilizziamo l'editor fotografico Adobe® Photoshop® stesso. Invece, utilizziamo la libreria Aspose.PSD per Java che funziona autonomamente per manipolare il documento Photoshop.
 
-Anche se Aspose.PSD per Java supporta più che sufficienti [strumenti per modificare la foto](/it/psd/java/manipolazione-immagini/) come desideriamo, andiamo avanti con l'API del livello di regolazione Livelli, che è uno dei modi più semplici e veloci per fare il lavoro.
+Anche se Aspose.PSD per Java supporta più che sufficienti [strumenti per modificare la foto](/psd/it/java/manipolazione-immagini/) come desideriamo, andiamo avanti con l'API del livello di regolazione Livelli, che è uno dei modi più semplici e veloci per fare il lavoro.
 
 ## Panoramica dell'API
 

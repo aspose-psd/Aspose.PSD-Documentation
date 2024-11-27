@@ -25,8 +25,8 @@ Ayrıca, yerel bayilerinizle iletişime geçebilirsiniz.
 ## **Adaptörler hakkında ek materyaller**
 
 Ek açıklama ve örnekler için lütfen şu adreslere göz atınız:
-- [Aspose.PSD Adaptörler hızlı başlangıç kılavuzu](/tr/psd/net/adapters/quick-start)
-- [Aspose.PSD desteklenmeyen formatları nasıl yükler](/tr/psd/net/adapters/load-unsupported-formats)
-- [Aspose.PSD Desteklenmeyen formatlara tam kılavuz ekleme](/tr/psd/net/adapters/export-to-unsupported-formats)
-- [Aspose.PSD Webp, SVG ve diğer formatlarla çalışma genel bakışı](/tr/psd/net/adapters/working-with-webp-svg-formats-overview)
-- [Aspose.PSD Adaptörlerle Yükleme Tam Kılavuz](/tr/psd/net/adapters/full-manual)
+- [Aspose.PSD Adaptörler hızlı başlangıç kılavuzu](/psd/tr/net/adapters/quick-start)
+- [Aspose.PSD desteklenmeyen formatları nasıl yükler](/psd/tr/net/adapters/load-unsupported-formats)
+- [Aspose.PSD Desteklenmeyen formatlara tam kılavuz ekleme](/psd/tr/net/adapters/export-to-unsupported-formats)
+- [Aspose.PSD Webp, SVG ve diğer formatlarla çalışma genel bakışı](/psd/tr/net/adapters/working-with-webp-svg-formats-overview)
+- [Aspose.PSD Adaptörlerle Yükleme Tam Kılavuz](/psd/tr/net/adapters/full-manual)

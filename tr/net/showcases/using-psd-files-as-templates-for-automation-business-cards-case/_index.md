@@ -38,7 +38,7 @@ PSD katmanında Grafik çizme
 
 Bu durumda, yeni bir [PNG resmi](https://wiki.fileformat.com/image/png/) yükleyerek mevcut PSD katmanına çizim yaparız, böylece eski veriler yeni dosyada kaybolur.
 
-Ancak metni de güncellememiz gerekiyorsa ne yapacağız? Süreç benzer olacaktır. Metin Katmanını adına göre bulun, ardından Photoshop Dosyasının metin katmanını programlı olarak [güncelleyin](/tr/psd/net/metin-katmaninda-farkli-renklerle-metin-gosterme/) .
+Ancak metni de güncellememiz gerekiyorsa ne yapacağız? Süreç benzer olacaktır. Metin Katmanını adına göre bulun, ardından Photoshop Dosyasının metin katmanını programlı olarak [güncelleyin](/psd/tr/net/metin-katmaninda-farkli-renklerle-metin-gosterme/) .
 
 Metin Katmanını C# ile Photoshop'ta nasıl güncelleyebiliriz
 
@@ -80,7 +80,7 @@ Bu dosya kod parçacığının sonunda, katman pozisyonunu düzeltiyoruz ve yeni
 
 
 
-Ve en önemlisi, mevcut PSD görüntüsündeki metin katmanlarını C# ile güncellememiz gerekmektedir. Aspose.PSD, [Metin Katmanını Satırlar Halinde Güncelleme](/tr/psd/net/metin-katmanlari-ile-calisma/) konusunda destek verir. Her [metin parçasının](https://reference.aspose.com/psd/net/aspose.psd/fileformats/psd/layers/texttextportion) benzersiz bir Stil ve Paragraf özellikleri kombinasyonu vardır.
+Ve en önemlisi, mevcut PSD görüntüsündeki metin katmanlarını C# ile güncellememiz gerekmektedir. Aspose.PSD, [Metin Katmanını Satırlar Halinde Güncelleme](/psd/tr/net/metin-katmanlari-ile-calisma/) konusunda destek verir. Her [metin parçasının](https://reference.aspose.com/psd/net/aspose.psd/fileformats/psd/layers/texttextportion) benzersiz bir Stil ve Paragraf özellikleri kombinasyonu vardır.
 
 [PsdImage ](https://reference.aspose.com/imaging/net/aspose.imaging.fileformats.psd/psdimage) Katman özelliklerini kopyalamanın yolu
 

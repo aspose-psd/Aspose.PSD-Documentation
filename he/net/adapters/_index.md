@@ -24,12 +24,12 @@ description: סופגניות של Aspose.PSD כדי לשפר את האינטג�
 יש לשים לב, כדי להשתמש בסופגניות בלי הגבלה נדרשות כרטיסי רישיון עבור Aspose.PSD ו-Aspose.Imaging. חבילת ה-NuGet של הסופגניות היא אפשרות טובה בעיקר לבעלי הרישיון של Aspose.Total.
 
 לתיאור נוסף ודוגמאות ניתן לבדוק:
-- [מדריך תחילת מהיר לסופגניות של Aspose.PSD](/he/psd/net/adapters/quick-start)
-- [איך להתקין רישיון למוצרים של Aspose.PSD](/he/psd/net/adapters/license)
-- [איך לטעון פורמטים שאינם נתמכים על ידי Aspose.PSD](/he/psd/net/adapters/load-unsupported-formats)
-- [יצוא לפורמטים שאינם נתמכים על ידי Aspose.PSD](/he/psd/net/adapters/export-to-unsupported-formats)
-- [סקירה על סופגניות ל-WebP, SVG ופורמטים אחרים](/he/psd/net/adapters/working-with-webp-svg-formats-overview)
-- [מדריך מלא לסופגניות לטעינת פורמטים](/he/psd/net/adapters/full-manual)
+- [מדריך תחילת מהיר לסופגניות של Aspose.PSD](/psd/he//net/adapters/quick-start)
+- [איך להתקין רישיון למוצרים של Aspose.PSD](/psd/he//net/adapters/license)
+- [איך לטעון פורמטים שאינם נתמכים על ידי Aspose.PSD](/psd/he//net/adapters/load-unsupported-formats)
+- [יצוא לפורמטים שאינם נתמכים על ידי Aspose.PSD](/psd/he//net/adapters/export-to-unsupported-formats)
+- [סקירה על סופגניות ל-WebP, SVG ופורמטים אחרים](/psd/he//net/adapters/working-with-webp-svg-formats-overview)
+- [מדריך מלא לסופגניות לטעינת פורמטים](/psd/he//net/adapters/full-manual)
 
 {{% /alert %}} 
 
@@ -37,8 +37,8 @@ description: סופגניות של Aspose.PSD כדי לשפר את האינטג�
 
 להלן הקישורים למשאבים שימושיים שעשויים לעזור לך להשלים את המשימות שלך.
 
-- [תיעוד מקוון של Aspose.PSD עבור .NET](/he/psd/net/adapters)
-- [רשומות הגרסאות של Aspose.PSD עבור .NET](/he/psd/net/adapters/release-notes/)
+- [תיעוד מקוון של Aspose.PSD עבור .NET](/psd/he//net/adapters)
+- [רשומות הגרסאות של Aspose.PSD עבור .NET](/psd/he//net/adapters/release-notes/)
 - [עמוד המוצר של Aspose.PSD עבור .NET](https://products.aspose.com/psd/net)
 - [התקנת חבילת NuGet של Aspose.PSD עבור .NET](https://www.nuget.org/packages/Aspose.PSD.Adapters.Imaging/)
 - [הורדת דוגמאות במאגר ה־GitHub שלנו](https://github.com/aspose-psd/Aspose.PSD-for-.NET)

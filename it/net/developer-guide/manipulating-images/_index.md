@@ -12,10 +12,10 @@ L'API di manipolazione di Photoshop di Aspose.PSD C# .NET supporta molte funzion
 
 
 ## **Articoli in questa sezione**
-- [Applicazione dei filtri mediano e Wiener](/it/psd/net/applying-median-and-wiener-filters/)
-- [Conversione delle immagini](/it/psd/net/converting-images/)
-- [Creazione, apertura e salvataggio delle immagini](/it/psd/net/creating-opening-and-saving-images/)
-- [Ritaglio, rotazione e ridimensionamento delle immagini](/it/psd/net/crop-rotate-and-resize-images/)
-- [Modifica delle immagini](/it/psd/net/modifying-images/)
-- [Impostazione di proprietà sulle immagini](/it/psd/net/setting-properties-on-images/)
+- [Applicazione dei filtri mediano e Wiener](/psd/it/net/applying-median-and-wiener-filters/)
+- [Conversione delle immagini](/psd/it/net/converting-images/)
+- [Creazione, apertura e salvataggio delle immagini](/psd/it/net/creating-opening-and-saving-images/)
+- [Ritaglio, rotazione e ridimensionamento delle immagini](/psd/it/net/crop-rotate-and-resize-images/)
+- [Modifica delle immagini](/psd/it/net/modifying-images/)
+- [Impostazione di proprietà sulle immagini](/psd/it/net/setting-properties-on-images/)
 

@@ -10,8 +10,8 @@ Sử dụng Aspose.PSD cho .NET, các nhà phát triển có thể chuyển đ�
 
 
 ## **Bài viết trong phần này**
-- [Xử lý định dạng Adobe Illustrator](/vi/psd/net/manipulating-adobe-illustrator-formats/)
-- [Xử lý định dạng Adobe Photoshop](/vi/psd/net/manipulating-adobe-photoshop-formats/)
-- [Xử lý hình ảnh JPEG](/vi/psd/net/manipulating-jpeg-images/)
-- [Xử lý hình ảnh PNG](/vi/psd/net/manipulating-png-images/)
-- [Xử lý hình ảnh TIFF](/vi/psd/net/manipulating-tiff-images/)
+- [Xử lý định dạng Adobe Illustrator](/psd/vi/net/manipulating-adobe-illustrator-formats/)
+- [Xử lý định dạng Adobe Photoshop](/psd/vi/net/manipulating-adobe-photoshop-formats/)
+- [Xử lý hình ảnh JPEG](/psd/vi/net/manipulating-jpeg-images/)
+- [Xử lý hình ảnh PNG](/psd/vi/net/manipulating-png-images/)
+- [Xử lý hình ảnh TIFF](/psd/vi/net/manipulating-tiff-images/)

@@ -22,7 +22,7 @@ De volgende zijn de kernfuncties van Aspose.PSD:
 #### **Afbeeldingsladen**
 - PSD
 - PSB
-- [AI](/nl/psd/net/ai-adobe-illustrator-format/)
+- [AI](/psd/nl/net/ai-adobe-illustrator-format/)
 #### **Verwerking van ruwe gegevens**
 - PSD
 - PSB

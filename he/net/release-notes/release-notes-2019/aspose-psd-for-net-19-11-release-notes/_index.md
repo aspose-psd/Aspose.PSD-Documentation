@@ -13,10 +13,10 @@ url: /he/net/aspose-psd-for-net-19-11-release-notes/
 
 |**מפתח**|**סיכום**|**קטגוריה**|
 | :- | :- | :- |
-|PSDNET-151|[תמיכה באפקט שֵׁל צל פנימי](/he/psd/net/shadow-effects-in-photoshop/#shadoweffectsinphotoshop-innershadoweffect)|תכונה|
-|PSDNET-135|[יישום עיבוד שכבת מילוי: ארבעלבים](/he/psd/net/support-of-fill-layers/#supportoffilllayers-filllayerswithpatternfill)|תכונה|
-|PSDNET-187|[תמיכה בתמונות רסטר בקבצי פורמט AI](/he/psd/net/manipulating-adobe-illustrator-formats/#manipulatingadobeillustratorformats-rasterimagesinillustrator)|תכונה|
-|PSDNET-225|[קבלת מאפיינים של עיצוב פני הטקסט המכוון](/he/psd/net/working-with-text-layers/#workingwithtextlayers-gettextpropertiesfromatextlayer)|תכונה|
+|PSDNET-151|[תמיכה באפקט שֵׁל צל פנימי](/psd/he//net/shadow-effects-in-photoshop/#shadoweffectsinphotoshop-innershadoweffect)|תכונה|
+|PSDNET-135|[יישום עיבוד שכבת מילוי: ארבעלבים](/psd/he//net/support-of-fill-layers/#supportoffilllayers-filllayerswithpatternfill)|תכונה|
+|PSDNET-187|[תמיכה בתמונות רסטר בקבצי פורמט AI](/psd/he//net/manipulating-adobe-illustrator-formats/#manipulatingadobeillustratorformats-rasterimagesinillustrator)|תכונה|
+|PSDNET-225|[קבלת מאפיינים של עיצוב פני הטקסט המכוון](/psd/he//net/working-with-text-layers/#workingwithtextlayers-gettextpropertiesfromatextlayer)|תכונה|
 |PSDNET-214|ייצוא שגוי של PSD לפורמטים אחרים אם המכיל שכבות יישומי אפקט ושכבות התאמה|באג|
 
 ## **שינויים ב- API הציבורי**

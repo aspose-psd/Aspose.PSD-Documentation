@@ -13,11 +13,11 @@ url: /he/net/aspose-psd-for-net-19-10-release-notes/
 
 |**מפתח**|**סיכום**|**קטגוריה**|
 | :- | :- | :- |
-|PSDNET-207|[תמיכה בשכבת כיוון צבע](/he/psd/net/modifying-images/#modifyingimages-colorbalanceadjustmentlayer)|תכונה|
-|PSDNET-145|[תמיכה בשכבת היפוך](/he/psd/net/modifying-images/#modifyingimages-invertadjustmentlayer)|תכונה|
-|PSDNET-139|[ממשק Bicubic Resampler](/he/psd/net/modifying-images/#modifyingimages-implementbicubicresampling)|תכונה|
-|PSDNET-169|[הוספת תמיכה בייצוא PSD ל-PDF עם Clipping Mask](/he/psd/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithclippingmask)|תכונה|
-|PSDNET-168|[הוספת תמיכה בייצוא PSD ל-PDF עם שכבות כיוון](/he/psd/net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithadjustmentlayer)|תכונה|
+|PSDNET-207|[תמיכה בשכבת כיוון צבע](/psd/he//net/modifying-images/#modifyingimages-colorbalanceadjustmentlayer)|תכונה|
+|PSDNET-145|[תמיכה בשכבת היפוך](/psd/he//net/modifying-images/#modifyingimages-invertadjustmentlayer)|תכונה|
+|PSDNET-139|[ממשק Bicubic Resampler](/psd/he//net/modifying-images/#modifyingimages-implementbicubicresampling)|תכונה|
+|PSDNET-169|[הוספת תמיכה בייצוא PSD ל-PDF עם Clipping Mask](/psd/he//net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithclippingmask)|תכונה|
+|PSDNET-168|[הוספת תמיכה בייצוא PSD ל-PDF עם שכבות כיוון](/psd/he//net/convert-psd-to-other-formats/#convertpsdtootherformats-psdtopdfwithadjustmentlayer)|תכונה|
 |PSDNET-179|בעיה בקבלת אפקט DropShadowEffect|שדרוג|
 |PSDNET-203|כאשר הטקסט מתעדכן עם / (סלאש קדמי), לא ניתן לפתוח את הקובץ בפוטושופ|באג|
 |PSDNET-199|לא ניתן לשמור קובץ PSD כאשר השכבת טקסט מכילה שורת שובץ בלבד|באג|

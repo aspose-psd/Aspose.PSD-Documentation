@@ -11,11 +11,11 @@ Tại đây bạn sẽ tìm thấy các bài viết với mẹo và khuyến ngh
 
 
 ## **Các bài viết trong phần này**
-- [Thêm Chữ ký vào ảnh](/vi/psd/net/adding-a-signature-to-an-image/)
-- [Thêm Watermark vào ảnh](/vi/psd/net/adding-a-watermark-to-an-image/)
-- [Cải thiện Hiệu suất của Aspose.PSD bằng Cách tùy chỉnh Bộ đệm](/vi/psd/net/aspose-psd-performance-improvement-using-customizable-cache/)
-- [Tránh Sự suy giảm Hiệu suất khi Vẽ trên Ảnh Nén](/vi/psd/net/avoid-performance-degradation-when-drawing-over-compressed-images/)
-- [Chuyển đổi Không gian Màu cho JPEG thông qua Hồ sơ ICC](/vi/psd/net/color-space-conversion-for-jpeg-through-icc-profiles/)
-- [Hỗ trợ Ảnh lớn](/vi/psd/net/large-image-support/)
-- [Xử lý Dữ liệu Nguyên thô](/vi/psd/net/raw-data-processing/)
-- [Hỗ trợ Cho Màn theo dõi Gián đoạn](/vi/psd/net/support-for-interrupt-monitor/)
+- [Thêm Chữ ký vào ảnh](/psd/vi/net/adding-a-signature-to-an-image/)
+- [Thêm Watermark vào ảnh](/psd/vi/net/adding-a-watermark-to-an-image/)
+- [Cải thiện Hiệu suất của Aspose.PSD bằng Cách tùy chỉnh Bộ đệm](/psd/vi/net/aspose-psd-performance-improvement-using-customizable-cache/)
+- [Tránh Sự suy giảm Hiệu suất khi Vẽ trên Ảnh Nén](/psd/vi/net/avoid-performance-degradation-when-drawing-over-compressed-images/)
+- [Chuyển đổi Không gian Màu cho JPEG thông qua Hồ sơ ICC](/psd/vi/net/color-space-conversion-for-jpeg-through-icc-profiles/)
+- [Hỗ trợ Ảnh lớn](/psd/vi/net/large-image-support/)
+- [Xử lý Dữ liệu Nguyên thô](/psd/vi/net/raw-data-processing/)
+- [Hỗ trợ Cho Màn theo dõi Gián đoạn](/psd/vi/net/support-for-interrupt-monitor/)

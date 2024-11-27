@@ -14,7 +14,7 @@ description: Aspose.PSD适配器全手册。
 
 ## 许可证应用
 
-请查看有关应用许可证的完整[文章](/zh/psd/net/adapters/license)来了解更多关于适配器的信息。
+请查看有关应用许可证的完整[文章](/psd/zh/net/adapters/license)来了解更多关于适配器的信息。
 
 {{% alert color="primary" %}}
 请注意，要使用适配器，您需要同时拥有Aspose.PSD和被适配软件的许可证。

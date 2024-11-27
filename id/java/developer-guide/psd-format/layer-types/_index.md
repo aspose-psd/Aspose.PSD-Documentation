@@ -13,7 +13,7 @@ url: /id/java/layer-types/
 - Lapisan Teks
 
 		Lapisan yang berisi data teks, termasuk Gaya dan Paragraf dari Mesin Teks PSD
-- [Lapisan Penyesuaian](/id/psd/java/layer-types/adjustment-layer/)
+- [Lapisan Penyesuaian](/psd/id/java/layer-types/adjustment-layer/)
 
 		Lapisan ini menerapkan penyesuaian grafis yang berbeda ke lapisan di bawahnya.
 		

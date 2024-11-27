@@ -24,12 +24,12 @@ Aspose.PSD .NET için Adaptörler, diğer Aspose Ürünleriyle entegrasyon kodu 
 Lütfen unutmayın, adaptörleri kısıtlama olmadan kullanabilmek için hem Aspose.PSD hem de Aspose.Imaging lisanslarına ihtiyacınız vardır. Adaptör NuGet Paketi en değerli olanı Aspose.Total Lisansına sahip olanlar için en değerlidir.
 
 Daha fazla açıklama ve örnekler için lütfen şu adreslere göz atın:
-- [Aspose.PSD Adaptörleri hızlı başlangıç rehberi](/tr/psd/net/adapters/quick-start)
-- [Aspose.PSD Adaptörleri için lisans ayarlama](/tr/psd/net/adapters/license)
-- [Aspose.PSD tarafından desteklenmeyen formatların yüklenmesi](/tr/psd/net/adapters/load-unsupported-formats)
-- [Aspose.PSD Desteklenmeyen Formatlara Aktarma](/tr/psd/net/adapters/export-to-unsupported-formats)
-- [Webp, SVG ve diğer formatlarla çalışma hakkında Aspose.PSD Adaptörleri genel bakış](/tr/psd/net/adapters/working-with-webp-svg-formats-overview)
-- [Aspose.PSD Yükleme Adaptörleri Tam Kılavuz](/tr/psd/net/adapters/full-manual)
+- [Aspose.PSD Adaptörleri hızlı başlangıç rehberi](/psd/tr/net/adapters/quick-start)
+- [Aspose.PSD Adaptörleri için lisans ayarlama](/psd/tr/net/adapters/license)
+- [Aspose.PSD tarafından desteklenmeyen formatların yüklenmesi](/psd/tr/net/adapters/load-unsupported-formats)
+- [Aspose.PSD Desteklenmeyen Formatlara Aktarma](/psd/tr/net/adapters/export-to-unsupported-formats)
+- [Webp, SVG ve diğer formatlarla çalışma hakkında Aspose.PSD Adaptörleri genel bakış](/psd/tr/net/adapters/working-with-webp-svg-formats-overview)
+- [Aspose.PSD Yükleme Adaptörleri Tam Kılavuz](/psd/tr/net/adapters/full-manual)
 
 {{% /alert %}} 
 
@@ -37,8 +37,8 @@ Daha fazla açıklama ve örnekler için lütfen şu adreslere göz atın:
 
 Görevlerinizi yerine getirmenizde size yardımcı olabilecek bazı faydalı kaynaklara aşağıdaki bağlantılardan ulaşabilirsiniz.
 
-- [Aspose.PSD .NET Çevrimiçi Belgeleri](/tr/psd/net/adapters)
-- [Aspose.PSD .NET Sürüm Notları](/tr/psd/net/adapters/release-notes/)
+- [Aspose.PSD .NET Çevrimiçi Belgeleri](/psd/tr/net/adapters)
+- [Aspose.PSD .NET Sürüm Notları](/psd/tr/net/adapters/release-notes/)
 - [Aspose.PSD .NET Ürün Sayfası](https://products.aspose.com/psd/net)
 - [Aspose.PSD .NET NuGet Paketini Yükle](https://www.nuget.org/packages/Aspose.PSD.Adapters.Imaging/)
 - [GitHub Deposundan Örnekleri İndirin](https://github.com/aspose-psd/Aspose.PSD-for-.NET)

@@ -18,4 +18,4 @@ Aspose.PSD for .NET 是一个本地 PSD 格式库，可用于在服务器上本�
 {{% /alert %}} 
 
 # **Aspose.PSD for .NET**
-页面：[产品描述](/zh/psd/net/product-description/) 页面：[支持的文件格式](/zh/psd/net/supported-file-formats/) 页面：[功能](/zh/psd/net/features/) 页面：[已知问题](/zh/psd/net/known-issues/) 页面：[安装](/zh/psd/net/installation/) 页面：[系统要求](/zh/psd/net/system-requirements/) 页面：[许可](/zh/psd/net/licensing/) 页面：[按使用量计费的许可](/zh/psd/net/metered-licensing/) 页面：[如何运行示例](/zh/psd/net/how-to-run-the-examples/)
+页面：[产品描述](/psd/zh/net/product-description/) 页面：[支持的文件格式](/psd/zh/net/supported-file-formats/) 页面：[功能](/psd/zh/net/features/) 页面：[已知问题](/psd/zh/net/known-issues/) 页面：[安装](/psd/zh/net/installation/) 页面：[系统要求](/psd/zh/net/system-requirements/) 页面：[许可](/psd/zh/net/licensing/) 页面：[按使用量计费的许可](/psd/zh/net/metered-licensing/) 页面：[如何运行示例](/psd/zh/net/how-to-run-the-examples/)

@@ -14,7 +14,7 @@ Adapter adalah Paket Nuget khusus yang memungkinkan integrasi yang mulus antara 
 
 ## Penerapan Lisensi
 
-Periksa [artikel lengkap tentang menerapkan lisensi](/id/psd/net/adapters/license) untuk adapters.
+Periksa [artikel lengkap tentang menerapkan lisensi](/psd/id/net/adapters/license) untuk adapters.
 
 {{% alert color="primary" %}} 
 Harap dicatat, untuk menggunakan Adapters Anda membutuhkan lisensi Aspose.PSD dan adaptees. 

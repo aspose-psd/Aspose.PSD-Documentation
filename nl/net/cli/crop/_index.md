@@ -36,11 +36,11 @@ Aspose.PSD CLI Crop Application is een lichtgewicht console-hulpprogramma voor w
 
 **Controleer andere [Aspose.PSD CLI-toepassingen](https://docs.aspose.com/psd/net/cli) voor .NET als u ondersteuning voor PSD, PSB en AI-indelingen aan uw workflow wilt toevoegen**
 
-1. [Aspose.PSD CLI Converteren](/nl/psd/net/cli/converteren)
-2. [Aspose.PSD CLI Bijsnijden](/nl/psd/net/cli/bijgesneden)
-3. [Aspose.PSD CLI Formaat wijzigen](/nl/psd/net/cli/formaat-wijzigen)
-4. [Aspose.PSD CLI Exporteren](/nl/psd/net/cli/exporteren)
-5. [Aspose.PSD CLI NLP Editor](/nl/psd/net/cli/nlp-bewerker)
+1. [Aspose.PSD CLI Converteren](/psd/nl/net/cli/converteren)
+2. [Aspose.PSD CLI Bijsnijden](/psd/nl/net/cli/bijgesneden)
+3. [Aspose.PSD CLI Formaat wijzigen](/psd/nl/net/cli/formaat-wijzigen)
+4. [Aspose.PSD CLI Exporteren](/psd/nl/net/cli/exporteren)
+5. [Aspose.PSD CLI NLP Editor](/psd/nl/net/cli/nlp-bewerker)
 
 **Controleer Aspose.PSD voor .NET of [andere platforms]**
 
@@ -54,8 +54,8 @@ Aspose.PSD CLI-toepassingen zijn een kant-en-klare oplossing voor de meest popul
 
 Hier zijn links naar enkele nuttige hulpmiddelen die u nodig heeft om uw taken uit te voeren.
 
-- [Aspose.PSD CLI-toepassingen voor .NET Online documentatie](/nl/psd/net/cli/bijgesneden)
-- [Aspose.PSD voor CLI-toepassingen voor .NET Release-opmerkingen](/nl/psd/net/cli/release-notes/)
+- [Aspose.PSD CLI-toepassingen voor .NET Online documentatie](/psd/nl/net/cli/bijgesneden)
+- [Aspose.PSD voor CLI-toepassingen voor .NET Release-opmerkingen](/psd/nl/net/cli/release-notes/)
 - [Aspose.PSD voor CLI-toepassingen .NET Productpagina](https://products.aspose.com/psd/net/cli)
 - [Aspose.PSD voor .NET API Referentiegids](https://reference.aspose.com/net/psd)
 - [Voorbeelden downloaden op GitHub Repository](https://github.com/aspose-psd/CLI-Applications)

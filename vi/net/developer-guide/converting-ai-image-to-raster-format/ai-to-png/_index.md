@@ -5,7 +5,7 @@ weight: 30
 url: /vi/net/ai-to-png/
 ---
 
-Sử dụng Aspose.PSD bạn có thể chuyển đổi các phiên bản của tập tin AI được hỗ trợ sang định dạng Png. Png là một định dạng tập tin đồ họa raster hỗ trợ nén dữ liệu mất mát. Ngoài ra, Png hỗ trợ tính trong suốt. [Rasterization của các tệp Ai](/vi/psd/net/converting-ai-image-to-raster-format/) trên máy chủ có thể được tự động hóa. Để xuất Ai, bạn cần sử dụng đoạn mã sau:
+Sử dụng Aspose.PSD bạn có thể chuyển đổi các phiên bản của tập tin AI được hỗ trợ sang định dạng Png. Png là một định dạng tập tin đồ họa raster hỗ trợ nén dữ liệu mất mát. Ngoài ra, Png hỗ trợ tính trong suốt. [Rasterization của các tệp Ai](/psd/vi/net/converting-ai-image-to-raster-format/) trên máy chủ có thể được tự động hóa. Để xuất Ai, bạn cần sử dụng đoạn mã sau:
 
 Đoạn mã mẫu dưới đây thể hiện cách xuất tệp AI sang định dạng Png theo cách tự động.
 

@@ -24,12 +24,12 @@ Dưới đây là ví dụ nhanh về cách sử dụng các adapter:
 Vui lòng lưu ý, để sử dụng adapter mà không có hạn chế, bạn cần cả giấy phép cho cả Aspose.PSD và Aspose.Imaging. Gói Nuget Adapter quý giá hơn cho chủ sở hữu Giấy phép Aspose.Total.
 
 Để biết thêm thông tin và ví dụ, vui lòng kiểm tra:
-- [Hướng dẫn bắt đầu nhanh với Adapter Aspose.PSD](/vi/psd/net/adapters/quick-start)
-- [Hướng dẫn cấu hình giấy phép cho các sản phẩm của Aspose.PSD](/vi/psd/net/adapters/license)
-- [Cách tải các định dạng không được hỗ trợ bởi Aspose.PSD](/vi/psd/net/adapters/load-unsupported-formats)
-- [Xuất các định dạng không được hỗ trợ bởi Aspose.PSD](/vi/psd/net/adapters/export-to-unsupported-formats)
-- [Tổng quan về việc làm việc với các định dạng Webp, SVG và các định dạng khác của Aspose.PSD](/vi/psd/net/adapters/working-with-webp-svg-formats-overview)
-- [Hướng dẫn complete về Adapter Aspose.PSD](/vi/psd/net/adapters/full-manual)
+- [Hướng dẫn bắt đầu nhanh với Adapter Aspose.PSD](/psd/vi/net/adapters/quick-start)
+- [Hướng dẫn cấu hình giấy phép cho các sản phẩm của Aspose.PSD](/psd/vi/net/adapters/license)
+- [Cách tải các định dạng không được hỗ trợ bởi Aspose.PSD](/psd/vi/net/adapters/load-unsupported-formats)
+- [Xuất các định dạng không được hỗ trợ bởi Aspose.PSD](/psd/vi/net/adapters/export-to-unsupported-formats)
+- [Tổng quan về việc làm việc với các định dạng Webp, SVG và các định dạng khác của Aspose.PSD](/psd/vi/net/adapters/working-with-webp-svg-formats-overview)
+- [Hướng dẫn complete về Adapter Aspose.PSD](/psd/vi/net/adapters/full-manual)
 
 {{% /alert %}} 
 
@@ -37,8 +37,8 @@ Vui lòng lưu ý, để sử dụng adapter mà không có hạn chế, bạn c
 
 Dưới đây là các liên kết tới một số tài nguyên hữu ích bạn có thể cần để hoàn thành các công việc của mình.
 
-- [Tài liệu trực tuyến cho Aspose.PSD cho .NET](/vi/psd/net/adapters)
-- [Ghi chú phát hành cho Aspose.PSD cho .NET](/vi/psd/net/adapters/release-notes/)
+- [Tài liệu trực tuyến cho Aspose.PSD cho .NET](/psd/vi/net/adapters)
+- [Ghi chú phát hành cho Aspose.PSD cho .NET](/psd/vi/net/adapters/release-notes/)
 - [Trang Sản phẩm Aspose.PSD cho .NET](https://products.aspose.com/psd/net)
 - [Cài đặt Gói Nuget cho Aspose.PSD cho .NET](https://www.nuget.org/packages/Aspose.PSD.Adapters.Imaging/)
 - [Tải Ví dụ tại Kho lưu trữ GitHub](https://github.com/aspose-psd/Aspose.PSD-for-.NET)

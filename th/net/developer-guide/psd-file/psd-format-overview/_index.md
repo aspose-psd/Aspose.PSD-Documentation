@@ -26,8 +26,8 @@ PSD, หรือ Photoshop Document, แทนรูปแบบไฟล์ต
 ไฟล์ PSD อาจรวมถึงเลเยอร์รูปภาพ, เลเยอร์การปรับแต่ง, เลเยอร์มาสก์, ข้อมูลหมวดหมู่, คีย์เวิร์ด, และองค์ประสงค์เฉพาะของ Photoshop ไฟล์ Photoshop มีนามสกุลเริ่มต้นเป็น .PSD และมีขนาดสูงสุดของความสูงและความกว้าง 30,000 พิกเซล และ ความยาวสูงสุด 2 กีกะไบต์
 ## **วิธีการใช้**
 1. เครื่องมือสำหรับการตัด PSD
-1. [การแปลง PSD](/th/psd/net/converting-psd-image-to-raster-format/) เป็น HTML
-1. การใช้ [PSD เป็นเทมเพลต](/th/psd/net/using-psd-files-as-templates-for-automation-business-cards-case/) สำหรับอีเมล
+1. [การแปลง PSD](/psd/th/net/converting-psd-image-to-raster-format/) เป็น HTML
+1. การใช้ [PSD เป็นเทมเพลต](/psd/th/net/using-psd-files-as-templates-for-automation-business-cards-case/) สำหรับอีเมล
 1. PSD ไปยัง HTML CMS ที่เฉพาะเจาะจง
 1. อิเด็นติตท์ในไฟล์ PSD (ภาพประกอบตำรวจ)
 1. สร้างรูปตัวอย่างพรีวิว 3 มิติโดยใช้วัตถุฉลามสมาร์ทสำหรับสินค้าเช่นขวด, ถ้วย, เสื้อยืด ฯลฯ
@@ -38,4 +38,4 @@ PSD, หรือ Photoshop Document, แทนรูปแบบไฟล์ต
 ตัวอย่างเพิ่มเติมที่คุณสามารถเรียนรู้ได้จาก:
 
 - [เคสสถานการณ์](https://downloads.aspose.com/corporate/case-studies/aspose.psd/)
-- [การแสดงผล](/th/psd/net/showcases-html/)
+- [การแสดงผล](/psd/th/net/showcases-html/)

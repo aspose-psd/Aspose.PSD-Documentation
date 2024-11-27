@@ -17,6 +17,6 @@ Você pode especificar a qualidade do formato de arquivo JPEG, o Erro Permitido 
 
 Você pode exportar o arquivo PSD após a edição ou em [Modo Somente Leitura](https://reference.aspose.com/psd/net/aspose.psd.imageloadoptions/psdloadoptions/properties/readonlymode) para visualização do arquivo PSD que será utilizado.
 
-Aqui está um exemplo de exportação de [Gradiente Photoshop](/pt/psd/net/support-of-fill-layers/) e [Camada de Texto PSD](/pt/psd/net/working-with-text-layers/):
+Aqui está um exemplo de exportação de [Gradiente Photoshop](/psd/pt/net/support-of-fill-layers/) e [Camada de Texto PSD](/psd/pt/net/working-with-text-layers/):
 
 ![todo:image_alt_text](psd-to-jpg_1.png)

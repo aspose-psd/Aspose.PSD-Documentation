@@ -11,7 +11,7 @@ Kelas Grafik memberi Anda kemampuan untuk menggambar bentuk-bentuk sederhana dal
 
 
 ## **Artikel dalam bagian ini**
-- [Gambar Gambar](/id/psd/net/drawing-images/)
-- [Menggambar Gambar menggunakan Grafik](/id/psd/net/drawing-images-using-graphics/)
-- [Menggambar Gambar menggunakan GraphicsPath](/id/psd/net/drawing-images-using-graphicspath/)
+- [Gambar Gambar](/psd/id/net/drawing-images/)
+- [Menggambar Gambar menggunakan Grafik](/psd/id/net/drawing-images-using-graphics/)
+- [Menggambar Gambar menggunakan GraphicsPath](/psd/id/net/drawing-images-using-graphicspath/)
 

@@ -13,7 +13,7 @@ Dit is een volledige handleiding over het werken met Aspose.PSD-adapters om de m
 
 ## Licenties toepassen
 
-Raadpleeg het volledige [artikel over het toepassen van licenties](/nl/psd/net/adapters/license) voor adapters.
+Raadpleeg het volledige [artikel over het toepassen van licenties](/psd/nl/net/adapters/license) voor adapters.
 
 {{% alert color="primary" %}}
 Let op, om Adapters te gebruiken heeft u zowel Aspose.PSD- als adapterslicenties nodig.

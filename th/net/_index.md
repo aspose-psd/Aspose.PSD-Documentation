@@ -24,7 +24,7 @@ Aspose.PSD สำหรับ .NET เป็นสินค้าที่ช่
 
 **![Aspose.PSD สำหรับโปรแกรมเชื่อมต่อสำหรับ .NET โลโก้](aspose_psd-for-net-adapter.png)**
 
-**กรุณาเช็ค [เอ็ดาปเตอร์ Aspose.PSD](/th/psd/net/adapters) สำหรับ .NET หากคุณต้องการประมวลผลรูปแบบเพิ่มเติมใน Aspose.PSD**
+**กรุณาเช็ค [เอ็ดาปเตอร์ Aspose.PSD](/psd/th/net/adapters) สำหรับ .NET หากคุณต้องการประมวลผลรูปแบบเพิ่มเติมใน Aspose.PSD**
 
 เอ็ดาปเตอร์ Aspose.PSD สำหรับ .NET เป็นหนึ่งในนูเก็ตแพคเกจพิเศษที่ช่วยให้คุณเขียนรหัสการผสานกับผลิตภัณฑ์ Aspose อื่น ๆ ได้น้อยลง
 
@@ -36,9 +36,9 @@ Aspose.PSD สำหรับ .NET เป็นสินค้าที่ช่
 
 ต่อไปนี้คือลิงก์ที่คุณอาจต้องการไปยังทรัพยากรบางส่วนที่ช่วยให้คุณสามารถทำงานของคุณสำเร็จ
 
-- [เอกสารออนไลน์ Aspose.PSD สำหรับ .NET](/th/psd/net/)
-- [คุณสมบัติ Aspose.PSD สำหรับ .NET](/th/psd/net/features/)
-- [บันทึกการอัพเดท Aspose.PSD สำหรับ .NET](/th/psd/net/release-notes/)
+- [เอกสารออนไลน์ Aspose.PSD สำหรับ .NET](/psd/th/net/)
+- [คุณสมบัติ Aspose.PSD สำหรับ .NET](/psd/th/net/features/)
+- [บันทึกการอัพเดท Aspose.PSD สำหรับ .NET](/psd/th/net/release-notes/)
 - [หน้าผลิตภัณฑ์ Aspose.PSD สำหรับ .NET](https://products.aspose.com/psd/net)
 - [ติดตั้ง pachage NuGet Aspose.PSD สำหรับ .NET](https://www.nuget.org/packages/Aspose.PSD/)
 - [คู่มือโครงสร้าง API Aspose.PSD สำหรับ .NET](https://reference.aspose.com/net/psd)
