@@ -5,7 +5,7 @@ weight: 110
 url: /he/net/aspose-psd-for-net-24-2-release-notes/
 ---
 
-{{% התראה צבע="ראשי" %}}
+{{% alert color="primary" %}} 
 
 עמוד זה מכיל את ההערות לגרסה של [Aspose.PSD עבור .NET 24.2](https://www.nuget.org/packages/Aspose.PSD/)
 
