@@ -1,5 +1,5 @@
 ---
-title: כותרת: Aspose.PSD עבור .NET 22.5 - הערות לשחרור
+title: Aspose.PSD עבור .NET 22.5 - הערות לשחרור
 type: מסמך
 weight: 80
 url: /he/net/aspose-psd-for-net-22-5-release-notes/
