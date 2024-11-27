@@ -21,399 +21,449 @@ url: /fa/net/aspose-psd-for-net-20-8-release-notes/
 |PSDNET-710|رگرسیون: Aspose.PSD 20.7.0 اندازه فونت را برای فایل‌های قدیمی شکسته می‌کند|باگ|
 
 ## **تغییرات API عمومی**
-# **API‌های اضافه شده:**
-- M:Aspose.PSD.FileFormats.Psd.Layers.FillLayers.FillLayer.ReplaceNonTransparentColors(System.Int32)
-- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.ClassID.#ctor(System.Byte[],System.Boolean)
-- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.TypeToolInfoStructures.ObjectArrayStructure
-- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.TypeToolInfoStructures.ObjectArrayStructure.#ctor(System.String,System.String,Aspose.PSD.FileFormats.Psd.Layers.LayerResources.OSTypeStructure[])
-- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.TypeToolInfoStructures.ObjectArrayStructure.#ctor(System.Int32,Aspose.PSD.FileFormats.Psd.Layers.LayerResources.ClassID,Aspose.PSD.FileFormats.Psd.Layers.LayerResources.ClassID,System.String,Aspose.PSD.FileFormats.Psd.Layers.LayerResources.OSTypeStructure[])
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.TypeToolInfoStructures.ObjectArrayStructure.Key
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.TypeToolInfoStructures.ObjectArrayStructure.StructureCount
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.TypeToolInfoStructures.ObjectArrayStructure.ClassName
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.TypeToolInfoStructures.ObjectArrayStructure.ClassID
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.TypeToolInfoStructures.ObjectArrayStructure.Structures
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.TypeToolInfoStructures.ObjectArrayStructure.Length
-- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.TypeToolInfoStructures.ObjectArrayStructure.StructureKey
-- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.UnitArrayStructure
-- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.UnitArrayStructure.#ctor(Aspose.PSD.FileFormats.Psd.Layers.LayerResources.ClassID,Aspose.PSD.FileFormats.Psd.Layers.LayerResources.TypeToolInfoStructures.UnitTypes,System.Double[])
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.UnitArrayStructure.UnitType
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.UnitArrayStructure.Values
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.UnitArrayStructure.ValueCount
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.UnitArrayStructure.Key
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.UnitArrayStructure.Length
-- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.UnitArrayStructure.StructureKey
-- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource
-- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.#ctor(System.Guid,System.Boolean)
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.Version
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.UniqueId
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.IsCustom
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.PageNumber
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.TotalPages
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.AntiAliasPolicy
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.PlacedLayerType
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.Left
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.Top
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.Right
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.Bottom
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.Bounds
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.TransformMatrix
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.HorizontalMeshPoints
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.VerticalMeshPoints
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.HorizontalMeshPointUnit
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.VerticalMeshPointUnit
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.Signature
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.Key
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.Length
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.PsdVersion
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.Value
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.Perspective
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.PerspectiveOther
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.UOrder
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.VOrder
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.Items
-- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.Save(Aspose.PSD.StreamContainer,System.Int32)
-- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlLdResource.TypeToolKey
-- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlacedLayerType
-- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlacedLayerType.Unknown
-- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlacedLayerType.Vector
-- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlacedLayerType.Raster
-- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PlacedLayerType.ImageStack
-- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.Version
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.UniqueId
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.IsCustom
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.PageNumber
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.TotalPages
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.AntiAliasPolicy
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.PlacedLayerType
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.Left
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.Top
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.Right
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.Bottom
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.Bounds
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.TransformMatrix
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.HorizontalMeshPoints
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.VerticalMeshPoints
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.HorizontalMeshPointUnit
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.VerticalMeshPointUnit
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.Value
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.Perspective
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.PerspectiveOther
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.UOrder
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.VOrder
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.IPlacedLayerResource.Items
-- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource
-- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.#ctor(System.Guid,System.Boolean,System.Boolean)
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.CompId
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.OriginalCompId
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Version
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.UniqueId
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.PlacedId
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.IsCustom
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.PageNumber
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.TotalPages
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.AntiAliasPolicy
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.PlacedLayerType
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Left
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Top
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Right
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Bottom
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Bounds
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.TransformMatrix
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.NonAffineTransformMatrix
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.HorizontalMeshPoints
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.VerticalMeshPoints
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.HorizontalMeshPointUnit
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.VerticalMeshPointUnit
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Signature
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Key
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Length
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.PsdVersion
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Value
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Perspective
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.PerspectiveOther
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.UOrder
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.VOrder
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Items
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Crop
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.FrameCount
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Resolution
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.ResolutionUnit
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Comp
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Width
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Height
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.FrameStepNumerator
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.FrameStepDenominator
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.DurationNumerator
-- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.DurationDenominator
-- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.Save(Aspose.PSD.StreamContainer,System.Int32)
-- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoLdResource.TypeToolKey
+- T:Aspose.PSD.FileFormats.Psd.PsdVersion
+- F:Aspose.PSD.FileFormats.Psd.PsdVersion.Psd
+- F:Aspose.PSD.FileFormats.Psd.PsdVersion.Psb
+- P:Aspose.PSD.ImageOptions.PsdOptions.PsdVersion
+- T:Aspose.PSD.FileFormats.Core.VectorPaths.BezierKnotRecord
+- M:Aspose.PSD.FileFormats.Core.VectorPaths.BezierKnotRecord.#ctor
+- M:Aspose.PSD.FileFormats.Core.VectorPaths.BezierKnotRecord.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.BezierKnotRecord.PathPoints
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.BezierKnotRecord.Points
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.BezierKnotRecord.IsClosed
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.BezierKnotRecord.IsLinked
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.BezierKnotRecord.IsOpen
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.BezierKnotRecord.Type
+- T:Aspose.PSD.FileFormats.Core.VectorPaths.ClipboardRecord
+- M:Aspose.PSD.FileFormats.Core.VectorPaths.ClipboardRecord.#ctor
+- M:Aspose.PSD.FileFormats.Core.VectorPaths.ClipboardRecord.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.ClipboardRecord.BoundingRect
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.ClipboardRecord.Resolution
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.ClipboardRecord.Type
+- T:Aspose.PSD.FileFormats.Core.VectorPaths.IVectorPathData
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.IVectorPathData.Paths
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.IVectorPathData.Version
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.IVectorPathData.IsDisabled
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.IVectorPathData.IsNotLinked
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.IVectorPathData.IsInverted
+- T:Aspose.PSD.FileFormats.Core.VectorPaths.InitialFillRuleRecord
+- M:Aspose.PSD.FileFormats.Core.VectorPaths.InitialFillRuleRecord.#ctor
+- M:Aspose.PSD.FileFormats.Core.VectorPaths.InitialFillRuleRecord.#ctor(System.Boolean)
+- M:Aspose.PSD.FileFormats.Core.VectorPaths.InitialFillRuleRecord.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.InitialFillRuleRecord.IsFillStartsWithAllPixels
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.InitialFillRuleRecord.Type
+- T:Aspose.PSD.FileFormats.Core.VectorPaths.LengthRecord
+- M:Aspose.PSD.FileFormats.Core.VectorPaths.LengthRecord.#ctor
+- M:Aspose.PSD.FileFormats.Core.VectorPaths.LengthRecord.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.LengthRecord.IsClosed
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.LengthRecord.IsOpen
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.LengthRecord.RecordCount
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.LengthRecord.Type
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.LengthRecord.BezierKnotRecordsCount
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.LengthRecord.PathOperations
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.LengthRecord.ShapeIndex
+- T:Aspose.PSD.FileFormats.Core.VectorPaths.PathFillRuleRecord
+- M:Aspose.PSD.FileFormats.Core.VectorPaths.PathFillRuleRecord.#ctor
+- M:Aspose.PSD.FileFormats.Core.VectorPaths.PathFillRuleRecord.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.PathFillRuleRecord.Type
+- T:Aspose.PSD.FileFormats.Core.VectorPaths.PathOperations
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.PathOperations.ExcludeOverlappingShapes
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.PathOperations.CombineShapes
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.PathOperations.SubtractFrontShape
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.PathOperations.IntersectShapeAreas
+- T:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathRecord
+- M:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathRecord.#ctor
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathRecord.Type
+- T:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathRecordFactory
+- M:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathRecordFactory.#ctor
+- M:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathRecordFactory.ProducePathRecord(System.Byte[])
+- T:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathType
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathType.ClosedSubpathLengthRecord
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathType.ClosedSubpathBezierKnotLinked
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathType.ClosedSubpathBezierKnotUnlinked
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathType.OpenSubpathLengthRecord
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathType.OpenSubpathBezierKnotLinked
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathType.OpenSubpathBezierKnotUnlinked
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathType.PathFillRuleRecord
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathType.ClipboardRecord
+- F:Aspose.PSD.FileFormats.Core.VectorPaths.VectorPathType.InitialFillRuleRecord
+- T:Aspose.PSD.FileFormats.Core.VectorPaths.VectorShapeOriginSettings
+- M:Aspose.PSD.FileFormats.Core.VectorPaths.VectorShapeOriginSettings.#ctor(System.Boolean,System.Int32)
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.VectorShapeOriginSettings.IsShapeInvalidated
+- P:Aspose.PSD.FileFormats.Core.VectorPaths.VectorShapeOriginSettings.OriginIndex
+- F:Aspose.PSD.FileFormat.Html5Canvas
+- F:Aspose.PSD.FileFormat.Apng
+- F:Aspose.PSD.FileFormat.Tga
+- T:Aspose.PSD.FileFormats.Core.Blending.BlendMode
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.Absent
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.Color
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.Darken
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.Difference
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.Dissolve
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.ColorDodge
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.DarkerColor
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.Divide
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.Subtract
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.HardLight
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.HardMix
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.Hue
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.ColorBurn
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.LinearLight
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.LinearBurn
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.LinearDodge
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.LighterColor
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.Lighten
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.Luminosity
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.Multiply
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.Normal
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.Overlay
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.PinLight
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.PassThrough
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.SoftLight
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.Saturation
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.Screen
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.Exclusion
+- F:Aspose.PSD.FileFormats.Core.Blending.BlendMode.VividLight
+- T:Aspose.PSD.AsyncTask.AsyncTask
+- M:Aspose.PSD.AsyncTask.AsyncTask.Create(Aspose.PSD.AsyncTask.AsyncTaskAction)
+- M:Aspose.PSD.AsyncTask.AsyncTask.Create(Aspose.PSD.AsyncTask.AsyncTaskFunc)
+- T:Aspose.PSD.AsyncTask.AsyncTaskAction
+- T:Aspose.PSD.AsyncTask.AsyncTaskException
+- M:Aspose.PSD.AsyncTask.AsyncTaskException.#ctor(System.String)
+- T:Aspose.PSD.AsyncTask.AsyncTaskFunc
+- T:Aspose.PSD.AsyncTask.AsyncTaskProgress
+- M:Aspose.PSD.AsyncTask.AsyncTaskProgress.#ctor(System.Int32,System.TimeSpan)
+- F:Aspose.PSD.AsyncTask.AsyncTaskProgress.Duration
+- F:Aspose.PSD.AsyncTask.AsyncTaskProgress.ProgressPercentage
+- T:Aspose.PSD.AsyncTask.CompleteCallback
+- T:Aspose.PSD.AsyncTask.IAsyncTask
+- P:Aspose.PSD.AsyncTask.IAsyncTask.Progress
+- P:Aspose.PSD.AsyncTask.IAsyncTask.IsBusy
+- P:Aspose.PSD.AsyncTask.IAsyncTask.IsCanceled
+- P:Aspose.PSD.AsyncTask.IAsyncTask.IsFaulted
+- P:Aspose.PSD.AsyncTask.IAsyncTask.Error
+- P:Aspose.PSD.AsyncTask.IAsyncTask.Result
+- M:Aspose.PSD.AsyncTask.IAsyncTask.RunAsync
+- M:Aspose.PSD.AsyncTask.IAsyncTask.RunAsync(System.Threading.ThreadPriority)
+- M:Aspose.PSD.AsyncTask.IAsyncTask.Cancel
+- M:Aspose.PSD.AsyncTask.IAsyncTask.Abort
+- M:Aspose.PSD.AsyncTask.IAsyncTask.SetProgressCallback(Aspose.PSD.AsyncTask.ProgressCallback)
+- M:Aspose.PSD.AsyncTask.IAsyncTask.SetCompleteCallback(Aspose.PSD.AsyncTask.CompleteCallback)
+- T:Aspose.PSD.AsyncTask.IAsyncTaskState
+- P:Aspose.PSD.AsyncTask.IAsyncTaskState.IsCanceled
+- P:Aspose.PSD.AsyncTask.IAsyncTaskState.Progress
+- M:Aspose.PSD.AsyncTask.IAsyncTaskState.SetProgress(System.Int32)
+- T:Aspose.PSD.AsyncTask.ProgressCallback
+- M:Aspose.PSD.ColorPaletteHelper.GetCloseImagePalette(Aspose.PSD.RasterImage,Aspose.PSD.Rectangle,System.Int32,System.Boolean)
+- M:Aspose.PSD.ColorPaletteHelper.HasTransparentColors(Aspose.PSD.IColorPalette)
+- T:Aspose.PSD.Evalute.EvalException
+- P:Aspose.PSD.Evalute.EvalException.Message
+- F:Aspose.PSD.FileFormats.Bmp.BitmapCompression.Dxt1
+- P:Aspose.PSD.FileFormats.Pdf.PdfCoreOptions.PdfCompliance
+- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.PhotoshopResources
+- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.XPTitle
+- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.XPComment
+- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.XPAuthor
+- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.XPKeywords
+- F:Aspose.PSD.FileFormats.Tiff.Enums.TiffTags.XPSubject
+- T:Aspose.PSD.FlatArray.Exceptions.FlatArrayException
+- M:Aspose.PSD.Image.GetImage2Export(Aspose.PSD.ImageOptionsBase,Aspose.PSD.Rectangle)
+- P:Aspose.PSD.ImageOptions.MultiPageOptions.PageRasterizationOptions
+- P:Aspose.PSD.ImageOptions.MultiPageOptions.MergeLayers
+- F:Aspose.PSD.ImageOptions.PngOptions.DefaultCompressionLevel
+- P:Aspose.PSD.ImageOptions.TiffOptions.CompressedQuality
+- P:Aspose.PSD.ImageOptions.TiffOptions.XPTitle
+- P:Aspose.PSD.ImageOptions.TiffOptions.XPComment
+- P:Aspose.PSD.ImageOptions.TiffOptions.XPAuthor
+- P:Aspose.PSD.ImageOptions.TiffOptions.XPKeywords
+- P:Aspose.PSD.ImageOptions.TiffOptions.XPSubject
+- P:Aspose.PSD.ImageOptionsBase.FullFrame
+- T:Aspose.PSD.PdfComplianceVersion
+- F:Aspose.PSD.PdfComplianceVersion.Pdf15
+- F:Aspose.PSD.PdfComplianceVersion.PdfA1a
+- F:Aspose.PSD.PdfComplianceVersion.PdfA1b
+- M:Aspose.PSD.PixelDataFormat.GetGrayscaleAlpha(System.Int32,System.Int32)
+- M:Aspose.PSD.PixelDataFormat.GetRgb(System.Int32,System.Int32,System.Int32)
+- M:Aspose.PSD.PixelDataFormat.GetRgba(System.Int32,System.Int32,System.Int32,System.Int32)
+- M:Aspose.PSD.PixelDataFormat.GetRgbIndexed(System.Int32)
+- M:Aspose.PSD.PixelDataFormat.GetYCbCr(System.Int32,System.Int32,System.Int32)
+- M:Aspose.PSD.PixelDataFormat.GetCmyk(System.Int32,System.Int32,System.Int32,System.Int32)
+- M:Aspose.PSD.PixelDataFormat.GetCmyka(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+- M:Aspose.PSD.PixelDataFormat.GetCieLab(System.Int32,System.Int32,System.Int32)
+- F:Aspose.PSD.PixelFormat.CieLab
+- M:Aspose.PSD.RasterImage.Save(System.IO.Stream,Aspose.PSD.ImageOptionsBase,Aspose.PSD.Rectangle)
+- M:Aspose.PSD.RectangleF.op_Multiply(Aspose.PSD.RectangleF,System.Single)
+- M:Aspose.PSD.RectangleF.op_Division(Aspose.PSD.RectangleF,System.Single)
 
-# **API‌های حذف شده:**
-- هیچکدام
+# **Removed APIs:**
+- T:Aspose.PSD.FileFormats.Psd.FileFormatVersion
+- F:Aspose.PSD.FileFormats.Psd.FileFormatVersion.Psd
+- F:Aspose.PSD.FileFormats.Psd.FileFormatVersion.Psb
+- P:Aspose.PSD.ImageOptions.PsdOptions.FileFormatVersion
+- T:Aspose.PSD.FileFormats.Psd.Layers.BlendMode
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Absent
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Color
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Darken
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Difference
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Dissolve
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.ColorDodge
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.DarkerColor
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Divide
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Subtract
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.HardLight
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.HardMix
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Hue
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.ColorBurn
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.LinearLight
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.LinearBurn
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.LinearDodge
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.LighterColor
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Lighten
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Luminosity
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Multiply
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Normal
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Overlay
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.PinLight
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.PassThrough
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.SoftLight
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Saturation
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Screen
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.Exclusion
+- F:Aspose.PSD.FileFormats.Psd.Layers.BlendMode.VividLight
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotRecord
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotRecord.#ctor
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotRecord.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotRecord.Points
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotRecord.IsClosed
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotRecord.IsLinked
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotRecord.IsOpen
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotRecord.Type
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.ClipboardRecord
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.ClipboardRecord.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.ClipboardRecord.Type
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.InitialFillRuleRecord
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.InitialFillRuleRecord.#ctor(System.Boolean)
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.InitialFillRuleRecord.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.InitialFillRuleRecord.IsFillStartsWithAllPixels
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.InitialFillRuleRecord.Type
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord.#ctor(System.Byte[])
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord.#ctor
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord.IsClosed
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord.IsOpen
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord.Type
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord.BezierKnotRecordsCount
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord.PathOperations
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.LengthRecord.ShapeIndex
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.PathFillRuleRecord
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.PathFillRuleRecord.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.PathFillRuleRecord.Type
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathRecord
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathRecord.#ctor
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathRecord.Type
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathRecordFactory
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathRecordFactory.#ctor
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathRecordFactory.ProducePathRecord(System.Byte[])
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.ClosedSubpathLengthRecord
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.ClosedSubpathBezierKnotLinked
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.ClosedSubpathBezierKnotUnlinked
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.OpenSubpathLengthRecord
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.OpenSubpathBezierKnotLinked
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.OpenSubpathBezierKnotUnlinked
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.PathFillRuleRecord
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.ClipboardRecord
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorPathType.InitialFillRuleRecord
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorShapeOriginSettings
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorShapeOriginSettings.#ctor(System.Boolean,System.Int32)
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorShapeOriginSettings.IsShapeInvalidated
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VectorShapeOriginSettings.OriginIndex
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.PathOperations
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.PathOperations.ExcludeOverlappingShapes
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.PathOperations.CombineShapes
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.PathOperations.SubtractFrontShape
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.PathOperations.IntersectShapeAreas
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.IVectorPathData
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.IVectorPathData.Paths
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.IVectorPathData.Version
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.IVectorPathData.IsDisabled
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.IVectorPathData.IsNotLinked
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.IVectorPathData.IsInverted
+- M:Aspose.PSD.Image.GetImage2Export(Aspose.PSD.ImageOptionsBase)
 
-## **مثال‌های استفاده:**
-**PSDNET-390. پشتیبانی از PlLdResource (منبع لایه قرار داده شده برای لایه شیء هوشمند)**
+## **Usage examples:**
+**PSDNET-757. Support converting layers to Smart Object Layer**
 {{< highlight csharp >}}
-        void AssertAreEqual(object actual, object expected)
-        {
-            var areEqual = object.Equals(actual, expected);
-            if (!areEqual && actual is Array && expected is Array)
-            {
-                var actualArray = (Array)actual;
-                var expectedArray = (Array)actual;
-                if (actualArray.Length == expectedArray.Length)
-                {
-                    for (int i = 0; i < actualArray.Length; i++)
-                    {
-                        if (!object.Equals(actualArray.GetValue(i), expectedArray.GetValue(i)))
-                        {
-                            break;
-                        }
-                    }
+            string dataDir = "PSDNET757_1\\";
+            string outputDir = dataDir + "output\\";
 
-                    areEqual = true;
+            // These examples demonstrate how to convert layers to a smart object layer in the PSD file
+            ExampleOfConvertingToSmartObjectLayer("ThreeRegularLayers", 0, 1);
+            ExampleOfConvertingToSmartObjectLayer("FourWithMasks", 0, 2);
+            ExampleOfConvertingToSmartObjectLayer("dummy", 2, 3, 1);
+            ExampleOfConvertingToSmartObjectLayer("dummy_group", 6, 2);
+            ExampleOfConvertingToSmartObjectLayer("argb16bit_5x5", 0);
+            ExampleOfConvertingToSmartObjectLayer("cmyk16bit_5x5", 0);
+            ExampleOfConvertingToSmartObjectLayer("grayscale5x5", 0);
+
+            void ExampleOfConvertingToSmartObjectLayer(string filePath, params int[] layerNumbers)
+            {
+                string outputFilePath = outputDir + "Converted_" + filePath + ".psd";
+                string pngOutputPath = Path.ChangeExtension(outputFilePath, ".png");
+                using (PsdImage image = (PsdImage)Image.Load(dataDir + filePath + ".psd"))
+                {
+                    var layerCount = image.Layers.Length;
+                    var smartObjectLayer = image.SmartObjectProvider.ConvertToSmartObject(layerNumbers);
+                    var newLayerCount = image.Layers.Length;
+
+                    image.Save(pngOutputPath, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+                    image.Save(outputFilePath, new PsdOptions(image));
                 }
             }
+{{< /highlight >}}
 
-            if (!areEqual)
+**PSDNET-764. SmartObjectLayer.ReplaceContents method throws NullReferenceException if we try to add PSB file**
+{{< highlight csharp >}}
+            // This example demonstrates that the ReplaceContents method works correctly with the specified PSD file.
+            const string baseFolder = "PSDNET764_1\\";
+            const string outputFolder = baseFolder + "output\\";
+            const string fileName = "CommonPsb.psd";
+            const string filePath = baseFolder + fileName;
+            const string newContentPath = baseFolder + "Smart2.psb";
+            const string outputFilePath = outputFolder + "ChangedPsd";
+            const string pngOutputPath = outputFilePath + ".png";
+            const string psdOutputPath = outputFilePath + ".psd";
+            using (PsdImage psd = (PsdImage)Image.Load(filePath))
             {
-                throw new FormatException(
-                    string.Format("مقدار واقعی {0} با مقدار مورد انتظار {1} برابر نیست.", actual, expected));
-            }
-        }
-
-
-        string dataDir = "PSDNET390_1\\";
-        var sourceFilePath = dataDir + "LayeredSmartObjects8bit2.psd";
-        var outputFilePath = dataDir + "LayeredSmartObjects8bit2_output.psd";
-        var expectedValues = new object[]
-        {
-            new object[]
-            {
-                true,
-                "76f05a3b-7523-5e42-a1bb-27f4735bffa0",
-                1,
-                1,
-                0x10,
-                PlacedLayerType.Raster,
-                new double[8]
+                for (int i = 0; i < psd.Layers.Length; i++)
                 {
-                    29.937922786050663,
-                    95.419959734187131,
-                    126.85445817782261,
-                    1.0540625423957124,
-                    172.20861031651307,
-                    47.634102808208553,
-                    75.292074924741144,
-                    142
-                },
-                0d,
-                0d,
-                0d,
-                0d,
-                0d,
-                149d,
-                310d,
-                4,
-                4,
-                UnitTypes.Pixels,
-                new double[16]
-                {
-                    0.0d, 103.33333333333333d, 206.66666666666666d, 310.0d                    0.0d, 103.33333333333333d, 206.66666666666666d, 310.0d,
-                    0.0d, 103.33333333333333d, 206.66666666666666d, 310.0d,
-                    0.0d, 103.33333333333333d, 206.66666666666666d, 310.0d,
-                    0.0d, 103.33333333333333d, 206.66666666666666d, 310.0d
-                },
-                UnitTypes.Pixels,
-                new double[16]
-                {
-                    0.0d, 0.0d, 0.0d, 0.0d,
-                    49.666666666666664d, 49.666666666666664d, 49.666666666666664d, 49.666666666666664d,
-                    99.333333333333329d, 99.333333333333329d, 99.333333333333329d, 99.333333333333329d,
-                    149, 149, 149, 149,
-                },
-            },
-            new object[]
-            {
-                true,
-                "cf0477a8-8f92-ac4f-9462-f78e26234851",
-                1,
-                1,
-                0x10,
-                PlacedLayerType.Raster,
-                new double[8]
-                {
-                    37.900314592235681,
-                    -0.32118219433001371,
-                    185.94210608826535,
-                    57.7076819802063,
-                    153.32047433609358,
-                    140.9311755779743,
-                    5.2786828400639294,
-                    82.902311403437977,
-                },
-                0d,
-                0d,
-                0d,
-                0d,
-                0d,
-                721d,
-                1280d,
-                4,
-                4,
-                UnitTypes.Pixels,
-                new double[16]
-                {
-                    0.0, 426.66666666666663, 853.33333333333326, 1280,
-                    0.0, 426.66666666666663, 853.33333333333326, 1280,
-                    0.0, 426.66666666666663, 853.33333333333326, 1280,
-                    0.0, 426.66666666666663, 853.33333333333326, 1280,
-                },
-                UnitTypes.Pixels,
-                new double[16]
-                {
-                    0.0, 0.0, 0.0, 0.0,
-                    240.33333333333331, 240.33333333333331, 240.33333333333331, 240.33333333333331,
-                    480.66666666666663, 480.66666666666663, 480.66666666666663, 480.66666666666663,
-                    721, 721, 721, 721,
-                },
-                0,
-                0
-            }
-        };
-
-        using (PsdImage image = (PsdImage)Image.Load(sourceFilePath))
-        {
-            PlLdResource resource = null;
-            int index = 0;
-            foreach (Layer imageLayer in image.Layers)
-            {
-                foreach (var imageResource in imageLayer.Resources)
-                {
-                    resource = imageResource as PlLdResource;
-                    if (resource != null)
+                    var layer = psd.Layers[i];
+                    SmartObjectLayer smartObjectLayer = layer as SmartObjectLayer;
+                    if (smartObjectLayer != null)
                     {
-                        var expectedValue = (object[])expectedValues[index++];
-                        AssertAreEqual(expectedValue[0], resource.IsCustom);
-                        AssertAreEqual(expectedValue[1], resource.UniqueId.ToString());
-                        AssertAreEqual(expectedValue[2], resource.PageNumber);
-                        AssertAreEqual(expectedValue[3], resource.TotalPages);
-                        AssertAreEqual(expectedValue[4], resource.AntiAliasPolicy);
-                        AssertAreEqual(expectedValue[5], resource.PlacedLayerType);
-                        AssertAreEqual(8, resource.TransformMatrix.Length);
-                        AssertAreEqual((double[])expectedValue[6], resource.TransformMatrix);
-                        AssertAreEqual(expectedValue[7], resource.Value);
-                        AssertAreEqual(expectedValue[8], resource.Perspective);
-                        AssertAreEqual(expectedValue[9], resource.PerspectiveOther);
-                        AssertAreEqual(expectedValue[10], resource.Top);
-                        AssertAreEqual(expectedValue[11], resource.Left);
-                        AssertAreEqual(expectedValue[12], resource.Bottom);
-                        AssertAreEqual(expectedValue[13], resource.Right);
-                        AssertAreEqual(expectedValue[14], resource.UOrder);
-                        AssertAreEqual(expectedValue[15], resource.VOrder);
-                        if (resource.IsCustom)
-                        {
-                            AssertAreEqual(expectedValue[16], resource.HorizontalMeshPointUnit);
-                            AssertAreEqual((double[])expectedValue[17], resource.HorizontalMeshPoints);
-                            AssertAreEqual(expectedValue[18], resource.VerticalMeshPointUnit);
-                            AssertAreEqual((double[])expectedValue[19], resource.VerticalMeshPoints);
-                            var temp = resource.VerticalMeshPoints;
-                            resource.VerticalMeshPoints = resource.HorizontalMeshPoints;
-                            resource.HorizontalMeshPoints = temp;
-                        }
+                        smartObjectLayer.ReplaceContents(newContentPath); // No exception should be thrown.
 
-                        resource.PageNumber = 2;
-                        resource.TotalPages = 3;
-                        resource.AntiAliasPolicy = 30;
-                        resource.Value = 1.23456789;
-                        resource.Perspective = 0.123456789;
-                        resource.PerspectiveOther = 0.987654321;
-                        resource.Top = -126;
-                        resource.Left = -215;
-                        resource.Bottom = 248;
-                        resource.Right = 145;
-
-                        break;
+                        psd.Save(psdOutputPath);
+                        psd.Save(pngOutputPath, new PngOptions() { ColorType = Aspose.PSD.FileFormats.Png.PngColorType.TruecolorWithAlpha });
                     }
                 }
             }
+{{< /highlight >}}
 
-            AssertAreEqual(true, resource != null);
-            image.Save(outputFilePath, new PsdOptions(image));
+**PSDNET-765. PsdImageException: Unknown resource header on trying to open PSB file with SmartObjectLayers**
+{{< highlight csharp >}}
+            // This example demonstrates that the specified PSD file is loaded, saved, and loaded again correctly.
+            // Test manually that the saved files can be opened by Adobe® Photoshop®
+            string baseFolder = "PSDNET765_1\\";
+            string outputFolder = baseFolder + "output\\";
+            string fileName = "CommonPsb.psb";
+            string filePath = baseFolder + fileName;
+            string psbOutputPath = outputFolder + fileName + "_saved.psb";
+            string psdOutputPath = outputFolder + fileName + "_saved_as_psd.psd";
+            using (PsdImage image = (PsdImage)Image.Load(filePath))
+            {
+                image.Save(psbOutputPath, new PsdOptions(image) { PsdVersion = PsdVersion.Psb, Resources = null, XmpData = null });
+                image.Save(psdOutputPath, new PsdOptions(image) { PsdVersion = PsdVersion.Psd, Resources = null, XmpData = null });
+            }
+
+            using (PsdImage image1 = (PsdImage)Image.Load(psdOutputPath))
+            {
+                Console.WriteLine("PSD loaded");
+            }
+
+            using (PsdImage image2 = (PsdImage)Image.Load(psbOutputPath))
+            {
+                Console.WriteLine("PSB loaded");
+            }
+{{< /highlight >}}
+
+**PSDNET-773. Incorrect rendering of CMYK 8-bit and CMYK 16-bit Images, if the layer is bigger than Canvas**
+{{< highlight csharp >}}
+            string baseFolder = "PSDNET773_1\\";
+            string outputFolder = baseFolder + "output\\";
+
+            // Tests that Psd Image with CMYK mode and 16 bit renders correctly if a layer is bigger than Canvas.
+            SaveCmykImageCorrectlyWhenLayerIsBiggerThanCanvas("Test1");
+
+            // Tests that Psd Image with CMYK mode and 8 bit renders correctly if a layer is bigger than Canvas.
+            SaveCmykImageCorrectlyWhenLayerIsBiggerThanCanvas("Test2");
+
+            void SaveCmykImageCorrectlyWhenLayerIsBiggerThanCanvas(string fileName)
+            {
+                string sourceFilePath = baseFolder + fileName + ".psd";
+                string outputFilePath = outputFolder + fileName + "_output.psd";
+                string outputPngFilePath = Path.ChangeExtension(outputFilePath, ".png");
+                PsdLoadOptions options = new PsdLoadOptions();
+                using (PsdImage image = (PsdImage)Image.Load(sourceFilePath, options))
+                {
+                    image.Save(outputFilePath, new PsdOptions(image));
+                    image.Save(outputPngFilePath, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+                }
+            }
+{{< /highlight >}}
+
+**PSDNET-782. Saved PSB file can be opened with our API, but cannot with Photoshop**
+{{< highlight csharp >}}
+        // This example demonstrates that the specified PSD file is saved and loaded correctly.
+        // Test manually that the saved file can be opened by Adobe® Photoshop®
+        LoadAndSaveThenLoadPsbImage("CommonPsb0.psb");
+        void LoadAndSaveThenLoadPsbImage(string fullFileName)
+        {
+            string fileName = Path.GetFileNameWithoutExtension(fullFileName);
+
+            string filePath = baseFolder + fullFileName;
+            string psbOutputPath = outputFolder + fileName + "_saved.psb";
+            string psdOutputPath = outputFolder + fileName + "_saved_as_psd.psd";
+            using (PsdImage image = (PsdImage)Image.Load(filePath))
+            {
+                image.Save(psbOutputPath, new PsdOptions(image) { PsdVersion = PsdVersion.Psb, XmpData = null, Resources = null });
+                Console.WriteLine("PSB saved");
+                image.Save(psdOutputPath, new PsdOptions(image) { PsdVersion = PsdVersion.Psd, XmpData = null, Resources = null });
+                Console.WriteLine("PSD saved");
+            }
+
+            using (PsdImage image1 = (PsdImage)Image.Load(psdOutputPath))
+            {
+                Console.WriteLine("PSD loaded");
+            }
+
+            using (PsdImage image2 = (PsdImage)Image.Load(psbOutputPath))
+            {
+                Console.WriteLine("PSB loaded");
+            }
         }
 {{< /highlight >}}
-**PSDNET-400. پشتیبانی از SoLdResource (منبع داده لایه شیء هوشمند)**
+
+**PSDNET-783. If we trying to change Smart Layer in a specific PSD with a shared data source we get an exception**
 {{< highlight csharp >}}
-        // این مثال نحوه دریافت یا تنظیم ویژگی‌های داده لایه شیء هوشمند فایل PSD را نشان می‌دهد.
-
-        void AssertAreEqual(object actual, object expected)
-        {
-            if (!object.Equals(actual, expected))
+            string baseFolder = "PSDNET783_1\\";
+            string outputDir = baseFolder + "output\\";
+            string filePath = baseFolder + "5741b34576ee1757385296ecb6e8ee88.psd";
+            var newContentPath1 = baseFolder + "smartReplace1.png";
+            var newContentPath2 = baseFolder + "smartReplace2.png";
+            string outputFilePath = outputDir + "DataSourceIsShared";
+            string pngOutputPath = outputFilePath + ".png";
+            string psdOutputPath = outputFilePath + ".psd";
+            using (PsdImage image = (PsdImage)Image.Load(filePath))
             {
-                throw new FormatException(string.Format("مقدار واقعی {0} با مقدار مورد انتظار {1} برابر نیست.", actual, expected));
+                for (int i = 0; i < image.Layers.Length; i++)
+                {
+                    if (image.Layers[i].GetType().Name.Contains("SmartObjectLayer"))
+                    {
+                        SmartObjectLayer smartObjectLayer = (SmartObjectLayer)image.Layers[i];
+
+                        if (i % 2 == 1)
+                        {
+                            smartObjectLayer.ReplaceContents(newContentPath1);
+                        }
+                        else
+                        {
+                            smartObjectLayer.ReplaceContents(newContentPath2);
+                        }
+                    }
+                }
+
+                image.Save(pngOutputPath, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+                image.Save(psdOutputPath, new PsdOptions(image));
             }
-        }
-
-        string dataDir = "PSDNET400_1\\";
-        var sourceFilePath = dataDir + "LayeredSmartObjects8bit2.psd";
-        var outputFilePath = dataDir + "LayeredSmartObjects8bit2_output.psd";
-        var expectedValues = new object[]
-        {
-            new object[]
-            {
-                true,
-                "76f05a3b-7523-5e42-a1bb-27f4735bffa0",
-                1,
-                1,
-                0x10,
-                PlacedLayerType.Raster,
-                new double[8]
-                {
-                    29.937922786050663,
-                    95.419959734187131,
-                    126.85445817782261,
-                    1.0540625423957124,
-                    172.20861031651307,
-                    47.634102808208553,
-                    75.292074924741144,
-                    142
-                },
-                0.0,
-                0.0,
-                0.0,
-                0d,
-                0d,
-                149d,
-                310d,
-                4,
-                4,
-                1,
-                0,
-                600,
-                0,
-                600,
-                1,
-                310d,
-                149d,
-                72d,
-                UnitTypes.Density,
-                -1,
-                -1,
-                -1,
-                "d3388655-19e4-9742-82f2-f553bb01046a",
-                new double[8]
-                {
-                    29.937922786050663,
-                    95.419959734187131,
-                    126.85445817782261,
-                    1.0540625423957124,
-                    172.20861031651307,
-                    47.634102808208553,
-                    75.292074924741144,
-                    142
-                },
-                UnitTypes.Pixels,
-                new double[16]
-                {
-                    0.0d, 103.333333333333
+{{< /highlight >}}
