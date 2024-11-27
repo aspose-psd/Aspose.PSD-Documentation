@@ -135,7 +135,6 @@ try
     colorFillSettings.setColor(Color.getGreen());
  
     // 나머지 코드는 생략
-{{< /highlight >}}```
     // 4. 그라디언트 채우기 추가, 내부 위치
     strokeEffect = psdImage.getLayers()[4].getBlendingOptions().addStroke(FillType.Gradient);
     strokeEffect.setSize(5);
@@ -276,4 +275,4 @@ class LocalScopeExtension
 }
 LocalScopeExtension $ = new LocalScopeExtension();
  
-```
+{{< /highlight >}}
