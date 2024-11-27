@@ -1,6 +1,6 @@
 ---
 title: Формат PSD
-type: документация
+type: docs
 weight: 90
 url: /bg/java/psd-format/
 ---

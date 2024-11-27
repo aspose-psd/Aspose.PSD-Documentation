@@ -1,6 +1,6 @@
 ---
 title: Поддръжка на LspfResource
-type: документация
+type: docs
 weight: 110
 url: /bg/net/support-of-lspfresource/
 ---
