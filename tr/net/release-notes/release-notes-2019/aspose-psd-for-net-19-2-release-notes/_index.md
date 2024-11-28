@@ -1,0 +1,245 @@
+---
+title: Aspose.PSD for .NET 19.2 - Sürüm Notları
+type: docs
+weight: 110
+url: /tr/net/aspose-psd-for-net-19-2-sürüm-notları/
+---
+
+{{% alert color="primary" %}} 
+
+Bu sayfa, Aspose.PSD for .NET 19.2 için sürüm notlarını içerir.
+
+{{% /alert %}} 
+
+|**Anahtar**|**Özet**|**Kategori**|
+| :- | :- | :- |
+|PSDNET-97|Rengi dolduran katmanların desteği eklendi|Özellik|
+|PSDNET-98|Renk geçişini dolduran katmanların desteği eklendi|Özellik|
+|PSDNET-105|GdFlResource'un desteği eklendi|Özellik|
+|PSDNET-106|VmskResource'un desteği eklendi|Özellik|
+|PSDNET-109|Gerçek Aspose.Imaging kaynaklarının Aspose.PSD'ye taşınması|Geliştirme|
+|PSDNET-92|Bazı yöntemler için kısmi yükleme desteği eklendi|Geliştirme|
+|PSDNET-110|PSD performansı birkaç kez düştü|Hata|
+
+## **Genel API Değişiklikleri**
+# **Eklenen API'ler:**
+- T:Aspose.PSD.FileFormats.Psd.Layers.FillLayers.FillLayer
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillLayers.FillLayer.FillSettings
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillLayers.FillLayer.FillType
+- M:Aspose.PSD.FileFormats.Psd.Layers.FillLayers.FillLayer.Güncelleme
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.GradientName
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientFillSettings.GradientType
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientFillSettings.GradientName
+- T:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.FillType
+- F:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.FillType.Renk
+- F:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.FillType.Geçiş
+- F:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.FillType.Desen
+- T:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IColorFillSettings
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IColorFillSettings.Renk
+- T:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IFillSettings
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IFillSettings.FillType
+- T:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientFillSettings
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientFillSettings.Renk
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientFillSettings.KatmanlaHizala
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientFillSettings.Dither
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientFillSettings.Reverse
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientFillSettings.Açı
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientFillSettings.YatayOfset
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientFillSettings.DikeyOfset
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientFillSettings.RenkNoktaları
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientFillSettings.ŞeffaflıkNoktaları
+- T:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientTransparencyPoint
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientTransparencyPoint.Opaklık
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientTransparencyPoint.Konum
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientTransparencyPoint.OrtaNoktaKonumu
+- T:Aspose.PSD.FileFormats.Psd.Layers.IGradientColorPoint
+- P:Aspose.PSD.FileFormats.Psd.Layers.IGradientColorPoint.Renk
+- P:Aspose.PSD.FileFormats.Psd.Layers.IGradientColorPoint.Konum
+- P:Aspose.PSD.FileFormats.Psd.Layers.IGradientColorPoint.OrtaNoktaKonumu
+- M:Aspose.PSD.Uzantılar.DikdörtgenUzantıları.İle+BirlikteBirleştir(Aspose.PSD.DikdörtgenF,Aspose.PSD.DikdörtgenF)
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotKaydı
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotKaydı.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotKaydı.Noktalar
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotKaydı.KapalıMı
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotKaydı.BağlantılıMı
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotKaydı.AçıkMı
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BezierKnotKaydı.Tür
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.KılavuzKaydı
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.KılavuzKaydı.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.KılavuzKaydı.Tür
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BaşlangıçDolguluKuralKaydı
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BaşlangıçDolguluKuralKaydı.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BaşlangıçDolguluKuralKaydı.TümPiksellerleBaşlıyorMu
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.BaşlangıçDolguluKuralKaydı.Tür
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.UzunlukKaydı
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.UzunlukKaydı.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.UzunlukKaydı.KapalıMı
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.UzunlukKaydı.AçıkMı
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.UzunlukKaydı.Tür
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.YolDoldurmaKuralKaydı
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.YolDoldurmaKuralKaydı.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.YolDoldurmaKuralKaydı.Tür
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VektörYolKaydı
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VektörYolKaydı.#ctor
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VektörYolKaydı.Tür
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VektörYolKaydıFabrikası
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VektörYolKaydıFabrikası.#ctor
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VektörYolKaydıFabrikası.YolKaydınıÜret(System.Byte[])
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VektörYolTürü
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VektörYolTürü.KapalıAltYolUzunlukKaydı
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VektörYolTürü.KapalıAltYolBezierKnotBağlantılı
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VektörYolTürü.KapalıAltYolBezierKnotBağlantısız
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VektörYolTürü.AçıkAltYolUzunlukKaydı
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VektörYolTürü.AçıkAltYolBezierKnotLinked
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VektörYolTürü.AçıkAltYolBezierKnotBağlantısız
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VektörYolTürü.YolDoldurmaKuralKaydı
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VektörYolTürü.KılavuzKaydı
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VectorPaths.VektörYolTürü.BaşlangıçDolguluKuralKaydı
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.#ctor(System.Byte[])
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.Yollar
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.Sürüm
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.DevreDışı
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.BağlıDeğil
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.TersÇevrili
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.İmza
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.Tuş
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.Uzunluk
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.PsdVersiyon
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.Kaydet(Aspose.PSD.AkimKapsayıcı,System.Int32)
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.VmskResource.TürAracıTuşu
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.FillLayerResource
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.FillLayerResource.#ctor
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.FillLayerResource.İmza
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.#ctor
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.Renk
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.İmza
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.Tuş
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.Uzunluk
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.PsdVersiyon
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.Açı
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.GeçişTürü
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.RenkNoktaları
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.ŞeffaflıkNoktaları
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.GeçişAdı
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.GeçişAralığı
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.Ters
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.Desenleme
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.KatmanlaHizala
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.Kaydet(Aspose.PSD.AkimKapsayıcı,System.Int32)
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.TürAracıTuşu
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.YatayOfset
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.GdFlResource.DikeyOfset
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoCoResource
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoCoResource.#ctor
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoCoResource.Renk
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoCoResource.İmza
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoCoResource.Tuş
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoCoResource.Uzunluk
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoCoResource.PsdVersiyon
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoCoResource.Kaydet(Aspose.PSD.AkimKapsayıcı,System.Int32)
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.SoCoResource.TürAracıTuşu
+- T:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.BaseFillSettings
+- M:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.BaseFillSettings.#ctor
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.BaseFillSettings.FillType
+- T:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.ColorFillSettings
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.ColorFillSettings.Color
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.ColorFillSettings.FillType
+- T:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientColorPoint
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientColorPoint.Color
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientColorPoint.Location
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientColorPoint.MedianPointLocation
+- T:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.Color
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.KatmanlaHizala
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.Desenleme
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.Ters
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.Açı
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.GeçişTürü
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.YatayOfset
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.DikeyOfset
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.FillType
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.ColorPoints
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.ŞeffaflıkNoktaları
+- M:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.RenkNoktasıEkle
+- M:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.ŞeffaflıkNoktasıEkle
+- T:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientTransparencyPoint
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientTransparencyPoint.Opaklık
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientTransparencyPoint.Konum
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientTransparencyPoint.OrtaNoktaKonumu
+- T:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.PatternFillSettings
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.PatternFillSettings.FillType
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.PatternFillSettings.Bağlı
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.PatternFillSettings.Ölçek
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.PatternFillSettings.NoktaTürü
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.PatternFillSettings.DesenAdı
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.PatternFillSettings.DesenKimliği
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.PatternFillSettings.YatayOfset
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.PatternFillSettings.DikeyOfset
+- T:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GeçişTürü
+- F:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GeçişTürü.Doğrusal
+- F:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GeçişTürü.Radyal
+- F:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GeçişTürü.Açı
+- F:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GeçişTürü.Yansıyan
+- F:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GeçişTürü.Elmas
+- F:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GeçişTürü.ŞekilBurst
+- M:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientColorPoint.#ctor
+- M:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.ŞeffaflıkNoktasıKaldır(Aspose.PSD.FileFormats.Psd.Layers.FillSettings.IGradientTransparencyPoint)
+- M:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.RenkNoktasıKaldır(Aspose.PSD.FileFormats.Psd.Layers.IGradientColorPoint)
+- M:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientTransparencyPoint.#ctor
+- M:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.#ctor
+- M:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.GradientFillSettings.Lfx2KaynakDüğümleriOluştur
+- P:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.PatternFillSettings.Renk
+- M:Aspose.PSD.FileFormats.Psd.Layers.FillSettings.PatternFillSettings.Lfx2KaynakDüğümleriOluştur(System.String,Aspose.PSD.Renk,System.String,System.String,System.Double,System.Boolean,Aspose.PSD.PointF)
+- M:Aspose.PSD.FileFormats.Tiff.TiffResmi.KareyiDeğiştir(System.Int32,Aspose.PSD.FileFormats.Tiff.TiffKare)
+- M:Aspose.PSD.YazıTipiAyarları.YazıTipleriniGüncelle
+- T:Aspose.PSD.İmajSeçenekleri.CmxRasterizeSeçenekleri
+- M:Aspose.PSD.İmajSeçenekleri.CmxRasterizeSeçenekleri.#ctor
+- P:Aspose.PSD.İmajSeçenekleri.CmxRasterizeSeçenekleri.Konumlama
+- T:Aspose.PSD.İmajSeçenekleri.KonumlandırmaTürleri
+- F:Aspose.PSD.İmajSeçenekleri.KonumlandırmaTürleri.BelgeTaraflarındanTanımlanan
+- F:Aspose.PSD.İmajSeçenekleri.KonumlandırmaTürleri.SeçeneklerdenTanımlanan
+- F:Aspose.PSD.İmajSeçenekleri.KonumlandırmaTürleri.Göreli
+- P:Aspose.PSD.İmajSeçenekleri.VektörRasterizeSeçenekleri.DüzleştirmeModu
+- T:Aspose.PSD.ArabelleksizArayüz.IObjectWithSizeF
+- P:Aspose.PSD.ArabelleksizArayüz.IObjectWithSizeF.SizeF
+- P:Aspose.PSD.ArabelleksizArayüz.IObjectWithSizeF.EnF
+- P:Aspose.PSD.ArabelleksizArayüz.IObjectWithSizeF.BoyF
+- T:Aspose.PSD.Vektörİmajı
+- M:Aspose.PSD.Vektörİmajı.#ctor
+- P:Aspose.PSD.Vektörİmajı.SizeF
+- P:Aspose.PSD.Vektörİmajı.EnF
+- P:Aspose.PSD.Vektörİmajı.BoyF
+- P:Aspose.PSD.Vektörİmajı.Üretim
+- P:Aspose.PSD.Vektörİmajı.Yükseklik
+# **Silinen API'ler:**
+- T:Aspose.PSD.FileFormats.Psd.Layers.KatmanEfektleri.BaseFillSettings
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.BaseFillSettings.#ctor
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.BaseFillSettings.FillType
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.ColorFillSettings
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.ColorFillSettings.Renk
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.ColorFillSettings.FillType
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.FillType
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.FillType.Renk
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.FillType.Geçiş
+- F:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.FillType.Desen
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientColorPoint
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientColorPoint.Renk
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientColorPoint.Konum
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientColorPoint.OrtaNoktaKonumu
+- T:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientFillSettings
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientFillSettings.Renk
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientFillSettings.KatmanlaHizala
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientFillSettings.Dither
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientFillSettings.Reverse
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientFillSettings.Açı
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientFillSettings.GradientType
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientFillSettings.YatayOfset
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientFillSettings.DikeyOfset
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientFillSettings.FillType
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientFillSettings.RenkNoktaları
+- P:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientFillSettings.ŞeffaflıkNoktaları
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientFillSettings.RenkNoktasıEkle
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientFillSettings.ŞeffaflıkNoktasıEkle
+- M:Aspose.PSD.FileFormats.Psd.Layers.LayerEffects.GradientFillSettings.ŞeffaflıkNoktasıK                                                               

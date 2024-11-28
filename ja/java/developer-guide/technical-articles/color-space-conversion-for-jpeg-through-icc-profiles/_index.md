@@ -1,0 +1,25 @@
+---
+title: JPEGを通じたICCプロファイルを使用したカラースペースの変換
+type: docs
+weight: 50
+url: /ja/java/color-space-conversion-for-jpeg-through-icc-profiles/
+---
+
+## **JPEG形式のカラーマネジメント**
+
+この記事では、Aspose.PSD APIを使用してJPEG形式を処理する際にICCプロファイルを使用してカラースペース管理を行う方法について説明します。JPEGの内部カラースペースはYCbCrですが、この形式では画像のメタデータを保存するためにGrayscale、RGB、CMYK、YCCKのカラースペースも使用できます。Aspose.PSD APIは主にRGBスペースで動作するため、JPEGファイルを適切に処理するためにカラースペースの変換を行う必要があります。グレースケールからRGB、YCbCrからRGBへの変換は数学的な変換で行うことができますが、CMYKやYCCKのスペースは簡単にRGBスペースに変換することができません。
+
+Aspose.PSD APIは、CMYKカラースペースを持つJPEG画像のために直接RGBからCMYK色変換を行う必要があります。一方、YCCKカラースペースを持つ画像は、RGBからCMYKからYCCKカラー変換が必要であり、CMYKからYCCKへの変換では、最初の3つのチャネルに適用されるITU-R BT.601変換が使用され、kチャンネルは変更されません。要するに、Aspose.PSD APIは、CMYKおよびYCCK画像の両方のためにRGBとCMYKカラースペースの相互変換を行わなければならず、そのような変換は基本的に色のプロパティを記述し、色の変換を支援するルックアップテーブルであるICCプロファイルの支援を受けて行われます。
+
+
+## **ICCプロファイル**
+ICC変換メカニズムは、ソースカラースペースをデバイス非依存のCIELABまたはCIEXYZカラースペースにマッピングする「プロファイル」を使用します。Aspose.PSDは、追加のプロファイルを使用して、これらの2つのカラースペースでデータを変換できます。したがって、ICC変換のためには、ユーザーが2つのプロファイルを提供する必要があります。1つは内部CIEカラースペースに到達するためのRGBプロファイルであり、もう1つはCMYKカラー特性を取得するためのCMYKプロファイルです。CMYKからRGBへの変換を実現するには、プロファイルを交換する必要があります。つまり、CMYKプロファイルをソースプロファイルとし、RGBプロファイルを宛先プロファイルとして使用する必要があります。
+
+## **JPEGを通じたICCプロファイルを使用したカラー変換**
+Aspose.PSD APIは、JpegOptionsクラスを介してICCプロファイルを指定する簡単なメカニズムを提供し、詳細を隠蔽しています。さらに、Aspose.PSDは、SWOP CMYKとsRGBのサンプルプロファイルが組み込まれているため、ほとんどの一般的な使用場面では、特定のプロファイルを探す必要はありません。このような修正の欠点は、RGBからCMYKからRGBへの変換の後に同じ色を期待することはできないため、このような色空間の変換は元に戻すことができないということです。異なるカラースペースと異なるカラープロファイルのため、RGBからCMYKからRGBへの変換後に同じ色を期待することはできないため、このような補正の欠点はあります。以下のコードスニペットは、Aspose.PSD for Java APIを使用して、YCCK JPEG画像にRGBとCMYKカラープロファイルを指定する方法を示しています。以下の例では、RGBおよびCMYKカラープロファイルが変更され、画像がYCCKカラースペースに保存されます。RgbColorProfileおよびCmykColorProfileプロパティは、YCCKカラースペースのピクセルデータを変更するために動作します。他のすべてのカラースペースは、色データを更新するためのカラープロファイルを取得しません。
+
+{{< gist "aspose-com-gists" "31800d807a72f1f50fe4b29374119227" "Examples-src-main-java-com-aspose-psd-examples-Conversion-ColorConversionUsingICCProfiles-ColorConversionUsingICCProfiles.java" >}}
+
+プロファイルが設定されていない場合、Aspose.PSD for Java APIはデフォルトのプロファイルを使用します。以下の例では、大多数のJpegImagesに対し宛先プロファイルプロパティが使用され、宛先カラースペースが変更されます。
+
+{{< gist "aspose-com-gists" "31800d807a72f1f50fe4b29374119227" "Examples-src-main-java-com-aspose-psd-examples-Conversion-ColorConversionUsingDefaultProfiles-ColorConversionUsingDefaultProfiles.java" >}}
