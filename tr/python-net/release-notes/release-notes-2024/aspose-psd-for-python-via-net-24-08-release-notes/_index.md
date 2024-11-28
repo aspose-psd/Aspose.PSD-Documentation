@@ -5,7 +5,7 @@ weight: 10
 url: /tr/python-net/aspose-psd-icin-python-via-net-24-8-sürüm-notları/
 ---
 
-{{% alert renk="primary" %}}
+{{% alert color="primary" %}}
 
 Bu sayfa, [Aspose.PSD için Python via .NET 24.8](https://pypi.org/project/aspose-psd/) için sürüm notlarını içerir.
 
@@ -57,12 +57,12 @@ Bu sayfa, [Aspose.PSD için Python via .NET 24.8](https://pypi.org/project/aspos
 ## **Kullanım örnekleri:**
 
 **PSDPYTHON-81. [AI Format] XObject Grupları için işleme ekle**
-{{< vurgula python >}}
+{{< highlight python >}}
 #Örnek yok. İçsel bir iyileştirme
-{{< /vurgula >}}
+{{< /highlight >}}
 
 **PSDPYTHON-82. Metin Katmanı ve Akıllı Nesne Katmanı için Warp dönüşüm yeteneklerini artırma**
-{{< vurgula python >}}
+{{< highlight python >}}
         sourceFile = "smart_without_warp.psd"
 
         opt = PsdLoadOptions()
@@ -114,29 +114,29 @@ Bu sayfa, [Aspose.PSD için Python via .NET 24.8](https://pypi.org/project/aspos
                     warpParams.mesh_points[2].y += 70
 
             return warpParams
-{{< /vurgula >}}
+{{< /highlight >}}
 
 **PSDPYTHON-83. [AI Format] İçerik akışı operatörlerinde katmanları işleme**
-{{< vurgula python >}}
+{{< highlight python >}}
         sourceFile = "Layers-NoPen.ai"
         outputFile = "Layers-NoPen.output.png"
 
         with AiImage.load(sourceFile) as image:
             image.save(outputFile, PngOptions())    
-{{< /vurgula >}}
+{{< /highlight >}}
 
 **PSDPYTHON-84. AI dosyasının render sonucu, Illustrator sonuçlarıyla karşılaştırıldığında çok farklı**
-{{< vurgula python >}}
+{{< highlight python >}}
         sourceFile = "4.ai"
         outputFile = "4_output.png"
         referenceFile = "4_ethalon.png"
 
         with AiImage.load(sourceFile) as image:
             image.save(outputFile, PngOptions())
-{{< /vurgula >}}
+{{< /highlight >}}
 
 **PSDPYTHON-85. Akıllı Nesne Bağlantısını PSD dosyasındaki tüm Akıllı Nesnelere uygulamaz**
-{{< vurgula python >}}
+{{< highlight python >}}
         dosyalar = ["simple_test", "w22"]
         change_file = "image(19).png"
 
@@ -150,4 +150,4 @@ Bu sayfa, [Aspose.PSD için Python via .NET 24.8](https://pypi.org/project/aspos
                         smart_layer = cast(SmartObjectLayer, layer)
                         smart_layer.replace_contents(change_file)
                 image.save(çıktı_dosyası)           
-{{< /vurgula >}}
+{{< /highlight >}}

@@ -2,7 +2,7 @@
 title: Aspose.PSD for .NET 22.4 - Sürüm Notları
 type: docs
 weight: 90
-url: /tr/net/aspose-psd-for-net-22-4-s%C3%BCr%C3%BCm-notlar%C4%B1/
+url: /tr/net/aspose-psd-for-net-22-4-release-notes/
 ---
 
 {{% alert color="primary" %}}
@@ -13,14 +13,14 @@ Bu sayfa, [Aspose.PSD for .NET 22.4](https://www.nuget.org/packages/Aspose.PSD/)
 
 |**Anahtar**|**Özet**|**Kategori**|
 | :- | :- | :- |
-|PSDNET-261|Dış Parlama Katman Efekti Rendere Etme|Özellik|
-|PSDNET-1123|Sha256 Lisansını Desteğine Ekleme|Geliştirme|
-|PSDNET-1107|Çoklu satırlı metnin Photoshop'taki sonuçla eşleşmemesi|Hata|
-|PSDNET-1113|Metin kaynak verileri analizinde PSD dosyasının yüklenmesi sorunu|Hata|
+|PSDNET-261|Dış Parlama Katman Etkisinin Oluşturulması|Özellik|
+|PSDNET-1123|Sha256 Lisansının Desteklenmesi|Geliştirme|
+|PSDNET-1107|Çoklu satırlı metnin Photoshop'taki sonuçla eşleşmeyen konumu|Hata|
+|PSDNET-1113|Metin kaynak verilerinin ayrıştırılmasında PSD dosyasının yüklenmesi ile ilgili sorun|Hata|
 |PSDNET-1129|PSD olarak kaydedildikten sonra özel desenin yanlış konumu|Hata|
 
 
-## **Genel API Değişiklikleri**
+## **Halka açık API Değişiklikleri**
 # **Eklenen API'ler:**
 - T:Aspose.PSD.FileFormats.Psd.JustificationMode
 - F:Aspose.PSD.FileFormats.Psd.JustificationMode.Left
@@ -46,9 +46,9 @@ Bu sayfa, [Aspose.PSD for .NET 22.4](https://www.nuget.org/packages/Aspose.PSD/)
 - Hiçbiri
 
 
-## **Kullanım örnekleri:** 
+## **Kullanım örnekleri:**
 
-**PSDNET-261. Dış Parlama Katman Efekti Rendere Etme**
+**PSDNET-261. Dış Parlama Katman Etkisinin Oluşturulması**
 {{< highlight csharp >}}
 string src = "GreenLayer.psd";
 string output = "output261.png";
@@ -67,7 +67,7 @@ using (var image = (PsdImage)Image.Load(src))
 {{< /highlight >}}
 
 
-**PSDNET-1107. Çoklu satırlı metnin Photoshop'taki sonuçla eşleşmemesi**
+**PSDNET-1107. Çoklu satırlı metnin Photoshop'taki sonuçla eşleşmeyen konumu**
 
 {{< highlight csharp >}}
 string src = "source1107.psd";
@@ -76,7 +76,7 @@ string outputPng = "output.png";
 
 using (var image = (PsdImage)Image.Load(src))
 { 
-   var txtLayer = image.AddTextLayer("Text line1\rText line2\rText line3", new Rectangle(200, 200, 500, 500));
+   var txtLayer = image.AddTextLayer("Satır 1 metin\rSatır 2 metin\rSatır 3 metin", new Rectangle(200, 200, 500, 500));
    var portions = txtLayer.TextData.Items;
 
    portions[0].Paragraph.Justification = JustificationMode.Left;
@@ -90,8 +90,7 @@ using (var image = (PsdImage)Image.Load(src))
 }
 {{< /highlight >}}
 
-
-**PSDNET-1113. Metin kaynak verileri analizinde PSD dosyasının yüklenmesi sorunu**
+**PSDNET-1113. Metin kaynak verilerinin ayrıştırılmasında PSD dosyasının yüklenmesi ile ilgili sorun**
 
 {{< highlight csharp >}}
 string sourceFile = "input.psd";
@@ -101,7 +100,6 @@ using (PsdImage image = (PsdImage) Image.Load(sourceFile))
     // Başarılı bir şekilde yüklendi.
 }
 {{< /highlight >}}
-
 
 **PSDNET-1129. PSD olarak kaydedildikten sonra özel desenin yanlış konumu**
 

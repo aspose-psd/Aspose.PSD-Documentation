@@ -7,18 +7,17 @@ url: /tr/net/aspose-psd-for-net-22-7-release-notes/
 
 {{% alert color="primary" %}}
 
-Bu sayfa, [Aspose.PSD for .NET 22.7](https://www.nuget.org/packages/Aspose.PSD/) için sürüm notlarını içerir.
+Bu sayfada [Aspose.PSD for .NET 22.7](https://www.nuget.org/packages/Aspose.PSD/) için sürüm notları bulunmaktadır.
 
 {{% /alert %}}
 
 |**Anahtar**|**Özet**|**Kategori**|
 | :- | :- | :- |
-|PSDNET-482|Resim Bölüm Kaynağı #4000-4999 Eklenti kaynağını destekle|#Özellik|
-|PSDNET-875|Aspose.PSD.dll içinde "System.OutOfMemoryException" türünde ele alınmamış bir istisna oluşur|Hata|
+|PSDNET-482|Resim Bölüm Kaynağı #4000-4999 Eklentisi destekleme|Özellik|
+|PSDNET-875|Aspose.PSD.dll'de "System.OutOfMemoryException" türünde ele alınmayan bir istisna oluşur|Hata|
 |PSDNET-1050|PSD dosyasını dışa aktardıktan sonra sonuç kaynak dosyadan çok daha büyüktür|Hata|
-|PSDNET-1083|XmpResource için veri ayrıştırması yanlış|Hata|
-|PSDNET-1205|Dışa aktardıktan sonra alt klasörlere sahip PSD dosyalarının boyutu artmıştır|Hata|
-
+|PSDNET-1083|XmpResource için verinin yanlış ayrıştırılması|Hata|
+|PSDNET-1205|Dışa aktarıldıktan sonra alt klasörleri olan PSD dosyalarının boyutu artmıştır|Hata|
 
 ## **Genel API Değişiklikleri**
 # **Eklenen API'lar:**
@@ -37,15 +36,14 @@ Bu sayfa, [Aspose.PSD for .NET 22.7](https://www.nuget.org/packages/Aspose.PSD/)
 
 
 # **Kaldırılan API'lar:**
-- Yok
-
+- Hiçbiri
 
 ## **Kullanım Örnekleri:**
 
-**PSDNET-482. Resim Bölüm Kaynağı #4000-4999 Eklenti kaynağını destekle**
+**PSDNET-482. Resim Bölüm Kaynağı #4000-4999 Eklentisi destekleme**
 
 {{< highlight csharp >}}
-// Aşağıdaki kod, animasyonlu verinin zaman çizelgesinde gecikme süresinin nasıl ayarlanacağını/güncelleneceğini gösterir.
+// Aşağıdaki kod, animasyonlu verilerin zaman çizelgesindeki gecikme süresini nasıl ayarlayacağını veya güncelleyeceğini göstermektedir.
 string kaynakDosya = "3_animated.psd";
 string ciktiPsd = "cikti_3_animated.psd";
 
@@ -64,66 +62,65 @@ T FindStructure<T>(IEnumerable<OSTypeStructure> structures, string keyName) wher
 
 OSTypeStructure[] AddOrReplaceStructure(IEnumerable<OSTypeStructure> structures, OSTypeStructure newStructure)
 {
-    List<OSTypeStructure> structureListesi = new List<OSTypeStructure>(structures);
+    List<OSTypeStructure> listOfStructures = new List<OSTypeStructure>(structures);
 
-    for (int i = 0; i < structureListesi.Count; i++)
+    for (int i = 0; i < listOfStructures.Count; i++)
     {
-        OSTypeStructure structure = structureListesi[i];
+        OSTypeStructure structure = listOfStructures[i];
         if (structure.KeyName.ClassName == newStructure.KeyName.ClassName)
         {
-            structureListesi.RemoveAt(i);
+            listOfStructures.RemoveAt(i);
             break;
         }
     }
 
-    structureListesi.Add(newStructure);
+    listOfStructures.Add(newStructure);
 
-    return structureListesi.ToArray();
+    return listOfStructures.ToArray();
 }
 
-using (PsdImage resim = (PsdImage)Image.Load(kaynakDosya))
+using (PsdImage image = (PsdImage)Image.Load(kaynakDosya))
 {
-    foreach (var resimKaynagi in resim.ImageResources)
+    foreach (var imageResource in image.ImageResources)
     {
-        if (resimKaynagi is AnimatedDataSectionResource)
+        if (imageResource is AnimatedDataSectionResource)
         {
-            var animasyonluVeri =
-            (AnimatedDataSectionStructure) (resimKaynagi as AnimatedDataSectionResource).AnimatedDataSection;
-            var framesList = FindStructure<ListStructure>(animasyonluVeri.Items, "FrIn");
+            var animatedData = (AnimatedDataSectionStructure)(imageResource as AnimatedDataSectionResource).AnimatedDataSection;
+            var framesList = FindStructure<ListStructure>(animatedData.Items, "FrIn");
 
             var frame1 = (DescriptorStructure)framesList.Types[1];
 
-            // Değer 1 saniyeye eşit olan 100 santisaniye olarak belirtilmiş olan çerçeve gecikme kaydı oluşturur.
-            var frameGecikme = new IntegerStructure(new ClassID("FrDl"));
-            frameGecikme.Value = 100; // santisaniye cinsinden zamanı ayarlar.
+            // 100 centi-saniye değerine eşit olan 1 saniyelik bir çerçeve gecikme kaydı oluşturur.
+            var frameDelay = new IntegerStructure(new ClassID("FrDl"));
+            frameDelay.Value = 100; // centi-saniye cinsinden zaman ayarlayın.
 
-            frame1.Structures = AddOrReplaceStructure(frame1.Structures, frameGecikme);
+            frame1.Structures = AddOrReplaceStructure(frame1.Structures, frameDelay);
 
             break;
         }
     }
 
-    resim.Save(ciktiPsd);
+    image.Save(ciktiPsd);
 }
 {{< /highlight >}}
 
-**PSDNET-875. Aspose.PSD.dll içinde "System.OutOfMemoryException" türünde ele alınmamış bir istisna oluşur**
+**PSDNET-875. Aspose.PSD.dll'de "System.OutOfMemoryException" türünde ele alınmayan bir istisna oluşur**
 
 {{< highlight csharp >}}
-string kaynakDosya = "001-.psd";
-string jpgDosyaYolu = "T_0003.jpg";
-string ciktiDosyaYolu = "cikti_yeniPsd.psd";
+string srcFile = "001-.psd";
+string jpgFilePath = "T_0003.jpg";
+string outputFilePath = "output_newPsd.psd";
 
-using (var im = (PsdImage)Image.Load(kaynakDosya))
+using (var im = (PsdImage)Image.Load(srcFile))
 {
-    using (FileStream fs = new FileStream(jpgDosyaYolu, FileMode.Open))
+    using (FileStream fs = new FileStream(jpgFilePath, FileMode.Open))
     {
-        var yeniKatman = new Aspose.PSD.FileFormats.Psd.Layers.Layer(fs);
-        yeniKatman.DisplayName = "YeniKatman";
+        var newLayer = new Aspose.PSD.FileFormats.Psd.Layers.Layer(fs);
+        newLayer.DisplayName = "YeniKatman";
 
-        im.AddLayer(yeniKatman);
+        im.AddLayer(newLayer);
 
-        im.Save(ciktiDosyaYolu, true);   
+        im.Save(outputFilePath, true);   
     }
 }
 {{< /highlight >}}
@@ -138,91 +135,91 @@ using (var img = (PsdImage)Image.Load(kaynak))
     img.Save(cikti);
 }
 
-double ciktiBoyutMb = new FileInfo(cikti).Length / 1024d / 1024d;
-if (ciktiBoyutMb > 6)
+double ciktiBoyutuMb = new FileInfo(cikti).Length / 1024d / 1024d;
+if (ciktiBoyutuMb > 6)
 {
     throw new Exception("Çıktı dosyası beklenenden daha büyüktür.");
 }
 {{< /highlight >}}
 
-**PSDNET-1083. XmpResource için veri ayrıştırması yanlış**
+**PSDNET-1083. XmpResource için verinin yanlış ayrıştırılması**
 
 {{< highlight csharp >}}
-string girdiPsdResimYolu = @"girdi.psd";
-string kaydedilmisPsdResimYolu = @"kaydedilmis.psd";
+string inputPsdImagePath = @"input.psd";
+string savedPsdImagePath = @"saved.psd";
 
-bool orijinalIcerir = false;
-bool kaydedilenIcerir = false;
+bool orijinalİçerir = false;
+bool kaydedilmişİçerir = false;
 
-// Giriş dosyasında alt XMP anahtarını bul
-using (PsdImage img = (PsdImage)Image.Load(girdiPsdResimYolu))
+// Giriş dosyasındaki alt XMP anahtarını bul
+using (PsdImage img = (PsdImage)Image.Load(inputPsdImagePath))
 {
-    foreach (var paket in img.XmpData.Packages)
+    foreach (var package in img.XmpData.Packages)
     {
-        foreach (var pak in paket)
+        foreach (var pack in package)
         {
-            if (pak.Value is XmpArray)
+            if (pack.Value is XmpArray)
             {
-                XmpArray xmpDizisi = (XmpArray)pak.Value;
+                XmpArray xmpArray = (XmpArray)pack.Value;
 
-                string xmlDeger = xmpDizisi.GetXmlValue();
+                string xmlValue = xmpArray.GetXmlValue();
 
-                if (xmlDeger.Contains("<photoshop:LayerName>test1</photoshop:LayerName>"))
+                if (xmlValue.Contains("<photoshop:LayerName>test1</photoshop:LayerName>"))
                 {
-                    orijinalIcerir = true;
+                    orijinalİçerir = true;
                     break;
                 }
             }
         }
 
-        if (orijinalIcerir)
+        if (orijinalİçerir)
         {
             break;
         }
     }
-    img.Save(kaydedilmisPsdResimYolu);
+    img.Save(savedPsdImagePath);
 }
 
-// Kaydedilen dosyada alt XMP anahtarını bul
-using (PsdImage img = (PsdImage)Image.Load(kaydedilmisPsdResimYolu))
+// Kaydedilmiş dosyadaki alt XMP anahtarını bul
+using (PsdImage img = (PsdImage)Image.Load(savedPsdImagePath))
 {
-    foreach (var paket in img.XmpData.Packages)
+    foreach (var package in img.XmpData.Packages)
     {
-        foreach (var pak in paket)
+        foreach (var pack in package)
         {
-            if (pak.Value is XmpArray)
+            if (pack.Value is XmpArray)
             {
-                XmpArray xmpDizisi = (XmpArray)pak.Value;
+                XmpArray xmpArray = (XmpArray)pack.Value;
 
-                string xmlDeger = xmpDizisi.GetXmlValue();
+                string xmlValue = xmpArray.GetXmlValue();
 
-                if (xmlDeger.Contains("<photoshop:LayerName>test1</photoshop:LayerName>"))
+                if (xmlValue.Contains("<photoshop:LayerName>test1</photoshop:LayerName>"))
                 {
-                    kaydedilenIcerir = true;
+                    kaydedilmişİçerir = true;
                     break;
                 }
             }
         }
 
-        if (kaydedilenIcerir)
+        if (kaydedilmişİçerir)
         {
             break;
         }
     }
-    img.Save(kaydedilmisPsdResimYolu);
+    img.Save(savedPsdImagePath);
 }
 
-if (orijinalIcerir && kaydedilenIcerir)
+if (orijinalİçerir && kaydedilmişİçerir)
 {
     // Her şey yolunda!
 }
 else
 {
-    throw new Exception("İşe yaramaz");
+    throw new Exception("Çalışmıyor");
 }
 {{< /highlight >}}
 
-**PSDNET-1205. Dışa aktardıktan sonra alt klasörlere sahip PSD dosyalarının boyutu artmıştır**
+**PSDNET-1205. Dışa aktarıldıktan sonra alt klasörleri olan PSD dosyalarının boyutu artmıştır**
 
 {{< highlight csharp >}}
 string[] kaynakDosyalar = new string[] { "1lvlFoldersTest.psd", "5lvlFoldersTest.psd"};
@@ -232,13 +229,13 @@ foreach (var dosyaAdı in kaynakDosyalar)
     string kaynakDosyaYolu = dosyaAdı;
     string ciktiDosyaYolu = "cikti_" + dosyaAdı;
 
-    using (PsdImage resim = (PsdImage)Image.Load(kaynakDosyaYolu))
+    using (PsdImage image = (PsdImage)Image.Load(kaynakDosyaYolu))
     {
-        resim.Save(ciktiDosyaYolu);
+        image.Save(ciktiDosyaYolu);
     }
 
-    double ciktiBoyutMb = new FileInfo(ciktiDosyaYolu).Length / 1024d / 1024d;
-    if (ciktiBoyutMb > 1.9)
+    double ciktiBoyutuMb = new FileInfo(ciktiDosyaYolu).Length / 1024d / 1024d;
+    if (ciktiBoyutuMb > 1.9)
     {
         throw new Exception("Çıktı dosyası beklenenden daha büyüktür.");
     }

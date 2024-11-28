@@ -3,7 +3,7 @@ title: Adobe Photoshop SDK 대신 PSD 파일 형식 라이브러리를 선택하
 type: docs
 weight: 100
 url: /ko/net/why-not-adobe-photoshop-sdk/
-description: Adobe Photoshop SDK 대신 PSD 파일 형식 라이브러리가 더 나은 옵션인 이유와 두 가지의 비교: 보안, 안정성, 확장성, 두 제품의 기능
+description: Adobe Photoshop SDK 대신 PSD 파일 형식 라이브러리가 더 나은 옵션인 이유와 두 가지의 비교. 보안, 안정성, 확장성, 두 제품의 기능
 ---
 
 {{% alert color="primary" %}}

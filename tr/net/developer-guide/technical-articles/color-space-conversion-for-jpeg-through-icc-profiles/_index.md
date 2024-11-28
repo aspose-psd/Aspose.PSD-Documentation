@@ -2,7 +2,7 @@
 title: JPEG için ICC Profilleri Aracılığıyla Renk Uzayı Dönüşümü
 type: docs
 weight: 60
-url:/tr/net/color-space-conversion-for-jpeg-through-icc-profiles/
+url: /tr/net/color-space-conversion-for-jpeg-through-icc-profiles/
 ---
 
 ## **JPEG Formatı için Renk Yönetimi**

@@ -7,125 +7,125 @@ url: /tr/net/aspose-psd-for-net-22-3-release-notes/
 
 {{% alert color="primary" %}}
 
-Bu sayfa [Aspose.PSD for .NET 22.3](https://www.nuget.org/packages/Aspose.PSD/) için sürüm notlarını içerir.
+Bu sayfa, [Aspose.PSD for .NET 22.3](https://www.nuget.org/packages/Aspose.PSD/) için sürüm notlarını içermektedir.
 
 {{% /alert %}}
 
 |**Anahtar**|**Özet**|**Kategori**|
 | :- | :- | :- |
-|PSDNET-210|Katman Grubu için IsOpen özelliği ekle|Özellik|
-|PSDNET-643|Raster katman maskeleri olan PSD görüntüleri, 16 bitlik PSD görüntüsüne kaydedilirken maskeleri atar|Hata|
-|PSDNET-899|Bulanıklaştırma modu Dağılma, maskesi olan klasöre uygulanmaz|Hata|
-|PSDNET-1047|Belirli dosya, Aspose.PSD 21.11'de kaydedildikten sonra Photoshop tarafından açılamıyor|Hata|
-|PSDNET-1068|Doğru yapılandırılmış katmanın yanlış renderlanması (Ekle) karışım modu|Hata|
-|PSDNET-1069|Yüklemeden sonra Desen Doldurmalı Katman güncellemede istisna oluşturur|Hata|
+|PSDNET-210|Katman Grubu için IsOpen özelliği eklendi|Özellik|
+|PSDNET-643|Rastgele katman maskeleri olan PSD görüntüsü, 16 bitlik PSD görüntüsüne kaydedilirken maskeleri atar|Hata|
+|PSDNET-899|Bulanıklık modu Dissolve, maskeli klasöre uygulanmaz|Hata|
+|PSDNET-1047|Belirli bir dosya, Aspose.PSD 21.11'de kaydedildikten sonra Photoshop tarafından açılamaz|Hata|
+|PSDNET-1068|Linear Dodge (Ekle) karışım moduna sahip katmanın yanlış şekilde işlenmesi|Hata|
+|PSDNET-1069|Yüklemeden sonra Desen Doldurma Katmanı güncelleme sırasında istisna fırlatır|Hata|
 
 
-## **Halka Açık API Değişiklikleri**
-# **Eklenen API'lar:**
+## **Genel API Değişiklikleri**
+# **Eklenen API'ler:**
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerGroup.IsOpen
 
 
-# **Kaldırılan API'lar:**
-- Hiçbiri
+# **Kaldırılan API'ler:**
+- Yok
 
 
 ## **Kullanım örnekleri:**
 
-**PSDNET-210. Katman Grubu için IsOpen özelliği ekle**
+**PSDNET-210. Katman Grubu için IsOpen özelliği ekleme**
 
 {{< highlight csharp >}}
 // Çalışma zamanında IsOpen özelliğini okuma ve yazma örneği.
-string kaynakDosyaAdi = "LayerGroupOpenClose.psd";
-string ciktiDosyaAdi = "Output" + kaynakDosyaAdi;
+string kaynakDosyaAdı = "LayerGroupOpenClose.psd";
+string çıktıDosyaAdı = "Çıkış" + kaynakDosyaAdı;
 
-using (var görüntü = (PsdImage)Image.Load(kaynakDosyaAdi))
+using (var görüntü = (PsdImage)Image.Load(kaynakDosyaAdı))
 {
     foreach (var katman in görüntü.Layers)
     {
-        if (katman is LayerGroup && katman.Name == "Group 1")
+        if (katman is LayerGroup && katman.Name == "Grup 1")
         {
             bool açıkGrup1 = ((LayerGroup)katman).IsOpen;
             ((LayerGroup)katman).IsOpen = !açıkGrup1;
         }
 
-        if (katman is LayerGroup && katman.Name == "Group 2")
+        if (katman is LayerGroup && katman.Name == "Grup 2")
         {
             bool açıkGrup2 = ((LayerGroup)katman).IsOpen;           
             ((LayerGroup)katman).IsOpen = !açıkGrup2;
         }
     }
 
-    görüntü.Save(ciktiDosyaAdi);
+    görüntü.Save(çıktıDosyaAdı);
 }
 {{< /highlight >}}
 
-**PSDNET-643. Raster katman maskeleri olan PSD görüntüleri, 16 bitlik PSD görüntüsüne kaydedilirken maskeleri atar**
+**PSDNET-643. Rastgele katman maskeleri olan PSD görüntüsü, 16 bitlik PSD görüntüsüne kaydedilirken maskeleri atar**
 
 {{< highlight csharp >}}
-            string kaynakDosyaYolu = "OneRegularAndOneRegularWithMask.psd";
-            string ciktiDosyaYolu = "out_OneRegularAndOneRegularWithMask.psd";
+            string kaynakDosyaYolu = "BirDüzenliVeBirDüzenliMaskeli.psd";
+            string çıktıDosyaYolu = "çıktı_BirDüzenliVeBirDüzenliMaskeli.psd";
 
             using (PsdImage görüntü = (PsdImage)Image.Load(kaynakDosyaYolu))
             {
-                görüntü.Save(ciktiDosyaYolu, new PsdOptions(görüntü)
+                görüntü.Save(çıktıDosyaYolu, new PsdOptions(görüntü)
                 {
-                    ChannelBitsCount = 16
+                    KanalBitSayısı = 16
                 });
             }
 {{< /highlight >}}
 
-**PSDNET-899. Bulanıklaştırma modu Dağılma, maskesi olan klasöre uygulanmaz**
+**PSDNET-899. Bulanıklık modu Dissolve, maskeli klasöre uygulanmaz**
 
 {{< highlight csharp >}}
             string kaynakDosya = "psdnet899.psd";
-            string ciktiPng = "out_psdnet899.png";
+            string çıktıPng = "çıktı_psdnet899.png";
 
             using (PsdImage görüntü = (PsdImage) Image.Load(kaynakDosya))
             {
-                görüntü.Save(ciktiPng, new PngOptions());
+                görüntü.Save(çıktıPng, new PngOptions());
             }
 {{< /highlight >}}
 
-**PSDNET-1047. Belirli dosya, Aspose.PSD 21.11'de kaydedildikten sonra Photoshop tarafından açılamıyor**
+**PSDNET-1047. Aspose.PSD 21.11'de kaydedildikten sonra belirli bir dosya Photoshop tarafından açılamaz**
 
 {{< highlight csharp >}}
             string kaynakDosya = "psdnet1047.psd";
-            string ciktiPsd = "out_psdnet1047.psd";
+            string çıktıPsd = "çıktı_psdnet1047.psd";
 
             using (PsdImage görüntü = (PsdImage) Image.Load(kaynakDosya))
             {
-                görüntü.Save(ciktiPsd);
+                görüntü.Save(çıktıPsd);
             }
 
-            // Photoshop ile çıktı PSD dosyasını manuel olarak açmak gereklidir.
+            // Photoshop tarafından çıktı PSD dosyasının manuel olarak açılması gerekir.
 
-            using (PsdImage görüntü = (PsdImage) Image.Load(ciktiPsd))
+            using (PsdImage görüntü = (PsdImage) Image.Load(çıktıPsd))
             {
-                // herhangi bir istisna oluşmaz.
+                // hiçbir istisna fırlatılmaz.
             }
 {{< /highlight >}}
 
-**PSDNET-1068. Doğru yapılandırılmış katmanın yanlış renderlanması (Ekle) karışım modu**
+**PSDNET-1068. Linear Dodge (Ekle) karışım moduna sahip katmanın yanlış şekilde işlenmesi**
 
 {{< highlight csharp >}}
-            string kaynakDosya = "broken.psd";
-            string ciktiPng = "out_broken.psd.png";
+            string kaynakDosya = "bozuk.psd";
+            string çıktıPng = "çıktı_bozuk.psd.png";
 
             using (var psdGörüntü = (PsdImage) Image.Load(kaynakDosya))
             {
-                psdGörüntü.Save(ciktiPng, new PngOptions() {RenkTürü = PngColorType.Truecolor});
+                psdGörüntü.Save(çıktıPng, new PngOptions() {RenkTürü = PngColorType.Truecolor});
             }
 {{< /highlight >}}
 
-**PSDNET-1069. Desen Doldurmalı Katman güncellemede istisna oluşturur**
+**PSDNET-1069. Yüklemeden sonra Desen Doldurma Katmanı güncelleme sırasında istisna fırlatır**
 
 {{< highlight csharp >}}
-            string kaynakDosya = "AllTypesLayerPsd.psd";
+            string kaynakDosya = "TümTiplerLayerPsd.psd";
 
             using (var görüntü = (PsdImage) Image.Load(kaynakDosya))
             {
-                var dolguKatmanı = (FillLayer)görüntü.Layers[9];
-                dolguKatmanı.Update();
+                var doldurmaKatmanı = (FillLayer)görüntü.Layers[9];
+                doldurmaKatmanı.Update();
             }
 {{< /highlight >}}

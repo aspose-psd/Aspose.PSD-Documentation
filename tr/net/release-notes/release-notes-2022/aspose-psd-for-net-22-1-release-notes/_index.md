@@ -1,26 +1,26 @@
 ---
 title: Aspose.PSD for .NET 22.1 - Sürüm Notları
-type: dokümanlar
+type: docs
 weight: 120
 url: /tr/net/aspose-psd-for-net-22-1-release-notes/
 ---
 
-{{% uyari renk="primary" %}} 
+{{% alert color="primary" %}} 
 
-Bu sayfa, [Aspose.PSD for .NET 22.1](https://www.nuget.org/packages/Aspose.PSD/) için sürüm notlarını içermektedir.
+Bu sayfa, [Aspose.PSD for .NET 22.1](https://www.nuget.org/packages/Aspose.PSD/) için sürüm notlarını içermektedir
 
-{{% /uyari %}} 
+{{% /alert %}} 
 
 |**Anahtar**|**Özet**|**Kategori**|
 | :- | :- | :- |
 |PSDNET-1017|PatternOverlay yalnızca bir kez uygulanabilir|Hata|
-|PSDNET-1056|Akıştan bir dosya açıldığında geçici dosyalar taşabilir|Hata|
-|PSDNET-991|Gaussian bulanıklığı akıllı filtreye yönelik işlemler için rendering optimizasyonu|Özellik|
-|PSDNET-1044|PattResource'da çoklu desen verisinin desteklenmesi|Özellik|
+|PSDNET-1056|Akıştan bir dosya açılırken geçici dosyalar taşma yapabilir|Hata|
+|PSDNET-991|Gaussian bulanıklık akıllı filtresi için render optimizasyonu|Özellik|
+|PSDNET-1044|PattResource'da birçok desen verisinin desteklenmesi|Özellik|
 
 
 ## **Genel API Değişiklikleri**
-# **Eklenen API'ler:**
+# **Eklenen API'lar:**
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PattResource.#ctor(System.Int32,Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PattResourceData[])
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PattResource.Patterns
 - F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PattResource.TypeToolKey2
@@ -39,7 +39,7 @@ Bu sayfa, [Aspose.PSD for .NET 22.1](https://www.nuget.org/packages/Aspose.PSD/)
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PattResourceData.SetPattern(System.Int32[],Aspose.PSD.Rectangle)
 
 
-# **Kaldırılan API'ler:**
+# **Kaldırılan API'lar:**
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PattResource.#ctor(System.Byte[])
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PattResource.PatternData
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.PattResource.PatternId
@@ -54,173 +54,173 @@ Bu sayfa, [Aspose.PSD for .NET 22.1](https://www.nuget.org/packages/Aspose.PSD/)
 
 ## **Kullanım örnekleri:**
 **PSDNET-1017. PatternOverlay yalnızca bir kez uygulanabilir**
-{{< vurgu csharp >}}
-            string ciktiPsd = "cikti_1017.psd";
-            string ciktiPng = "cikti_1017.png";
+{{< highlight csharp >}}
+            string outputPsd = "output_1017.psd";
+            string outputPng = "output_1017.png";
 
-            using (var psdGoruntu = (PsdGoruntu)Goruntu.Olustur(new PsdSecenekleri() { Kaynak = new AkimKaynak(new HafizaAkimi()), }, 500, 500))
+            using (var psdImage = (PsdImage)Image.Create(new PsdOptions() { Source = new StreamSource(new MemoryStream()), }, 500, 500))
             {
-                DolguKatmani katman = DolguKatmani.Olustur(DoldurmaTuru.Renk);
-                psdGoruntu.KatmanEkle(katman);
-                VektorYol vektorYol = VektorVeriSaglayici.KatmanIcinVektorYolOlustur(katman);
-                vektorYol.DolguRengi = Renk.Sari;
-                SeçimBicimi şekil2 = yeni SeçimBicimi();
-                şekil2.Noktalar.Ekle(yeni BezierNokta(new NoktaF(300, 150), doğru));
-                şekil2.Noktalar.Ekle(yeni BezierNokta(new NoktaF(350, 200), doğru));
-                şekil2.Noktalar.Ekle(yeni BezierNokta(new NoktaF(250, 200), doğru));
-                şekil2.Kapalı = yanlış;
-                vektorYol.Şekiller.Ekle(şekil2);
+                FillLayer layer = FillLayer.CreateInstance(FillType.Color);
+                psdImage.AddLayer(layer);
+                VectorPath vectorPath = VectorDataProvider.CreateVectorPathForLayer(layer);
+                vectorPath.FillColor = Color.Yellow;
+                PathShape shape2 = new PathShape();
+                shape2.Points.Add(new BezierKnot(new PointF(300, 150), true));
+                shape2.Points.Add(new BezierKnot(new PointF(350, 200), true));
+                shape2.Points.Add(new BezierKnot(new PointF(250, 200), true));
+                shape2.IsClosed = false;
+                vectorPath.Shapes.Add(shape2);
 
-                VektorVeriSaglayici.KatmandanVektörYolunuGüncelle(katman, vektorYol, doğru);
+                VectorDataProvider.UpdateLayerFromVectorPath(layer, vectorPath, true);
 
-                DesenÖrtüsüEfekti desenÖrtüsü = katman.Bulaniksınıflar.Seçenekleri.DesenÖrtüsüEkle();
-                var yeniDesen = yeni int[]
+                PatternOverlayEffect patternOverlay = layer.BlendingOptions.AddPatternOverlay();
+                var newPattern = new int[]
                                         {
-                                Renk.Akua.ToArgb(), Renk.Kırmızı.ToArgb(), Renk.Kırmızı.ToArgb(),
-                                Renk.Akua.ToArgb(), Renk.Akua.ToArgb(), Renk.Beyaz.ToArgb(),
-                                Renk.Beyaz.ToArgb(), Renk.Akua.ToArgb(),
+                                Color.Aqua.ToArgb(), Color.Red.ToArgb(), Color.Red.ToArgb(),
+                                Color.Aqua.ToArgb(), Color.Aqua.ToArgb(), Color.White.ToArgb(),
+                                Color.White.ToArgb(), Color.Aqua.ToArgb(),
                                         };
 
-                var yeniDesenSınırları = yeni Rectangle(0, 0, 4, 2);
-                desenÖrtüsü.Ayarlar.DesenVerisi = yeniDesen;
-                desenÖrtüsü.Ayarlar.DesenGenişliği = yeniDesenSınırları.Genişlik;
-                desenÖrtüsü.Ayarlar.DesenYüksekliği = yeniDesenSınırları.Yükseklik;
-                desenÖrtüsü.Ayarlar.YatayOfset = yeniDesenSınırları.X;
-                desenÖrtüsü.Ayarlar.DikeyOfset = yeniDesenSınırları.Y;
+                var newPatternBounds = new Rectangle(0, 0, 4, 2);
+                patternOverlay.Settings.PatternData = newPattern;
+                patternOverlay.Settings.PatternWidth = newPatternBounds.Width;
+                patternOverlay.Settings.PatternHeight = newPatternBounds.Height;
+                patternOverlay.Settings.HorizontalOffset = newPatternBounds.X;
+                patternOverlay.Settings.VerticalOffset = newPatternBounds.Y;
 
-                katman.Güncelle();
+                layer.Update();
 
-                var katman2 = DolguKatmani.Olustur(DoldurmaTuru.Renk);
-                psdGoruntu.KatmanEkle(katman2);
-                VektorYol vektorYol2 = VektorVeriSaglayici.KatmanIcinVektorYolOlustur(katman2);
-                vektorYol2.DolguRengi = Renk.Mavi;
-                SeçimBicimi şekil3 = yeni SeçimBicimi();
-                şekil3.Noktalar.Ekle(yeni BezierNokta(new NoktaF(400, 450), doğru));
-                şekil3.Noktalar.Ekle(yeni BezierNokta(new NoktaF(100, 400), doğru));
-                şekil3.Noktalar.Ekle(yeni BezierNokta(new NoktaF(250, 100), doğru));
-                şekil3.Kapalı = yanlış;
-                vektorYol2.Şekiller.Ekle(şekil3);
+                var layer2 = FillLayer.CreateInstance(FillType.Color);
+                psdImage.AddLayer(layer2);
+                VectorPath vectorPath2 = VectorDataProvider.CreateVectorPathForLayer(layer2);
+                vectorPath2.FillColor = Color.Blue;
+                PathShape shape3 = new PathShape();
+                shape3.Points.Add(new BezierKnot(new PointF(400, 450), true));
+                shape3.Points.Add(new BezierKnot(new PointF(100, 400), true));
+                shape3.Points.Add(new BezierKnot(new PointF(250, 100), true));
+                shape3.IsClosed = false;
+                vectorPath2.Shapes.Add(shape3);
 
-                VektorVeriSaglayici.KatmandanVektörYolunuGüncelle(katman2, vektorYol2, doğru);
+                VectorDataProvider.UpdateLayerFromVectorPath(layer2, vectorPath2, true);
 
-                DesenÖrtüsüEfekti desenÖrtüsü2 = katman2.Bulaniksınıflar.Seçenekleri.DesenÖrtüsüEkle();
-                var yeniDesen2 = yeni int[]
+                PatternOverlayEffect patternOverlay2 = layer2.BlendingOptions.AddPatternOverlay();
+                var newPattern2 = new int[]
                                         {
-                                Renk.Yeşil.ToArgb(), Renk.Mor.ToArgb(), Renk.Mor.ToArgb(),
-                                Renk.Yeşil.ToArgb(), Renk.Yeşil.ToArgb(), Renk.Siyah.ToArgb(),
-                                Renk.Siyah.ToArgb(), Renk.Yeşil.ToArgb(),
+                                Color.Green.ToArgb(), Color.Purple.ToArgb(), Color.Purple.ToArgb(),
+                                Color.Green.ToArgb(), Color.Green.ToArgb(), Color.Black.ToArgb(),
+                                Color.Black.ToArgb(), Color.Green.ToArgb(),
                                         };
 
-                var yeniDesenSınırları2 = yeni Rectangle(0, 0, 4, 2);
-                desenÖrtüsü2.Ayarlar.DesenVerisi = yeniDesen2;
-                desenÖrtüsü2.Ayarlar.DesenGenişliği = yeniDesenSınırları2.Genişlik;
-                desenÖrtüsü2.Ayarlar.DesenYüksekliği = yeniDesenSınırları2.Yükseklik;
-                desenÖrtüsü2.Ayarlar.YatayOfset = yeniDesenSınırları2.X;
-                desenÖrtüsü2.Ayarlar.DikeyOfset = yeniDesenSınırları2.Y;
+                var newPatternBounds2 = new Rectangle(0, 0, 4, 2);
+                patternOverlay2.Settings.PatternData = newPattern2;
+                patternOverlay2.Settings.PatternWidth = newPatternBounds2.Width;
+                patternOverlay2.Settings.PatternHeight = newPatternBounds2.Height;
+                patternOverlay2.Settings.HorizontalOffset = newPatternBounds2.X;
+                patternOverlay2.Settings.VerticalOffset = newPatternBounds2.Y;
 
-                psdGörüntü.Kaydet(ciktiPsd);
-                psdGörüntü.Kaydet(ciktiPng, yeni PngSecenekleri() { RenkTürü = PngRenkTürü.KesinRenkliAlfa });
-{{< /vurgu >}}
+                psdImage.Save(outputPsd);
+                psdImage.Save(outputPng, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+{{< /highlight >}}
 
-**PSDNET-1056. Akıştan bir dosya açıldığında geçici dosyalar taşabilir**
-{{< vurgu csharp >}}
+**PSDNET-1056. Akıştan bir dosya açılırken geçici dosyalar taşma yapabilir**
+{{< highlight csharp >}}
 
-            kullanarak (var memAkım = yeni HafızaAkımı())
+            using (var memStream = new MemoryStream())
             {
-                byte[] dosyaBaytları = yeni byte[3];
-                memAkım.Yaz(dosyaBaytları, 0, dosyaBaytları.Uzunluk);
+                byte[] fileBytes = new byte[3];
+                memStream.Write(fileBytes, 0, fileBytes.Length);
 
                 // davranışı test et
-                Durum istisna = null;
-                dene
+                Exception exception = null;
+                try
                 {
-                    kullanarak (var görüntü = Goruntu.Yükle(memAkım))
+                    using (var image = Image.Load(memStream))
                     {
                     }
                 }
-                yakala (ÇekirdekHataları.GoruntuYüklemeİstisnası anaHata)
+                catch (CoreExceptions.ImageLoadException mainEx)
                 {
-                    // en düşük seviye istisnasını ara
-                    istisna = anaHata;
-                    iken (istisna.İçİstisnası != null)
+                    // en düşük seviye istisnayı ara
+                    exception = mainEx;
+                    while (exception.InnerException != null)
                     {
-                        istisna = istisna.İçİstisnası;
+                        exception = exception.InnerException;
                     }
                 }
 
                 // istisnayı kontrol et
-                dize türAdı = istisna.Türü.Adı; // hata ayıklama için
-                eğer (istisna bir ÇekirdekHataları.GoruntuYüklemeİstisnası)
+                string typeName = exception.GetType().Name; // hata ayıklama için
+                if (exception is CoreExceptions.ImageLoadException)
                 {
-                    // sorun yok
+                    // Sorun yok
                 }
-                başka
+                else
                 {
-                    // sorun yok
-                    fırlat istisna;
+                    // Sorun yok
+                    throw exception;
                 }
             }
-{{< /vurgu >}}
+{{< /highlight >}}
 
-**PSDNET-991. Gaussian bulanıklığı akıllı filtreye yönelik işlemler için rendering optimizasyonu**
-{{< vurgu csharp >}}
-          dize kaynakDosya = "psdnet991_katmanlar.psd";
-            dize ciktiPsd = "cikti_psdnet991_katmanlar.psd";
-            dize ciktiPng = "cikti_psdnet991_katmanlar.png";
+**PSDNET-991. Gaussian bulanıklık akıllı filtresi için render optimizasyonu**
+{{< highlight csharp >}}
+          string sourceFilte = "psdnet991_layers.psd";
+            string outputPsd = "out_psdnet991_layers.psd";
+            string outputPng = "out_psdnet991_layers.png";
 
-            kullanarak (var görüntü = (PsdGoruntu)Goruntu.Yükle(kaynakDosya))
+            using (var image = (PsdImage)Image.Load(sourceFilte))
             {
-                AkıllıNesneKatmanı akıllıKatman = (AkıllıNesneKatmanı)görüntü.Katmanlar[1];
-                Katman maskeKatmanı = görüntü.Katmanlar[2];
-                Katman düzenliKatman = görüntü.Katmanlar[3];
+                SmartObjectLayer smartLayer = (SmartObjectLayer)image.Layers[1];
+                Layer maskLayer = image.Layers[2];
+                Layer regularLayer = image.Layers[3];
 
-                GaussianBulanıklıkAkıllıFiltre gaussianBulanıklaştırıcı = yeni GaussianBulanıklıkAkıllıFiltre();
-                gaussianBulanıklaştırıcı.Yarıçap = 10;
+                GaussianBlurSmartFilter gaussianBlur = new GaussianBlurSmartFilter();
+                gaussianBlur.Radius = 10;
 
-                // Filtreyi AkıllıNesne'ye uygula
-                gaussianBulanıklaştırıcı.Uygula(akıllıKatman);
-                akıllıKatman.SmartFilters.KaynakDeğerleriniGüncelle();
-                akıllıKatman.ModifiedContent'ıGüncelle();
+                // Filtreyi Akıllı Nesneye uygula
+                gaussianBlur.Apply(smartLayer);
+                smartLayer.SmartFilters.UpdateResourceValues();
+                smartLayer.UpdateModifiedContent();
 
-                // Maske katmanına filtreyi uygula
-                gaussianBulanıklaştırıcı.MaskeyeUygula(maskeKatmanı);
+                // Maske katmanına filtre uygula
+                gaussianBlur.ApplyToMask(maskLayer);
 
-                // Katmana filtreyi uygula
-                gaussianBulanıklaştırıcı.Uygula(düzenliKatman);
+                //Katmana filtre uygula
+                gaussianBlur.Apply(regularLayer);
 
-                görüntü.Kaydet(ciktiPsd);
-                görüntü.Kaydet(ciktiPng, yeni PngSecenekleri() { RenkTürü = PngRenkTürü.KesinRenkliAlfa });
+                image.Save(outputPsd);
+                image.Save(outputPng, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
             }
-{{< /vurgu >}}
+{{< /highlight >}}
 
-**PSDNET-1044. PattResource'da çoklu desen verisinin desteklenmesi**
-{{< vurgu csharp >}}
-            dize kaynak = "psdnet1044.psd";
-            dize cikti = "cikti_psdnet1044.psd";
+**PSDNET-1044. PattResource'da birçok desen verisinin desteklenmesi**
+{{< highlight csharp >}}
+            string src = "psdnet1044.psd";
+            string output = "out_psdnet1044.psd";
 
-            kullanarak (var görüntü = (PsdGoruntu)Goruntu.Yükle(kaynak, yeni PsdYükleSecenekleri() { EfektKaynağınıYükle = doğru }))
+            using (var image = (PsdImage)Image.Load(src, new PsdLoadOptions() { LoadEffectsResource = true }))
             {
-                PattResource pattKaynak = (PattResource)görüntü.GlobalKatmanKaynakları[0];
+                PattResource pattResource = (PattResource)image.GlobalLayerResources[0];
 
-                eğer (pattKaynak.Desenler.Uzunluk == 2)
+                if (pattResource.Patterns.Length == 2)
                 {
-                    Konsol.Yaz("PattResourceData öğelerinin doğru okunması.");
+                    Console.WriteLine("PattResourceData öğelerinin doğru okunması.");
                 }
 
-                var dolguKatmanı = DolguKatmani.Oluştur(DoldurmaTuru.Renk);
-                görüntü.KatmanEkle(dolguKatmanı);
+                var fillLayer = FillLayer.CreateInstance(FillType.Color);
+                image.AddLayer(fillLayer);
 
-                IDesenDoldurmaAyarları desenAyarı = dolguKatmanı.Bulaniksınıflar.DesenÖrtüsüEkle().Ayarlar;
+                IPatternFillSettings pattSetting = fillLayer.BlendingOptions.AddPatternOverlay().Settings;
 
-                desenAyarı.DesenGenişliği = 3;
-                desenAyarı.DesenYüksekliği = 3;
-                desenAyarı.DesenVerisi = yeni int[]
+                pattSetting.PatternWidth = 3;
+                pattSetting.PatternHeight = 3;
+                pattSetting.PatternData = new int[]
                 {
-                    Renk.Beyaz.ToArgb(), Renk.Beyaz.ToArgb(), Renk.Kırmızı.ToArgb(),
-                    Renk.Beyaz.ToArgb(), Renk.Yeşil.ToArgb(), Renk.Beyaz.ToArgb(),
-                    Renk.Mavi.ToArgb(), Renk.Beyaz.ToArgb(), Renk.Beyaz.ToArgb(),
+                    Color.White.ToArgb(), Color.White.ToArgb(), Color.Red.ToArgb(),
+                    Color.White.ToArgb(), Color.Green.ToArgb(), Color.White.ToArgb(),
+                    Color.Blue.ToArgb(), Color.White.ToArgb(), Color.White.ToArgb(),
                 };
 
-                görüntü.Kaydet(cikti);
+                image.Save(output);
             }
-{{< /vurgu >}}
+{{< /highlight >}}

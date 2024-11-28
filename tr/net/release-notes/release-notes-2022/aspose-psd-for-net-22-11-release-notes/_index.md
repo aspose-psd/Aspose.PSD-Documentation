@@ -1,20 +1,20 @@
 ---
-title: Aspose.PSD for .NET 22.11 - Sürüm Notları
+title: Aspose.PSD için .NET 22.11 - Sürüm Notları
 type: docs
 weight: 20
-url: /tr/net/aspose-psd-for-net-22-11-s%C3%BCr%C3%BCm-notlar%C4%B1/
+url: /tr/net/aspose-psd-icin-net-22-11-sürüm-notları/
 ---
 
 {{% alert color="primary" %}}
 
-Bu sayfa, [Aspose.PSD for .NET 22.11](https://www.nuget.org/packages/Aspose.PSD/) için sürüm notlarını içermektedir.
+Bu sayfa, [Aspose.PSD için .NET 22.11](https://www.nuget.org/packages/Aspose.PSD/) için sürüm notlarını içerir.
 
 {{% /alert %}}
 
 {{% alert color="warning" %}}
 
-- Bu sürümde, 16 bit dışa aktarmalarda bir regresyon mevcuttur, bu nedenle bu özelliği kullanırken dikkatli olmanızı öneririz.
-Lütfen 16 bit görüntü işleme, ana işlevselliğiniz ise Aspose.PSD’yi 22.9-22.11’e güncelleştirmeyin.
+- Bu sürümde 16 bitlik dışa aktarmalarda bir gerileme var, bu nedenle bu özelliği kullanırken dikkatli olmanızı öneririz.
+Lütfen 16 bitlik görüntü işleme temel işleviniz ise Aspose.PSD'yi 22.9-22.11 sürümlerine güncellemeyin.
 
 Bu sorunlara çözüm üzerinde çalışıyoruz.
 
@@ -23,79 +23,79 @@ Bu sorunlara çözüm üzerinde çalışıyoruz.
 |**Anahtar**|**Özet**|**Kategori**|
 | :- | :- | :- |
 |PSDNET-1320|Son derece büyük PSB dosyaları dışa aktarılamaz|Geliştirme|
-|PSDNET-659|Yayıcı gradyanın merkezini hareketli yapın|Özellik|
+|PSDNET-659|Dairesel gradyanın merkezini taşınabilir hale getirin|Özellik|
 |PSDNET-1330|Belirli dosyalar için ZipWithoutPrediction sıkıştırma yöntemi desteklenmiyor|Özellik|
-|PSDNET-735|Bir katman için yalnızca bir dönüşüm yöntemi kullandıktan sonra kaydedilen katmanda yanlış sınırlayıcı kutusu bulunur|Hata|
-|PSDNET-1234|Desenli PSD görüntüsü yüklenirken istisna oluşur|Hata|
-|PSDNET-1244|Çin sembolleri olan PSD dosyasını kaydederken Görüntü aktarımı başarısız oldu (IndexOutOfRangeException)|Hata|
-|PSDNET-1303|TimeLine ActiveFrame yanlış uygulanır|Hata|
-|PSDNET-1307|Regresyon 22.7: Arap karakterler içeren metnin yanlış şekilde işlenmesi|Hata|
-|PSDNET-1321|Grup Katmanındaki Vektör Maskesi yanlış çalışır. Son görüntü siyah delikle doludur, ancak olmamalıdır|Hata|
+|PSDNET-735|Yalnızca bir katman için bir dönüşüm yöntemi kullandıktan sonra kaydedilen katmanın yanlış sınırlama kutusu var|Hata|
+|PSDNET-1234|Desen içeren PSD görüntüsünü yüklerken istisna oluştu|Hata|
+|PSDNET-1244|Çince semboller içeren PSD dosyasının kaydedilmesi sırasında Görüntü dışa aktarma hatası (IndexOutOfRangeException)|Hata|
+|PSDNET-1303|Zaman Çizelgesi Etkin Çerçevesi yanlış uygulanıyor|Hata|
+|PSDNET-1307|22.7'de Regression: Arap karakterleri içeren metnin yanlış oluşturulması|Hata|
+|PSDNET-1321|Grup Katmanı üzerindeki Vektör Maskesi yanlış çalışıyor. Nihai görüntü siyah delik barındırıyor olmalı ama içermemeli|Hata|
 
 
 ## **Genel API Değişiklikleri**
-# **Eklenen API'ler:**
+# **Eklenen API'lar:**
 - M:Aspose.PSD.FileFormats.Psd.Layers.TextLayer.Resize(System.Int32,System.Int32,Aspose.PSD.ResizeType)
 
 
-# **Kaldırılan API'ler:**
-- Yok
+# **Kaldırılan API'lar:**
+- Hiçbiri
 
 
 ## **Kullanım örnekleri:**
 
-**PSDNET-659. Yayıcı gradyanın merkezini hareketli yapın**
+**PSDNET-659. Dairesel gradyanın merkezini taşınabilir hale getirin**
 
 {{< highlight csharp >}}
 string kaynakDosya = "psdnet659.psd";
 string çıktıDosyası = "çıktı.png";
 
-using (var psdGörüntü = (PsdGörüntü)Görüntü.Yükle(kaynakDosya))
+using (var psdGörüntü = (PsdImage)Image.Load(kaynakDosya))
 {
-    DolguKatmanı yayıcıKatman = (DolguKatmanı)psdGörüntü.Katmanlar[5];
-    GradyanDolguAyarları ayarlar = (GradyanDolguAyarları)yayıcıKatman.DolguAyarları;
+    DolguKatmanı daireselKatman = (DolguKatmanı)psdGörüntü.Layers[5];
+    GradientDoldurmaAyarları ayarlar = (GradientDoldurmaAyarları)daireselKatman.FillSettings;
 
     // Ofset noktasını güncelle
-    ayarlar.YatayOfset = 10;
-    ayarlar.DikeyOfset = -25;
+    ayarlar.HorizontalOffset = 10;
+    ayarlar.VerticalOffset = -25;
 
-    psdGörüntü.Kaydet(çıktıDosyası, yeni PngSeçenekleri());
+    psdGörüntü.Save(çıktıDosyası, new PngOptions());
 }
 {{< /highlight >}}
 
-**PSDNET-735. Bir katman için yalnızca bir dönüşüm yöntemi kullandıktan sonra kaydedilen katmanda yanlış sınırlayıcı kutusu bulunur**
+**PSDNET-735. Yalnızca bir katman için bir dönüşüm yöntemi kullandıktan sonra kaydedilen katmanın yanlış sınırlama kutusu var**
 
 {{< highlight csharp >}}
-string kaynakDosyaAdı = @"MetinKatmanı.psd";
-string çıktıDosyası = "MetinKatmanıYenidenBoyutlandırılmış_çıktı.psd";
+string kaynakDosyaAdı = @"TextLayer.psd";
+string çıktıDosyası = "TextLayerResized_output.psd";
 
-using (PsdGörüntü görüntü = (PsdGörüntü)Görüntü.Yükle(kaynakDosyaAdı, yeni PsdYüklemeSeçenekleri()))
+using (PsdImage görüntü = (PsdImage)Image.Load(kaynakDosyaAdı, new PsdLoadOptions()))
 {
-    MetinKatmanı metinKatmanı = (MetinKatmanı)görüntü.Katmanlar[1];
+    TextLayer metinKatmanı = (TextLayer)görüntü.Layers[1];
 
     // Metin katmanının yeni boyutunu ayarlar
     const int YeniGenişlik = 250;
     const int YeniYükseklik = 250;
 
-    // Yeniden boyutlandırma işleminin katmanı nasıl yeniden boyutlandıracağını belirleyen mekanizmayı ayarlar (varsayılan değer)
-    YenidenBoyutlandırmaTipi yenidenBoyutlandırmaTipi = YenidenBoyutlandırmaTipi.TetikiciKomşulukOrantılaması;
+    // Yeniden boyutlandırma işleminin katmanı nasıl yeniden boyutlandıracağı mekanizmasını ayarlar (varsayılan değer)
+    ResizeType yenidenBoyutlandırmaTipi = ResizeType.NearestNeighbourResample;
 
-    // Metin katmanı için yeni yeniden boyutlandırma mekanizması burada kullanılır
-    // Sadece katman değil, ayrıca metin katmanının dönüşüm matrisi de değişir
-    metinKatmanı.YenidenBoyutlandır(YeniGenişlik, YeniYükseklik, yenidenBoyutlandırmaTipi);
+    // Burada metin katmanının yeniden boyutlandırılması için yeni mekanizma kullanılıyor
+    // Sadece katman değil, aynı zamanda metin katmanının dönüşüm matrisi de değişecek
+    metinKatmanı.Resize(YeniGenişlik, YeniYükseklik, yenidenBoyutlandırmaTipi);
 
-    görüntü.Kaydet(çıktıDosyası, yeni PsdSeçenekleri(görüntü));
+    görüntü.Save(çıktıDosyası, new PsdOptions(görüntü));
 }
 
-using (PsdGörüntü görüntü = (PsdGörüntü)Görüntü.Yükle(çıktıDosyası, yeni PsdYüklemeSeçenekleri()))
+using (PsdImage görüntü = (PsdImage)Image.Load(çıktıDosyası, new PsdLoadOptions()))
 {
-    MetinKatmanı txtKatmanı = (MetinKatmanı)görüntü.Katmanlar[1];
+    TextLayer txtKatman = (TextLayer)görüntü.Layers[1];
 
-    // Farkın nedeni varsayılan fontun farklı olmasıdır
-    if (txtKatmanı.DönüşümMatrisi[4] >= 65 
-        && txtKatmanı.DönüşümMatrisi[4] <= 67
-        && txtKatmanı.DönüşümMatrisi[5] >= 234
-        && txtKatmanı.DönüşümMatrisi[5] <= 237)
+    // Delta nedeni farklı varsayılan yazı tipidir
+    if (txtKatman.TransformMatrix[4] >= 65 
+        && txtKatman.TransformMatrix[4] <= 67
+        && txtKatman.TransformMatrix[5] >= 234
+        && txtKatman.TransformMatrix[5] <= 237)
     {
         // Her şey yolunda
     }
@@ -106,76 +106,116 @@ using (PsdGörüntü görüntü = (PsdGörüntü)Görüntü.Yükle(çıktıDosya
 }
 {{< /highlight >}}
 
-**PSDNET-1234. Desenli PSD görüntüsü yüklenirken istisna oluşur**
+**PSDNET-1234. Desen içeren PSD görüntüsünü yüklerken istisna oluştu**
 
 {{< highlight csharp >}}
-string kaynakDosya = "test.psd";
+string srcDosya = "test.psd";
 string çıktı = "çıktı1234.png";
 
-using (PsdGörüntü psdGörüntü = (PsdGörüntü)PsdGörüntü.Yükle(kaynakDosya,
-new PsdYüklemeSeçenekleri() { EfektKaynağınıYükle = true }))
+using (PsdImage psdGörüntü = (PsdImage)PsdImage.Load(srcDosya,
+new PsdLoadOptions() { LoadEffectsResource = true }))
 {
-    PngSeçenekleri pngSeçenekleri = new PngSeçenekleri() { RenkTipi = PngRenkTipi.GerçekRenkAlfa };
-    psdGörüntü.Kaydet(çıktı, pngSeçenekleri);
+    PngOptions pngSeçenekler = new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha };
+    psdGörüntü.Save(çıktı, pngSeçenekler);
 }
 {{< /highlight >}}
 
-**PSDNET-1244. Çin sembolleri olan PSD dosyasını kaydederken Görüntü aktarımı başarısız oldu (IndexOutOfRangeException)**
+**PSDNET-1244. Çince semboller içeren PSD dosyasının kaydedilmesi sırasında Görüntü dışa aktarma hatası (IndexOutOfRangeException)**
 
 {{< highlight csharp >}}
-string kaynakDosyası = "girdi.psd";
-string çıktıYolu = "çıktı.psd";
+string kaynakDosya = "input.psd";
+string çıktıYolu = "output.psd";
 
-var yüklemeSeçenekleri = new PsdYüklemeSeçenekleri
+var yüklemeSeçenekleri = new PsdLoadOptions
 {
-    EfektKaynağınıYükle = true,
-    EfektKaynağıİçinDiskKullan = true
+    LoadEffectsResource = true,
+    UseDiskForLoadEffectsResource = true
 };
 
-using (var görüntü = (PsdGörüntü)Görüntü.Yükle(kaynakDosyası, yüklemeSeçenekleri))
+using (var görüntü = (PsdImage)Image.Load(kaynakDosya, yüklemeSeçenekleri))
 {
-    foreach (var katman in görüntü.Katmanlar)
+    foreach (var katman in görüntü.Layers)
     {
-        if (katman.Adı == "1")
+        if (katman.Name == "1")
         {
-            var txtKatman = (MetinKatmanı)katman;
+            var txtKatman = (TextLayer)katman;
 
-            txtKatman.MetniGüncelle("测试测试");
+            txtKatman.UpdateText("测试测试");
         }
     }
 
-    // Burada istisna olmamalıdır.
-    görüntü.Kaydet(çıktıYolu, yeni PsdSeçenekleri() { SıkıştırmaYöntemi = SıkıştırmaYöntemi.RLE, RenkModu = RenkModları.Rgb });
+    // Burada hiçbir istisna olmamalı.
+    görüntü.Save(çıktıYolu, new PsdOptions() { CompressionMethod = CompressionMethod.RLE, ColorMode = ColorModes.Rgb });
 }
 {{< /highlight >}}
 
-**PSDNET-1303. TimeLine ActiveFrame yanlış uygulanır**
+**PSDNET-1303. Zaman Çizelgesi Etkin Çerçevesi yanlış uygulanıyor**
 
 {{< highlight csharp >}}
-string kaynak = "zamançizelgesi1303.psd";
-string çıktı = "çıktı_zamançizelgesi.psd";
+string kaynak = "timeline1303.psd";
+string çıktı = "out_timeline.psd";
 
-using (var psdGörüntü = (PsdGörüntü)Görüntü.Yükle(kaynak))
+using (var psdGörüntü = (PsdImage)Image.Load(kaynak))
 {
-    ZamanÇizelgesi zamanÇizelgesi = ZamanÇizelgesi.Başlat(psdGörüntü);
+    TimeLine zamanÇizelgesi = TimeLine.InitializeFrom(psdGörüntü);
 
     zamanÇizelgesi.ActiveFrame = 2;
-    zamanÇizelgesi.Uygulamak(psdGörüntü);
+    zamanÇizelgesi.ApplyTo(psdGörüntü);
 
-    psdGörüntü.Kaydet(çıktı);
+    psdGörüntü.Save(çıktı);
 }
 {{< /highlight >}}
 
-**PSDNET-1307. Regresyon 22.7: Arap karakterler içeren metnin yanlış şekilde işlenmesi**
+**PSDNET-1307. 22.7'de Regression: Arap karakterleri içeren metnin yanlış oluşturulması**
 
 {{< highlight csharp >}}
-string testYazıTipleriKlasörü = "YazıTipleri";
-YazıTipleri.Ayarlar.YazıTipleriKlasörüBelirle(testYazıTipleriKlasörü);
-YazıTipleri.Ayarlar.YazıTipleriniGüncelle();
+string testFontlarKlasörü = "Yazı Tipleri";
+FontSettings.SetFontsFolder(testFontlarKlasörü);
+FontSettings.UpdateFonts();
 
-string kaynakDosyaYolu = "örnekfin12.psd";
+string kaynakDosyaYolu = "sarbarg.fin12.psd";
 string çıktıDosyaYolu = "sonuç.tiff";
 
-using (var psdGörüntü = (PsdGörüntü)Görüntü.Yükle(kaynakDosyaYolu))
+using (var psdGörüntü = (PsdImage)Image.Load(kaynakDosyaYolu))
 {
-    psdGörüntü.Kaydet(çıktıDos
+    psdGörüntü.Save(çıktıDosyaYolu, new Aspose.PSD.ImageOptions.TiffOptions(TiffExpectedFormat.TiffLzwRgb));
+}
+{{< /highlight >}}
+
+**PSDNET-1320. Son derece büyük PSB dosyaları dışa aktarılamaz**
+
+{{< highlight csharp >}}
+string kaynakDosya = "hf-mim-liman-han-guc-art-kuvvet.psb";
+string psdDışaAktarımYolu = "hf-mim-liman-han-guc-art-kuvvet.png";
+
+using (var görüntü = (PsdImage)Image.Load(kaynakDosya, new PsdLoadOptions() { ReadOnlyMode = true }))
+{
+    görüntü.Save(psdDışaAktarımYolu, new PngOptions() { ColorType =  PngColorType.TruecolorWithAlpha });
+}
+{{< /highlight >}}
+
+**PSDNET-1321. Grup Katmanı üzerindeki Vektör Maskesi yanlış çalışıyor. Nihai görüntü siyah delik barındırıyor olmalı ama içermemeli**
+
+{{< highlight csharp >}}
+string kaynakDosya = "demo.psd";
+string çıktı = "demo_net.png";
+
+using (PsdImage im = (PsdImage)PsdImage.Load(kaynakDosya))
+{
+    PngOptions pngSeçenekler = new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha };
+    im.Save(çıktı, pngSeçenekler);
+}
+{{< /highlight >}}
+
+**PSDNET-1330. Belirli dosyalar için ZipWithoutPrediction sıkıştırma yöntemi desteklenmiyor**
+
+{{< highlight csharp >}}
+string kaynakDosya = "20221017_220706_0000.psd";
+string çıktıDosyası = "20221017_220706_0000.jpg";
+
+using (var görüntü = (PsdImage)Image.Load(kaynakDosya, new PsdLoadOptions() { LoadEffectsResource = true }))
+{
+    ImageOptionsBase seçeneklerBase = new JpegOptions() { Quality = 80 };
+    görüntü.Save(çıktıDosyası, seçeneklerBase);
+}
+{{< /highlight >}}

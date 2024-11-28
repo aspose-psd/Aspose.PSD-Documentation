@@ -1,32 +1,32 @@
 ---
-title: Aspose.PSD .NET 22.12 Sürüm Notları
+title: Aspose.PSD için .NET 22.12 - Sürüm Notları
 type: docs
 weight: 10
-url: /tr/net/aspose-psd-for-net-22-12-release-notes/
+url: /tr/net/aspose-psd-icin-net-22-12-s%C3%BCr%C3%BCm-notlar%C4%B1/
 ---
 
 {{% alert color="primary" %}}
 
-Bu sayfa, [Aspose.PSD .NET 22.12](https://www.nuget.org/packages/Aspose.PSD/) için sürüm notlarını içerir.
+Bu sayfa, [Aspose.PSD için .NET 22.12](https://www.nuget.org/packages/Aspose.PSD/) için sürüm notlarını içerir.
 
 {{% /alert %}}
 
 {{% alert color="success" %}}
 
-- Bu sürümde, 16 bit ihraç ile ilgili bir regresyon düzeltildi.
+- Bu sürümde 16 bitlik ihraçta yaşanan bir regresyon düzeltildi.
 
 {{% /alert %}}
 
 |**Anahtar**|**Özet**|**Kategori**|
 | :- | :- | :- |
-|PSDNET-1336|IText arabirimine düzenlenebilir TextOrientation özelliği ekle|Özellik|
-|PSDNET-725|Belirtilen PSD dosyasının bir katman maskesi ile yeniden boyutlandırılması yanlış maskeli çıkarır|Hata|
-|PSDNET-1277|16 resim için maske kaydetme ve yükleme yeteneği ekle|Hata|
-|PSDNET-1281|16 veya 8 bitlik bir görüntünün kaydedilmesinde yanlış şeffaflık|Hata|
-|PSDNET-1375|16 bit renkteki CMYK’yi düzelt|Hata|
+|PSDNET-1336|İText arabirimine düzenlenebilir TextOrientation özelliğini ekle|Özellik|
+|PSDNET-725|Belirtilen PSD dosyasının bir katman maskesi ile boyutlandırılması yanlış maskeler üretir|Hata|
+|PSDNET-1277|16 resim için bir maskeyi kaydetme ve yükleme yeteneği ekle|Hata|
+|PSDNET-1281|16 bitlik bir görüntüyü 16 veya 8 bitlik bir görüntüye kaydederken yanlış şeffaflık|Hata|
+|PSDNET-1375|16 bit renkteki CMYK'yi düzelt|Hata|
 
 
-## **Halka Açık API Değişiklikleri**
+## **Genel API Değişiklikleri**
 # **Eklenen API'lar:**
 - T:Aspose.PSD.FileFormats.Psd.TextOrientation
 - F:Aspose.PSD.FileFormats.Psd.TextOrientation.Horizontal
@@ -38,14 +38,14 @@ Bu sayfa, [Aspose.PSD .NET 22.12](https://www.nuget.org/packages/Aspose.PSD/) i�
 - Hiçbiri
 
 
-## **Kullanım örnekleri:**
+## **Kullanım Örnekleri:**
 
-**PSDNET-725. Belirtilen PSD dosyasının bir katman maskesi ile yeniden boyutlandırılması yanlış maskesi çıkıyor**
+**PSDNET-725. Belirtilen PSD dosyasının bir katman maskesi ile boyutlandırılması yanlış maskeler üretir**
 
 {{< highlight csharp >}}
 string kaynakDosya = "kaynak.psd";
-string psdDışaAktarmaYolu = "çıktı.psd";
-string pngDışaAktarmaYolu = "çıktı.png";
+string psdDışaAktarılmaYolu = "çıktı.psd";
+string pngDışaAktarılmaYolu = "çıktı.png";
 
 // Kaynak PSD dosyasını açar
 using (PsdImage görüntü = (PsdImage)Image.Load(kaynakDosya))
@@ -55,69 +55,69 @@ using (PsdImage görüntü = (PsdImage)Image.Load(kaynakDosya))
     int yeniGenişlik = görüntü.Width * Ölçek;
     int yeniYükseklik = görüntü.Height * Ölçek;
 
-    // Yeniden boyutlandırma işlemi yapar
+    // Yeniden boyutlandırma yapar
     görüntü.Resize(yeniGenişlik, yeniYükseklik);
-    görüntü.Save(psdDışaAktarmaYolu, new PsdOptions(görüntü));
+    görüntü.Save(psdDışaAktarılmaYolu, new PsdOptions(görüntü));
 }
 
-// Yeniden boyutlandırılmış PSD dosyasını açar
-using (PsdImage görüntü = (PsdImage)Image.Load(psdDışaAktarmaYolu))
+// Yeniden boyutlandırılan PSD dosyasını açar
+using (PsdImage görüntü = (PsdImage)Image.Load(psdDışaAktarılmaYolu))
 {
-    // PNG'ye dönüştürür
-    görüntü.Save(pngDışaAktarmaYolu, new PngOptions());
+    // PNG'ye dönüştürülür
+    görüntü.Save(pngDışaAktarılmaYolu, new PngOptions());
 }
 {{< /highlight >}}
 
-**PSDNET-1277. 16 resim için maske kaydetme ve yükleme yeteneği ekle**
+**PSDNET-1277. 16 resim için bir maskeyi kaydetme ve yükleme yeteneği ekle**
 
 {{< highlight csharp >}}
-string 8bitRenkliPsdDosyası = @"giriş_8bitRenkli.psd";
-string 16bitRenkliPsdDosyası = @"çıktı_16bitRenkli.psd";
+string 8bitPsdDosyası = @"giriş_8bitRenk.psd";
+string 16bitPsdÇıktıDosyası = @"çıktı_16bitRenk.psd";
 
-using (var görüntü = (PsdImage)Image.Load(8bitRenkliPsdDosyası))
+using (var görüntü = (PsdImage)Image.Load(8bitPsdDosyası))
 {
-    // Seçeneklerle 16 bit renkte kaydetmeye olanak tanır
-    PsdOptions seçenekler16 = new PsdOptions { ChannelBitsCount = 16, ColorMode = ColorModes.Rgb};
+    // Seçenekler 16 bit renkli kaydetmeyi sağlar
+    PsdOptions seçenekler16 = new PsdOptions { KanalBitSayısı = 16, RenkModu = ColorModes.Rgb};
 
-    // PSD dosyası şeffaflıkla kaydedilecek
-    görüntü.Save(16bitRenkliPsdDosyası, seçenekler16);
+    // PSD dosyası şeffaflıkla kaydedilecektir
+    görüntü.Save(16bitPsdÇıktıDosyası, seçenekler16);
 }
 {{< /highlight >}}
 
-**PSDNET-1281. 16 bit görüntüyü 16 veya 8 bit görüntüye kaydederken yanlış şeffaflık**
+**PSDNET-1281. 16 bitlik bir görüntüyü 16 veya 8 bitlik bir görüntüye kaydederken yanlış şeffaflık**
 
 {{< highlight csharp >}}
 string kaynakDosya = @"Örnek_16bit.psd";
-string yenidenKaydedilenDosya = @"YenidenKaydet_16bit.psd";
+string tekrarKaydedilmişDosya = @"YenidenKaydet_16bit.psd";
 string görüntüDosyası = @"ToplamGörüntü_16bit.png";
 
-// (şeffaflık ile) 16 bit renk psd dosyası 16 bit renge açılacak ve kaydedilecek
+// 16 bitlik renkli psd dosyası (şeffaflıkla) açılacak ve 16 bit renge kaydedilecektir
 using (var görüntü = (PsdImage)Image.Load(kaynakDosya))
 {
-    PsdOptions seçenekler16 = new PsdOptions() { ChannelBitsCount = 16, ColorMode = ColorModes.Rgb };
-    görüntü.Save(yenidenKaydedilenDosya, seçenekler16);
+    PsdOptions seçenekler16 = new PsdOptions() { KanalBitSayısı = 16, RenkModu = ColorModes.Rgb };
+    görüntü.Save(tekrarKaydedilmişDosya, seçenekler16);
 }
 
-// 16 bit renk psd dosyası kaydedildikten sonra şeffaflık ile png dosyasına dönüştürülür
-using (var görüntü = (PsdImage)Image.Load(yenidenKaydedilenDosya))
+// 16 bitlik renkli psd dosyası kaydedilip şeffaflıkla png dosyasına dönüştürülecektir
+using (var görüntü = (PsdImage)Image.Load(tekrarKaydedilmişDosya))
 {
-    görüntü.Save(görüntüDosyası, new PngOptions() { ColorType = Aspose.PSD.FileFormats.Png.PngColorType.TruecolorWithAlpha });
+    görüntü.Save(görüntüDosyası, new PngOptions() { RenkTipi = Aspose.PSD.FileFormats.Png.PngColorType.TruecolorWithAlpha });
 }
 {{< /highlight >}}
 
-**PSDNET-1336. Düzenlenebilir TextOrientation özelliği IText arabirimine eklendi**
+**PSDNET-1336. IText arabirimine düzenlenebilir TextOrientation özelliğini ekle**
 
 {{< highlight csharp >}}
-// Aşağıdaki kod, yeni TextOrientation özelliğini düzenleme yeteneğini gösterir.
-// Bu, şu anda render etkilemez, sadece özellik değerini düzenlemenize olanak tanır.
+// Aşağıdaki kod, yeni TextOrientation özelliğini düzeltebilme yeteneğini göstermektedir.
+// Bu, şu anda işlemi etkilemez, sadece özellik değerini düzenlemenize olanak tanır.
 
-string src = "1336test.psd";
-string çıktı = "çıkış_1336test.psd";
+string kaynak = "1336test.psd";
+string çıktı = "çık_1336test.psd";
 
-using (var görüntü = (PsdImage)Image.Load(src))
+using (var görüntü = (PsdImage)Image.Load(kaynak))
 {
-    TextLayer olarak textKatmanı = image.Layers[1] as TextLayer;
-    if (textKatmanı.TextData.TextOrientation == TextOrientation.Vertical)
+    var metinKatmanı = görüntü.Layers[1] as TextLayer;
+    if (metinKatmanı.TextData.TextOrientation == TextOrientation.Vertical)
     {
         // Doğru okuma
     }
@@ -126,16 +126,16 @@ using (var görüntü = (PsdImage)Image.Load(src))
         throw new Exception("TextOrientation özelliği değerinin yanlış okunması");
     }
 
-    textKatmanı.TextData.TextOrientation = TextOrientation.Horizontal;
-    textKatmanı.TextData.UpdateLayerData();
+    metinKatmanı.TextData.TextOrientation = TextOrientation.Horizontal;
+    metinKatmanı.TextData.UpdateLayerData();
 
     görüntü.Save(çıktı);
 }
 
 using (var görüntü = (PsdImage)Image.Load(çıktı))
 {
-    TextLayer olarak textKatmanı = image.Layers[1] as TextLayer;
-    if (textKatmanı.TextData.TextOrientation == TextOrientation.Horizontal)
+    var metinKatmanı = görüntü.Layers[1] as TextLayer;
+    if (metinKatmanı.TextData.TextOrientation == TextOrientation.Horizontal)
     {
         // Doğru okuma
     }
@@ -146,32 +146,32 @@ using (var görüntü = (PsdImage)Image.Load(çıktı))
 }
 {{< /highlight >}}
 
-**PSDNET-1375. CMYK'yi 16 bit renkte düzelt**
+**PSDNET-1375. 16 bit renkli CMYK'yi düzelt**
 
 {{< highlight csharp >}}
 string kaynakDosya = @"ClippingMaskRegular.psd";
-string dışaAktarmaYolu = @"çıktı.psd";
-string pngDışaAktarmaYolu = @"çıktı.png";
+string dışaAktarılmaYolu = @"çıktı.psd";
+string pngDışaAktarılmaYolu = @"çıktı.png";
 
 // Dönüştürme seçeneklerini ayarlar
 PsdOptions psdSeçenekleri = new PsdOptions()
 {
-    ColorMode = ColorModes.Cmyk,
-    ChannelBitsCount = 16,
-    ChannelsCount = 5,
-    CompressionMethod = CompressionMethod.Raw
+    RenkModu = ColorModes.Cmyk,
+    KanalBitSayısı = 16,
+    KanalSayısı = 5,
+    SıkıştırmaYöntemi = CompressionMethod.Raw
 };
 
-// Dönüştürme ve kaydetme işlemleri
+// Dönüştürür ve kaydeder
 using (var görüntü = (PsdImage)Image.Load(kaynakDosya))
 {
-    image.Convert(psdSeçenekleri);
-    image.Save(dışaAktarmaYolu);
+    görüntü.Convert(psdSeçenekleri);
+    görüntü.Save(dışaAktarılmaYolu);
 }
 
 // Dönüştürülen dosyayı açar ve PNG'ye dönüştürür
-using (PsdImage görüntü = (PsdImage)Image.Load(dışaAktarmaYolu))
+using (PsdImage görüntü = (PsdImage)Image.Load(dışaAktarılmaYolu))
 {
-    image.Save(pngDışaAktarmaYolu, new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+    görüntü.Save(pngDışaAktarılmaYolu, new PngOptions() { RenkTipi = PngColorType.TruecolorWithAlpha });
 }
 {{< /highlight >}}

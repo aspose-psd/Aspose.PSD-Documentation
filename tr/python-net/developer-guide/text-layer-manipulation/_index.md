@@ -14,13 +14,13 @@ Aspose.PSD for Python, Python'da PSD (Photoshop Belgesi) dosyalarıyla çalışm
 ** Metin Katmanını Güncelleme Basit Yolu**
 Aspose.PSD for Python kullanarak bir PSD dosyasındaki metin katmanını güncellemek için, TextLayer sınıfının update_text yöntemini kullanabilirsiniz. Bu yöntem, bir metin katmanının metin içeriğini kolayca güncellemenize olanak tanır. İşte bir metin katmanını güncellemenin basit yolunu gösteren bir örnek kod parçacığı:
 
-{{<' aspose-com-gists' '04e945e867d0b7f39bb3eab63074d04c' 'Belgeler-Python-Aspose-psd-metin-katmanı-manipülasyon-basit.py' >}}
+{{<gist "aspose-com-gists" "04e945e867d0b7f39bb3eab63074d04c" "Belgeler-Python-Aspose-psd-metin-katmanı-manipülasyon-basit.py" >}}
 
 ** Metin Bölümünü Kullanarak Düzenleme**
 
 Metin Katmanını Güncelleme İçin Daha Güçlü Yol Metin Bölümlerini Kullanma: PSD dosyalarındaki metin katmanlarını güncelleme şeklinin basit yolu temel metin düzenleme için uygundur. Ancak, metnin biçimlendirmesi ve stilini daha fazla kontrol etmeniz gerekiyorsa, metin bölümlerini kullanarak daha güçlü bir yöntemi kullanabilirsiniz. Metin bölümleri, metin katmanı içinde farklı stiller ve paragraflar belirtmenize olanak tanır. İşte bu yöntemi gösteren bir örnek kod parçacığı:
 
-{{<' aspose-com-gists' '04e945e867d0b7f39bb3eab63074d04c' 'Belgeler-Python-Aspose-psd-metin-katmanı-manipülasyon-metin-bölümü.py' >}}
+{{< gist "aspose-com-gists" "04e945e867d0b7f39bb3eab63074d04c" "Belgeler-Python-Aspose-psd-metin-katmanı-manipülasyon-metin-bölümü.py" >}}
 
 Yukarıdaki kodda, önce güncellemek istediğimiz metin katmanına erişiyoruz (image.layers[1]). Ardından, metin katmanından text_data nesnesini alıyoruz, bu da bize metin bölümleriyle çalışma olanağı verir. Metin bölümleri olarak kullanılacak varsayılan bir default_style ve default_paragraph nesnesi oluşturuyoruz.
 
@@ -34,4 +34,4 @@ Aspose.PSD for Python, PSD dosyalarındaki metni düzenleme için güçlü yeten
 Lütfen tam örneği kontrol edin.
 
 ## **Örnek**
-{{<' aspose-com-gists' '04e945e867d0b7f39bb3eab63074d04c' 'Belgeler-Python-Aspose-psd-metin-katmanı-manipülasyon-tam.py' >}}
+{{<gist "aspose-com-gists" "04e945e867d0b7f39bb3eab63074d04c" "Belgeler-Python-Aspose-psd-metin-katmanı-manipülasyon-tam.py" >}}
