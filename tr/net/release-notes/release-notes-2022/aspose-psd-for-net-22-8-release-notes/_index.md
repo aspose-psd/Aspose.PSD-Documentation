@@ -1,5 +1,5 @@
 ---
-title: Aspose.PSD for .NET 22.8 - Sürüm Notları
+title: Aspose.PSD için .NET 22.8 - Sürüm Notları
 type: docs
 weight: 50
 url: /tr/net/aspose-psd-for-net-22-8-release-notes/
@@ -7,20 +7,19 @@ url: /tr/net/aspose-psd-for-net-22-8-release-notes/
 
 {{% alert color="primary" %}}
 
-Bu sayfa [Aspose.PSD for .NET 22.8](https://www.nuget.org/packages/Aspose.PSD/) için sürüm notlarını içerir
+Bu sayfa, [Aspose.PSD için .NET 22.8](https://www.nuget.org/packages/Aspose.PSD/) sürümü için sürüm notlarını içerir.
 
 {{% /alert %}}
 
 |**Anahtar**|**Özet**|**Kategori**|
 | :- | :- | :- |
-|PSDNET-1225|Kurulumdaki sorunları araştırmak ve düzeltmek|Geliştirme|
+|PSDNET-1225|Yükleyicideki sorunları araştırma ve düzeltme|Geliştirme|
 |PSDNET-800|PSD Dosyasından Kare Zaman Çizelgesi Desteği|Özellik|
-|PSDNET-1219|ShmdResource içinde bulunan 'mlst' kaynağını destekleme|Özellik|
-|PSDNET-814|layer.BlendingOptions.Effects çağrıldığında Katmanın Hash'ini değiştir|Hata|
-
+|PSDNET-1219|'mlst' kaynağının ShmdResource içinde alt kaynak olarak bulunması desteği|Özellik|
+|PSDNET-814|Katmanın karıştırma seçenekleri etkileşimlerini çağırdığımızda katmanın Hash değerinin değişmesi|Hata|
 
 ## **Genel API Değişiklikleri**
-# **Eklenen API'lar:**
+# **Eklenen API'ler:**
 - T:Aspose.PSD.FileFormats.Psd.Layers.Animation.Frame
 - M:Aspose.PSD.FileFormats.Psd.Layers.Animation.Frame.#ctor(Aspose.PSD.FileFormats.Psd.Layers.Animation.TimeLine)
 - P:Aspose.PSD.FileFormats.Psd.Layers.Animation.Frame.Id
@@ -63,90 +62,88 @@ Bu sayfa [Aspose.PSD for .NET 22.8](https://www.nuget.org/packages/Aspose.PSD/) 
 - F:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.MlstResource.TypeToolKey
 - P:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.ShmdResource.SubResourcesx
 
-
-# **Kaldırılan API'lar:**
-- Yok
-
+# **Kaldırılan API'ler:**
+- Hiçbiri
 
 ## **Kullanım örnekleri:**
 
 **PSDNET-800. PSD Dosyasından Kare Zaman Çizelgesi Desteği**
 
 {{< highlight csharp >}}
-string kaynakDosya = "resim1219.psd";
-string ciktiPsd = "çıktı_resim800.psd";
+string kaynakDosya = "image1219.psd";
+string ciktiPsd = "output_image800.psd";
 
-using (PsdImage psdImage = (PsdImage)Image.Load(kaynakDosya))
+using (PsdImage psdResim = (PsdImage)Image.Load(kaynakDosya))
 {
-    TimeLine zamanÇizgisi = TimeLine.InitializeFrom(psdImage);
+    TimeLine zamanCizelgesi = TimeLine.InitializeFrom(psdResim);
 
     // 1. karenin atılma yöntemini değiştir
-    zamanÇizgisi.Frames[0].DisposalMethod = FrameDisposalMethod.DoNotDispose;
+    zamanCizelgesi.Frames[0].DisposalMethod = FrameDisposalMethod.DoNotDispose;
 
-    // 2. karenin gecikmesini değiştir
-    zamanÇizgisi.Frames[1].Delay = 15;
+    // 2. karedeki gecikmeyi değiştir
+    zamanCizelgesi.Frames[1].Delay = 15;
 
-    // 2. karede 'Katman 1' in opaklığını değiştir
-    LayerState katmanDurumu11 = zamanÇizgisi.Frames[1].LayerStates[zamanÇizgisi.LayerIds[1]];
+    // 2. karedeki 'Katman 1' opaklığını değiştir
+    LayerState katmanDurumu11 = zamanCizelgesi.Frames[1].LayerStates[zamanCizelgesi.LayerIds[1]];
     katmanDurumu11.Opacity = 50;
 
-    // 'Katman 1' i 3. çerçevede sola-alt köşeye taşı
-    LayerState katmanDurumu21 = zamanÇizgisi.Frames[2].LayerStates[zamanÇizgisi.LayerIds[1]];
+    // 'Katman 1'i 3. karede sol-alt köşeye taşı
+    LayerState katmanDurumu21 = zamanCizelgesi.Frames[2].LayerStates[zamanCizelgesi.LayerIds[1]];
     katmanDurumu21.Offset = new Point(-50, 230);
 
-    // Yeni kare ekleyin
-    List<Frame> kareler = new List<Frame>(zamanÇizgisi.Frames);
-    kareler.Add(new Frame(zamanÇizgisi));
-    zamanÇizgisi.Frames = kareler.ToArray();
+    // Yeni kare ekle
+    List<Frame> kareler = new List<Frame>(zamanCizelgesi.Frames);
+    kareler.Add(new Frame(zamanCizelgesi));
+    zamanCizelgesi.Frames = kareler.ToArray();
 
-    // 'Katman 1' in 4. çerçevedeki karışım modunu değiştir
-    LayerState katmanDurumu31 = zamanÇizgisi.Frames[3].LayerStates[zamanÇizgisi.LayerIds[1]];
+    // 'Katman 1'in 4. karedeki karışım modunu değiştir
+    LayerState katmanDurumu31 = zamanCizelgesi.Frames[3].LayerStates[zamanCizelgesi.LayerIds[1]];
     katmanDurumu31.BlendMode = BlendMode.Dissolve;
 
-    // Değişiklikleri PsdImage örneğine uygula
-    zamanÇizgisi.ApplyTo(psdImage);
-    psdImage.Save(ciktiPsd);
+    // Değişiklikleri PsdResim örneğine uygula
+    zamanCizelgesi.ApplyTo(psdResim);
+    psdResim.Save(ciktiPsd);
 }
 {{< /highlight >}}
 
-**PSDNET-814. layer.BlendingOptions.Effects çağrıldığında Katmanın Hash'ini değiştir**
+**PSDNET-814. Katmanın karıştırma seçenekleri etkileşimlerini çağırdığımızda katmanın Hash değerinin değişmesi**
 
 {{< highlight csharp >}}
-string kaynakDosya = "TümTiplerLayerPsd.psd";
+string kaynakDosya = "AllTypesLayerPsd.psd";
 
-using (var görüntü = (PsdImage)Image.Load(kaynakDosya))
+using (var resim = (PsdImage)Image.Load(kaynakDosya))
 {
-    var katman = görüntü.Layers[0];
-    var başlangıçHash = katman.GetHashCode();
-    var effects = katman.BlendingOptions.Effects;
-    var bitişHash = katman.GetHashCode();
+    var katman = resim.Layers[0];
+    var baslangicHash = katman.GetHashCode();
+    var etkiler = katman.BlendingOptions.Effects;
+    var sonHash = katman.GetHashCode();
 
-    if (başlangıçHash != bitişHash)
+    if (baslangicHash != sonHash)
     {
         throw new Exception("Hash değişmemeli");
     }
 }
 {{< /highlight >}}
 
-**PSDNET-1219. ShmdResource içinde bulunan 'mlst' kaynağını destekleme**
+**PSDNET-1219. 'ShmdResource' içinde alt kaynak olarak bulunan 'mlst' kaynağını destekleme**
 
 {{< highlight csharp >}}
-string kaynakDosya = "resim1219.psd";
-string ciktiPsd = "çıktı_resim1219.psd";
+string kaynakDosya = "image1219.psd";
+string ciktiPsd = "output_image1219.psd";
 
-using (PsdImage görüntü = (PsdImage)Image.Load(kaynakDosya))
+using (PsdImage resim = (PsdImage)Image.Load(kaynakDosya))
 {
-    Layer katman1 = görüntü.Layers[1];
+    Layer katman1 = resim.Layers[1];
     ShmdResource shmdKaynak = (ShmdResource)katman1.Resources[8];
     MlstResource mlstKaynak = (MlstResource)shmdKaynak.SubResources[0];
 
-    ListStructure katmanDurumlarıListesi = (ListStructure)mlstKaynak.Items[1];
-    DescriptorStructure karelerDurum1 = (DescriptorStructure)katmanDurumlarıListesi.Types[1];
-    BooleanStructure katmanEtkin = (BooleanStructure)karelerDurum1.Structures[0];
+     ListStructure katmanDurumlariListesi = (ListStructure)mlstKaynak.Items[1];
+    DescriptorStructure frame1KatmanDurumu = (DescriptorStructure)katmanDurumlariListesi.Types[1];
+    BooleanStructure katmanEtkin = (BooleanStructure)frame1KatmanDurumu.Structures[0];
 
-    // 1. karedeki katmanı devre dışı bırak
+    // 1. karedeki 'Katman 1'i etkisizleştir
     katmanEtkin.Value = false;
 
-    görüntü.Save(ciktiPsd);
+    resim.Save(ciktiPsd);
 }
 {{< /highlight >}}

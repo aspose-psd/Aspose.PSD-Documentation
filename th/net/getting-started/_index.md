@@ -5,7 +5,7 @@ weight: 10
 url: /th/net/getting-started/
 ---
 
-{{% alert สี="primary" %}} 
+{{% alert color="primary" %}}
 
 **ยินดีต้อนรับสู่ Aspose.PSD for .NET Documentation**
 

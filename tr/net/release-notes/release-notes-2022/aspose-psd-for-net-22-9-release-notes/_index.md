@@ -1,5 +1,5 @@
 ---
-title: Aspose.PSD for .NET 22.9 - Sürüm Notları
+title: Aspose.PSD için .NET 22.9 - Sürüm Notları
 type: docs
 weight: 40
 url: /tr/net/aspose-psd-for-net-22-9-release-notes/
@@ -7,28 +7,28 @@ url: /tr/net/aspose-psd-for-net-22-9-release-notes/
 
 {{% alert color="primary" %}}
 
-Bu sayfa, [Aspose.PSD for .NET 22.9](https://www.nuget.org/packages/Aspose.PSD/) için sürüm notlarını içerir.
+Bu sayfa, [Aspose.PSD için .NET 22.9](https://www.nuget.org/packages/Aspose.PSD/) sürümü için sürüm notlarını içerir.
 
 {{% /alert %}}
 
 {{% alert color="warning" %}}
 
-- Bu sürümde, 16 bit dışa aktarmalarda bir gerileme bulunmaktadır, bu nedenle bu özelliği kullanırken dikkatli olmanızı öneririz.
-Lütfen, 16 bit görüntü işleme işleviniz ana işleviniz ise Aspose.PSD'yi 22.9 sürümüne güncellemeyin.
-- Photoshop'un birkaç sürümü için kullanıcılar, bir hata okuyan katman ile bir pencere ile karşılaşabilirler, bu durum PSD dosyası ile çalışmayı etkilemeyecektir.
+- Bu sürümde 16 bitlik dışa aktarmalarda bir gerileme bulunmaktadır, bu nedenle bu özelliği kullanırken dikkatli olmanızı öneririz.
+Lütfen, 16-bit görüntü işleme işlevinizse Aspose.PSD'yi 22.9'a güncelleştirmeyin.
+- Birkaç Photoshop sürümünde, kullanıcılar bir hata okuma katmanıyla ilgili bir pencere ile karşılaşabilirler, bu PSD dosyasıyla çalışmayı etkilemeyecektir.
 
-Bu sorunlara çözüm bulmaya çalışıyoruz.
+Bu sorunların çözümü üzerinde çalışıyoruz.
 
 {{% /alert %}}
 
 |**Anahtar**|**Özet**|**Kategori**|
 | :- | :- | :- |
-|PSDNET-1237|Efektler ve ilgili verileri içerecek iç LayerStyleFX modelini oluşturun; Efekt kaynaklarında tek modeli kullanmak için|Geliştirme|
-|PSDNET-1227|Zaman Çizelgesi modellerinde katman durumları için efekt bilgilerine sahip 'Lefx' yapılarının okunması ve yazılması|Özellik|
-|PSDNET-1230|TimeLine katman durumunu PsdImage'da uygulama|Özellik|
-|PSDNET-1072|PSD dosyasının kaydedilmesinde (RGB/16bit) hatalı şeffaflık (8 bit'e dışa aktarılırken)|Hata|
-|PSDNET-1140|PSB belgesi açıldığında küresel katman kaynak adımında istisna|Hata|
-|PSDNET-1266|Belirli dosyaların işlenmesinde bellek sızıntısı|Hata|
+|PSDNET-1237|Tek modeli efektler kaynakları Lfx2, lmfx ve mlst'de kullanmak için etkileri ve ilgili verileri içerecek iç LayerStyleFX modelini oluşturun|Geliştirme|
+|PSDNET-1227|Zaman Çizelgesi modellerinde katman durumları için efekt bilgilerini içeren 'Lefx' yapılarını okuma ve yazma ekleyin|Özellik|
+|PSDNET-1230|PsdImage'da katmana Zaman Çizelgesi katman durumunu uygulama|Özellik|
+|PSDNET-1072|PSD dosyasını kaydederken (RGB/16 bit) 8 bite dışa aktarırken yanlış şeffaflık|Hata|
+|PSDNET-1140|PSB belgesini açarken global katman kaynak adımında istisna|Hata|
+|PSDNET-1266|Belirli dosyaların işlenmesi sırasında bellek sızıntısı|Hata|
 
 
 ## **Genel API Değişiklikleri**
@@ -53,14 +53,14 @@ Bu sorunlara çözüm bulmaya çalışıyoruz.
 - P:Aspose.PSD.FileFormats.Psd.Layers.Animation.LayerState.Offset
 
 
-## **Kullanım örnekleri:**
+## **Kullanım Örnekleri:**
 
-**PSDNET-1072. PSD dosyasının kaydedilmesinde hatalı şeffaflık (RGB/16bit) 8 bit'e dışa aktarılırken**
+**PSDNET-1072. PSD dosyasını kaydederken yanlış şeffaflık (RGB/16 bit) 8 bite dışa aktar**
 
 {{< highlight csharp >}}
-string inputPsdFile    = "Şeffaflıkla8Bit.psd";
-string outputPsdFile   = "Şeffaflıkla16Bit.psd";
-string outputImageFile = "ŞeffaflıklaÇıktı.png";
+string inputPsdFile    = "8bitWithTransparency.psd";
+string outputPsdFile   = "16bitWithTransparency.psd";
+string outputImageFile = "OutputWithTransparency.png";
 
 using (var img = Image.Load(inputPsdFile))
 {
@@ -76,11 +76,11 @@ using (var img = Image.Load(outputPsdFile))
 }
 {{< /highlight >}}
 
-**PSDNET-1140. PSB belgesi açıldığında küresel katman kaynak adımında istisna**
+**PSDNET-1140. PSB belgesini açarken global katman kaynak adımında istisna**
 
 {{< highlight csharp >}}
-string sourcePsdFile = "giriş.psb";
-string outputImageFile = "çıktı.png";
+string sourcePsdFile = "input.psb";
+string outputImageFile = "output.png";
 
 using (var image = (PsdImage)Image.Load(sourcePsdFile))
 {
@@ -89,11 +89,11 @@ using (var image = (PsdImage)Image.Load(sourcePsdFile))
 }
 {{< /highlight >}}
 
-**PSDNET-1227. Zaman Çizelgesi modellerinde katman durumları için efekt bilgilerine sahip 'Lefx' yapılarının okunması ve yazılması**
+**PSDNET-1227. 'Lefx' yapılarını Zaman Çizelgesi modellerindeki katman durumları için okuma ve yazma ekleme**
 
 {{< highlight csharp >}}
-string sourceFile = "4_animasyonlu.psd";
-string outputFile = "çıktı.psd";
+string sourceFile = "4_animated.psd";
+string outputFile = "output.psd";
 
 using (var psdImage = (PsdImage)Image.Load(sourceFile))
 {
@@ -115,12 +115,12 @@ using (var psdImage = (PsdImage)Image.Load(sourceFile))
 }
 {{< /highlight >}}
 
-**PSDNET-1230. Zaman Çizelgesi katman durumunu PsdImage'a uygulama**
+**PSDNET-1230. Zaman Çizelgesi katman durumunu PsdImage'da uygulama**
 
 {{< highlight csharp >}}
-string sourceFile = "3_animasyonlu.psd";
-string outputPsd = "çıktı.psd";
-string outputPng = "çıktı.png";
+string sourceFile = "3_animated.psd";
+string outputPsd = "output.psd";
+string outputPng = "output.png";
 
 using (var psdImage = (PsdImage)Image.Load(sourceFile, new PsdLoadOptions() { LoadEffectsResource = true }))
 {
@@ -132,10 +132,10 @@ using (var psdImage = (PsdImage)Image.Load(sourceFile, new PsdLoadOptions() { Lo
     timeLine.Frames[1].LayerStates[layerIds[1]].StateEffects.AddPatternOverlay();
     layerState11.BlendMode = BlendMode.Multiply;
 
-    // Etkin çerçeveyi 0'dan 1'e değiştirerek Katman Durumu'nu Katmana uygulayın
+    // Etkin katmandan Layer'a durum uygulamak için 0'dan 1'e aktif çerçeveyi değiştirin
     timeLine.ActiveFrame = 1;
 
-    // Değişiklikleri PsdImage'a uygulayın
+    // Değişiklikleri PsdImage'a uygula
     timeLine.ApplyTo(psdImage);
 
     psdImage.Save(outputPsd);
@@ -143,7 +143,7 @@ using (var psdImage = (PsdImage)Image.Load(sourceFile, new PsdLoadOptions() { Lo
 }
 {{< /highlight >}}
 
-**PSDNET-1266. Belirli dosyaların işlenmesinde bellek sızıntısı**
+**PSDNET-1266. Belirli dosyaların işlenmesi sırasında bellek sızıntısı**
 
 {{< highlight csharp >}}
 string[] filesToLoad = new string[] { "testPsd0.psd", "testPsd1.psd", "testPsd2.psd" };
@@ -156,7 +156,7 @@ GC.Collect(inputNumber, GCCollectionMode.Forced);
 GC.WaitForFullGCComplete();
 
 double memCount = (double)Process.GetCurrentProcess().PrivateMemorySize64 / 1024 / 1024;
-Console.WriteLine("Test öncesi kullanılan toplam bayt: {0:N2} MiB", memCount);
+Console.WriteLine("Test öncesinde kullanılan toplam bayt: {0:N2} MiB", memCount);
 
 double max = memCount;
 
@@ -165,7 +165,7 @@ for (int i = 0; i < 50; i++)
     int fileIndex = i % inputNumber;
     string sourceFile = Path.Combine(baseFolder, filesToLoad[fileIndex]);
 
-    // Açma/Kaydetme kontrolü
+    // Açma ve Kaydetme Kontrolü
     using (MemoryStream outputStream = new MemoryStream())
     {
         using (PsdImage psd = (PsdImage)Image.Load(sourceFile, new PsdLoadOptions { LoadEffectsResource = true }))
@@ -185,6 +185,6 @@ for (int i = 0; i < 50; i++)
 }
 
 memCount = (double)Process.GetCurrentProcess().PrivateMemorySize64 / 1024 / 1024;
-Console.WriteLine("Test sonrası kullanılan toplam bayt: {0:N2} MiB", memCount);
-Assert.IsTrue(Math.Abs(memCount - max) < 20, "Temel işlevde bellek sızıntısı bulundu!");
+Console.WriteLine("Test sonrasında kullanılan toplam bayt: {0:N2} MiB", memCount);
+Assert.IsTrue(Math.Abs(memCount - max) < 20, "Temel işlevlerde bellek sızıntısı bulundu!");
 {{< /highlight >}}

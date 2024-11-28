@@ -4,7 +4,7 @@ linktitle: Características Clave de Aspose.PSD
 type: docs
 weight: 20
 url: /es/python-net/features/
-description: Características clave de Aspose.PSD para Python: paquete de Photoshop e Illustrator para Python
+description: Características clave de Aspose.PSD para Python. Paquete de Photoshop e Illustrator para Python
 ---
 
 ## **Artículos en esta sección**

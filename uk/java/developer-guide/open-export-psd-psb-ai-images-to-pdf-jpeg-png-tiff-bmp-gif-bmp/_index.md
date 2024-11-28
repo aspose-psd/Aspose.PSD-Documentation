@@ -26,4 +26,4 @@ url: uk/java/open-export-psd-psb-ai-images-to-pdf-jpeg-png-tiff-bmp-gif-bmp/
 Будь ласка, перевірте повний приклад.
 
 ## **Приклад**
-{{< gist “aspose-com-gists“ “31800d807a72f1f50fe4b29374119227“ “Documentation-Java-Aspose-Psd-open-export-psd-psb-ai-images-to-pdf-jpeg-png-tiff-bmp-gif-bmp.java“ >}}
+{{< gist "aspose-com-gists" "31800d807a72f1f50fe4b29374119227" "Documentation-Java-Aspose-Psd-open-export-psd-psb-ai-images-to-pdf-jpeg-png-tiff-bmp-gif-bmp.java" >}}

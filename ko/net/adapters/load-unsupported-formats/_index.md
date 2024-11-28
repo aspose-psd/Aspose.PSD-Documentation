@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /ko/net/adapters/load-unsupported-formats
 keywords: 로드 되지 않는 이미지 형식 어댑터 PSD PSB AI WebP SVG PNG JPEG TIFF GIF BMP
-description: 코드 샘플 및 설명: 어댑터를 사용하여 Aspose.PSD 형식을로드하는 방법
+description: 코드 샘플 및 설명. 어댑터를 사용하여 Aspose.PSD 형식을로드하는 방법
 ---
 
 ## 지원되지 않는 형식 로딩 개요

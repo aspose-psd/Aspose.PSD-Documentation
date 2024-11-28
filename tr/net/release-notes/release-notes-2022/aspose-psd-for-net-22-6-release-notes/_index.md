@@ -7,19 +7,19 @@ url: /tr/net/aspose-psd-for-net-22-6-release-notes/
 
 {{% alert color="primary" %}}
 
-Bu sayfa, [Aspose.PSD for .NET 22.6](https://www.nuget.org/packages/Aspose.PSD/) için sürüm notlarını içermektedir.
+Bu sayfa, [Aspose.PSD for .NET 22.6](https://www.nuget.org/packages/Aspose.PSD/) için sürüm notlarını içerir.
 
 {{% /alert %}}
 
 |**Anahtar**|**Özet**|**Kategori**|
 | :- | :- | :- |
-|PSDNET-940|Farklı dosyalarda benzer katmanlar için benzersiz karmayı almak için API oluşturma|Geliştirme|
-|PSDNET-678|Desen içeren Dolgu Katmanının yanlış şekilde oluşturulması, desenlerin birden fazla ve katmanların sırasının değiştiği durumda|Hata|
-|PSDNET-1125|CMYK renk moduna sahip belirli PSD dosyasının yüklenmesi sırasında istisna oluştu|Hata|
+|PSDNET-940|Farklı dosyalardaki benzer katmanlar için benzersiz karmayı almak için API oluşturma|Geliştirme|
+|PSDNET-678|Desenle Doldurma Katmanının yanlış renderlanması, desenler birden fazla olduğunda ve katmanların sırası değiştiğinde|Hata|
+|PSDNET-1125|Belirli CMYK renk modunda PSD dosyasının yüklenmesinde istisna|Hata|
 
 
-## **Ortak API Değişiklikleri**
-# **Eklenen API'lar:**
+## **Genel API Değişiklikleri**
+# **Eklenen API'ler:**
 - T:Aspose.PSD.FileFormats.Psd.Layers.LayerHashCalculator
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerHashCalculator.#ctor(Aspose.PSD.FileFormats.Psd.Layers.Layer)
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerHashCalculator.GetChannelsHash
@@ -27,69 +27,69 @@ Bu sayfa, [Aspose.PSD for .NET 22.6](https://www.nuget.org/packages/Aspose.PSD/)
 - M:Aspose.PSD.FileFormats.Psd.Layers.LayerHashCalculator.GetContentHash
 
 
-# **Kaldırılan API'lar:**
+# **Kaldırılan API'ler:**
 - Hiçbiri
 
 
-## **Kullanım örnekleri:**
+## **Kullanım Örnekleri:**
 
-**PSDNET-678. Desen içeren Dolgu Katmanının yanlış şekilde oluşturulması, desenlerin birden fazla ve katmanların sırasının değiştiği durumda**
+**PSDNET-678. Desenle Doldurma Katmanının yanlış renderlanması, desenler birden fazla olduğunda ve katmanların sırası değiştiğinde**
 
 {{< highlight csharp >}}
-string kaynakDosya = "kötüDesen.psd";
-string çıktıPng = "çıktı_678.png";
+string kaynakDosya = "badPattern.psd";
+string ciktiPng = "out_678.png";
 
-using (var psdResim = (PsdImage)Image.Load(kaynakDosya))
+using (var psdResim = (PsdResim)Resim.Yükle(kaynakDosya))
 {
-    FillLayer katman1 = (FillLayer)psdResim.Layers[1];
-    FillLayer katman2 = (FillLayer)psdResim.Layers[2];
+    DoldurmaKatmanı katman1 = (DoldurmaKatmanı)psdResim.Katmanlar[1];
+    DoldurmaKatmanı katman2 = (DoldurmaKatmanı)psdResim.Katmanlar[2];
 
     katman1.Güncelle();
     katman2.Güncelle();
 
-    psdResim.Save(çıktıPng, new PngOptions());
+    psdResim.Kaydet(ciktiPng, new PngSeçenekleri());
 }
 {{< /highlight >}}
 
-**PSDNET-940. Farklı dosyalarda benzer katmanlar için benzersiz karmayı almak için API oluşturma**
+**PSDNET-940. Farklı dosyalardaki benzer katmanlar için benzersiz karmayı almak için API oluşturma**
 
 {{< highlight csharp >}}
 using Aspose.PSD;
 using Aspose.PSD.FileFormats.Psd;
 using Aspose.PSD.FileFormats.Psd.Layers;
-using Aspose.PSD.ImageLoadOptions;
+using Aspose.PSD.GörüntüYüklemeSeçenekleri;
 
 public class Program
 {
     static void Main()
     {
-        RegularLayerContentHashTest("SadeceDüzenli.psd");
-        FillLayerContentHashTest("DolumAkıllıGrup.psd");
-        SmartObjectLayerContentHashTest("DoldurAkıllıGrup.psd");
-        AdjustmentLayersContentHashTest("TümAyarlar.psd");
-        TextLayersContentHashTest("MetinKatmanları.psd");
-        GroupLayerContentHashTest("DoldurAkıllıGrup.psd");
+        RegularKatmanİçerikKarmaTest("OnlyRegular.psd");
+        FillKatmanİçerikKarmaTest("FillSmartGroup.psd");
+        SmartObjectKatmanİçerikKarmaTest("FillSmartGroup.psd");
+        AdjustmentKatmanlarıİçerikKarmaTest("AllAdjustments.psd");
+        TextKatmanlarıİçerikKarmaTest("TextLayers.psd");
+        GroupKatmanİçerikKarmaTest("FillSmartGroup.psd");
 
-        var içerikTestDosyaları = new string[] { "SadeceDüzenli.psd", "DolumAkıllıGrup.psd", "MetinKatmanları.psd", "TümAyarlar.psd" };
+        var içerikTestDosyaları = new string[] { "OnlyRegular.psd", "FillSmartGroup.psd", "TextLayers.psd", "AllAdjustments.psd" };
 
         foreach (var dosya in içerikTestDosyaları)
         {
-            RegularLayerContentFromDifferentFilesHashTest(dosya);
+            RegularKatmanİçerikFarklıDosyalardanKarmaTest(dosya);
         }
     }
 
-    // Geri kalanı çevrildi, bitti.
+    // Diğer yöntemler
 }
 {{< /highlight >}}
 
-**PSDNET-1125. CMYK renk moduna sahip belirli PSD dosyasının yüklenmesi sırasında istisna oluştu**
+**PSDNET-1125. Belirli CMYK renk modundaki PSD dosyasının yüklenmesinde istisna**
 
 {{< highlight csharp >}}
-string kaynakDosya = "02_alpha-kanallar.psd";
-string çıktıPng = "çıktı_1125.png";
+string kaynakDosya = "02_alpha-channels.psd";
+string ciktiPng = "out_1125.png";
 
-using (PsdImage resim = (PsdImage)Image.Load(kaynakDosya))
+using (PsdResim resim = (PsdResim)Resim.Yükle(kaynakDosya))
 {
-    resim.Save(çıktıPng, new PngOptions());
+    resim.Kaydet(ciktiPng, new PngSeçenekleri());
 }
 {{< /highlight >}}
