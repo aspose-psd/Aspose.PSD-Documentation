@@ -2,6 +2,7 @@
 title: Gia đình Sản phẩm Aspose.PSD
 type: docs
 weight: 30
+is_root: true
 url: /vi/
 keywords: Thư viện Photoshop C#; Photoshop Java API
 description: Các API hoặc Thư viện Photoshop C# và Java cho phép điều chỉnh tài liệu định dạng PSD một cách mở rộ. Các sản phẩm không yêu cầu cài đặt Adobe Photoshop và hỗ trợ định dạng tệp PSD và PSB để tải, điều chỉnh và chuyển đổi chúng sang các định dạng tệp raster khác nhau như TIFF, JPEG, JPEG2000, PNG, GIF và BMP.

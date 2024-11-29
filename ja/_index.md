@@ -2,6 +2,7 @@
 title: Aspose.PSD 製品ファミリー
 type: docs
 weight: 21
+is_root: true
 url: /ja/
 keywords: Photoshop C# ライブラリ、Photoshop Java API
 description: Photoshop C# および Java の API またはライブラリは、PSD ファイル形式を幅広く操作することができます。これらの製品は、Adobe Photoshop をインストールする必要はなく、PSD および PSB ファイル形式をロード、操作、変換して、TIFF、JPEG、JPEG2000、PNG、GIF、BMP などのさまざまなラスターファイル形式に変換することができます。

@@ -2,6 +2,7 @@
 title: Aspose.PSD-productfamilie
 type: docs
 weight: 23
+is_root: true
 url: /nl/
 keywords: Photoshop C#-bibliotheek, Photoshop Java-API
 description: Photoshop C# en Java-API's of bibliotheken maken een uitgebreide manipulatie van PSD-bestandsindelingen mogelijk. De producten hebben geen Adobe Photoshop nodig om te worden geïnstalleerd en ondersteunen PSD- en PSB-bestandsindelingen voor het laden, manipuleren en converteren naar verschillende rasterbestandsindelingen zoals TIFF, JPEG, JPEG2000, PNG, GIF en BMP.
