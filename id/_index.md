@@ -2,6 +2,7 @@
 title: Keluarga Produk Aspose.PSD
 type: docs
 weight: 19
+is_root: true
 url: /id/
 keywords: Perpustakaan Photoshop C#, API Photoshop Java
 description: Perpustakaan Photoshop C# dan Java memungkinkan manipulasi ekstensif format file PSD. Produk tidak memerlukan Adobe Photoshop diinstal dan mendukung format file PSD dan PSB untuk memuat, memanipulasi, dan mengonversi ke berbagai format file raster seperti TIFF, JPEG, JPEG2000, PNG, GIF dan BMP.

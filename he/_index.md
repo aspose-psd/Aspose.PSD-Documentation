@@ -1,6 +1,7 @@
 ---
 title: משפחת מוצרי Aspose.PSD
 type: docs
+is_root: true
 weight: 18
 url: /he/
 keywords: ספריית Photoshop C#, API של Java של Photoshop

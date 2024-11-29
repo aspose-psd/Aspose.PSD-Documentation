@@ -1,6 +1,7 @@
 ---
 title: Aspose.PSD 产品系列
 type: docs
+is_root: true
 weight: 31
 url: /zh/
 keywords: Photoshop C# 库, Photoshop Java API
