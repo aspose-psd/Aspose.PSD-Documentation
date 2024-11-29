@@ -1,7 +1,7 @@
 ---
 title: أسرة منتجات Aspose.PSD
 type: docs
-weight: 10
+weight: 11
 url: /ar/
 keywords: مكتبة C# لفوتوشوب، واجهة برمجة تطبيقات جافا لفوتوشوب
 description: تُتيح مكتبات أو واجهات برمجة تطبيقات Aspose.PSD لـ C# و Java إمكانية التعامل بشكل واسع مع تنسيقات ملفات PSD. لا تتطلب المنتجات تثبيت Adobe Photoshop وتدعم تنسيقات ملفات PSD و PSB لتحميلها وتعديلها وتحويلها إلى تنسيقات ملفات نقطية مختلفة مثل TIFF وJPEG وJPEG2000 وPNG وGIF وBMP.

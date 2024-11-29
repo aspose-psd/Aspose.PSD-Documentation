@@ -1,7 +1,7 @@
 ---
 title: Aspose.PSD Ürün Ailesi
 type: docs
-weight: 10
+weight: 28
 url: /tr/
 keywords: Photoshop C# Kütüphanesi, Photoshop Java API
 description: Photoshop C# ve Java API'ları veya Kütüphaneleri, PSD dosya biçimlerinin kapsamlı bir şekilde manipülasyonunu sağlar. Ürünlerin yüklenmesi için Adobe Photoshop'a ihtiyaç duyulmaz ve PSD ve PSB dosya biçimlerini yükleme, manipülasyon ve çeşitli raster dosya biçimlerine dönüştürme konusunda destek verir, örneğin TIFF, JPEG, JPEG2000, PNG, GIF ve BMP.

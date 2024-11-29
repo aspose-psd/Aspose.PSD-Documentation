@@ -1,7 +1,7 @@
 ---
 title: Famiglia di prodotti Aspose.PSD
 type: docs
-weight: 10
+weight: 20
 url: /it/
 keywords: Libreria Photoshop C#, API Photoshop Java
 description: Le API o librerie Photoshop C# e Java consentono una manipolazione estesa dei formati di file PSD. I prodotti non richiedono l'installazione di Adobe Photoshop e supportano i formati di file PSD e PSB per il caricamento, la manipolazione e la conversione in vari formati di file raster come TIFF, JPEG, JPEG2000, PNG, GIF e BMP.

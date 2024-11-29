@@ -1,7 +1,7 @@
 ---
 title: Aspose.PSD 제품군
 type: docs
-weight: 10
+weight: 22
 url: /ko/
 keywords: 포토샵 C# 라이브러리, 포토샵 자바 API
 description: 포토샵 C# 및 자바 API 또는 라이브러리를 사용하면 PSD 파일 형식을 광범위하게 조작할 수 있습니다. 제품들은 Adobe 포토샵의 설치가 필요하지 않으며, PSD 및 PSB 파일 형식을로드, 조작 및 다양한 래스터 파일 형식 (TIFF, JPEG, JPEG2000, PNG, GIF 및 BMP) 으로 변환하는 것을 지원합니다.
