@@ -2,7 +2,7 @@
 title: Aspose.PSD 产品系列
 type: docs
 is_root: true
-weight: 31
+weight: 32
 url: /zh/
 keywords: Photoshop C# 库, Photoshop Java API
 description: Photoshop C# 和 Java API 或库允许广泛操作 PSD 文件格式。 这些产品不需要安装 Adobe Photoshop，并支持加载、操作和转换 PSD 和 PSB 文件格式为各种光栅文件格式, 如 TIFF、JPEG、JPEG2000、PNG、GIF 和 BMP。
