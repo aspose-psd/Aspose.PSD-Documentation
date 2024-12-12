@@ -1,7 +1,8 @@
 ---
 title: Famille de produits Aspose.PSD
 type: docs
-weight: 10
+weight: 17
+is_root: true
 url: /fr/
 keywords: Bibliothèque Photoshop C#, API Java Photoshop
 description: Les API ou bibliothèques Photoshop C# et Java permettent une manipulation extensive des formats de fichiers PSD. Les produits ne nécessitent pas l'installation d'Adobe Photoshop et prennent en charge les formats de fichiers PSD et PSB pour le chargement, la manipulation et la conversion vers divers formats de fichiers raster tels que TIFF, JPEG, JPEG2000, PNG, GIF et BMP.

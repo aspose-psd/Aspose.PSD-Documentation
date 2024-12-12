@@ -1,7 +1,8 @@
 ---
 title: Rodina produktů Aspose.PSD
 type: docs
-weight: 10
+weight: 13
+is_root: true
 url: /cs/
 keywords: Photoshop C# Knihovna, Photoshop Java API
 description: Photoshop C# a Java API nebo knihovny umožňují rozsáhlou manipulaci s formáty souborů PSD. Produkty nevyžadují instalaci programu Adobe Photoshop a podporují formáty souborů PSD a PSB pro načítání, manipulaci a konverzi do různých rastrových formátů souborů, jako jsou TIFF, JPEG, JPEG2000, PNG, GIF a BMP.

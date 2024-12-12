@@ -1,7 +1,8 @@
 ---
 title: ครอบครัวผลิตภัณฑ์ Aspose.PSD
 type: docs
-weight: 10
+weight: 27
+is_root: true
 url: /th/
 keywords: ไลบรารี Photoshop C#, ไลบรารี Photoshop Java
 description: ไลบรารีหรือ API ของ Photoshop C# และ Java อนุญาตให้ทำการปรับแต่งไฟล์รูปแบบ PSD อย่างครอบคลุม ผลิตภัณฑ์ไม่ต้องการ Adobe Photoshop ในการติดตั้ง และสนับสนุนรูปแบบไฟล์ PSD และ PSB สำหรับการโหลด ปรับแต่ง และแปลงเป็นรูปแบบไฟล์ราสเตอร์ต่าง ๆ เช่น TIFF, JPEG, JPEG2000, PNG, GIF และ BMP

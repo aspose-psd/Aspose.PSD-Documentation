@@ -1,7 +1,8 @@
 ---
 title: משפחת מוצרי Aspose.PSD
-type: מסמכים
-weight: 10
+type: docs
+is_root: true
+weight: 18
 url: /he/
 keywords: ספריית Photoshop C#, API של Java של Photoshop
 description: ספריות Photoshop C# ו-Java מאפשרות מניפולציה נרחבת של פורמטי קובץ PSD. המוצרים אינם דורשים התקנה של Adobe Photoshop ותומכים בפורמטי קובץ PSD ו-PSB לטעינה, מניפולציה והמרתם לפורמטי קובץ raster שונים כמו TIFF, JPEG, JPEG2000, PNG, GIF ו-BMP.
