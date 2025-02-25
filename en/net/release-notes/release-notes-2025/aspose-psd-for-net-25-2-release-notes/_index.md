@@ -15,7 +15,7 @@ This page contains release notes for [Aspose.PSD for .NET 25.2](https://www.nug
 |:------------|:------------------------------------------------------------------------------------------|:------------|
 | PSDNET-2344 | Saving of PSB Files with size more than 2Gb                                               | Feature |
 | PSDNET-2243 | Implement handling of Noise gardient in Layer Effects                                     | Feature |
-| PSDNET-2312 | Improve performance of MaskProcessing                                                     | Enhancement |
+| PSDNET-2312 | Improve performance of mask processing                                                     | Enhancement |
 | PSDNET-2182 | Remake Drop Shadow effect                                                                 | Enhancement |
 | PSDNET-2338 | Fix, shadow not drawn for file                                                            | Bug |
 | PSDNET-2288 | Exception "Index outside the bounds of the array" when saving psb with size more than 1GB | Bug |
@@ -60,7 +60,7 @@ using (PsdImage psdImage = (PsdImage)Image.Load(sourceFile, new PsdLoadOptions()
 }
 {{< /highlight >}}
 
-**PSDNET-2243. Implement handling of Noise gardient in Layer Effects**
+**PSDNET-2243. Implement handling of Noise gradient in Layer Effects**
 
 {{< highlight csharp >}}
 string inputFile = Path.Combine(baseFolder, "Stroke.psd");
