@@ -1,0 +1,65 @@
+---
+title: Aspose.PSD for .NET 25.3 - Release Notes
+type: docs
+weight: 100
+url: /net/aspose-psd-for-net-25-3-release-notes/
+---
+
+{{% alert color="primary" %}}
+
+This page contains release notes for [Aspose.PSD for .NET 25.3](https://www.nuget.org/packages/Aspose.PSD/)
+
+{{% /alert %}}
+
+| **Key**     | **Summary**                                                                               | **Category** |
+|:------------|:------------------------------------------------------------------------------------------|:------------|
+| PSDNET-2182 | [Regression] Fixing regression after implementing APS rendering                           | Bug |
+| PSDNET-2338 | [AI Format] Fixing regression at AI rendering                                             | Bug |
+| PSDNET-2288 | Unified blending method to improve blending in general                                    | Enhancement |
+
+
+## **Public API Changes**
+# **Added APIs:**
+- None
+
+# **Removed APIs:**
+- None
+
+
+## **Usage examples:**
+
+**PSDNET-2170. [Regression] Fixing regression after implementing APS rendering**
+
+{{< highlight csharp >}}
+string inputFile = Path.Combine(baseFolder, "shortCurve.ai");
+string outputFilePng = Path.Combine(outputFolder, "output_shortCurve.png");
+
+using (AiImage image = (AiImage)Image.Load(inputFile))
+{
+    image.Save(outputFilePng, new PngOptions());
+}
+{{< /highlight >}}
+
+**PSDNET-2283. [AI Format] Fixing regression at AI rendering**
+
+{{< highlight csharp >}}
+string sourceFile = Path.Combine(baseFolder, "Layers-NoImage.ai");
+string outputFile = Path.Combine(outputFolder, "Layers-NoImage.png");
+
+using (AiImage image = (AiImage)Image.Load(sourceFile))
+{
+    image.Save(outputFile, new PngOptions());
+}
+{{< /highlight >}}
+
+**PSDNET-2389. Unified blending method to improve blending in general**
+
+{{< highlight csharp >}}
+string sourceFile = Path.Combine(baseFolder, "ApplyLayerStateTest_output_src.psd");
+string outputPng = Path.Combine(outputFolder, "ApplyLayerStateTest_output.png");
+
+using (var psdImage = (PsdImage)Image.Load(sourceFile, new PsdLoadOptions() { LoadEffectsResource = true }))
+{
+    psdImage.Save(outputPng, new PngOptions());
+}
+{{< /highlight >}}
