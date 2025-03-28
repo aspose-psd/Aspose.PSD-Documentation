@@ -13,9 +13,9 @@ This page contains release notes for [Aspose.PSD for .NET 25.3](https://www.nug
 
 | **Key**     | **Summary**                                                                               | **Category** |
 |:------------|:------------------------------------------------------------------------------------------|:------------|
-| PSDNET-2182 | [Regression] Fixing regression after implementing APS rendering                           | Bug |
-| PSDNET-2338 | [AI Format] Fixing regression at AI rendering                                             | Bug |
-| PSDNET-2288 | Unified blending method to improve blending in general                                    | Enhancement |
+| PSDNET-1270 | [Regression] Fixing regression after implementing APS rendering                           | Bug |
+| PSDNET-2283 | [AI Format] Fixing regression at AI rendering                                             | Bug |
+| PSDNET-2389 | Unified blending method to improve blending in general                                    | Enhancement |
 
 
 ## **Public API Changes**
@@ -28,7 +28,7 @@ This page contains release notes for [Aspose.PSD for .NET 25.3](https://www.nug
 
 ## **Usage examples:**
 
-**PSDNET-2170. [Regression] Fixing regression after implementing APS rendering**
+**PSDNET-1270. [Regression] Fixing regression after implementing APS rendering**
 
 {{< highlight csharp >}}
 string inputFile = Path.Combine(baseFolder, "shortCurve.ai");
