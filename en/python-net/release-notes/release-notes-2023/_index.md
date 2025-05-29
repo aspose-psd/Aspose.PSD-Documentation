@@ -1,7 +1,7 @@
 ---
 title: Release Notes - 2023
 type: docs
-weight: 50
+weight: 3
 url: /python-net/release-notes-2023/
 ---
 
