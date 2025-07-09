@@ -1,7 +1,7 @@
 ---
 title: Aspose.PSD for .NET 25.5 - Release Notes
 type: docs
-weight: 80
+weight: -5
 url: /net/aspose-psd-for-net-25-5-release-notes/
 ---
 
